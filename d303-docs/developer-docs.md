@@ -1,5 +1,8 @@
 # RTK+ Service Developer Manual
 
+Welcome to choose datagnss D30x rtk receiver!
+
+<div style="text-align:left;"><img src="./images/s-mobile.jpg" width="450"></div>
 
 ## Contents
 
