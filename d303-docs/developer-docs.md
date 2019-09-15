@@ -24,7 +24,7 @@ Welcome to choose datagnss D30x rtk receiver!
 
 
 <span id="1"></span>
-## 1 RTK+ service Intro
+## 1.RTK+ service Intro
 
 RTK+ service is a core service integrated in android on D302-RTK device.
 
