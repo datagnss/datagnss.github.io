@@ -69,6 +69,7 @@ try {
 
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
 <div style="text-align: left;"><img src="images/3-1.png" ></div>
+
 **Extra data description:**
 
 | Key | type | Details |
