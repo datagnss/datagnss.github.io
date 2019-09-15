@@ -5,13 +5,13 @@
 
 [Chapter 1  RTK+ service Intro](#chapter-1--rtk-service-intro)
 
-[Chapter 2 Intent service](#2)
+[Chapter 2 Intent service](#chapter-2-intent-service)
 
-[Chapter 3 Location service extra data](#3)
+[Chapter 3 Location service extra data](#chapter-3-location-service-extra-data)
 
-[Chapter 4 Input and Output stream](#4)
+[Chapter 4 Input and Output stream](#chapter-4-input-and-output-stream)
 
-[Chapter 5 How to access rtk module in your App](#5)
+[Chapter 5 How to access rtk module in your App](#chapter-5-how-to-access-rtk-module-in-your-app)
 
 [Sample Screenshot from Partner](#6)
 
