@@ -46,9 +46,9 @@ RTK+ can configure the following options:
 <div style="text-align: left;"><img src="images/1-3.png" width="250"><img src="images/1-4.png" width="250"></div>
 <div style="text-align: left;"><img src="images/1-5.png" width="250"><img src="images/1-6.png" width="250"></div>
 
-
-## Chapter 2 Intent service
 <span id="2"></span>
+## Chapter 2 Intent service
+
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
 This allow an easy integration without open rtk+ from system setting section.
@@ -67,9 +67,9 @@ try {
 }
 ```
 
-
-## Chapter 3 Location service extra data
 <span id="3"></span>
+## Chapter 3 Location service extra data
+
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
 <div style="text-align: left;"><img src="images/3-1.png" ></div>
 **Extra data description:**
@@ -101,10 +101,11 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 | proj\_b | double | user-defined proj4 projection b |
 | proj\_c | double | user-defined proj4 projection c |
 
-##
 
-## Chapter 4 Input and Output stream
+
 <span id="4"></span>
+## Chapter 4 Input and Output stream
+
 RTK+ service provide the following stream:
 
 - NMEA-0183 data output,TCP server 52004
@@ -118,8 +119,9 @@ RTK+ service provide the following stream:
 - output LLH format solution over TCP server 62010
 
 
-## Chapter 5 How to access rtk module in your App
 <span id="5"></span>
+## Chapter 5 How to access rtk module in your App
+
 two steps:
 
 user need switch on receiver in RTKGUI app.
@@ -148,8 +150,10 @@ Intent intent = new Intent(ACTION_RUN_CMD_CPUBOOST_STOP);
 intent.setPackage(RTKGUI_PKG_NAME);
 startService(intent);
 ```
-## Sample Screenshot from Partner
+
 <span id="6"></span>
+## Sample Screenshot from Partner
+
 MapIt GIS App is an affordable field gis data collector software.
 
 It fully supports D302/303 rtk+ service.
