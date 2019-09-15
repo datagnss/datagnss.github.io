@@ -84,10 +84,8 @@ RTK+ can configure the following options:
 - Geoid model setting
 
 <div style="text-align: left;"><img src="images/1-1.png" width=250><img src="images/1-2.png" width=250></div>
-<div style="text-align: left;"><img src="images/1-3.png" width=250></div>
-<div style="text-align: left;"><img src="images/1-4.png" width=250></div><br>
-<div style="text-align: left;"><img src="images/1-5.png" width=250></div>
-<div style="text-align: left;"><img src="images/1-6.png" width=250></div><br>
+<div style="text-align: left;"><img src="images/1-3.png" width=250><img src="images/1-4.png" width=250></div>
+<div style="text-align: left;"><img src="images/1-5.png" width=250><img src="images/1-6.png" width=250></div>
  
 ##
 
@@ -96,7 +94,7 @@ RTK+ can configure the following options:
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
 This allow an easy integration without open rtk+ from system setting section.
-<div style="text-align: left;"><img src="images/2-1.png" style="width: 350px;"></div><br>
+<div style="text-align: left;"><img src="images/2-1.png" width=250></div><br>
 
 Please reference the following way:
 
@@ -119,7 +117,7 @@ intent.setClassName( **&quot;com.datagnss.rtkgui&quot;** , **&quot;com.datagnss.
 ## Chapter 3 Location service extra data
 
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
-<div style="text-align: left;"><img src="images/3-1.png" style="width: 350px;"></div><br>
+<div style="text-align: left;"><img src="images/3-1.png" style="width: 250;"></div><br>
 **Extra data description:**
 
 | Key | type | Details |
@@ -214,7 +212,6 @@ MapIt GIS App is an affordable field gis data collector software.
 It fully supports D302/303 rtk+ service.
 
 Google play download from [Mapit GIS](https://play.google.com/store/apps/details?id=com.osedok.gisdatacollector&amp;hl=en).
-<div style="text-align: left;"><img src="images/a-1.png" style="width: 350px;"></div>
-<div style="text-align: left;"><img src="images/a-2.png" style="width: 350px;"></div><br>
-<div style="text-align: left;"><img src="images/a-3.png" style="width: 350px;"></div>
-<div style="text-align: left;"><img src="images/a-4.png" style="width: 350px;"></div>
+<div style="text-align: left;"><img src="images/a-1.png" style="width: 250;"><img src="images/a-2.png" style="width: 250;"></div>
+
+<div style="text-align: left;"><img src="images/a-3.png" style="width: 250;"><img src="images/a-4.png" style="width: 250;"></div>
