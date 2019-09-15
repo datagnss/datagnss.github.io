@@ -13,9 +13,9 @@
 
 [Chapter 5 How to access rtk module in your App](#chapter-5-how-to-access-rtk-module-in-your-app)
 
-[Sample Screenshot from Partner](#6)
+[Sample Screenshot from Partner](#sample-screenshot-from-partner)
 
-[Change logs](#7)
+[Change logs](#change-logs)
 
 [Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
 
