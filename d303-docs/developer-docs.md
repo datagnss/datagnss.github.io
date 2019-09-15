@@ -134,11 +134,12 @@ intent.setPackage(RTKGUI_PKG_NAME);
 startService(intent);
 ```
 
-2. create tcp client connect localhost:52001
+2.create tcp client connect localhost:52001
 
 3.Power off rtk module
 
 before close your app, you need power off rtk module
+
 ```java
 Intent intent = new Intent(ACTION_RUN_CMD_CPUBOOST_STOP);
 intent.setPackage(RTKGUI_PKG_NAME);
