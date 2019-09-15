@@ -9,29 +9,24 @@
 
 ## Contents
 
+[Chapter 1  RTK+ service Intro](#1)
 
+[Chapter 2 Intent service](#2)
 
-Change logs:
+[Chapter 3 Location service extra data](#3)
 
-Contents
+[Chapter 4 Input and Output stream](#4)
 
-Chapter 1  RTK+ service Intro
+[Chapter 5 How to access rtk module in your App](#5)
 
-Chapter 2 Intent service
-
-Chapter 3 Location service extra data
-
-Chapter 4 Input and Output stream
-
-Chapter 5 How to access rtk module in your App
-
-Sample Screenshot from Partner
+[Sample Screenshot from Partner](#6)
 
 
 
 [Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
 
 
+<span id="1"></span>
 ## Chapter 1  RTK+ service Intro
 
 RTK+ service is a core service integrated in android on D302-RTK device.
@@ -50,9 +45,10 @@ RTK+ can configure the following options:
 <div style="text-align: left;"><img src="images/1-1.png" width="250"><img src="images/1-2.png" width="250"></div>
 <div style="text-align: left;"><img src="images/1-3.png" width="250"><img src="images/1-4.png" width="250"></div>
 <div style="text-align: left;"><img src="images/1-5.png" width="250"><img src="images/1-6.png" width="250"></div>
- 
-## Chapter 2 Intent service
 
+
+## Chapter 2 Intent service
+<span id="2"></span>
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
 This allow an easy integration without open rtk+ from system setting section.
@@ -73,7 +69,7 @@ try {
 
 
 ## Chapter 3 Location service extra data
-
+<span id="3"></span>
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
 <div style="text-align: left;"><img src="images/3-1.png" ></div>
 **Extra data description:**
@@ -108,7 +104,7 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 ##
 
 ## Chapter 4 Input and Output stream
-
+<span id="4"></span>
 RTK+ service provide the following stream:
 
 - NMEA-0183 data output,TCP server 52004
@@ -123,7 +119,7 @@ RTK+ service provide the following stream:
 
 
 ## Chapter 5 How to access rtk module in your App
-
+<span id="5"></span>
 two steps:
 
 user need switch on receiver in RTKGUI app.
@@ -153,7 +149,7 @@ intent.setPackage(RTKGUI_PKG_NAME);
 startService(intent);
 ```
 ## Sample Screenshot from Partner
-
+<span id="6"></span>
 MapIt GIS App is an affordable field gis data collector software.
 
 It fully supports D302/303 rtk+ service.
