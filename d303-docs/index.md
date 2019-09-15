@@ -8,3 +8,5 @@
 [developer manual](./developer-docs.md "RTK+ service developer guide")
 
 [connect with survey master](./common/connect-survey-master.md "compatible with survey master")
+
+[Test Page](./test.md "test pages")
