@@ -212,6 +212,6 @@ MapIt GIS App is an affordable field gis data collector software.
 It fully supports D302/303 rtk+ service.
 
 Google play download from [Mapit GIS](https://play.google.com/store/apps/details?id=com.osedok.gisdatacollector&amp;hl=en).
-<div style="text-align: left;"><img src="images/a-1.png" style="width: 250;"><img src="images/a-2.png" style="width: 250;"></div>
+<div style="text-align: left;"><img src="images/a-1.png" style="zoom:50%;"><img src="images/a-2.png" style="zoom:50%;"></div>
 
-<div style="text-align: left;"><img src="images/a-3.png" style="width: 250;"><img src="images/a-4.png" style="width: 250;"></div>
+<div style="text-align: left;"><img src="images/a-3.png" style="zoom:50%;"><img src="images/a-4.png" style="zoom:50%;"></div>
