@@ -6,25 +6,25 @@ Welcome to choose datagnss D30x rtk receiver!
 
 ## Contents
 
-[Chapter 1  RTK+ service Intro](#chapter-1--rtk-service-intro)
+[1.RTK+ service Intro](#1)
 
-[Chapter 2 Intent service](#chapter-2-intent-service)
+[2.Intent service](#2)
 
-[Chapter 3 Location service extra data](#chapter-3-location-service-extra-data)
+[3.Location service extra data](#3)
 
-[Chapter 4 Input and Output stream](#chapter-4-input-and-output-stream)
+[4.Input and Output stream](#4)
 
-[Chapter 5 How to access rtk module in your App](#chapter-5-how-to-access-rtk-module-in-your-app)
+[5.How to access rtk module in your App](#5)
 
-[Sample Screenshot from Partner](#sample-screenshot-from-partner)
+[6.Sample Screenshot from Partner](#6)
 
-[Change logs](#change-logs)
+[7.Change logs](#7)
 
 [Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
 
 
 <span id="1"></span>
-## Chapter 1  RTK+ service Intro
+## 1 RTK+ service Intro
 
 RTK+ service is a core service integrated in android on D302-RTK device.
 
@@ -44,7 +44,7 @@ RTK+ can configure the following options:
 <div style="text-align: left;"><img src="images/1-5.png" width="250"><img src="images/1-6.png" width="250"></div>
 
 <span id="2"></span>
-## Chapter 2 Intent service
+## 2.Intent service
 
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
@@ -65,7 +65,7 @@ try {
 ```
 
 <span id="3"></span>
-## Chapter 3 Location service extra data
+## 3.Location service extra data
 
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
 <div style="text-align: left;"><img src="images/3-1.png" ></div>
@@ -101,7 +101,7 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 
 
 <span id="4"></span>
-## Chapter 4 Input and Output stream
+## 4.Input and Output stream
 
 RTK+ service provide the following stream:
 
@@ -117,7 +117,7 @@ RTK+ service provide the following stream:
 
 
 <span id="5"></span>
-## Chapter 5 How to access rtk module in your App
+## 5.How to access rtk module in your App
 
 two steps:
 
@@ -150,7 +150,7 @@ startService(intent);
 ```
 
 <span id="6"></span>
-## Sample Screenshot from Partner
+## 6.Sample Screenshot from Partner
 
 MapIt GIS App is an affordable field gis data collector software.
 
@@ -164,7 +164,7 @@ Google play download from [Mapit GIS](https://play.google.com/store/apps/details
 <div style="text-align: left;"><img src="images/a-3.png" width="250">   <img src="images/a-4.png" width="250"></div>
 
 <span id="7"></span>
-## Change logs
+## 7.Change logs
 - 2019-01-30 add projection coordinate to extra data structure, proj\_a/proj\_b/proj\_c
 
 2019.01 Ver 1.0.2 updated:2019-09-20
