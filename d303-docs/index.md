@@ -1,4 +1,3 @@
-<div>{% include "../css/header.html" %}</div>
 # Quick guide
 
 ## Package list
