@@ -83,12 +83,11 @@ RTK+ can configure the following options:
 - log data stream setting
 - Geoid model setting
 
-<div style="text-align: left;"><img src="images/1-1.png" width=150></div>
-<div style="text-align: left;"><img src="images/1-2.png" width=150></div><br>
-<div style="text-align: left;"><img src="images/1-3.png" width=150></div>
-<div style="text-align: left;"><img src="images/1-4.png" width=150></div><br>
-<div style="text-align: left;"><img src="images/1-5.png" width=150></div>
-<div style="text-align: left;"><img src="images/1-6.png" width=150></div><br>
+<div style="text-align: left;"><img src="images/1-1.png" width=250><img src="images/1-2.png" width=250></div>
+<div style="text-align: left;"><img src="images/1-3.png" width=250></div>
+<div style="text-align: left;"><img src="images/1-4.png" width=250></div><br>
+<div style="text-align: left;"><img src="images/1-5.png" width=250></div>
+<div style="text-align: left;"><img src="images/1-6.png" width=250></div><br>
  
 ##
 
