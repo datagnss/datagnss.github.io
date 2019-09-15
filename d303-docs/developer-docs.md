@@ -1,30 +1,7 @@
 # RTK+ Service Developer Manual
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 2019.01 Ver 1.0.2 updated:2019-06-30
+
 
 ## Change logs:
 
@@ -53,17 +30,6 @@ Sample Screenshot from Partner
 
 
 [Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Chapter 1  RTK+ service Intro
@@ -96,16 +62,12 @@ Please reference the following way:
 ```java
 Intent intent = new Intent();
 
-intent.setClassName( &quot;com.datagnss.rtkgui&quot; , &quot;com.datagnss.rtkgui.ui.MainActivity&quot; );
+intent.setClassName("com.datagnss.rtkgui","com.datagnss.rtkgui.ui.MainActivity");
 
 try {
-
       startActivity(intent);
-
 } catch (Exception e) {
-
    e.printStackTrace();
-
 }
 ```
 
@@ -150,19 +112,14 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 RTK+ service provide the following stream:
 
 - NMEA-0183 data output,TCP server 52004
-
-GGA
-
-GSA
-
-GSV
-
-GST
+`*`GGA
+`*`GSA
+`*`GSV
+`*`GST
 
 - transmit RTCM data to TCP server 52009
 
 - output LLH format solution over TCP server 62010
-
 
 
 ## Chapter 5 How to access rtk module in your App
@@ -175,32 +132,26 @@ you must integrate the following code in your app.
 
 1.Power on rtk module
 
-**private static final** String **ACTION\_RUN\_CMD\_CPUBOOST\_START** = **&quot;com.datagnss.receiver.CPUBOOST.start&quot;** ;
+```java
+private static final String ACTION_RUN_CMD_CPUBOOST_START = "com.datagnss.receiver.CPUBOOST.start";
+private static final String ACTION_RUN_CMD_CPUBOOST_STOP = "com.datagnss.receiver.CPUBOOST.stop";
+private static final String RTKGUI_PKG_NAME = "com.datagnss.rtkgui";
 
-**private static final** String **ACTION\_RUN\_CMD\_CPUBOOST\_STOP** = **&quot;com.datagnss.receiver.CPUBOOST.stop&quot;** ;
-
-**private static final** String **RTKGUI\_PKG\_NAME** = **&quot;com.datagnss.rtkgui&quot;** ;
-
-
-
-Intent intent = **new** Intent( **ACTION\_RUN\_CMD\_CPUBOOST\_START** );
-
-intent.setPackage( **RTKGUI\_PKG\_NAME** );
-
+Intent intent = new Intent(ACTION_RUN_CMD_CPUBOOST_START);
+intent.setPackage(RTKGUI_PKG_NAME);
 startService(intent);
+```
 
 2. create tcp client connect localhost:52001
 
 3.Power off rtk module
 
 before close your app, you need power off rtk module
-
-Intent intent = **new** Intent( **ACTION\_RUN\_CMD\_CPUBOOST\_STOP** );
-
-intent.setPackage( **RTKGUI\_PKG\_NAME** );
-
+```java
+Intent intent = new Intent(ACTION_RUN_CMD_CPUBOOST_STOP);
+intent.setPackage(RTKGUI_PKG_NAME);
 startService(intent);
-
+```
 ## Sample Screenshot from Partner
 
 MapIt GIS App is an affordable field gis data collector software.
