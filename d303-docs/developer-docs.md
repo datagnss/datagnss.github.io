@@ -1,11 +1,5 @@
 # RTK+ Service Developer Manual
 
-2019.01 Ver 1.0.2 updated:2019-06-30
-
-
-## Change logs:
-
-- --2019-01-30 add projection coordinate to extra data structure, proj\_a/proj\_b/proj\_c
 
 ## Contents
 
@@ -21,7 +15,7 @@
 
 [Sample Screenshot from Partner](#6)
 
-
+[Change logs](#7)
 
 [Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
 
@@ -164,3 +158,9 @@ Google play download from [Mapit GIS](https://play.google.com/store/apps/details
 <div style="text-align: left;"><img src="images/a-1.png" width="250">   <img src="images/a-2.png" width="250"></div>
 
 <div style="text-align: left;"><img src="images/a-3.png" width="250">   <img src="images/a-4.png" width="250"></div>
+
+<span id="7"></span>
+## Change logs
+- 2019-01-30 add projection coordinate to extra data structure, proj\_a/proj\_b/proj\_c
+
+2019.01 Ver 1.0.2 updated:2019-09-20
