@@ -83,12 +83,10 @@ RTK+ can configure the following options:
 - log data stream setting
 - Geoid model setting
 
-<div style="text-align: left;"><img src="images/1-1.png" width=250><img src="images/1-2.png" width=250></div>
-<div style="text-align: left;"><img src="images/1-3.png" width=250><img src="images/1-4.png" width=250></div>
-<div style="text-align: left;"><img src="images/1-5.png" width=250><img src="images/1-6.png" width=250></div>
+<div style="text-align: left;"><img src="images/1-1.png" width="250"><img src="images/1-2.png" width="250"></div>
+<div style="text-align: left;"><img src="images/1-3.png" width="250"><img src="images/1-4.png" width="250"></div>
+<div style="text-align: left;"><img src="images/1-5.png" width="250"><img src="images/1-6.png" width="250"></div>
  
-##
-
 ## Chapter 2 Intent service
 
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
@@ -117,7 +115,7 @@ intent.setClassName( **&quot;com.datagnss.rtkgui&quot;** , **&quot;com.datagnss.
 ## Chapter 3 Location service extra data
 
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
-<div style="text-align: left;"><img src="images/3-1.png" ></div><br>
+<div style="text-align: left;"><img src="images/3-1.png" ></div>
 **Extra data description:**
 
 | Key | type | Details |
