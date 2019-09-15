@@ -1,7 +1,5 @@
 # RTK+ Service Developer Manual
 
-#
-
 
 
 
@@ -92,24 +90,24 @@ RTK+ can configure the following options:
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
 This allow an easy integration without open rtk+ from system setting section.
-<div style="text-align: left;"><img src="images/2-1.png" width=250></div><br>
+<div style="text-align: left;"><img src="images/2-1.png" width="250"></div><br>
 
 Please reference the following way:
+```java
+Intent intent = new Intent();
 
-Intent intent = **new** Intent();
+intent.setClassName( &quot;com.datagnss.rtkgui&quot; , &quot;com.datagnss.rtkgui.ui.MainActivity&quot; );
 
-intent.setClassName( **&quot;com.datagnss.rtkgui&quot;** , **&quot;com.datagnss.rtkgui.ui.MainActivity&quot;** );
-
-**try** {
+try {
 
       startActivity(intent);
 
-} **catch** (Exception e) {
+} catch (Exception e) {
 
    e.printStackTrace();
 
 }
-
+```
 
 
 ## Chapter 3 Location service extra data
