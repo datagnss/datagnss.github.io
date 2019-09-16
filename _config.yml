@@ -1,1 +1,7 @@
 theme: jekyll-theme-slate
+logo:'img/datagnss-logo.png'
+font:
+            text: 'Open Sans'
+            code: 'Open Sans'
+            
+repo_url: https://github.com/datagnss/datagnss.github.io
