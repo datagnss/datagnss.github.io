@@ -1,7 +1,11 @@
+title:DATAGNSS support center
 theme: jekyll-theme-slate
 logo:'img/datagnss-logo.png'
+url: "https://docs.datagnss.com"
+baseurl:'d303-docs'
 font:
             text: 'Open Sans'
             code: 'Open Sans'
             
 repo_url: https://github.com/datagnss/datagnss.github.io
+
