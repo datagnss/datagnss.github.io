@@ -16,6 +16,8 @@
 
 [connect with survey master](./common/connect-survey-master.md)
 
-[How to convert raw data to rinex format](convert-raw-to-rinex.md)
+[convert raw data to rinex format](convert-raw-to-rinex.md)
 
-[Test Page.1](./test.md)
+[do ppk solution](do-ppk-solution.md)
+
+[Test Page.1](test.md)
