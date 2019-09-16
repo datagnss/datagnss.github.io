@@ -2,6 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
+homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
 date_format: "ordinal"
 title: ""
@@ -51,10 +52,10 @@ navs:
 
 navr:
    - 
-     href: index.md
+     href: /index.md
      label: Introduction
     - 
-     href: power-supply.md
+     href: /power-supply.md
      label: Power supply
 
 # ---------------- #

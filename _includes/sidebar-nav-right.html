@@ -5,7 +5,9 @@
   <nav class="site-right-nav" role="navigation">
   <ul>
                 {% for nav in site.navr %}
-                <li><a href="{{ site.url }}{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a></li>
+                <li>
+				<a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
+				</li>
                 {% endfor %}
 	</ul>
             </nav>
