@@ -1,6 +1,6 @@
 # Support center
 
-<div style="text-align: left;"><img src="images/s-mobile.png" style="width: 350px;"></div><br>
+<div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"></div><br>
 
 [D303 open box and quick star <img src="images/youtube.png" height="20">](common/openbox.md)
 
