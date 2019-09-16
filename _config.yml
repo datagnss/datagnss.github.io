@@ -5,8 +5,8 @@ baseurl: 'd303-docs'
 homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
 date_format: "ordinal"
-title: ""
-subtitle: ""
+title: "DATAGNSS"
+subtitle: "support center"
 description: ""
 keywords: rtk,handheld rtk,gnss receiver
 logo: '/img/datagnss-logo.png'
