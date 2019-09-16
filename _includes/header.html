@@ -1,77 +1,89 @@
-<header id="header" class="pagewidth" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.url }}/assets/vendor/primer-css/css/primer.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/vendor/primer-markdown/dist/user-content.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/vendor/octicons/octicons/octicons.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/collection.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/repo-card.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/sections/repo-list.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/sections/mini-repo-list.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/components/boxed-group.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/common.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/vendor/share.js/dist/css/share.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/responsive.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/posts/index.css">
+    <!-- Latest compiled and minified CSS -->
+    {% for css in page.css %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/{{css}}">
+    {% endfor %}
 
-        	
-                        <div class="hgroup">
-				<div id="site-logo"><a href="https://www.datagnss.com" title="DATAGNSS-GPS,RTK,BDS,Beidou,Handheld,PPK,low cost RTK"><script pagespeed_no_defer="">//<![CDATA[
-(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://www.datagnss.com/datagnss-2019/','YddRYU7ik1',true,false,'AqA8ZkV3DHM');
-//]]></script><img src="https://www.datagnss.com/wp-content/uploads/2017/12/weblogo-1.png" alt="DATAGNSS-GPS,RTK,BDS,Beidou,Handheld,PPK,low cost RTK" title="DATAGNSS-GPS,RTK,BDS,Beidou,Handheld,PPK,low cost RTK" pagespeed_url_hash="889422509" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>
-														<div id="site-description" class="site-description"><span>Precision,Intelligence,Mobility</span></div>
-							</div>
-
-			
-			<a id="menu-icon" href="#mobile-menu"><i class="fa fa-reorder icon-reorder"></i></a>
-
-							<nav class="horizontal-menu-wrap">
-					<ul id="horizontal-menu" class="horizontal-menu menu-name-horizontal-nav"><li id="menu-item-2905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2905"><a href="https://www.datagnss.com/">HOME</a></li>
-<li id="menu-item-2637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2637"><a href="https://www.datagnss.com/handheld-rtk/">HANDHELD RTK</a></li>
-<li id="menu-item-2917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2917"><a href="https://www.datagnss.com/ag-rtk/">agRTK</a></li>
-<li id="menu-item-2668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2668"><a href="https://www.datagnss.com/rugged_data_collector/">RUGGED</a></li>
-<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2840"><a href="https://www.datagnss.com/contact-online-form/">CONTACT</a></li>
-</ul>					<!-- /#horizontal-menu -->
-				</nav>
-			
-			<div id="mobile-menu" class="sidemenu sidemenu-off">
-				<a id="menu-icon-close"><i class="icon-flatshop-close"></i></a>
-
-									
-	
-	<form method="get" id="searchform" action="https://www.datagnss.com/">
-
-		<i class="fa fa-search icon-search"></i>
-
-					<input type="hidden" class="search-type" name="post_type" value="post"/>
-		
-		<input type="text" name="s" id="s" placeholder="Search"/>
-
-					<input id="search-blog" class="search-blog" type="hidden" name="search-option" value="post"/>
-		
-	</form>
-
-				
-				<div class="social-widget">
-					<div id="themify-social-links-1004" class="widget themify-social-links"><ul class="social-links horizontal">
-							<li class="social-link-item twitter font-icon icon-medium">
-								<a href="https://twitter.com/datagnss"><i class="fa fa-twitter"></i>  </a>
-							</li>
-							<!-- /themify-link-item -->
-							<li class="social-link-item facebook font-icon icon-medium">
-								<a href="https://facebook.com/datagnss"><i class="fa fa-facebook"></i>  </a>
-							</li>
-							<!-- /themify-link-item -->
-							<li class="social-link-item youtube font-icon icon-medium">
-								<a href="https://www.youtube.com/channel/UC4RucqTkRXXWbUvzvu0hYuQ"><i class="fa fa-youtube"></i>  </a>
-							</li>
-							<!-- /themify-link-item -->
-							<li class="social-link-item quotation font-icon icon-medium">
-								<a href="https://www.datagnss.com/contact-online-form/"><i class="ti-headphone-alt"></i>  </a>
-							</li>
-							<!-- /themify-link-item --></ul></div>
-											<div class="rss"><a href="https://www.datagnss.com/feed/"><i class="fa fa-rss icon-rss"></i></a></div>
-									</div>
-				<!-- /.social-widget -->
-
-				<nav class="main-nav-wrap" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-					<ul id="main-nav" class="main-nav menu-name-horizontal-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2905"><a href="https://www.datagnss.com/">HOME</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2637"><a href="https://www.datagnss.com/handheld-rtk/">HANDHELD RTK</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2917"><a href="https://www.datagnss.com/ag-rtk/">agRTK</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2668"><a href="https://www.datagnss.com/rugged_data_collector/">RUGGED</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2840"><a href="https://www.datagnss.com/contact-online-form/">CONTACT</a></li>
-</ul>					<!-- /#main-nav -->
-				</nav>
-			</div>
-			<!-- /#slide-nav -->
-
-			
-		
-		</header>
-		<!-- /#header -->
+    {% if site.ios_app_name %}
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    {% endif %}
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.subscribe_rss }}">
+    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+      {% if page.keywords %}
+      {% assign keywords = page.keywords %}
+      {% else %}
+      {% assign keywords = site.keywords %}
+      {% endif %}
+    <meta name="keywords" content="{{ keywords | strip_html | strip_newlines}}">
+    <meta name="og:keywords" content="{{ keywords | strip_html | strip_newlines}}">
+      {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines}}">
+    <meta name="og:description" content="{{ page.excerpt | strip_html | strip_newlines}}">
+      {% else if page.description %}
+    <meta name="description" content="{{ page.description | strip_html | strip_newlines}}">
+    <meta name="og:description" content="{{ page.description | strip_html | strip_newlines}}">
+      {% else if content %}
+    <meta name="description" content="{{ content | strip_html | strip_newlines | truncatewords: 100 }}">
+    <meta name="og:description" content="{{ content | strip_html | strip_newlines | truncatewords: 100 }}">
+      {% endif %}
+    {% else %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.og_image_url %}
+    <meta property="og:image" content="{{ page.og_image_url }}">
+    {% else %}
+        {% if page.photo_url %}
+    <meta property="og:image" content="{{ page.photo_url }}">
+        {% endif %}
+    {% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN" />
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
+    {% endif %}
+    <script src="{{ site.url }}/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery-ui.js"></script>
+    <script src="{{ site.url }}/assets/js/main.js"></script>
+</head>
+<body class="{{ page.class }}" data-mz="{{ page.class }}">
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="{{ site.url }}/" title="{{ site.title }}"><span class="octicon octicon-mark-github"></span> {{ site.title }}</a></h1>
+            <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <nav class="site-header-nav" role="navigation">
+                {% for nav in site.navs %}
+                <a href="{{ site.url }}{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </header>
+    <!-- / header -->
