@@ -8,7 +8,13 @@
 
 [start RTK work](d303.md#213-start--rtk)
 
+[connect with Supersurv](common/connect-supersurv.md)
+
 [connect with survey master](common/connect-survey-master.md)
+
+[connect with EGStar](common/connect-egstar.md)
+
+[connect with tMap](common/connect-tMap.md)
 
 [convert raw data to rinex format](d303.md#52-how-to-convert-raw-data-to-rinex-format-file)
 
