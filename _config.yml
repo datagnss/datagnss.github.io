@@ -1,5 +1,5 @@
 title:DATAGNSS support center
-theme: jekyll-theme-slate
+
 logo:'img/datagnss-logo.png'
 url: "https://docs.datagnss.com"
 baseurl:'d303-docs'
