@@ -6,14 +6,14 @@
 
 ## CORS/VRS/Base Station Setting:
 
-<div style="text-align: left;"><img src="images/image015.jpg" width="250"></div>
+<div style="text-align: left;"><img src="../images/image015.jpg" width="250"></div>
 
 Configure NTRIP client settings:**
-<div style="text-align: left;"><img src="images/image017.jpg" width="250"> <img src="images/image019.jpg" width="250"></div>
+<div style="text-align: left;"><img src="../images/image017.jpg" width="250"> <img src="../images/image019.jpg" width="250"></div>
 
 press Item &quot;mount point&quot;, pop up the window:
 
-<div style="text-align: left;"><img src="images/image021.png" width="250"> </div>
+<div style="text-align: left;"><img src="../images/image021.png" width="250"> </div>
 
 then choose the correct mountpoint from the list.
 
@@ -27,6 +27,6 @@ When using VRS as the base station, rover needs to report its position to VRS fi
 
 ⚠
 Please keep default &quot;single solution&quot;.
-<div style="text-align: left;"><img src="images/image023.jpg" width="250"> <img src="images/image025.jpg" width="250"></div>
+<div style="text-align: left;"><img src="../images/image023.jpg" width="250"> <img src="../images/image025.jpg" width="250"></div>
 
 

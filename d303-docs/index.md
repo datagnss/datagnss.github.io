@@ -2,18 +2,18 @@
 
 <div style="text-align: left;"><img src="images/main_mobile-350x252.png" style="width: 350px;"></div><br>
 
-[Prepare for 4G/LTE](prepare-for-4G.md)
+[Prepare for 4G/LTE](./prepare-for-4G.md)
 
-[Power on receiver](Power-on-receiver.md)
+[Power on receiver](./Power-on-receiver.md)
 
-[Config NTRIP for VRS/CORS station](Config-ntrip.md)
+[Config NTRIP for VRS/CORS station](./Config-ntrip.md)
 
-[RTK work](RTK-work.md)
+[RTK work](./RTK-work.md)
 
-[user manual](d303.md)
+[user manual](./d303.md)
 
-[developer manual](developer-docs.md)
+[developer manual](./developer-docs.md)
 
-[connect with survey master](common/connect-survey-master.md)
+[connect with survey master](./common/connect-survey-master.md)
 
-[Test Page](test.md)
+[Test Page](./test.md)
