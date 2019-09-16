@@ -20,9 +20,7 @@ organization:
 organization_url: 
 github_username: datagnss
 
-theme:
-        name: material
-        logo: '../img/datagnss-logo.png'
+logo: '../img/datagnss-logo.png'
 
 # ---------------- #
 #    Navigation    #
