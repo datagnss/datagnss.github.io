@@ -12,6 +12,10 @@ RTK+ service working directory:
 ⚠
 raw data and csv point file will be saved in a workday directory(by date, named:yyyyMMdd)
 
+<div style="text-align: left;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Thqg7SXMlAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Start  RTK
 
 Enter RTK Service status screen by pressing: &quot;RTK+&quot;
@@ -43,6 +47,3 @@ There are several cases you need to turn off RTK service first:
 4. (4)Change other RTK Services settings
 <div style="text-align: left;"><img src="images/image039.jpg" width="250"></div>
 
-<div style="text-align: left;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Thqg7SXMlAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>

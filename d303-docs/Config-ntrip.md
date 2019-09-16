@@ -1,5 +1,9 @@
 # Connect base station with NTRIP
 
+<div style="text-align: left;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n9MK11OXBZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## CORS/VRS/Base Station Setting:
 
 <div style="text-align: left;"><img src="images/image015.jpg" width="250"></div>
@@ -25,6 +29,4 @@ When using VRS as the base station, rover needs to report its position to VRS fi
 Please keep default &quot;single solution&quot;.
 <div style="text-align: left;"><img src="images/image023.jpg" width="250"> <img src="images/image025.jpg" width="250"></div>
 
-<div style="text-align: left;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n9MK11OXBZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
