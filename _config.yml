@@ -51,13 +51,13 @@ navs:
     label: 关于
 
 navr:
-   - 
-     href: /index.md
-     label: Introduction
+  - 
+    href: /index.md
+    label: Introduction
 
-    - 
-     href: /power-supply.md
-     label: Power-supply
+  - 
+    href: /power-supply.md
+    label: Power-supply
 
 # ---------------- #
 #      Jekyll      #
