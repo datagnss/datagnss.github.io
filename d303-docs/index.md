@@ -4,6 +4,8 @@
 
 [Youtube:D303 open box and quick star](common/openbox.md)
 
+[Youtube:D303 do calibration in HK](common/d303-calibration-in-hk.md)
+
 [Power on receiver](d303.md#1-gnss-module-setting)
 
 [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)
