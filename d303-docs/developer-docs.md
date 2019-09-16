@@ -2,7 +2,7 @@
 
 Welcome to choose datagnss D30x rtk receiver!
 
-<div style="text-align:left;"><img src="./images/s-mobile.jpg" width="450"></div>
+<div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
 
 [1.RTK+ service Intro](#1)
@@ -38,9 +38,9 @@ RTK+ can configure the following options:
 - log data stream setting
 - Geoid model setting
 
-<div style="text-align: left;"><img src="images/1-1.png" width="250"><img src="images/1-2.png" width="250"></div>
-<div style="text-align: left;"><img src="images/1-3.png" width="250"><img src="images/1-4.png" width="250"></div>
-<div style="text-align: left;"><img src="images/1-5.png" width="250"><img src="images/1-6.png" width="250"></div>
+<div style="text-align: left;"><img src="../images/1-1.png" width="250"><img src="../images/1-2.png" width="250"></div>
+<div style="text-align: left;"><img src="../images/1-3.png" width="250"><img src="../images/1-4.png" width="250"></div>
+<div style="text-align: left;"><img src="../images/1-5.png" width="250"><img src="../images/1-6.png" width="250"></div>
 
 <span id="2"></span>
 ## 2.Intent service

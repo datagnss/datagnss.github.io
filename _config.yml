@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
+baseurl: 'd303-docs'
 homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
 date_format: "ordinal"
