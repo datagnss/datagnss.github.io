@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:'d303-docs'
+baseurl:
 url: https://docs.datagnss.com
 date_format: "ordinal"
 title: DATAGNSS support center
