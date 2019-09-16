@@ -8,7 +8,7 @@ Before using the device, please make sure data connection via WiFi or 3G/4G is o
 
 RTK+ service working directory:
 
-<div style="text-align: left;"><img src="../images/image003.png" width="250"> <img src="images/image005.png" width="250"></div>
+<div style="text-align: left;"><img src="../images/image003.png" width="250"> <img src="../images/image005.png" width="250"></div>
 
 ⚠
 raw data and csv point file will be saved in a workday directory(by date, named:yyyyMMdd)
@@ -170,7 +170,7 @@ step 3: process.
 
 ### 5.4 How to record rtk solution to csv file?
 
-<div style="text-align: left;"><img src="../images/image072.png" width="250"> <img src="../images/image074.png" width="250"> <img src="images/image076.png" width="250"></div>
+<div style="text-align: left;"><img src="../images/image072.png" width="250"> <img src="../images/image074.png" width="250"> <img src="../images/image076.png" width="250"></div>
 Please find a named date folder in RTK+ project folder.
 <div style="text-align: left;"><img src="../images/image078.png" width="250"></div>
 
