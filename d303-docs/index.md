@@ -16,4 +16,4 @@
 
 [connect with survey master](./common/connect-survey-master.md)
 
-[Test Page](./test.md)
+[Test Page.1](./test.md)
