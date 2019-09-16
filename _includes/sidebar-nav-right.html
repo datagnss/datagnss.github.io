@@ -3,13 +3,13 @@
 <div id="post-directory-module" class="mobile-hidden">
   <section class="post-directory">
   <nav class="site-right-nav" role="navigation">
-  <ul>
+  
                 {% for nav in site.navr %}
-                <li>
-				<a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
-				</li>
+                
+				<a href="{{ site.url }}{{ nav.href }}" title="{{ nav.label }}" >{{ nav.label }}</a>
+				
                 {% endfor %}
-	</ul>
+	
             </nav>
   </section>
 </div>
