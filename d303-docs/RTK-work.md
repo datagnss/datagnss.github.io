@@ -1,7 +1,6 @@
 # Start your RTK work
  
 
-
 ⚠
 Before using the device, please make sure data connection via WiFi or 3G/4G is on service normally.
 
@@ -13,7 +12,7 @@ RTK+ service working directory:
 ⚠
 raw data and csv point file will be saved in a workday directory(by date, named:yyyyMMdd)
 
-## 2.1.3 Start  RTK
+## Start  RTK
 
 Enter RTK Service status screen by pressing: &quot;RTK+&quot;
 <div style="text-align: left;"><img src="images/image027.jpg" width="250"></div>
@@ -29,12 +28,12 @@ Normally in one minute, the solution status will change from single→Float→Fi
 When the solution status becomes &quot;Fixed&quot;. It&#39;s in RTK fix mode.
 <div style="text-align: left;"><img src="images/image033.jpg" width="250"></div>
 
-#### 2.1.4 Switch solution view
+## Switch solution view
 
 Long press the circled area for 2 seconds, there will be a menu pops up to choose different solution format:
 <div style="text-align: left;"><img src="images/image035.jpg" width="250"> <img src="images/image037.jpg" width="250"></div>
  
-#### 2.1.5 Stop RTK
+## Stop RTK
 
 There are several cases you need to turn off RTK service first:
 

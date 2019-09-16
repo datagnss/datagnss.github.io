@@ -13,9 +13,9 @@ RTK+ service working directory:
 ⚠
 raw data and csv point file will be saved in a workday directory(by date, named:yyyyMMdd)
 
-## 1. GNSS Module Setting
+## GNSS Module Setting
 
-### 1.1 Power On/Off GNSS Module
+### Power On/Off GNSS Module
 
 Enter RTK setting page from system &quot;Settings&quot;:
 <div style="text-align: left;"><img src="images/image007.png" width="250"></div>
@@ -23,17 +23,17 @@ Enter RTK setting page from system &quot;Settings&quot;:
 Power on GNSS module by turning on the power switch
 <div style="text-align: left;"><img src="images/image009.png" width="250"></div>
 
-### 1.2 Switch GNSS Constellation
+### Switch GNSS Constellation
 
 ⚠
 By default, the GNSS module is running on supporting all constellation.
 <div style="text-align: left;"><img src="images/image011.jpg" width="250"> <img src="images/image013.png" width="250"></div>
 
-## 2. Working as Rover Mode
+## Working as Rover Mode
 
-### 2.1 CORS/VRS/Base Station Setting:
+### CORS/VRS/Base Station Setting:
 
-#### 2.1.1 CORS/VRS Setting
+#### CORS/VRS Setting
 <div style="text-align: left;"><img src="images/image015.jpg" width="250"></div>
 
 Configure NTRIP client settings:**
@@ -49,7 +49,7 @@ then choose the correct mountpoint from the list.
 ⚠
 it still supports input mount point manually.
 
-#### 2.1.2 Transmit GPGGA to Base Station
+#### Transmit GPGGA to Base Station
 
 When using VRS as the base station, rover needs to report its position to VRS firstly.
 

@@ -1,8 +1,7 @@
 # Connect base station with NTRIP
 
-## 2.1 CORS/VRS/Base Station Setting:
+## CORS/VRS/Base Station Setting:
 
-### 2.1.1 CORS/VRS Setting
 <div style="text-align: left;"><img src="images/image015.jpg" width="250"></div>
 
 Configure NTRIP client settings:**
@@ -18,7 +17,7 @@ then choose the correct mountpoint from the list.
 ⚠
 it still supports input mount point manually.
 
-### 2.1.2 Transmit GPGGA to Base Station
+## Transmit GPGGA to Base Station
 
 When using VRS as the base station, rover needs to report its position to VRS firstly.
 
