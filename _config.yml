@@ -18,11 +18,9 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: datagnss
-organization: 
-organization_url: 
+organization: DATAGNSS
+organization_url: https://www.datagnss.com 
 github_username: datagnss
-
-
 
 # ---------------- #
 #    Navigation    #
@@ -56,6 +54,7 @@ navr:
    - 
      href: /index.md
      label: Introduction
+
     - 
      href: /power-supply.md
      label: Power-supply
