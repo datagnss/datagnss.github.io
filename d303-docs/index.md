@@ -1,6 +1,5 @@
-# Quick guide
+# Operation guide
 
-## Package list
 <div style="text-align: left;"><img src="images/main_mobile-350x252.png" style="width: 350px;"></div><br>
 
 [Prepare for 4G/LTE](prepare-for-4G.md)
