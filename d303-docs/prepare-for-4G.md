@@ -8,7 +8,7 @@ Before using the device, please make sure data connection via WiFi or 3G/4G is o
 
 RTK+ service working directory:
 
-<div style="text-align: left;"><img src="images/image003.png" width="250"> <img src="images/image005.png" width="250"></div>
+<div style="text-align: left;"><img src="./images/image003.png" width="250"> <img src="./images/image005.png" width="250"></div>
 
 ⚠
 raw data and csv point file will be saved in a workday directory(by date, named:yyyyMMdd)
