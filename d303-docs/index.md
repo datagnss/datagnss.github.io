@@ -2,6 +2,8 @@
 
 <div style="text-align: left;"><img src="images/main_mobile-350x252.png" style="width: 350px;"></div><br>
 
+[Youtube:D303 open box and quick star](common/openbox.md)
+
 [Power on receiver](d303.md#1-gnss-module-setting)
 
 [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)
