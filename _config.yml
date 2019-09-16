@@ -49,11 +49,6 @@ navs:
     label: 关于
 
 # ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
 #      Jekyll      #
 # ---------------- #
 markdown: kramdown
