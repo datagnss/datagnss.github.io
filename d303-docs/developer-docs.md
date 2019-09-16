@@ -2,7 +2,7 @@
 
 Welcome to choose datagnss D30x rtk receiver!
 
-<div style="text-align:left;"><img src="{{% site.url %}}{{% site.baseurl %}}/images/s-mobile.jpg" width="450"></div>
+<div style="text-align:left;"><img src="{{ site.url }}/{{ site.baseurl }}/images/s-mobile.jpg" width="450"></div>
 
 
 [1.RTK+ service Intro](#1)
