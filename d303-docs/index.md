@@ -8,7 +8,7 @@
 
 [Config NTRIP for VRS/CORS station](Config-ntrip.md)
 
-[start RTK work](RTK-work.md)
+[start RTK work](d303.md#213-start--rtk)
 
 [user manual](d303.md)
 
