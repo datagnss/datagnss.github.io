@@ -4,7 +4,7 @@
 baseurl:
 url: https://docs.datagnss.com
 date_format: "ordinal"
-title: Support center
+title: 
 subtitle: ""
 description: ""
 keywords: rtk,handheld rtk,gnss receiver
@@ -20,7 +20,6 @@ organization:
 organization_url: 
 github_username: datagnss
 
-logo: '../img/datagnss-logo.png'
 
 # ---------------- #
 #    Navigation    #
@@ -49,6 +48,14 @@ navs:
   -
     href: /about/
     label: 关于
+
+navr:
+   - 
+     href: index.md
+     label: Introduction
+    - 
+     href: power-supply.md
+     label: Power supply
 
 # ---------------- #
 #      Jekyll      #
