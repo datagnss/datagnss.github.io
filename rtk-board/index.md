@@ -53,7 +53,9 @@ run rtknavi.exe
 #### Config Input Stream of rover and base
 
 **output raw data format:RTCM3**
+
 **default baud rate:115200 bps**
+
 <div style="text-align: left;">
 <img src="images/rtklib-1.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
