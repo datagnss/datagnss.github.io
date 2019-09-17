@@ -1,6 +1,4 @@
-# Welcome to support center
-
-## Please choose your product
+## Please choose your device
 
  [![](images/d303.png){: style="width: 250px;"} ](/d303-docs)
  
