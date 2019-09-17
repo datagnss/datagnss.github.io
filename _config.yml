@@ -26,40 +26,16 @@ github_username: datagnss
 # ---------------- #
 #    Navigation    #
 # ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
-
-  -
-    href: /categories/
-    label: 分类
-
-#   -
-#     href: /archives/
-#     label: 归档
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
-
-  -
-    href: /about/
-    label: 关于
-
 navr:
   -
-    href: /index.md
-    label: Introduction
+    href: /d303-docs
+    label: RTK receiver
 
   -
-    href: /power-supply.md
-    label: Power-supply
+    href: /rtk-board
+    label: RTK board
 
+    
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
@@ -88,15 +64,6 @@ collections:
 
 repository: datagnss/datagnss.github.io
 
-navr:
-    - 
-     href:index.md
-     label:Introduction
-    - 
-     href:power-supply.md
-     label:Power supply
-    
-
 # ---------------- #
 #      Search      #
 # ---------------- #
@@ -110,4 +77,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: 
+    analytics_id: UA-119678148-1
