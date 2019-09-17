@@ -10,6 +10,8 @@
 
 [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)
 
+[RTK service overview](rtk-service-intro.md)
+
 [start RTK work](d303.md#213-start--rtk)
 
 [connect with Supersurv <img src="images/youtube.png" height="20">](common/connect-supersurv.md)
