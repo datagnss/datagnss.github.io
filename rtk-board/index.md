@@ -77,5 +77,5 @@ updating finishes.
 
 7) After firmware updating completed, press RESET button on the EVK to restart the module.
 
-** DO NOT interrupt the file transfer, keep program running and make sure all cables are well connected when
-the file is transmitting. **
+**DO NOT interrupt the file transfer, keep program running and make sure all cables are well connected when
+the file is transmitting.** 
