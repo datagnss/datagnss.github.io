@@ -53,35 +53,35 @@ run rtknavi.exe
 #### Config Input Stream of rover and base
 
 <div style="text-align: left;">
-<img src="images/rtklib-1.png" style="width: 550px;">
+<img src="images/rtklib-1.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-2.png" style="width: 550px;">
+<img src="images/rtklib-2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-3.png" style="width: 550px;">
+<img src="images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 #### Config rtk processing options
 
 <div style="text-align: left;">
-<img src="images/rtklib-4.png" style="width: 550px;">
+<img src="images/rtklib-4.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-5.png" style="width: 550px;">
+<img src="images/rtklib-5.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 #### do rtk positioning.
 
 <div style="text-align: left;">
-<img src="images/rtklib-6.png" style="width: 550px;">
+<img src="images/rtklib-6.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-7.png" style="width: 550px;">
+<img src="images/rtklib-7.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 ### Firmware updating
