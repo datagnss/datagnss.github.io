@@ -74,7 +74,7 @@ run rtknavi.exe
 <img src="images/rtklib-5.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
-#### do rtk positioning.
+#### Do rtk positioning.
 
 <div style="text-align: left;">
 <img src="images/rtklib-6.png" style="width: 550px;border:1px solid rgb(200,200,200);">
