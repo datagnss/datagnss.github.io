@@ -1,7 +1,7 @@
 ## dual-freq RTK evaluation kit
 
 <div style="text-align: left;">
-<img src="../images/rtk-board.png" style="width: 350px;">
+<img src="images/rtk-board.png" style="width: 350px;">
 </div>
 
 ### specifications
@@ -16,7 +16,7 @@
 
 ### overview
 <div style="text-align: left;">
-<img src="../images/evk-3.png" style="width: 450px;">
+<img src="images/evk-3.png" style="width: 450px;">
 </div>
 
 ### antenna connector
@@ -40,7 +40,7 @@ the baud rate is set correctly, Satrack program will show the received EVK outpu
 strength, as well as satellite constellation.
 
 <div style="text-align: left;">
-<img src="../images/satrack.png" style="width: 450px;">
+<img src="images/satrack.png" style="width: 450px;">
 </div>
 
 ### Firmware updating
@@ -53,7 +53,7 @@ strength, as well as satellite constellation.
 3) Find the file to send and press “Open” to start sending the file and finish firmware updating.
 
 <div style="text-align: left;">
-<img src="../images/usermode.png" style="width: 450px;">
+<img src="images/usermode.png" style="width: 450px;">
 </div>
 
 #### boot mode
@@ -67,7 +67,7 @@ again by clicking “Connect” from the tool bar. The module will enter the Boo
 4) Select “HD BOOT Update” from the tool bar.
 
 <div style="text-align: left;">
-<img src="../images/bootmode.png" style="width: 450px;">
+<img src="images/bootmode.png" style="width: 450px;">
 </div>
 
 5) Find the file to send and press “Open”.
