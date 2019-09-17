@@ -9,4 +9,5 @@
 * BDS B1/B2/B3,GALILEO E1/E5A
 * raw measurement output
 * RTKLIB-compatible
-* QZSS L6D/E for PPP
+* ready for QZSS L6D/E for PPP
+* USB-UART interface
