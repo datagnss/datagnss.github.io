@@ -106,13 +106,13 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 RTK+ service provide the following stream:
 
 - NMEA-0183 data output,TCP server 52004
-`*`GGA
+ * GGA
 
-`*`GSA
+ * GSA
 
-`*`GSV
+ * GSV
 
-`*`GST
+ * GST
 
 
 - transmit RTCM data to TCP server 52009
