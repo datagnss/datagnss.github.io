@@ -50,6 +50,8 @@ Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakas
 
 run rtknavi.exe
 
+#### Config Input Stream of rover and base
+
 <div style="text-align: left;">
 <img src="images/rtklib-1.png" style="width: 550px;">
 </div>
@@ -62,6 +64,7 @@ run rtknavi.exe
 <img src="images/rtklib-3.png" style="width: 550px;">
 </div>
 
+#### Config rtk processing options
 
 <div style="text-align: left;">
 <img src="images/rtklib-4.png" style="width: 550px;">
@@ -70,6 +73,8 @@ run rtknavi.exe
 <div style="text-align: left;">
 <img src="images/rtklib-5.png" style="width: 550px;">
 </div>
+
+#### do rtk positioning.
 
 <div style="text-align: left;">
 <img src="images/rtklib-6.png" style="width: 550px;">
