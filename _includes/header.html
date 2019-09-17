@@ -74,7 +74,19 @@
     <header class="site-header">
         <div class="container"> 
             <div style="text-aligh:left;"><a href="{{ site.homeurl }}"><img src="{{ site.url }}/{{ site.logo }}" width="130"></a> </div>
- <div style="text-aligh:left;"><a href="{{ site.url }}/{{ site.main }}">Back to center</a> </div>
+			<button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <nav class="site-header-nav" role="navigation">
+			<a href="https://www.datagnss.com" target="default: _seft" title="Home">Home</a>
+			<a href="https://www.datagnss.com/handheld-rtk" target="default: _seft" title="Handheld RTK">Handheld RTK</a>
+			<a href="https://www.datagnss.com/agRTK" target="default: _seft" title="agRTK">agRTK</a>
+			<a href="https://www.datagnss.com/contact" target="default: _seft" title="Contact">Contact</a>
+                
+            </nav>
+ 
         </div>
     </header>
     <!-- / header -->
