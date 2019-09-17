@@ -30,8 +30,11 @@ The power LED indicates the power status. When the module is powered on, the LED
 
 ### Startup with Satrack
 1) Connect the EVK with the antenna and PC. See Section 3.
+
 2) Launch the Satrack application.
+
 3) Select the corresponding COM port.
+
 4) Set the baud rate if necessary by choosing “Device settings” on strip toolbar. If the port is selected and
 the baud rate is set correctly, Satrack program will show the received EVK output on the screen, signal
 strength, as well as satellite constellation.
@@ -44,17 +47,23 @@ strength, as well as satellite constellation.
 
 #### user mode
 1) Connect to the EVK through COM ports.
+
 2) Select “HD User Update” from the tool bar, and the file choosing dialog will be shown.
+
 3) Find the file to send and press “Open” to start sending the file and finish firmware updating.
+
 <div style="text-align: left;">
 <img src="../images/usermode.png" style="width: 450px;">
 </div>
 
 #### boot mode
 1) Connect to the EVK through COM ports.
+
 2) Use the PRRSTX and PRTRG buttons to set the module to enter Boot mode.
+
 3) Disconnect the module first by clicking “DisConnect” from the tool bar and then reconnect the module
 again by clicking “Connect” from the tool bar. The module will enter the Boot mode.
+
 4) Select “HD BOOT Update” from the tool bar.
 
 <div style="text-align: left;">
@@ -62,8 +71,10 @@ again by clicking “Connect” from the tool bar. The module will enter the Boo
 </div>
 
 5) Find the file to send and press “Open”.
+
 6) Press “Send” to start sending the file and click “Close” to close the updating window after firmware
 updating finishes.
+
 7) After firmware updating completed, press RESET button on the EVK to restart the module.
 
 ** DO NOT interrupt the file transfer, keep program running and make sure all cables are well connected when
