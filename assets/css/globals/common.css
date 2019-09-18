@@ -37,9 +37,9 @@
 }
 
 .site-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 2px;
     border-bottom: 1px solid #eee
 }
 

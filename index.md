@@ -1,4 +1,6 @@
-## Please choose your device
+### Docs 
+
+## Choose your device
 
  [![](images/d303.jpg){: style="width: 250px;"} ](/d303-docs)
  
