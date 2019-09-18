@@ -4,24 +4,6 @@ Welcome to choose datagnss D30x rtk receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
-
-[1.RTK+ service Intro](#1)
-
-[2.Intent service](#2)
-
-[3.Location service extra data](#3)
-
-[4.Input and Output stream](#4)
-
-[5.How to access rtk module in your App](#5)
-
-[6.Sample Screenshot from Partner](#6)
-
-[7.Change logs](#7)
-
-[Online version please visit](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
-
-
 <span id="1"></span>
 ## 1.RTK+ service Intro
 
