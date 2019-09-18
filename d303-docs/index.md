@@ -2,7 +2,7 @@
 
   [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
 
-### -Introduction
+### Introduction
 
   - [![](images/youtube.png)&nbsp;D302/D303 open box and quick star](common/openbox.md)
 
@@ -10,7 +10,7 @@
   
   - [Helix antenna or Patch antenna](common/choice-of-antenna.md)
 
-### -Operation
+### Operation
 
   - [Power on receiver](d303.md#1-gnss-module-setting)
 
@@ -26,7 +26,7 @@
 
   - [user manual](d303.md)
 
-### -Other software
+### Other software
 
 
   ------------------------- | ------------------------- 
@@ -34,7 +34,7 @@
   [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md)
 
 
-### -Developer guide
+### Developer guide
 
   [developer manual](developer-docs.md)
 
