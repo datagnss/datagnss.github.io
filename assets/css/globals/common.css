@@ -160,7 +160,7 @@
     font-family: Abel;
     font-size: 13px;
     font-weight:normal;
-    color:#fff
+    color:#ccc
 }
 
 .site-footer:after,.site-footer:before {
@@ -169,7 +169,7 @@
 }
 
 .site-header-nav-item:hover {
-    color: #333;
+    color: #fff;
     text-decoration: none
 }
 
