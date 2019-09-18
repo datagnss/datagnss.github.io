@@ -30,8 +30,8 @@
 
 
   -------------- | ------------------
-  [![Supersurv](images/youtube.png)Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)Survey master](common/connect-survey-master.md)
-  [![EGStar](images/youtube.png)EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)tMap](common/connect-tMap.md)
+  [![Supersurv](images/youtube.png) Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png) Survey master](common/connect-survey-master.md)
+  [![EGStar](images/youtube.png) EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png) tMap](common/connect-tMap.md)
 
 
 ### Developer guide
