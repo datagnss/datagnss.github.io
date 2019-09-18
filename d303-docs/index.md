@@ -30,13 +30,11 @@
 
 ### Other software
 
-  [connect with Supersurv <img src="images/youtube.png" height="20">](common/connect-supersurv.md)
+  [Supersurv <img src="images/youtube.png" height="20">](common/connect-supersurv.md)
+  [Survey master <img src="images/youtube.png" height="20">](common/connect-survey-master.md)
 
-  [connect with survey master <img src="images/youtube.png" height="20">](common/connect-survey-master.md)
-
-  [connect with EGStar <img src="images/youtube.png" height="20">](common/connect-egstar.md)
-
-  [connect with tMap <img src="images/youtube.png" height="20">](common/connect-tMap.md)
+  [EGStar <img src="images/youtube.png" height="20">](common/connect-egstar.md)
+  [tMap <img src="images/youtube.png" height="20">](common/connect-tMap.md)
 
 
 ### Developer guide
