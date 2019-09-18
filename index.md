@@ -1,6 +1,6 @@
 ## Support center 
 
-### Choose your device
+ Choose your device
 
 
  [![](images/d303.jpg){: style="weight: 250px;padding-left:10px;"} ](/d303-docs)
