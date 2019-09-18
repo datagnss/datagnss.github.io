@@ -4,9 +4,11 @@
 
 ### Introduction
 
-  [D303 open box and quick star <img src="images/youtube.png" height="20">](common/openbox.md)
+  [D302/D303 open box and quick star <img src="images/youtube.png" height="20">](common/openbox.md)
 
-  [D303 do calibration in HK <img src="images/youtube.png" height="20">](common/d303-calibration-in-hk.md)
+  [D302/D303 do calibration in HK <img src="images/youtube.png" height="20">](common/d303-calibration-in-hk.md)
+  
+  [Helix antenna or Patch antenna](common/choice-of-antenna.md)
 
 ### Operation
 
