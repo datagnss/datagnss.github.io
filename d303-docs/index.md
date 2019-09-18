@@ -1,12 +1,12 @@
 <div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"></div><br>
 
-  [D302/D303 Datasheet <img src="images/pdf.png" height="30">](download/D30X_DS_EN.pdf)
+  [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
 
 ### Introduction
 
-  [D302/D303 open box and quick star <img src="images/youtube.png" height="20">](common/openbox.md)
+  [![](images/youtube.png)&nbsp;D302/D303 open box and quick star](common/openbox.md)
 
-  [D302/D303 do calibration in HK <img src="images/youtube.png" height="20">](common/d303-calibration-in-hk.md)
+  [![](images/youtube.png)&nbsp;D302/D303 do calibration in HK](common/d303-calibration-in-hk.md)
   
   [Helix antenna or Patch antenna](common/choice-of-antenna.md)
 
