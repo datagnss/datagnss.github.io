@@ -2,6 +2,8 @@
 
 <div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"></div><br>
 
+  [D302/D303 Datasheet <img src="images/pdf_icon.png" height="25">](download/D30x_DS_EN.pdf)
+
 ### Introduction
 
   [D302/D303 open box and quick star <img src="images/youtube.png" height="20">](common/openbox.md)
