@@ -30,10 +30,10 @@
 
 ### Other software
 
-  [Supersurv <img src="images/youtube.png" height="20">](common/connect-supersurv.md)
+  [Supersurv <img src="images/youtube.png" height="20">](common/connect-supersurv.md)    
   [Survey master <img src="images/youtube.png" height="20">](common/connect-survey-master.md)
 
-  [EGStar <img src="images/youtube.png" height="20">](common/connect-egstar.md)
+  [EGStar <img src="images/youtube.png" height="20">](common/connect-egstar.md)    
   [tMap <img src="images/youtube.png" height="20">](common/connect-tMap.md)
 
 
