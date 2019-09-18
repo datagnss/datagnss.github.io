@@ -9,4 +9,4 @@
  
  
  
-***some images are from the Internet and copyright belongs to the original source.***
+*some images are from the Internet and copyright belongs to the original source.*
