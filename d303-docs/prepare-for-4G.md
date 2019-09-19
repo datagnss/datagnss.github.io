@@ -8,6 +8,7 @@
  
  4. Insert the sim card as indicated in the figure
 
- *support standard-size sim card*
-
  5. Power on device again
+
+
+ *support standard-size sim card*
