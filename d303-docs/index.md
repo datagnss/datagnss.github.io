@@ -27,10 +27,9 @@
 
 ### Other software
 
-
-  ------------------------- | ------------------------- 
-  [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master.md)
-  [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md)
+  | ---- | ---- | 
+  | [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master.md) |
+  | [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md) |
 
 
 ### Developer guide
