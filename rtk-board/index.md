@@ -130,6 +130,7 @@ updating finishes.
 **DO NOT interrupt the file transfer, keep program running and make sure all cables are well connected when
 the file is transmitting.** 
 
+
 ### the latest firmware 
 
   | Item | GNSS options | firmware |
