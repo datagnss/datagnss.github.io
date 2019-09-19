@@ -1,4 +1,4 @@
-<div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"></div><br>
+<div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"><br></div>
 
 ### Datasheet
 
