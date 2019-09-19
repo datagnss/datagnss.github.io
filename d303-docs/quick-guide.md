@@ -1,4 +1,4 @@
-# D300 series RTK receiver quick guide
+# D300 series quick guide
 
   Please follow below quick guides to configure and use the product.
 
