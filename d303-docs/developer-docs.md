@@ -15,18 +15,20 @@ Welcome to choose D300 series rtk receiver!
 <span id="1"></span>
 ## 1.RTK+ service Intro
 
-RTK+ service is a core service integrated in android on D30x-RTK device.
+RTK+ service is a core service integrated in android on D300 series RTK receiver.
 
 RTK+ can configure the following options:
 
 - GNSS constellation type,GPS/GLONASS/GALILEO/BDS
 - VRS/CORS base station ntrip/tcp protocol setting
 - Receiver mode setting
-- Elevation/SNR mask setting
 - rtk engine optimized setting
 - output solution setting
 - log data stream setting
-- Geoid model setting
+
+![](images/1-1.png){: style="width: 250px;"}
+![](images/1-3.png){: style="width: 250px;"}
+![](images/1-5.png){: style="width: 250px;"}
 
 <div style="text-align: left;"><img src="../images/1-1.png" width="250"><img src="../images/1-2.png" width="250"></div>
 <div style="text-align: left;"><img src="../images/1-3.png" width="250"><img src="../images/1-4.png" width="250"></div>
