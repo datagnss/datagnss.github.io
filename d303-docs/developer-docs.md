@@ -4,7 +4,7 @@ Welcome to choose D300 series rtk receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
-## D303 and D302 comparison
+ - D303 and D302 comparison
 
  | Items | D303 multi-freq | D302 single-freq |
  | :---- | :----: | :----: |
