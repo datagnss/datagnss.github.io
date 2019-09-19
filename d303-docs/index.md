@@ -4,9 +4,6 @@
 
   - [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
 
-### Quick guide
-  - [D300 series RTK receiver quick guide](quick-guide.md)
-  
 ### Introduction
 
   - [![](images/youtube.png)&nbsp;D302/D303 open box and quick star](common/openbox/)&nbsp; &nbsp; [![](images/youtube.png)&nbsp;D302/D303 do calibration in HK](common/d303-calibration-in-hk/)
@@ -15,6 +12,8 @@
 
 ### Operation
 
+  - [Quick guide](quick-guide.md)
+  
   - [Power on receiver](d303.md#1-gnss-module-setting)
   
   - [Prepare for 4G](prepare-for-4G.md)
