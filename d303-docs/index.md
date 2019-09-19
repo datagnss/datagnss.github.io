@@ -1,4 +1,5 @@
-<div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"></div><br>
+<div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"><br></div>
+
 ### Datasheet
 
   - [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
@@ -28,9 +29,11 @@
 ### Other software
 
 
-  |---- | ---- |
-  [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master.md)
-  [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md)
+  | video | video |
+  | ---- | ---- | 
+  | [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master.md) |
+  | [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md) |
+
 
 
 ### Developer guide
