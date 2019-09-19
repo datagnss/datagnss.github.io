@@ -4,6 +4,8 @@ Welcome to choose D300 series rtk receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
+## D303 and D302 comparison
+
  | Items | D303 multi-freq | D302 single-freq |
  | :---- | :----: | :----: |
  | constellation | GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1 | GPS L1,GLO L1,BDS B1,GAL E1 |
