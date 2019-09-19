@@ -6,7 +6,7 @@
 
 ### Introduction
 
-  - [![](images/youtube.png)&nbsp;D302/D303 open box and quick star](common/openbox/)&nbsp; &nbsp; [![](images/youtube.png)&nbsp;D302/D303 do calibration in HK](common/d303-calibration-in-hk.md)
+  - [![](images/youtube.png)&nbsp;D302/D303 open box and quick star](common/openbox/)&nbsp; &nbsp; [![](images/youtube.png)&nbsp;D302/D303 do calibration in HK](common/d303-calibration-in-hk/)
   
   - [Helix antenna or Patch antenna](common/choice-of-antenna.md)
 
@@ -33,8 +33,8 @@
 
   | video | video |
   | ---- | ---- | 
-  | [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv.md) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master.md) |
-  | [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar.md) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap.md) |
+  | [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv/) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master/) |
+  | [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar/) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap/) |
 
 
 
