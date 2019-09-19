@@ -42,5 +42,5 @@
 
 ### Developer guide
 
-  [developer manual](developer-docs.md)
+  - [developer manual](developer-docs.md)
 
