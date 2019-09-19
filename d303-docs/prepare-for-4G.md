@@ -8,7 +8,7 @@
  
  4. Insert the sim card as indicated in the figure
  
- ![](images/battery-0.jpg){: style="weight: 350px;"}
+  ![](images/battery-0.jpg){: style="weight: 350px;"}
  
  5. Power on device again
 
