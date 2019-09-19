@@ -23,17 +23,34 @@ organization: DATAGNSS
 organization_url: https://www.datagnss.com 
 github_username: datagnss
 
+
 # ---------------- #
 #    Navigation    #
 # ---------------- #
-navr:
+navs:
   -
-    href: /d303-docs
-    label: RTK receiver
+    href: /
+    label: Home
 
   -
-    href: /rtk-board
-    label: RTK board
+    href: /d303-rtk/
+    label: D303
+
+#   -
+#     href: /archives/
+#     label: 归档
+
+  -
+    href: /handheld-rtk/
+    label: D302
+
+  -
+    href: /
+    label: Support
+
+  -
+    href: /contact-online-form/
+    label: Contact
 
     
 # ---------------- #

@@ -80,13 +80,17 @@
               <span class="icon-bar"></span>
             </button>
             <nav class="site-header-nav" role="navigation">
-			<!---->
+			
+			{% for nav in site.navs %}
+                <a href="{{ site.homeurl }}{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+                {% endfor %}
+			<!--
 			<a href="https://www.datagnss.com" class="site-header-nav-item" target="_blank" title="Home">Home</a>
 			<a href="https://www.datagnss.com/d303-rtk" class="site-header-nav-item" target="_blank" title="D303 RTK">D303</a>
 			<a href="https://www.datagnss.com/handheld-rtk" class="site-header-nav-item" target="_blank" title="D302 RTK">D302</a>
 			<a href="https://docs.datagnss.com" class="site-header-nav-item" target="_self" title="agRTK">Support</a>
 			<a href="https://www.datagnss.com/contact-online-form" class="site-header-nav-item" target="_blank" title="Contact">Contact</a>
-                
+            -->    
             </nav>
  
         </div>
