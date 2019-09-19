@@ -38,9 +38,9 @@
 
 .site-header {
     background: #181818;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
     border-bottom: 1px solid #eee
 }
 
@@ -150,15 +150,16 @@
 
 .site-header-nav {
     float: right;
-    margin-bottom: -20px
+	margin-top: 5px;
+    margin-bottom: 5px
 }
 
 .site-header-nav-item {
     display: inline-block;
-    padding: 6px 10px 15px;
+    padding: 6px 5px 5px;
     margin-left: 1.25rem;
     font-family: Abel;
-    font-size: 13px;
+    font-size: 12px;
     font-weight:normal;
     color:#ccc
 }
