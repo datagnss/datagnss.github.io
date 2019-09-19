@@ -26,9 +26,9 @@ RTK+ can configure the following options:
 - output solution setting
 - log data stream setting
 
-![](images/1-1.png){: style="width: 250px;"}
-![](images/1-3.png){: style="width: 250px;"}
-![](images/1-5.png){: style="width: 250px;"}
+![](images/1-1.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+![](images/1-3.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+![](images/1-5.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 
 <div style="text-align: left;"><img src="../images/1-1.png" width="250"><img src="../images/1-2.png" width="250"></div>
 <div style="text-align: left;"><img src="../images/1-3.png" width="250"><img src="../images/1-4.png" width="250"></div>
