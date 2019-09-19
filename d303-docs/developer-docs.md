@@ -1,9 +1,15 @@
 # RTK+ Service Developer Manual
 
-Welcome to choose datagnss D30x rtk receiver!
+Welcome to choose D300 series rtk receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
+ | Items | D303 | D302 |
+ | :---- | :----: | ---- |
+ | constellation | GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1 | GPS L1,GLO L1,BDS B1,GAL E1 |
+ | RTK initial | 10s 120s |
+ 
+ 
 <span id="1"></span>
 ## 1.RTK+ service Intro
 
