@@ -13,6 +13,8 @@
 ### Operation
 
   - [Power on receiver](d303.md#1-gnss-module-setting)
+  
+  - [Prepare for 4G](prepare-for-4G.md)
 
   - [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)
 
