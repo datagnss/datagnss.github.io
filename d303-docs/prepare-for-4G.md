@@ -1,10 +1,13 @@
 ## Install sim card
 
- Power off device
- Unscrew the screw, open the battery cover
- Remove the battery
- Insert the sim card as indicated in the figure
+ 1.Power off device
+ 
+ 2.Unscrew the screw, open the battery cover
+ 
+ 3.Remove the battery
+ 
+ 4.Insert the sim card as indicated in the figure
 
  *support standard-size sim card*
 
- Power on device again
+ 5.Power on device again
