@@ -41,7 +41,8 @@ RTK+ can configure the following options:
 RTK+ provide an intent service, so third party software can launch rtk+ setting pages from its own main UI.
 
 This allow an easy integration without open rtk+ from system setting section.
-<div style="text-align: left;"><img src="../images/2-1.png" width="250"></div><br>
+
+![](images/2-1.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 
 Please reference the following way:
 ```java
@@ -60,7 +61,8 @@ try {
 ## 3.Location service extra data
 
 RTK+  adds a set of location extra information while it&#39;s running. Details on location extras can be found in the corresponding [Google Android help](https://developer.android.com/reference/android/location/package-summary.html).
-<div style="text-align: left;"><img src="../images/3-1.png" ></div>
+
+![](images/3-1.png)
 
 **Extra data description:**
 
@@ -156,9 +158,13 @@ It fully supports D302/303 rtk+ service.
 **Mapit Pro is preinstalled on each D303 receiver.**
 
 Google play download from [Mapit GIS](https://play.google.com/store/apps/details?id=com.osedok.gisdatacollector&amp;hl=en).
-<div style="text-align: left;"><img src="../images/a-1.jpg" width="250">   <img src="../images/a-2.jpg" width="250"></div>
 
-<div style="text-align: left;"><img src="../images/a-3.png" width="250">   <img src="../images/a-4.png" width="250"></div>
+![](images/a-1.jpg){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+![](images/a-2.jpg){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+
+![](images/a-3.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+![](images/a-4.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+
 
 <span id="7"></span>
 ## 7.Change logs
