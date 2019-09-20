@@ -7,7 +7,7 @@
 <img src="images/rtk-board.jpg" style="width: 300px;">
 </div>
 
-### specifications
+### Specifications
 * GPS/QZSS L1/L2/L5,GLONASS L1/L2
 * BDS B1/B2/B3,GALILEO E1/E5A
 * raw measurement output
@@ -17,12 +17,12 @@
 * size: 48mm x 23mm
 
 
-### overview
+### Overview
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 550px;">
 </div>
 
-### antenna connector
+### Antenna connector
 An SMA female jack is available on the side panel of the evaluation unit for connecting an active
 or passive antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the
 power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and
@@ -134,7 +134,7 @@ updating finishes.
 the file is transmitting.** 
 
 
-### the latest firmware 
+### Download the latest firmware 
 
   | Item | GNSS options | firmware |
   | ----- | :----- | :----- |
