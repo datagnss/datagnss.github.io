@@ -1,4 +1,7 @@
-## Multi-band RTK evaluation kit
+<p style="font-size:30px;"><strong>Multi-band RTK evaluation kit
+</strong>
+</p>
+<br>
 
 <div style="text-align: left;">
 <img src="images/rtk-board.jpg" style="width: 300px;">
