@@ -1,6 +1,6 @@
-## Android RTK with centimeter accuracy
-
-
+<p style="font-size:30px;">Android RTK with centimeter accuracy
+</p>
+<br>
 <div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"><br></div>
 
 ### Datasheet
