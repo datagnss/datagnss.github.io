@@ -3,7 +3,7 @@
   Please follow below quick guides to configure and use the product.
 
 
-## 1.upgrade build-in applications
+## 1.Update build-in applications
  
   When you turn on D30x-RTK first time, please connect to WiFi network firstly, 
   then run "AppBus" application on device to keep built-in Applications up-to-date. 
