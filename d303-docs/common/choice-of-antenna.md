@@ -1,4 +1,7 @@
 ## choose GNSS antenna type
+&nbsp;
+&nbsp;
+For some GIS data collection, we recommend you choose helix antenna.
 
 <div style="text-align: left;"><img src="../images/helix.png" style="width: 150px;"></div>
 
