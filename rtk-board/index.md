@@ -1,4 +1,4 @@
-## dual-freq RTK evaluation kit
+## Multi-freq RTK evaluation kit
 
 <div style="text-align: left;">
 <img src="images/rtk-board.jpg" style="width: 300px;">
