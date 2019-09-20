@@ -1,4 +1,4 @@
-## choose GNSS antenna type
+## Choose GNSS antenna type
 
 <br>
 For some GIS applications or general data collection, we recommend you choose helix antenna.
