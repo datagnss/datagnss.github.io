@@ -13,7 +13,6 @@ survey-grade patch antenna.
 
 Also patch antenna have a big ground plane to reduce multi-path effect.
 
-<div style="text-align: left;"><img src="../images/patch.png" style="width: 150px;"></div>
 ![](../images/patch.png "survey-grade antenna")
 
 ![](../images/rtk_survey.jpg "rtk survey")
