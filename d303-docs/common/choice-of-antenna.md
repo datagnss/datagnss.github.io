@@ -16,7 +16,6 @@ survey-grade patch antenna.
 <br>
 Also patch antenna have a big ground plane to reduce multi-path effect.
 <br>
-![](../images/patch.png "survey-grade antenna")<br>
 ![](../images/with-patch.jpg "land survey")
 <br>
 
