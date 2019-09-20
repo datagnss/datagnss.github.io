@@ -1,10 +1,10 @@
 ## Multi-freq RTK evaluation kit
 
-<div style="text-align: left;">
+<div style="text-align: left;float:left;width:310px;">
 <img src="images/rtk-board.jpg" style="width: 300px;">
 </div>
-
-### specifications
+<div style="text-align: left;float:right;width:300px;">
+specifications
 * GPS/QZSS L1/L2/L5,GLONASS L1/L2
 * BDS B1/B2/B3,GALILEO E1/E5A
 * raw measurement output
@@ -12,7 +12,7 @@
 * ready for QZSS L6D/E for PPP
 * USB-UART interface
 * size: 48mm x 23mm
-
+<div>
 
 ### overview
 <div style="text-align: left;">
