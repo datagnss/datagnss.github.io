@@ -1,4 +1,4 @@
-<p style="font-size:35px;"><strong>Welcome to products support center
+<p style="font-size:30px;"><strong>Welcome to support center
 </strong>
 </p>
 <br>
@@ -11,9 +11,4 @@
  [![](images/rtk-board.jpg "Multi-band RTK EVK"){: style="width: 260px;"} ](/rtk-board)
 
  
- 
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-&nbsp;&nbsp;
-&nbsp;&nbsp;
+<br><br>
