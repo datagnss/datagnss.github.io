@@ -2,7 +2,7 @@
 
 detail information:
 
-    Server:ntrip.datagnss.com
+    Server:ntrip.datagnss.com / ntrip-asia.datagnss.com / ntrip-eu.datagnss.com
 
     port:2101
 
