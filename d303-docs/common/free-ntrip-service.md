@@ -18,5 +18,5 @@ detail information:
 reference:
 
   - [Config NTRIP for VRS/CORS station](../d303.md#21-corsvrsbase-station-setting)![](../images/youtube.png)
-  - [Set D0x receiver to base mode](../d303.md#32-d30x-rtk-rover-working-with-d30x-rtk-base-station)
+  - [Set D30x receiver to base mode](../d303.md#32-d30x-rtk-rover-working-with-d30x-rtk-base-station)
   
