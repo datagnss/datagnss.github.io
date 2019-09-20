@@ -1,6 +1,6 @@
 ## DATAGNSS free data stream service
 
-![](../images/rtk_survey.jpg "rtk survey")
+![](../images/free-ntrip-service.png "NTRIP service")
 
 detail information:
 
