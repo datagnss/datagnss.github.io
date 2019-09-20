@@ -54,7 +54,7 @@ Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakas
 run rtknavi.exe
 
 
-#### Config Input Stream of rover and base
+#### Config Input Stream 
 
 **output raw data format:RTCM3**
 
