@@ -13,4 +13,3 @@
 &nbsp;&nbsp;
 &nbsp;&nbsp;
 &nbsp;&nbsp;
-welcome to join [![](images/telegram.png)Telegram DATAGNSS community](https://t.me/datagnss_rtk)  
