@@ -162,7 +162,7 @@ Google play download from [Mapit GIS](https://play.google.com/store/apps/details
 ![](images/a-1.jpg){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 ![](images/a-2.jpg){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 
-![](images/a-3.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
+![](images/a-3.jpg){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 ![](images/a-4.png){: style="width: 250px;border:1px solid rgb(200,200,200);"}
 
 
