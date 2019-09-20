@@ -7,7 +7,6 @@ Helix antenna have no determined phase center,so there is also no so-called inst
 
 ![](../images/with-helix.jpg "Helix antenna")
 
-
 &nbsp;
 &nbsp;
 For land survey applications or some high precision cm-level applications, we recommend you choose
