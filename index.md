@@ -5,11 +5,9 @@
 
  [![](images/d303.jpg){: style="width: 250px;"} ](/d303-docs)&nbsp;&nbsp;
  [![](images/rtk-board.jpg){: style="width: 250px;border: 1px solid #ccc;"} ](/rtk-board)
-
- 
- 
- 
- 
-
- 
- 
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+welcome to join [![](images/telegram.png)](t.me/datagnss_rtk)  
