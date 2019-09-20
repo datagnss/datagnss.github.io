@@ -18,11 +18,13 @@
   
   - [Prepare for 4G](prepare-for-4G.md)
 
-  - [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)
+  - [Config NTRIP for VRS/CORS station](d303.md#21-corsvrsbase-station-setting)![](images/youtube.png)
 
   - [RTK service overview](rtk-service-intro.md)
 
   - [start RTK work](d303.md#213-start--rtk)
+  
+  - [static mode record raw data](d303.md#51-how-to-record-raw-data)![](images/youtube.png)
   
   - [convert raw data to rinex format](d303.md#52-how-to-convert-raw-data-to-rinex-format-file)
 
