@@ -64,7 +64,7 @@
         $(header).addClass('top-level-header').after(return_to_top);
       }
       if (this_level === level) {// same level as before; same indenting
-        html += "<li style=\"padding:5px 0px 5px;\" class=\"toc-item toc-level-" + this_level + "\">";
+        html += "<li style=\"padding-bottom:5px;\" class=\"toc-item toc-level-" + this_level + "\">";
         html += "<a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
         html += "<span class='toc-text'>" + header.innerHTML + "</span>";
         html += "</a>";
@@ -73,7 +73,7 @@
         for(i = this_level; i < level; i++) {
           html += "</li></"+settings.listType+">"
         }
-        html += "<li style=\"padding:5px 0px 5px;\" class='toc-item toc-level-" + this_level + "'><a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
+        html += "<li style=\"padding-bottom:5px;\" class='toc-item toc-level-" + this_level + "'><a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
         html += "<span class='toc-text'>" + header.innerHTML + "</span>";
         html += "</a>";
       }
