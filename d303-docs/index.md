@@ -24,7 +24,7 @@
 
   - [Start RTK work](d303.md#213-start--rtk)
   
-  - [static mode record raw data](d303.md#51-how-to-record-raw-data)![](images/youtube.png)
+  - [Static mode record raw data](d303.md#51-how-to-record-raw-data)![](images/youtube.png)
   
   - [Convert raw data to rinex format](d303.md#52-how-to-convert-raw-data-to-rinex-format-file)
 
