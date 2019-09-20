@@ -1,4 +1,8 @@
-# Support center 
+<p style="font-size:35px;"><strong>Welcome to products support center
+</strong>
+</p>
+<br>
+
 
 <p style="font-size:25px;padding:10px 0px 10px 0px;"> Choose your device </p>
 

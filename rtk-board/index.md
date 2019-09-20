@@ -1,4 +1,4 @@
-<p style="font-size:30px;"><strong>Multi-band RTK evaluation kit
+<p style="font-size:35px;"><strong>Multi-band RTK evaluation kit
 </strong>
 </p>
 <br>
