@@ -4,7 +4,7 @@
 <br>
 
 
-<p style="font-size:25px;padding:10px 0px 10px 0px;"> Choose your device </p>
+<p style="font-size:22px;padding:10px 0px 10px 0px;"> Choose your device </p>
 
 
  [![](images/d303.jpg "Android RTK"){: style="width: 260px;"} ](/d303-docs)
