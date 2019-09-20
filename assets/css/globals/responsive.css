@@ -74,7 +74,7 @@
   .site-header .site-header-nav .site-header-nav-item {
     padding: 0 .5rem;
     margin-left: 0;
-    font-size: 1rem;
+    font-size: .9rem;
     display: block;
     text-align: right;
   }
@@ -100,7 +100,7 @@
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #563d7c;
+    background-color: #ceccd2;
   }
 
   .collapsed .icon-bar + .icon-bar {
