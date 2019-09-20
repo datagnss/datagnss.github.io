@@ -5,14 +5,13 @@
 <div style="text-align: left;"><img src="../images/patch.png" style="width: 150px;"></div>
 
 ![](../images/rtk_survey.jpg "rtk survey")
-  
-  
-  
-  
-  
-  
-  
-  
-  
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
   
 *some images are from the Internet and copyright belongs to the original source.*
