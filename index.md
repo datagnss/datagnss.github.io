@@ -1,6 +1,6 @@
 # Support center 
 
-<p style="font-size:20px;"> Choose your device </p>
+<p style="font-size:20px;padding:10px 0px 10px 0px;"> Choose your device </p>
 
 
  [![](images/d303.jpg){: style="width: 250px;"} ](/d303-docs)&nbsp;&nbsp;
