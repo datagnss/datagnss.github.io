@@ -3,7 +3,7 @@
 </p>
 <br>
 
-Welcome to choose D300 series rtk receiver!
+Welcome to choose D300 series Android rtk receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
 
