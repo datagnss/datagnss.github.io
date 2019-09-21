@@ -9,6 +9,7 @@
   - D300 series RTK
   - Power adapter
   - USB cable
+  - RF cable(1.5m)
   - Battery
   - Survey-grade Antenna
 
