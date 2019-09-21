@@ -10,7 +10,7 @@ detail information:
 
     mountpoint:user-define
 
-    auth code: 
+    authorized code: 
 
 *send email to info@datagnss.com to get authorized code to use free data stream service(NTRIP).*
 <br>
