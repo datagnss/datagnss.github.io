@@ -4,6 +4,14 @@
 <br>
 <div style="text-align: left;"><img src="images/s-mobile.jpg" style="width: 350px;"><br></div>
 
+### Package list
+
+  - D300 series RTK
+  - Power adapter
+  - USB cable
+  - Battery
+  - Survey-grade Antenna
+
 ### Datasheet
 
   - [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
