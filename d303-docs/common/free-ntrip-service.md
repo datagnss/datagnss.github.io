@@ -1,4 +1,4 @@
-## DATAGNSS free data stream service
+## Free data stream service(NTRIP)
 
 ![](../images/free-ntrip-service.png "NTRIP service")
 
