@@ -14,7 +14,8 @@ Welcome to choose D300 series Android rtk receiver!
  | constellation | GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1 | GPS L1,GLO L1,BDS B1,GAL E1 |
  | RTK initial | 10s | 120s |
  
- 
+<br>
+<br>
 <span id="1"></span>
 ## 1.RTK+ service Intro
 
