@@ -1,4 +1,4 @@
-<span style="font-weight:bold;font-size:35px;">Multi-band Android RTK with centimeter accuracy
+<span style="font-weight:bold;font-size:30px;">Multi-band Android RTK with centimeter accuracy
 </span>
 <br>
 ![](images/s-mobile.jpg){:style="width: 350px;"}
