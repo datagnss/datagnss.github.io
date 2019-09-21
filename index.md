@@ -1,6 +1,6 @@
-<p style="font-size:30px;"><strong>Welcome to support center
-</strong>
-</p>
+<span class="markdown-body-normal-header">Welcome to support center
+
+</span>
 <br>
 
 
