@@ -1,6 +1,5 @@
-<p style="font-size:35px;"><strong>Developer Manual
-</strong>
-</p>
+<span id="dev_docs" style="font-weight:bold;font-size:35px;">Developer Manual
+</span>
 <br>
 
 Welcome to choose D300 series Android rtk receiver!
