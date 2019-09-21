@@ -1,4 +1,4 @@
-<span id="dev_docs" style="font-weight:bold;font-size:35px;">Developer Manual
+<span id="dev_docs" class="markdown-body-normal-header">Developer Manual
 </span>
 <br>
 
