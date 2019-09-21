@@ -1,6 +1,6 @@
 
 ## work with EGStar
-<div style="text-aligh:left;">
+<div style="text-aligh:left;box-shadow:10px 5px 5px black;width:600px;">
 <iframe height="315" src="https://www.youtube.com/embed/rufI3hRLJn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
