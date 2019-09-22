@@ -19,6 +19,6 @@
   | Battery | 3200mAh,support full work day |
   | Interface | microusb for power and data |
   | Antenna | SMA connector |
-  | Environment | Operation:-20 to +60,Storage:-30 to +70 |
+  | Environment | Operation:-20 &deg;C to +60&deg;C,Storage:-30&deg;C to +70&deg;C |
   | Weight | 295g |
   
