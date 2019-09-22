@@ -1,6 +1,5 @@
-<p style="font-size:30px;"><strong>Multi-band RTK evaluation kit
-</strong>
-</p>
+<span class="markdown-body-normal-header">Multi-band RTK evaluation kit
+</span>
 <br>
 
 <div style="text-align: left;">

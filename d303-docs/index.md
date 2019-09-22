@@ -55,7 +55,7 @@
   | [![Supersurv](images/youtube.png)&nbsp;Supersurv](common/connect-supersurv/) | [![Survey Master](images/youtube.png)&nbsp;Survey master](common/connect-survey-master/) |
   | [![EGStar](images/youtube.png)&nbsp;EGStar](common/connect-egstar/) | [![tMap](images/youtube.png)&nbsp;tMap](common/connect-tMap/) |
 
-
+  - [Activate Mapit Pro](common/activate-mapit.md)
 
 ### Developer guide
 
