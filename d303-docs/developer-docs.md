@@ -1,7 +1,7 @@
 <span id="dev_docs" class="markdown-body-normal-header">Developer Manual
 </span>
 <br>
-
+<br>
 Welcome to choose D300 series Android RTK receiver!
 
 <div style="text-align:left;"><img src="../images/s-mobile.jpg" width="450"></div>
