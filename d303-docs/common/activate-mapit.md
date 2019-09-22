@@ -5,4 +5,4 @@
 
 Activate code:
 
-![](images/activate_code.jpeg)
+![](images/activate_code.jpeg){: style="width:250px;"}
