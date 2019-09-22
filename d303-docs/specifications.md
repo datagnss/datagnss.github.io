@@ -14,7 +14,7 @@
   | WWAN | 4G LTE,FDD/TDD |
   | Camera | 13MP,rear |
   | Constellation | GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1 |
-  | RTK initial time | 10s |
+  | RTK initial time* | 10s |
   | RTK accuracy | 1cm+1ppm (H),2cm+1ppm (V) |
   | Battery | 3200mAh,support full work day |
   | Interface | microusb for power and data |
@@ -22,3 +22,7 @@
   | Environment | Operation:-20 &deg;C to +60&deg;C,Storage:-30&deg;C to +70&deg;C |
   | Weight | 295g |
   
+  
+<br>
+<br>
+  **depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
