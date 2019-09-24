@@ -2,9 +2,6 @@
 </span>
 <br>
 
-<div style="text-align: left;">
-<img src="images/mini-evk-2.jpg" style="width: 500px;">
-</div>
 
 ### Specifications
 * GPS/QZSS L1/L2/L5,GLONASS L1/L2
