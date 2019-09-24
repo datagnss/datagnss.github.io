@@ -72,11 +72,12 @@ run rtknavi.exe
 <img src="images/rtklib-2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
+<br>
 press "Cmd" button, load cmd from the following cmd file:
 <br>
 [cmds for HD9310](files/9310_5Hz_good.cmd)
 <br>
-
+<br>
 
 <div style="text-align: left;">
 <img src="images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
