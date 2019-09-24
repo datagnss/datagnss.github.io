@@ -146,4 +146,4 @@ the file is transmitting.**
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | test |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8067](firmware/HD9310B.HDBD.GN3.115200.8067.0dcba.190813T1.cyfm) |
-  | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | [L6D/E](firmware/L6/L6.zip) [brief tech documents![](../d303-docs/images/pdf.png)](firmware/L6DE_tech_intro.pdf) |
+  | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | [L6D/E.7992.firmware](firmware/L6/L6.zip) [brief tech documents![](../d303-docs/images/pdf.png)](firmware/L6DE_tech_intro.pdf) |
