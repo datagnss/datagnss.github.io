@@ -3,17 +3,18 @@
 <br>
 
 <div style="text-align: left;">
-<img src="images/rtk-board.jpg" style="width: 300px;">
+<img src="images/mini-evk-2.jpg" style="width: 500px;">
 </div>
 
 ### Specifications
 * GPS/QZSS L1/L2/L5,GLONASS L1/L2
 * BDS B1/B2/B3,GALILEO E1/E5A
-* raw measurement output
+* Raw measurement output
 * RTKLIB-compatible
-* ready for QZSS L6D/E for PPP
+* Ready for QZSS L6D/E for PPP
 * USB-UART interface
-* size: 48mm x 23mm
+* Size: 48mm x 23mm
+* Module on board support 12*16mm and 10*10mm
 
 
 ### Overview
