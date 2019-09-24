@@ -31,6 +31,11 @@ EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
 The power LED indicates the power status. When the module is powered on, the LED is on.
 
 ### Startup with Satrack
+
+<br>
+[Satrack download](firmware/Satrack_client.zip)
+<br>
+
 1) Connect the EVK with the antenna and PC. See Section 3.
 
 2) Launch the Satrack application.
@@ -96,6 +101,10 @@ run rtknavi.exe
 
 ### Firmware updating
 
+<br>
+[Satrack download](firmware/Satrack_client.zip)
+<br>
+
 #### user mode
 1) Connect to the EVK through COM ports.
 
@@ -139,4 +148,4 @@ the file is transmitting.**
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | test |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8067](firmware/HD9310B.HDBD.GN3.115200.8067.0dcba.190813T1.cyfm) |
-  | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | test |
+  | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | [L6D/E](firmware/L6/L6.zip) |
