@@ -11,7 +11,7 @@
 * Ready for QZSS L6D/E for PPP
 * USB-UART interface
 * Size: 48mm x 23mm
-* Module on board support 12*16mm and 10*10mm
+* Module on board support 12x16mm and 10x10mm
 
 
 ### Overview
