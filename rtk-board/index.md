@@ -18,7 +18,7 @@
 
 ### Overview
 <div style="text-align: left;">
-<img src="images/evk-3.jpg" style="width: 550px;">
+<img src="images/evk-3.jpg" style="width: 700px;">
 </div>
 
 ### Antenna connector
