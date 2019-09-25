@@ -52,7 +52,7 @@
   ![](../images/tips.png) First, place your receiver in point A to get rtk fixed and wait about 5-10 seconds for stable solution,then move to point B,then point C slowly.
   in your moving, please keep the antenna to sky to track all gnss satellites continuously.
   
-  You need have a clear sky view about 15 degrees above horizon.
+  You need have a clear sky view about **15 degrees above horizon**.
   ![](images/rtk-place-2.png)
   
   ![](images/rtk-place-3.png)
