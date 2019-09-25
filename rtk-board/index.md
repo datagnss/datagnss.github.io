@@ -24,6 +24,13 @@
  - rates up to 10hz
  
 ### How to buy it?
+
+ | Item | specifications | Bluetooth | Remark | P/N |
+ | :--- | :--- | :--- | :--- | :--- |
+ | Standard | GPS L1/L2,BDS B1/B2,GLO L1/L2 GAL E1 | N | N | MB-00-0 |
+ | with Bluetooth | same as above | Y | N | MB-00-1 |
+ | QZS L6D/E | same as above | N | QZS L6D/E | MB-00-2 |
+ 
 <br>
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
