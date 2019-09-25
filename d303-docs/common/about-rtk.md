@@ -54,4 +54,5 @@
   
   You need have a clear sky view about 15 degrees above horizon.
   ![](images/rtk-place-2.png)
+  
   ![](images/rtk-place-3.png)
