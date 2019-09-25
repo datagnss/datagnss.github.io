@@ -25,13 +25,11 @@
   
   if get the solution like the following:
   
-  ![](images/rtk-float.png)
+  ![](images/rtk-float.png)  ![](images/rtk-fixed.png)
   
-  We call it is rtk float state, the accuracy is uncertain, maybe 1-3m or even worse.
+  We call it is rtk float state, the accuracy is uncertain, maybe 1-3m or even worse.If we get rtk fixed solution(green small rectangle), it means accuracy is less than 1-2cm.
+  
 
-  If we get rtk fixed solution(green small rectangle), it means accuracy is less than 1-2cm.
-  
-  ![](images/rtk-fixed.png)
   
 ### How to place your rtk receiver in your applications
   <br>
