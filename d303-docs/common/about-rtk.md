@@ -11,7 +11,7 @@
 	or CPGPS. It has applications in land survey, hydrographic survey, and in unmanned aerial 
 	vehicle navigation.[1]
 
-  - [WiKiPedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
+  - [Wikipedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
 
 ### Accuracy
 
