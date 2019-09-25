@@ -54,3 +54,9 @@
   ![](images/rtk-place-2.png)
   
   ![](images/rtk-place-3.png)
+  
+  In your data collecting,please keep your device like the following picture:
+  *Keep the device at an angle greater than 45 degrees from the horizon*
+  ![](images/rtk-hold.png)
+  
+  
