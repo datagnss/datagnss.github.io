@@ -29,9 +29,19 @@
   
   We call it is rtk float state, the accuracy is uncertain, maybe 1-3m or even worse.
 
-  If we get rtk fixed(green small rectangle), it means accuracy is less than 1-2cm.
+  If we get rtk fixed solution(green small rectangle), it means accuracy is less than 1-2cm.
   
   ![](images/rtk-fixed.png)
   
+### How to place your rtk receiver in your applications
+  <br>
+  In general, the more satellites received, the faster the RTK initialization time.
   
+  RTK initialization time means the time from rtk float to rtk fixed.
   
+  Therefore, in our actual use, we should try our best to let the device receive more satellite signals.
+  Therefore, the purpose of supporting more satellite systems and supporting multiple frequency signals is also to receive more signals.
+  
+  In the following picture:
+  
+  ![](images/rtk-place-1.png)
