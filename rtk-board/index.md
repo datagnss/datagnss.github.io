@@ -18,6 +18,11 @@
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
+ - output:NMEA-0183 3.x/4.x, RTCM3
+ - Raw data:RTCM3 format(MSM7)
+ - default baud rate:115200 bps
+ 
+ 
 
 ### Antenna connector
 An SMA female jack is available on the side panel of the evaluation unit for connecting an active
