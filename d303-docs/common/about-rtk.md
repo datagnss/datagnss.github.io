@@ -34,9 +34,9 @@
 ### How to place your rtk receiver?
   
   In general, the more satellites received, the faster the RTK initialization time.RTK initialization time means the time from rtk float to rtk fixed.
-  <br>
+<br>
   Therefore, in our actual use, we should try our best to let the device receive more satellite signals.The purpose of supporting more satellite systems and supporting multiple frequency signals is also to receive more signals.
-  <br>
+<br>
   In the following picture:
   
   ![](images/rtk-place-1.png){: style="width:500px;"}
@@ -52,7 +52,7 @@
   
   You need have a clear sky view about **15° above horizon**.
   ![](images/rtk-place-2.png)
-  
+&nbsp;&nbsp;
   ![](images/rtk-place-3.png)
   
   In your operation,please keep your device like the following picture:
