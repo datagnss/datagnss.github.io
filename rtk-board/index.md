@@ -24,8 +24,25 @@
  - rates up to 10hz
  
 ### How to buy it?
+<br>
 
- - [Buy now](https://www.datagnss.com/rtk-evk)
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QLPCR2QAM9DNY">
+<table>
+<tr><td><input type="hidden" name="on0" value="Specification">Specification</td></tr><tr><td><select name="os0">
+	<option value="Standard">Standard $ 215.00 USD</option>
+	<option value="with Bluetooth">with Bluetooth $ 315.00 USD</option>
+	<option value="Support QZS L6D/E">Support QZS L6D/E $ 285.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<br>
  
 
 ### Antenna connector
