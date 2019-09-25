@@ -23,6 +23,9 @@
  - default baud rate:115200 bps
  - rates up to 10hz
  
+### How to buy it?
+
+ - [Buy now](https://www.datagnss.com/rtk-evk)
  
 
 ### Antenna connector
