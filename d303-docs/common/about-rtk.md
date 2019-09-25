@@ -11,11 +11,12 @@
 	or CPGPS. It has applications in land survey, hydrographic survey, and in unmanned aerial 
 	vehicle navigation.[1]
 
-  - [1](https://en.wikipedia.org/wiki/Real-time_kinematic)
+  - [WiKiPedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
 
 ### Accuracy
-  | solution state | accuracy | 
-  | --- | --- |
+
+  | solution state | accuracy |
+  | :--- | :--- |
   | Single position | 5-10m |
   | RTK Float | 1-3m,even worse |
   | RTK Fixed | 1-2cm 99.99% |
