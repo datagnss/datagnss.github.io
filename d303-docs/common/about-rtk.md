@@ -31,7 +31,7 @@
 
   If we get rtk fixed(green small rectangle), it means accuracy is less than 1-2cm.
   
-  ![](images/rtk-fixed)
+  ![](images/rtk-fixed.png)
   
   
   
