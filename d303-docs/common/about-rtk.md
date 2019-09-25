@@ -44,4 +44,8 @@
   
   In the following picture:
   
-  ![](images/rtk-place-1.png)
+  ![](images/rtk-place-1.png){: style="width:500px;"}
+  
+  the better, A > B > C.
+  
+  **Too close to the outer wall of the house, it will block too much satellite signal**
