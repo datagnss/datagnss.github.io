@@ -49,3 +49,8 @@
   the better, A > B > C.
   
   **Too close to the outer wall of the house, it will block too much satellite signal**
+  
+  But if we need survey the point C, **How to do?**
+  
+  ![](../images/tips.jpg) First, place your receiver in point A to get rtk fixed and wait about 5-10 seconds for stable solution,then move to point B,then point C slowly.
+  in your moving, please keep the antenna to sky to track all gnss satellites continuously.
