@@ -30,7 +30,7 @@
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="QLPCR2QAM9DNY">
 <table>
-<tr><td><input type="hidden" name="on0" value="Specification">Specification</td></tr><tr><td><select name="os0">
+<tr><td><input type="hidden" name="on0" value="Specification">Multi-band RTK evk</td></tr><tr><td><select name="os0">
 	<option value="Standard">Standard $ 215.00 USD</option>
 	<option value="with Bluetooth">with Bluetooth $ 315.00 USD</option>
 	<option value="Support QZS L6D/E">Support QZS L6D/E $ 285.00 USD</option>
