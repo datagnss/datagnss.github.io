@@ -26,4 +26,4 @@
   - [![](images/pdf.png)&nbsp;D302/D303 datasheet](download/D30X_DS_EN.pdf)
 <br>
 <br>
-  **depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
+**depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
