@@ -23,7 +23,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   In D300 series receiver,if get the solution like the following:
   
-  ![](images/rtk-float.png)  ![](images/rtk-fixed.png)
+  ![](images/rtk-float.png)
   
   We call it is rtk float state, the accuracy is uncertain, maybe 1-3m or even worse.If we get rtk fixed solution(green small rectangle), it means accuracy is less than 1-2cm.
   
