@@ -9,8 +9,16 @@
 
 ![](images/d303-line-with-intro.png)
 
+![](images/d303-back-line-main.png)
 <br>
 
+### Install battery and SIM card or TF card
+
+  - Screw up back battery cover screw
+  - Remove batter cover
+  - Install SIM card or TF card follow the instructions
+  
+  
 ### Activate Mapit GIS 
  
   - MapIt-GIS application is pre-installed on device for end user. We offer the unlimited license
