@@ -1,5 +1,7 @@
 ## Choose GNSS antenna type
 
+![](images/rover-1.png)
+
 <br>
 For some GIS applications or general data collection, we recommend you choose helix antenna.
 <br>
