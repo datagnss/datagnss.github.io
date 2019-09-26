@@ -61,6 +61,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   First, place your receiver in point A to get rtk fixed and wait about 5-10 seconds for stable solution,then move to point B,then point C slowly.
   
   In your moving, please keep the antenna to sky to track all gnss satellites continuously.
+  ![](images/fixed-moving-fixed.png)
   
   In your operation,please keep your device like the following picture:
   
