@@ -21,9 +21,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   <br><br>
   
-  for D303:
-  
-  if get the solution like the following:
+  In D300 series receiver,if get the solution like the following:
   
   ![](images/rtk-float.png)  ![](images/rtk-fixed.png)
   
@@ -49,11 +47,13 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   **Too close to the outer wall of the house, it will block too much satellite signal**
   
-    You need have a clear sky view about **15° above horizon**.
+  You need have a clear sky view about **15° above horizon**.
   ![](images/rtk-place-2.png)
-&nbsp;&nbsp;
+<br>
   ![](images/rtk-place-3.png)
   
+<br><br>
+
   But if we need survey the point C, **How to do?**
   
   ![](../images/tips.png) First, place your receiver in point A to get rtk fixed and wait about 5-10 seconds for stable solution,then move to point B,then point C slowly.
