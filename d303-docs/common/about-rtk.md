@@ -39,6 +39,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
 
   <br>
 
+#### Open sky environment
   In the following picture:
   
   ![](images/rtk-place-1.png){: style="width:500px;"}
@@ -46,6 +47,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   the better, A > B > C.
   
   **Too close to the outer wall of the house, it will block too much satellite signal**
+  
   
   You need have a clear sky view about **15° above horizon**.
   ![](images/rtk-place-2.png)
@@ -64,6 +66,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   ![](images/fixed-moving.gif)
   
+#### Hold on device
   In your operation,please keep your device like the following picture:
   
   *Keep the device at an angle greater than 45 degrees from the horizon*
