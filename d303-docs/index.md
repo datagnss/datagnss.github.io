@@ -3,7 +3,7 @@
 <br>
 ![](images/s-mobile.jpg){:style="width: 350px;"}
 
-(*Picture:handheld mode,rover rod mode and static mode*)
+<span style="font-size:14px;">(Picture:handheld mode,rover rod mode and static mode)</span>
 
 <br>
 
