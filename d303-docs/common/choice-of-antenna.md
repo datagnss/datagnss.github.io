@@ -4,7 +4,8 @@
 
 ![](images/rover-1.png)
 
-For some GIS applications or general data collection, we recommend you choose helix antenna.
+For some GIS applications or general data collection, we recommend you choose helix antenna.This kind of field application is less demanding on
+precision to a few centimeters.
 
 <br>
 
