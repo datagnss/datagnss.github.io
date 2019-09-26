@@ -11,6 +11,8 @@
   - MapIt-GIS application is pre-installed on device for end user. We offer the unlimited license
   - Open "MapIt GIS" on device, Press "Activate" on splash screen, and then scan the QR code on the D30x-RTK package box. 
   - If the activation process is successful, it will turn off automatically. Re-open MapIt GIS application and you can begin to use the application.
+  
+  [Activate QR code](common/activate-mapit.md)
 
 
 ### RTK operation
