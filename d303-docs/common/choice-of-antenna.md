@@ -2,7 +2,7 @@
 
 <br>
 
-![](images/rover-1.png){:style="width: 550px;"}
+![](images/rover-1.png){:style="width: 600px;"}
 
 For some GIS applications or general data collection, we recommend you choose helix antenna.This kind of field application is less demanding on
 precision to a few centimeters.
