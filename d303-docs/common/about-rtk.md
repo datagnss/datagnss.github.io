@@ -66,10 +66,12 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   ![](images/fixed-moving.gif)
   
-#### Hold on device
-  In your operation,please keep your device like the following picture:
+#### Hold on the device
+
+  For handheld mode,in your job,please keep your device like the following picture:
   
-  *Keep the device at an angle greater than 45° from the horizon*
+  *Hold on the device at an angle greater than 45° from the horizon*
   ![](images/rtk-hold.png)
   
-  
+  For rover rod mode:
+  ![](images/rover-rod.png)
