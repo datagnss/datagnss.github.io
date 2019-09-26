@@ -69,7 +69,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
 #### Hold on device
   In your operation,please keep your device like the following picture:
   
-  *Keep the device at an angle greater than 45 degrees from the horizon*
+  *Keep the device at an angle greater than 45° from the horizon*
   ![](images/rtk-hold.png)
   
   
