@@ -5,6 +5,11 @@
 
   Please follow below quick guides to configure and use the product.
 
+<br>
+
+![](images/d303-line-with-intro.png)
+
+<br>
 
 ### Activate Mapit GIS 
  
