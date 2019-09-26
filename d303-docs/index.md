@@ -15,7 +15,7 @@
 
 ### Datasheet
   - [D303 Specification](specifications.md)
-  - [![](images/pdf.png)&nbsp;D302/D303 Datasheet](download/D30X_DS_EN.pdf)
+
 
 ### Introduction
 

@@ -3,6 +3,7 @@
 <br>
 <br>
 
+
   | Items | Specification |
   | :----- | :----- |
   | OS | Android-Based customized OS |
@@ -22,7 +23,7 @@
   | Environment | Operation:-20 &deg;C to +60&deg;C,Storage:-30&deg;C to +70&deg;C |
   | Weight | 295g |
   
-  
+  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](download/D30X_DS_EN.pdf)
 <br>
 <br>
   **depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
