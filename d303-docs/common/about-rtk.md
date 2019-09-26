@@ -19,6 +19,8 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   | RTK Float | 1-3m,even worse | ![Float](images/float-state.png) |
   | RTK Fixed | 1-2cm 99.99% | ![Fixed](images/fixed-state.png) |
   
+  <br><br>
+  
   for D303:
   
   if get the solution like the following:
@@ -37,7 +39,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   Therefore, in our actual use, we should try our best to let the device receive more satellite signals.The purpose of supporting more satellite systems and supporting multiple frequency signals is also to receive more signals.
 
-  <br>
+  <br><br>
 
   In the following picture:
   
