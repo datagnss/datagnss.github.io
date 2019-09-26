@@ -18,6 +18,10 @@
 
 ## 3.RTK service
  
-  - Enter "RTK+" service from system "Settings". Turn on RTK module, set "CORS/VRS Setting", and then "Start Service" in "RTK service status". 
-  - For further usage help of RTK service, please click “User Manual” in "RTK+" menu in up-right corner.
-  - Any other questions please email to info@datagnss.com
+  - Enter "RTK+" service from system "Settings". 
+  - Switch on RTK module 
+  - Config "CORS/VRS Setting"
+  - "Start Service" 
+  - For further usage help of RTK service, please visit [User manual](d303.md)
+  - Any other questions please visit [Support center](../index.md)  
+  - or send email to info@datagnss.com
