@@ -21,11 +21,11 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   <br>
   
-  In D300 series receiver,if get the solution like the following:
+  In D300 series receiver,the solution like the following:
   
   ![](images/rtk-state.png)
   
-  We call it is rtk float state, the accuracy is uncertain, maybe 1-3m or even worse.If we get rtk fixed solution(green small rectangle), it means accuracy is less than 1-2cm.
+  RTK float state, means the accuracy is uncertain, maybe 1-3m even worse. RTK fixed solution(green small rectangle), means the accuracy is less than 1-2cm.
   
 
   
@@ -61,6 +61,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   First, place your receiver in point A to get rtk fixed and wait about 5-10 seconds for stable solution,then move to point B,then point C slowly.
   
   In your moving, please keep the antenna to sky to track all gnss satellites continuously.
+  
   ![](images/fixed-moving.gif)
   
   In your operation,please keep your device like the following picture:
