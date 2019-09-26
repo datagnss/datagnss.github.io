@@ -74,7 +74,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   For rover rod mode(right image),keep rover antenna at level.
   
-  ![](images/rtk-hold.png)  ![](images/rover-rod.png)
+  ![](images/rover-1.png) 
   
 
 
