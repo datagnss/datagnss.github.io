@@ -5,10 +5,13 @@
 ![](images/rover-1.png)
 
 For some GIS applications or general data collection, we recommend you choose helix antenna.
-<br>
-Helix antenna have no determined phase center,so there is also no so-called instrument height.
 
+<br>
+
+It is difficult to align helix antenna's phase center to the ground point,so there is also no so-called instrument height.
+The unstable grip of the hand may cause an error of about 10-20cm.
 ![](../images/with-helix.jpg "Helix antenna")
+
 <br>
 <br>
 
@@ -16,9 +19,10 @@ Helix antenna have no determined phase center,so there is also no so-called inst
 For land survey applications or some high precision cm-level applications, we recommend you choose
 survey-grade patch antenna.
 
-
 Also patch antenna have a big ground plane to reduce multi-path effect.
+
 <br>
+
 ![](../images/with-patch.jpg "Survey-grade patch antenna")
 <br>
 
