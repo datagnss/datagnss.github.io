@@ -23,6 +23,8 @@
 ### Introduction
 
   - [Learn about RTK ](common/about-rtk.md)
+  
+  - [Quick guide](quick-guide.md)
 
   - [![](images/youtube.png)&nbsp;D302/D303 open box and quick start](common/openbox/)&nbsp; &nbsp; [![](images/youtube.png)&nbsp;D302/D303 do calibration in HK](common/d303-calibration-in-hk/)
   
@@ -30,8 +32,6 @@
 
 ### Operation
 
-  - [Quick guide](quick-guide.md)
-  
   - [Power on receiver](d303.md#1-gnss-module-setting)
   
   - [Prepare for 4G](prepare-for-4G.md)
