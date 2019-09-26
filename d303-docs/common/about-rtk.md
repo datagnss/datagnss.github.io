@@ -13,11 +13,11 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
 
 ### Accuracy
 
-  | solution state | accuracy |
-  | :--- | :--- |
-  | Single position | 5-10m |
-  | RTK Float | 1-3m,even worse |
-  | RTK Fixed | 1-2cm 99.99% |
+  | solution state | accuracy | indicator |
+  | :--- | :--- | --- |
+  | Single position | 5-10m | ![Single](images/single-state.png) |
+  | RTK Float | 1-3m,even worse | ![Float](images/float-state.png) |)
+  | RTK Fixed | 1-2cm 99.99% | ![Fixed](images/fixed-state.png) |
   
   for D303:
   
