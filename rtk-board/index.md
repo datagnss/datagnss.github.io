@@ -25,6 +25,8 @@
  
 ### How to buy it?
 
+  Order no:
+  
  | Item | specifications | Bluetooth | Remark | P/N |
  | :--- | :--- | :--- | :--- | :--- |
  | Standard | GPS L1/L2,BDS B1/B2,GLO L1/L2 GAL E1 | N | N/A | MB-00-0 |
