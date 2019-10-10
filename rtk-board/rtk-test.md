@@ -74,7 +74,7 @@ input your coordinate of base station, then check "Station ID".
 
 you could check if the data is correct via the data monitor.
 
-click the small button left-bottom to open data monitor window.
+click the small button **"Stream Monitor"** to open data monitor window.
 
 ![](images/strsvr-mon.png)
 
