@@ -108,8 +108,10 @@ press "Cmd" button, load cmd from the following cmd file:
 <br>
 <br>
 
+config base station stream:
+
 <div style="text-align: left;">
-<img src="../images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-inpstr2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 
