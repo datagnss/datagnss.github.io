@@ -94,42 +94,42 @@ And also check the coordinate from RTCM1005 is the same one you input.
 **default baud rate:115200 bps**
 
 <div style="text-align: left;">
-<img src="images/rtklib-1.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-1.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <br>
 press "Cmd" button, load cmd from the following cmd file:
 <br>
-[cmds for HD9310](files/9310_5Hz_good.cmd)
+[cmds for HD9310](../files/9310_5Hz_good.cmd)
 <br>
 <br>
 
 <div style="text-align: left;">
-<img src="images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 
 
 3.Config rtk processing options
 <div style="text-align: left;">
-<img src="images/rtklib-4.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-4.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-5.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-5.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 
 4.Do rtk positioning.
 <div style="text-align: left;">
-<img src="images/rtklib-6.png" style="width: 550px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-6.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
 
 <div style="text-align: left;">
-<img src="images/rtklib-7.png" style="width: 650px;border:1px solid rgb(200,200,200);">
+<img src="../images/rtklib-7.png" style="width: 650px;border:1px solid rgb(200,200,200);">
 </div>
 
