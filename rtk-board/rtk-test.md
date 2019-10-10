@@ -25,15 +25,14 @@ or [demo5 version](https://github.com/rtklibexplorer/RTKLIB)
 
 #### Base station setup
 
-1. connect your rtk evk to Laptop via usb port.
+1.connect your rtk evk to Laptop via usb port.
 
-2. The computer will install the usb driver automaticlly if this is the first connection. It will popup a tips tell you finish this setup about 1-3 minutes later.
-
+2.The computer will install the usb driver automaticlly if this is the first connection. It will popup a tips tell you finish this setup about 1-3 minutes later.
 if not, you could download the driver and install it by yourself.  [CP210x driver](files/CP210x_VCP_Windows.rar)
 
-3. Find your com port number like Com3 in device manager or ignore this step.
+3.Find your com port number like Com3 in device manager or ignore this step.
 
-4. run strsvr (a powerful stream utility of rtklib), then choose the input stream type to **"Serial"** , then click opt "...", find com port of the EVK.
+4.run strsvr (a powerful stream utility of rtklib), then choose the input stream type to **"Serial"** , then click opt "...", find com port of the EVK.
 
 ![](images/strsvr.png)
 
@@ -41,20 +40,20 @@ if not, you could download the driver and install it by yourself.  [CP210x drive
 
 Baud rate: **115200**
 
-5. Then click the cmd button (right side of opts button) to load cmds file for EVK.
+5.Then click the cmd button (right side of opts button) to load cmds file for EVK.
 
 ![](images/strsvr-cmds.png)
 
 Please download command files:
 [HD9310-5Hz-GGB.cmd](files/9310_5Hz_good.cmd)
 
-6. Choose the output stream No 1 type to NTRIP server. Then input parameters like the following image:
+6.Choose the output stream No 1 type to NTRIP server. Then input parameters like the following image:
 
 ![](images/strsvr-2.png)
 
 Password: ******** (inqury it by sending email to info@datagnss.com )
 
-7. Then click Conv button in this output stream:
+7.Then click Conv button in this output stream:
 
 check the checkbox of "Conversioning from..."
 
@@ -63,13 +62,13 @@ check the checkbox of "Conversioning from..."
 input Message type:
 1005(5),1077(1),1087(1),1097(1),1127(1)
 
-8. Then click the Options button in the main UI.
+8.Then click the Options button in the main UI.
 
 ![](images/strsvr-opts.png)
 
 input your coordinate of base station, then check "Station ID".
 
-9. Now,you could press start button to begin uploading base station's raw data to NTRIP caster.
+9.Now,you could press start button to begin uploading base station's raw data to NTRIP caster.
 
 you could check if the data is correct via the data monitor.
 
