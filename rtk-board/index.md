@@ -22,6 +22,10 @@
  - raw data:RTCM3 format(MSM7)
  - default baud rate:115200 bps
  - rates up to 10hz
+
+### Operate RTK with rtklib
+
+[quick guide](rtk-test.md)
  
 ### How to buy it?
 
@@ -68,68 +72,6 @@ strength, as well as satellite constellation.
 
 <div style="text-align: left;">
 <img src="images/satrack.jpg" style="width: 450px;">
-</div>
-
-
-
-### First RTK fixed in RTKLIB
-
-[Operations of field test](rtk-test.md)
-
-
-Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3/bin)
-(current version:2.4.3B33)
-
-or [demo5 version](https://github.com/rtklibexplorer/RTKLIB) 
-
-
-run rtknavi.exe
-
-
-#### Config Input Stream 
-
-**output raw data format:RTCM3**
-
-**default baud rate:115200 bps**
-
-<div style="text-align: left;">
-<img src="images/rtklib-1.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-<div style="text-align: left;">
-<img src="images/rtklib-2.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-<br>
-press "Cmd" button, load cmd from the following cmd file:
-<br>
-[cmds for HD9310](files/9310_5Hz_good.cmd)
-<br>
-<br>
-
-<div style="text-align: left;">
-<img src="images/rtklib-3.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-
-
-#### Config rtk processing options
-<div style="text-align: left;">
-<img src="images/rtklib-4.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-<div style="text-align: left;">
-<img src="images/rtklib-5.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-
-#### Do rtk positioning.
-<div style="text-align: left;">
-<img src="images/rtklib-6.png" style="width: 550px;border:1px solid rgb(200,200,200);">
-</div>
-
-<div style="text-align: left;">
-<img src="images/rtklib-7.png" style="width: 650px;border:1px solid rgb(200,200,200);">
 </div>
 
 
