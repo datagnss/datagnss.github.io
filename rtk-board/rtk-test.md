@@ -51,6 +51,8 @@ Please download command files:
 
 ![](images/strsvr-2.png)
 
+You could input the mountpoint whatever you want, but the best is it is a special string for you.
+
 Password: ******** (inqury it by sending email to info@datagnss.com )
 
 7.Then click Conv button in this output stream:
