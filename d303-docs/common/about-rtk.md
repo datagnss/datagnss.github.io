@@ -29,7 +29,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
 
   
-### How to place your rtk receiver?
+### Where to place your rtk receiver?
   
   In general, the more satellites received, the faster the RTK initialization time.RTK initialization time means the time from rtk float to rtk fixed.
   
