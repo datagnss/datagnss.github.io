@@ -49,7 +49,7 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   **Too close to the outer wall of the house, it will block too much satellite signal**
   
   
-  You need have a clear sky view about **15° above horizon**.
+  You need to have a clear sky view about **15° above horizon**.
   ![](images/rtk-place-2.png)
   
 <br>
