@@ -15,7 +15,7 @@ station to provide real-time corrections, providing up to centimetre-level accur
 * Base station receiver(public service or owned)
 * Rover station receiver
 * Data link (Internet or radio communication) [More...](../../common/free-ntrip-service/)
-* GNSS Antenna
+* GNSS Antenna [How to choose antenna?](../choice-of-antenna)
 
 ### Accuracy
 
