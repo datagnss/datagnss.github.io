@@ -21,9 +21,9 @@ station to provide real-time corrections, providing up to centimetre-level accur
 
   | solution state | accuracy | indicator |
   | :--- | :--- | --- |
-  | Single position | 5-10m | ![Single](images/single-state.png) |
-  | RTK Float | 1-3m,even worse | ![Float](images/float-state.png) |
-  | RTK Fixed | 1-2cm 99.99% | ![Fixed](images/fixed-state.png) |
+  | Single position | 5-10m | ![Single](images/single-state.png){: style="width:10px;"} |
+  | RTK Float | 1-3m,even worse | ![Float](images/float-state.png){: style="width:10px;"} |
+  | RTK Fixed | 1-2cm 99.99% | ![Fixed](images/fixed-state.png){: style="width:10px;"} |
   
   <br>
   
