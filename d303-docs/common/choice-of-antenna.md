@@ -16,11 +16,10 @@ It is difficult to align helix antenna's phase center to the ground point,so the
 The unstable grip of the hand may cause an error of about 10-20cm.
 ![](../images/with-helix.jpg "Helix antenna")
 
-<br>
-<br>
-
 **Helix antenna is with much more multi-path effect which will greatly reduce the quality of the raw data, thus affecting the accuracy of rtk**
 
+<br>
+<br>
 For land survey applications or some high precision cm-level applications, we recommend you choose
 survey-grade patch antenna.
 
