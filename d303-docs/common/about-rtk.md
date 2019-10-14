@@ -11,6 +11,13 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
 
   - [Wikipedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
 
+### Requirement
+
+* Base station receiver(public service or owned)
+* Rover station receiver
+* Data link (Internet or radio communication) 
+* GNSS Antenna
+
 ### Accuracy
 
   | solution state | accuracy | indicator |
