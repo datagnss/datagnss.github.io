@@ -8,7 +8,7 @@
 measurements of the phase of the signal's carrier wave in addition to the information content of the signal and relies on a single reference station or interpolated virtual 
 station to provide real-time corrections, providing up to centimetre-level accuracy. 
 
-  - [Wikipedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
+  [1][Wikipedia:RTK](https://en.wikipedia.org/wiki/Real-time_kinematic)
 
 ### Requirement
 
