@@ -25,7 +25,7 @@
 
 ### Operate RTK with rtklib
 
-[quick guide](rtk-test.md)
+[**Quick Guide**](rtk-test.md)
  
 ### How to buy it?
 
