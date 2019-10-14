@@ -25,9 +25,9 @@ or CPGPS. It has applications in land survey, hydrographic survey, and in unmann
   
   ![](images/rtk-state.png)
   
-  RTK float state, means the accuracy is uncertain, maybe 1-3m even worse. 
+  RTK float state means the accuracy is uncertain, maybe 1-3m even worse. 
   
-  RTK fixed solution(green small rectangle), means the accuracy is less than 1-2cm.
+  RTK fixed state means the accuracy is less than 1-2cm.
   
 
   
