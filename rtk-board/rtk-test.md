@@ -19,7 +19,7 @@ Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakas
 
 or [demo5 version](https://github.com/rtklibexplorer/RTKLIB) 
 
-*This version has some special feature for low cost RTK module or chipset*
+*This version has some special feature for low cost RTK receiver*
 
 ### Operations
 
