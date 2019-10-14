@@ -30,7 +30,7 @@ github_username: datagnss
 navs:
   -
     href: https://www.datagnss.com/
-    label: Home
+    label: HOME
 
   -
     href: https://www.datagnss.com/d303-rtk/
@@ -46,11 +46,11 @@ navs:
 
   -
     href: https://docs.datagnss.com
-    label: Support
+    label: SUPPORT
 
   -
     href: https://www.datagnss.com/contact-online-form/
-    label: Contact
+    label: CONTACT
 
     
 # ---------------- #
