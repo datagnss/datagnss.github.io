@@ -25,6 +25,8 @@ or [demo5 version](https://github.com/rtklibexplorer/RTKLIB)
 
 #### Base station setup
 
+Related link: [Where to place your receiver](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
+
 1.Connect your rtk evk to Laptop via usb port.
 
 <br>
