@@ -164,8 +164,8 @@
     display: inline-block;
     padding: 6px 5px 5px;
     margin-left: 1.25rem;
-    font-family: Abel;
-    font-size: 12px;
+    font-family: 'Abel',sans-serif;
+    font-size: 14px;
     font-weight:normal;
     color:#ccc
 }
