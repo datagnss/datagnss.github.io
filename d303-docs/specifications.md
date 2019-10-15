@@ -5,7 +5,7 @@
 
 
   | Items | D303 | D302 |
-  | :----- | :----- | :---- |
+  | :----- | :----- | :----: |
   | OS | Android-Based customized OS | - |
   | CPU | quad core,1.3GHz | - |
   | RAM+Storage | 2+16GB | - |
