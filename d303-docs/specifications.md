@@ -14,8 +14,8 @@
   | Wireless | WiFi a/b/g/n,Bluetooth 4.1 | - |
   | WWAN | 4G LTE,FDD/TDD | - |
   | Camera | 13MP, Rear | - |
-  | Constellation | GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1 | L1/G1/E1/B1 |
-  | RTK initial time* | 10s | 120s |
+  | Constellation | Multi-band, Multi-constellation<sup>[1]</sup> | <sup>[2]</sup>Single frequency |
+  | RTK initial<sup>[2]</sup> | 10s | 120s |
   | RTK accuracy | 1cm+1ppm (H),2cm+1ppm (V) | - |
   | Battery | 3200mAh,support full work day | - |
   | Interface | microusb for power and data | - |
@@ -26,4 +26,6 @@
   - [![](images/pdf.png)&nbsp;D302/D303 datasheet](download/D30X_DS_EN.pdf)
 <br>
 <br>
-**depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
+*[1]GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1*
+*[2]Support GPS+GLO+GAL or GPS+BDS+GAL*
+*[3]depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
