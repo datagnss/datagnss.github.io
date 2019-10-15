@@ -6,10 +6,10 @@
 
   | Items | D303 | D302 |
   | :----- | :----- | :----: |
-  | OS | Android-Based customized OS | - |
-  | CPU | quad core,1.3GHz | - |
+  | OS | Android-Based OS | - |
+  | CPU | Quad core,1.3GHz | - |
   | RAM+Storage | 2+16GB | - |
-  | Display | 5" 1280*720 | - |
+  | Display | 5", 1280*720 | - |
   | Touch Panel | Capacitive | - |
   | Wireless | WiFi a/b/g/n,Bluetooth 4.1 | - |
   | WWAN | 4G LTE,FDD/TDD | - |
