@@ -26,6 +26,7 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 #### Base station setup
 
 ![Tips](../../d303-docs/images/tips.png)
+
 **Related link**: [Where to place your receiver?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
 
 <br>
