@@ -33,8 +33,10 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 1.Connect your RTK EVK to Laptop via usb port.
 
 <br>
-2.The computer will install the usb driver automaticlly if this is the first connection. It will popup a tips tell you finish this setup about 1-3 minutes later.
-if not, you could download the driver and install it by yourself.  [CP210x driver](files/CP210x_VCP_Windows.rar)
+2.The computer will install the usb driver automaticlly if this is the first connection.  
+It will popup a tips tell you finish this setup about 1-3 minutes later.  
+if not, you could download the driver and install it by yourself.  
+[CP210x driver](files/CP210x_VCP_Windows.rar)
 
 <br>
 3.Find your com port number like Com3 in device manager or ignore this step.

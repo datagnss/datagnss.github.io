@@ -128,4 +128,4 @@ the file is transmitting.**
   | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | [notes![](../d303-docs/images/pdf.png)](firmware/L6/L6DE_tech_intro.pdf) |
 
 
-*[1]IF you need the firmware for other options, please contact info@datagnss.com*
+*[1]IF you need the firmware for other options, please contact <info@datagnss.com>*
