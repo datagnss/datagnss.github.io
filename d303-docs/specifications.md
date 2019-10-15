@@ -14,13 +14,13 @@
   | Wireless | WiFi a/b/g/n,Bluetooth 4.1 | - |
   | WWAN | 4G LTE,FDD/TDD | - |
   | Camera | 13MP, Rear | - |
-  | Constellation | Multi-band, <br>Multi-constellation<sup>[1]</sup> | <sup>[2]</sup>Single frequency |
+  | Constellation | GPS/QZSS L1/L2,BDS B1/B2,<br>GLO L1/L2,GAL E1<sup>[1]</sup> | <sup>[2]</sup>Single frequency |
   | RTK initial<sup>[3]</sup> | 10s | 120s |
-  | RTK accuracy | 1cm+1ppm(H),2cm+1ppm(V) | 2cm+1ppm(H),5cm+1ppm(V) |
+  | RTK accuracy | 1cm+1ppm(H),<br>2cm+1ppm(V) | 2cm+1ppm(H),<br>5cm+1ppm(V) |
   | Battery | 3200mAh | - |
   | Interface | microusb for power and data | - |
   | Antenna | SMA connector | - |
-  | Environment | Operation:-20 &deg;C to +60&deg;C | - |
+  | Environment | Operation:-20 &deg;C to +60&deg;C <br>Storage:-30 &deg;C to +70&deg;C| - |
   | Waterproof | IP65 | - |
   | Drop Test | 1.2m to concrete floor | - |
   | Weight | 295g | - |
