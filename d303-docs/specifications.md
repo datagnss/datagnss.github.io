@@ -27,5 +27,5 @@
 <br>
 <br>
 *[1]GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1*
-*[2]Support GPS+GLO+GAL or GPS+BDS+GAL*
+*[2]GPS+GLO+GAL or GPS+BDS+GAL*
 *[3]depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
