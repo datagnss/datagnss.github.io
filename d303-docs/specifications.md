@@ -16,7 +16,7 @@
   | Camera | 13MP, Rear | - |
   | Constellation | Multi-band, Multi-constellation<sup>[1]</sup> | <sup>[2]</sup>Single frequency |
   | RTK initial<sup>[3]</sup> | 10s | 120s |
-  | RTK accuracy | 1cm+1ppm (H),2cm+1ppm (V) | 2cm+1ppm (H),5cm+1ppm (V) |
+  | RTK accuracy | 1cm+1ppm(H),2cm+1ppm(V) | 2cm+1ppm(H),5cm+1ppm(V) |
   | Battery | 3200mAh,support full work day | - |
   | Interface | microusb for power and data | - |
   | Antenna | SMA connector | - |
