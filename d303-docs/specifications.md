@@ -32,8 +32,8 @@
 <br>
 <br>
 
-*[1]GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1*
+*[1]This is Option B,also support Option A and Option C [More...](../../rtk-board)*
 
-*[2]GPS+GLO+GAL or GPS+BDS+GAL*
+*[2]GPS L1/GLO L1OF/GAL E1 or GPS L1/BDS B1/GAL E1*
 
-*[3]depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
+*[3]Depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
