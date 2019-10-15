@@ -20,12 +20,14 @@
   | Battery | 3200mAh,support full work day | - |
   | Interface | microusb for power and data | - |
   | Antenna | SMA connector | - |
-  | Environment | Operation:-20 &deg;C to +60&deg;C,Storage:-30&deg;C to +70&deg;C | - |
+  | Environment | Operation:-20 &deg;C to +60&deg;C | - |
   | Weight | 295g | - |
   
   - [![](images/pdf.png)&nbsp;D302/D303 datasheet](download/D30X_DS_EN.pdf)
+
 <br>
 <br>
+
 *[1]GPS/QZSS L1/L2,BDS B1/B2,GLO L1/L2,GAL E1*
 
 *[2]GPS+GLO+GAL or GPS+BDS+GAL*
