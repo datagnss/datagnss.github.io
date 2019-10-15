@@ -14,7 +14,7 @@
 * Module on board support 12x16mm and 10x10mm
 
 
-### Overview
+### 1.Overview
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
@@ -23,16 +23,16 @@
  - default baud rate:115200 bps
  - rates up to 10hz
 
-### Operate RTK with rtklib
+### 2.Operate RTK with rtklib
 
 [**Quick Guide**](rtk-test.md)
  
-### How to buy it?
+### 3.How to buy it?
 
   Order no:
   
  | Item | specifications | Bluetooth | P/N |
- | :--- | :--- | :--- | :--- |
+ | :--- | :--- | :---: | :---: |
  | Standard RTK | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2 GAL E1 | N | ME-00-00 |
  | Bluetooth <br>RTK receiver | same as above | Y | ME-BT-01 |
  | with QZS L6D/E | GPS/QZS L1/L6,BDS B1/B3I,<br>GLO L1OF,GAL E1/E6 | N | ME-00-02 |
@@ -45,22 +45,22 @@
 <br>
  
 
-### Antenna connector
+### 4.Antenna connector
 An SMA female jack is available on the side panel of the evaluation unit for connecting an active
 or passive antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the
 power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and
 EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
 
-### Power status
+### 5.Power status
 The power LED indicates the power status. When the module is powered on, the LED is on.
 
-### Startup with Satrack
+### 6.Startup with Satrack
 
 <br>
 [Satrack download![](../images/zip.png)](firmware/Satrack_client.zip)
 <br>
 
-1) Connect the EVK with the antenna and PC. See Section 3.
+1) Connect the EVK with the antenna and PC. 
 
 2) Launch the Satrack application.
 
@@ -76,13 +76,13 @@ strength, as well as satellite constellation.
 
 
 
-### Firmware updating
+### 7.Firmware updating
 
 <br>
 [Satrack download![](../images/zip.png)](firmware/Satrack_client.zip)
 <br>
 
-#### user mode
+#### 7.1 user mode
 1) Connect to the EVK through COM ports.
 
 2) Select “HD User Update” from the tool bar, and the file choosing dialog will be shown.
@@ -93,7 +93,7 @@ strength, as well as satellite constellation.
 <img src="images/usermode.jpg" style="width: 450px;">
 </div>
 
-#### boot mode
+#### 7.2 boot mode
 1) Connect to the EVK through COM ports.
 
 2) Use the PRRSTX and PRTRG buttons to set the module to enter Boot mode.
@@ -119,10 +119,12 @@ updating finishes.
 the file is transmitting.** 
 
 
-### Download the latest firmware 
+### 8.Download the latest firmware<sup>[1]</sup> 
 
   | Item | GNSS options | firmware |
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | / |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8067](firmware/HD9310B.HDBD.GN3.115200.8067.0dcba.190813T1.cyfm) |
   | Option C | GPS/QZSS L1/L2/L6,GLO L1,BDS B1/B3I | [notes![](../d303-docs/images/pdf.png)](firmware/L6/L6DE_tech_intro.pdf) |
+
+*[1]IF you need the firmware for other options, please contact info@datagnss.com*
