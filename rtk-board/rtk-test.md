@@ -8,14 +8,14 @@
 ### Requirement
 
 #### Hardware
-* rtk evk *2
+* RTK EVK *2
 * GNSS antenna*2
-* micro USB cable*2
-* RF cable*2
+* USB cable*2
+* GNSS antenna cable
 
 #### Software
 Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3/bin)
-(current version:2.4.3B33)
+(current version : 2.4.3B33)
 
 or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB) 
 
@@ -25,6 +25,7 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 
 #### Base station setup
 
+<br>
 ![Tips](../../d303-docs/images/tips.png)
 [Where to place your receiver?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
 
