@@ -17,9 +17,9 @@
 Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3/bin)
 (current version:2.4.3B33)
 
-or [demo5 version](https://github.com/rtklibexplorer/RTKLIB) 
+or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB) 
 
-*This version has some special feature for low cost RTK receiver*
+*[1]This version has some special feature for low cost RTK receiver*
 
 ### Operations
 
