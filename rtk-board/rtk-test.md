@@ -26,11 +26,10 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 #### Base station setup
 
 ![Tips](../../d303-docs/images/tips.png)
-<br>
 [Where to place your receiver?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
 
 <br>
-1.Connect your rtk evk to Laptop via usb port.
+1.Connect your RTK EVK to Laptop via usb port.
 
 <br>
 2.The computer will install the usb driver automaticlly if this is the first connection. It will popup a tips tell you finish this setup about 1-3 minutes later.
