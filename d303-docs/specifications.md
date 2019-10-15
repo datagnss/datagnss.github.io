@@ -36,4 +36,4 @@
 
 *[2]GPS L1/GLO L1OF/GAL E1 or GPS L1/BDS B1/GAL E1*
 
-*[3]Depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 12*
+*[3]Depend on sv number and PDOP, test in the condition of GPS and BDS, the total sv is more than 18*
