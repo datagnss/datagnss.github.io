@@ -33,9 +33,9 @@
   
  | Item | specifications | Bluetooth | Remark | P/N |
  | :--- | :--- | :--- | :--- | :--- |
- | Standard | GPS L1/L2,BDS B1/B2,GLO L1/L2 GAL E1 | N | N/A | MB-00-0 |
- | with Bluetooth | same as above | Y | N/A | MB-00-1 |
- | QZS L6D/E | GPS L1,QZS L1/L6,BDS B1/B3I,GLO L1OF,GAL E1/E6 | N | QZS L6D/E | MB-00-2 |
+ | Standard RTK | GPS L1/L2,BDS B1/B2,GLO L1/L2 GAL E1 | N | N/A | ME-00-00 |
+ | Bluetooth RTK receiver | same as above | Y | N/A | ME-BT-01 |
+ | Standard with QZS L6D/E | GPS L1,QZS L1/L6,BDS B1/B3I,GLO L1OF,GAL E1/E6 | N | QZS L6D/E | ME-00-02 |
  
 <br>
 
