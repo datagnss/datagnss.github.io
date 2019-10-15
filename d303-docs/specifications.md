@@ -32,7 +32,7 @@
 <br>
 <br>
 
-*[1]This is Option B,also support Option A and Option C [More...](../../rtk-board)*
+*[1]This is Option B,also support Option A and Option C [More...](../../rtk-board/#download-the-latest-firmware)*
 
 *[2]GPS L1/GLO L1OF/GAL E1 or GPS L1/BDS B1/GAL E1*
 
