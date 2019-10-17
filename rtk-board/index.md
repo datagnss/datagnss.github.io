@@ -95,7 +95,8 @@ strength, as well as satellite constellation.
 
 #### 7.2 boot mode
 
-**Boot mode is only used if the upgrade fails in user mode.**
+***Boot mode is only used if the upgrade fails in user mode.***  
+
 
 1) Connect to the EVK through COM ports.
 
