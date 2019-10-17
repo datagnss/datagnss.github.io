@@ -12,9 +12,9 @@
   - D300 series RTK receiver
   - Power adapter
   - USB cable
-  - GNSS Antenna cable(1.5m)
+  - RF cable
   - Battery,3200mAH
-  - Survey-grade Antenna/Helix Antenna
+  - GNSS Antenna
 
 ### Datasheet
   - [D303 Specification](specifications.md)
