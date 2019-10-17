@@ -27,9 +27,9 @@
 
 [**Quick Guide**](rtk-test.md)
  
-### 3.How to buy it?
+### 3.Order 
 
-  Order no:
+  Order No.:
   
  | Item | specifications | Bluetooth | P/N |
  | :--- | :--- | :---: | :---: |
@@ -39,7 +39,6 @@
  
 <br>
 
- [![](images/buy-now.jpg)](https://www.datagnss.com/rtk-evk/)
 
 
 <br>
