@@ -94,6 +94,9 @@ strength, as well as satellite constellation.
 </div>
 
 #### 7.2 boot mode
+
+**Boot mode is only used if the upgrade fails in user mode.**
+
 1) Connect to the EVK through COM ports.
 
 2) Use the PRRSTX and PRTRG buttons to set the module to enter Boot mode.
