@@ -126,8 +126,8 @@ the file is transmitting.**
 
   | Item | GNSS options | firmware |
   | ----- | :----- | :----- |
-  | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | [HD9310A.8067](firmware/HD9310A.HDBD.GN3.115200.8067.0dcba.190813T1.cyfm) |
-  | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8067](firmware/HD9310B.HDBD.GN3.115200.8067.0dcba.190813T1.cyfm) |
+  | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | [HD9310A.8226](firmware/HD9310A.HDBD.GN3.115200.8226.ec7e2.191014T1.cyfm) |
+  | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8226](firmware/HD9310B.HDBD.GN3.115200.8226.ec7e2.191012T1.cyfm) |
   | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| / |
 
 
