@@ -27,6 +27,10 @@
 ### 2.Operate RTK with rtklib
 
 [**Quick Guide**](rtk-test.md)
+
+
+<br>
+<br>
  
 ### 3.Order 
 
@@ -46,9 +50,9 @@
  
 
 ### 4.Antenna connector
-An SMA female jack is available on the side panel of the evaluation unit for connecting an active
-or passive antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the
-power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and
+An SMA female jack is available on the side panel of the evaluation unit for connecting an active  
+or passive antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the  
+power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and  
 EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
 
 ### 5.Power status
