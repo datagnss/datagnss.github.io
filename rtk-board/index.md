@@ -22,12 +22,7 @@
  - raw data:RTCM3 format(MSM7)
  - default baud rate:115200 bps
  - rates up to 10hz
-<br>
- <span>Applications</span>
- <br>
- <div style="text-align: left;">
-<img src="images/applications.png" style="width: 650px;">
-</div>
+
  
 ### 2.Operate RTK with rtklib
 
