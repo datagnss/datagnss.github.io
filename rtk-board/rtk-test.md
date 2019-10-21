@@ -27,7 +27,7 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
-[Where to place your receiver?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
+[Where to place your receiver in field?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver)
 
 <br>
 1.Connect your RTK EVK to Laptop via usb port.
