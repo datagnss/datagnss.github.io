@@ -38,7 +38,7 @@ station to provide real-time corrections, providing up to centimetre-level accur
   
 
   
-### Where to place your rtk receiver?
+### Where to place your rtk receiver in field?
   
   In general, the more satellites received, the faster the RTK initialization time.RTK initialization time means the time from rtk float to rtk fixed.
   
