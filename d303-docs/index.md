@@ -47,7 +47,7 @@
   
   - [Convert raw data to rinex format](d303.md#52-how-to-convert-raw-data-to-rinex-format-file)
 
-  - [Do PPP solution](d303.md#53-how-to-post-process-raw-data)
+  - [PPK solution](d303.md#53-how-to-post-process-raw-data)
   
   - [Free data stream service(NTRIP)](common/free-ntrip-service.md)
 
