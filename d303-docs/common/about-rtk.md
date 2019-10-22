@@ -88,4 +88,4 @@ station to provide real-time corrections, providing up to centimetre-level accur
 
 #### Related link
 
- - [Lear about RTK in field test with RTK-evaluation-kit](../../rtk-board/rtk-test/) 
+ - [Lear about RTK in field test with RTK-evaluation-kit](../../../rtk-board/rtk-test/) 
