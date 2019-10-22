@@ -33,20 +33,20 @@ navs:
     label: HOME
 
   -
-    href: https://www.datagnss.com/d303-rtk/
+    href: https://www.datagnss.com/products/android-rtk/
     label: D303
 
   -
-    href: https://www.datagnss.com/handheld-rtk/
+    href: https://www.datagnss.com/products/single-freq-android-rtk-receiver
     label: D302
 
   -
-    href: https://www.datagnss.com/rtk-evk/
+    href: https://www.datagnss.com/products/multi-band-rtk-evk
     label: RTK EVK
 
   -
-    href: https://docs.datagnss.com
-    label: SUPPORT
+    href: https://store.datagnss.com
+    label: STORE
 
   -
     href: https://www.datagnss.com/pages/contact-us

@@ -1,4 +1,4 @@
-<span class="markdown-body-normal-header">Multi-band Android RTK with centimeter accuracy
+<span class="markdown-body-normal-header">Multi-band Android RTK with cm accuracy
 </span>
 <br>
 ![](images/s-mobile.jpg){:style="width: 350px;"}
@@ -13,7 +13,7 @@
   - Power adapter
   - USB cable
   - RF cable
-  - Battery,3200mAH
+  - Battery,3200mAh
   - GNSS Antenna
 
 ### Datasheet
@@ -47,11 +47,13 @@
   
   - [Convert raw data to rinex format](d303.md#52-how-to-convert-raw-data-to-rinex-format-file)
 
-  - [Do PPP solution](d303.md#53-how-to-post-process-raw-data)
+  - [PPK solution](d303.md#53-how-to-post-process-raw-datappk)
   
   - [Free data stream service(NTRIP)](common/free-ntrip-service.md)
 
   - [User manual](d303.md)
+  
+  - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](common/mapit/)
 
 ### Other software
 
