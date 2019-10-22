@@ -86,6 +86,16 @@ strength, as well as satellite constellation.
 [Satrack download![](../images/zip.png)](firmware/Satrack_client.zip)
 <br>
 
+Find out current version:
+
+"View"-"HD Messages"
+
+![](images/msg-view.png)
+
+![](images/cfg-mon-ver.png)
+
+![](images/ver.png)
+
 #### 7.1 user mode
 1) Connect to the EVK through COM ports.
 
@@ -129,7 +139,7 @@ the file is transmitting.**
 
 ### 8.Download the latest firmware<sup>[1]</sup> 
 
-  | Item | GNSS options | firmware |
+  | Item | GNSS options | firmware<sup>[2]</sup> |
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | [HD9310A.8226](firmware/HD9310A.HDBD.GN3.115200.8226.ec7e2.191014T1.cyfm) |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1/E5b | [HD9310B.8226](firmware/HD9310B.HDBD.GN3.115200.8226.ec7e2.191012T1.cyfm) |
@@ -137,3 +147,4 @@ the file is transmitting.**
 
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
+*[2]This version is released on Oct.16.2019*
