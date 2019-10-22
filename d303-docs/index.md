@@ -52,6 +52,8 @@
   - [Free data stream service(NTRIP)](common/free-ntrip-service.md)
 
   - [User manual](d303.md)
+  
+  - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](mapit.md)
 
 ### Other software
 
