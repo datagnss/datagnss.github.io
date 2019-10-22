@@ -1,4 +1,4 @@
-<span class="markdown-body-normal-header">Multi-band Android RTK with centimeter accuracy
+<span class="markdown-body-normal-header">Multi-band Android RTK with cm accuracy
 </span>
 <br>
 ![](images/s-mobile.jpg){:style="width: 350px;"}
