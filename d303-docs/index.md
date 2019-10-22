@@ -13,7 +13,7 @@
   - Power adapter
   - USB cable
   - RF cable
-  - Battery,3200mAH
+  - Battery,3200mAh
   - GNSS Antenna
 
 ### Datasheet
