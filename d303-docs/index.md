@@ -53,7 +53,7 @@
 
   - [User manual](d303.md)
   
-  - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](mapit.md)
+  - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](common/mapit.md)
 
 ### Other software
 
