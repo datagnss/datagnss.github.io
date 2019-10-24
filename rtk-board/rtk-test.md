@@ -13,6 +13,10 @@
 * USB cable*2
 * GNSS antenna cable
 
+<br>
+![Tips](../../d303-docs/images/tips.png)
+[How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
+
 #### Software
 Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3/bin)
 (current version : 2.4.3B33)
