@@ -147,4 +147,5 @@ the file is transmitting.**
 
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
+
 *[2]This version is released on Oct.16.2019*
