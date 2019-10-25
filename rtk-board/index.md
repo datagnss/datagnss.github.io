@@ -44,7 +44,7 @@
  
 <br>
 
-[![](images/buy-now.jpg)](https://www.datagnss.com/products/multi-band-rtk-evk)
+<a href="https://www.datagnss.com/products/multi-band-rtk-evk" target="_blank"><img src="images/buy-now.jpg"></a>
 
 <br>
  
