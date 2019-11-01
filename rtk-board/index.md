@@ -163,6 +163,8 @@ Menu "View"--"Messages"
   
   ![](images/calculator.png)
   
+  **above picture is screenshot of Calculator**
+  
   
 ### 8.Download the latest firmware<sup>[1]</sup> 
 
