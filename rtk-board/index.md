@@ -137,7 +137,7 @@ updating finishes.
 the file is transmitting.** 
 
 
-### Disable specific message output
+### 8.Disable specific message output
 
 Menu "View"--"Messages"
 
@@ -166,7 +166,7 @@ Menu "View"--"Messages"
   **above picture is screenshot of Calculator**
   
   
-### 8.Download the latest firmware<sup>[1]</sup> 
+### 9.Download the latest firmware<sup>[1]</sup> 
 
   | Item | GNSS options | firmware<sup>[2]</sup> |
   | ----- | :----- | :----- |
