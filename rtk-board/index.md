@@ -137,13 +137,13 @@ updating finishes.
 the file is transmitting.** 
 
 
-### 8.Disable specific message output
+### 8.Enable/Disable specific message output
 
 Menu "View"--"Messages"
 
 ![](images/disable-msg.png)
 
-| Class ID | MSG ID | Class ID | MSG ID |
+| ID | Class ID | MSG ID | ID | Class ID | MSG ID |
   | ----- | :----- | :----- | :----- |
   | GGA | F0 | 00 | RTCM1005 | F8 | 05 |
   | GLL | F0 | 00 | RTCM1019 | F8 | 13 |
