@@ -158,8 +158,10 @@ Menu "View"--"Messages"
   1. set 1087 period to 0  
   2. then set 1085 period to 1.  
   
-  For,RTCM1085,msg id is 85(dec), to hex is 55.
-  So RTCM1085,Class ID is F8, and msg id is 55.
+  For,RTCM1085,msg id is 85(dec), to hex is 55.  
+  So RTCM1085,Class ID is F8, and msg id is 55.  
+  
+  ![](images/calculator.png)
   
   
 ### 8.Download the latest firmware<sup>[1]</sup> 
