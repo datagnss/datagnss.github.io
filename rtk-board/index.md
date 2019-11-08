@@ -64,6 +64,7 @@ An SMA female jack is available on the side panel of the evaluation unit for con
 
 <a href="https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk" target="_blank">AT400 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK</a>
 
+[![](images/antenna-1.png)](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk)
 
 ### 5.Power status
 The power LED indicates the power status. When the module is powered on, the LED is on.
