@@ -52,7 +52,7 @@
 
 ### 4.Antenna 
 An SMA female jack is available on the side panel of the evaluation unit for connecting an active  
-or passive antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the  
+antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the  
 power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and  
 EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
 
