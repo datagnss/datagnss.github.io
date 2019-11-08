@@ -23,7 +23,9 @@
  - output:NMEA-0183, RTCM3
  - raw data:RTCM3 format(MSM7)
  - default baud rate:115200 bps
- - rates up to 10hz
+ - max output rates up to 10Hz<sup>[1]</sup>
+ 
+[1]Recommend output rates : 5Hz
 
  
 ### 2.Operate RTK with rtklib
