@@ -4,25 +4,29 @@
 
 <br>
 <br>
-* GPS/QZSS L1/L2/L5,GLONASS L1/L2
-* BDS B1/B2/B3,GALILEO E1/E5A
-* Raw measurement output
-* RTKLIB-compatible
-* Ready for QZSS L6D/E for PPP
-* USB-UART interface
-* Size: 48mm x 23mm
-* Weight:~6.2g
-* Module on board support 12x16mm and 10x10mm
+
+ - GPS/QZSS L1/L2/L5,GLONASS L1/L2
+ - BDS B1/B2/B3,GALILEO E1/E5A
+ - Raw measurement output
+ - RTKLIB-compatible
+ - Ready for QZSS L6D/E for PPP
+ - USB-UART interface
+ - Size: 48mm x 23mm
+ - Weight:~6.2g
+ - Module on board support 12x16mm and 10x10mm
 
 
 ### 1.Overview
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
+
  - output:NMEA-0183, RTCM3
  - raw data:RTCM3 format(MSM7)
  - default baud rate:115200 bps
- - rates up to 10hz
+ - max output rates up to 10Hz<sup>[1]</sup>
+ 
+  *[1]Recommend output rates : 5Hz*
 
  
 ### 2.Operate RTK with rtklib
@@ -52,10 +56,7 @@
  
 
 ### 4.Antenna 
-An SMA female jack is available on the side panel of the evaluation unit for connecting an active  
-antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the  
-power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and  
-EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
+An SMA female jack is available on the side panel of the evaluation unit for connecting an active antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
 
 **This kit requires antenna gain greater than 40db**
 
@@ -79,9 +80,7 @@ The power LED indicates the power status. When the module is powered on, the LED
 
 3) Select the corresponding COM port.
 
-4) Set the baud rate if necessary by choosing “Device settings” on strip toolbar. If the port is selected and
-the baud rate is set correctly, Satrack program will show the received EVK output on the screen, signal
-strength, as well as satellite constellation.
+4) Set the baud rate if necessary by choosing “Device settings” on strip toolbar. If the port is selected and the baud rate is set correctly, Satrack program will show the received EVK output on the screen, signal strength, as well as satellite constellation.
 
 <div style="text-align: left;">
 <img src="images/satrack.jpg" style="width: 450px;">

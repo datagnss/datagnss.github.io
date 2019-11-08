@@ -34,3 +34,6 @@ Also patch antenna have a big ground plane to reduce multi-path effect.
 ![](../images/with-patch.jpg "Survey-grade patch antenna")
 <br>
 
+**The LNA gain of the antenna is an important technical parameter.**
+
+**D303 and our EVK requires antenna with LNA gain of 40dB**
