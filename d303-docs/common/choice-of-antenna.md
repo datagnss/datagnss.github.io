@@ -36,4 +36,4 @@ Also patch antenna have a big ground plane to reduce multi-path effect.
 
 **The LNA gain of the antenna is an important technical parameter.**
 
-**D303 and our EVK need minimum LNA gain is 40dB**
+**D303 and our EVK requires antenna with LNA gain of 40dB**
