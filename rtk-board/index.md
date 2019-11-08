@@ -4,15 +4,16 @@
 
 <br>
 <br>
-* GPS/QZSS L1/L2/L5,GLONASS L1/L2
-* BDS B1/B2/B3,GALILEO E1/E5A
-* Raw measurement output
-* RTKLIB-compatible
-* Ready for QZSS L6D/E for PPP
-* USB-UART interface
-* Size: 48mm x 23mm
-* Weight:~6.2g
-* Module on board support 12x16mm and 10x10mm
+
+ - GPS/QZSS L1/L2/L5,GLONASS L1/L2
+ - BDS B1/B2/B3,GALILEO E1/E5A
+ - Raw measurement output
+ - RTKLIB-compatible
+ - Ready for QZSS L6D/E for PPP
+ - USB-UART interface
+ - Size: 48mm x 23mm
+ - Weight:~6.2g
+ - Module on board support 12x16mm and 10x10mm
 
 
 ### 1.Overview
