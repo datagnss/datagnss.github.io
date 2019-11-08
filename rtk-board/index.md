@@ -29,6 +29,7 @@
 
 [**Quick Guide**](rtk-test.md)
 
+**Operate on an Android device(D301)**<sup>coming soon</sup>
 
 <br>
 <br>
