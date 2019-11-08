@@ -26,7 +26,7 @@
  - default baud rate:115200 bps
  - max output rates up to 10Hz<sup>[1]</sup>
  
- *[1]Recommend output rates : 5Hz*
+  *[1]Recommend output rates : 5Hz*
 
  
 ### 2.Operate RTK with rtklib
