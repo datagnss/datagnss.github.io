@@ -20,6 +20,7 @@
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
+
  - output:NMEA-0183, RTCM3
  - raw data:RTCM3 format(MSM7)
  - default baud rate:115200 bps
