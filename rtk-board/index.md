@@ -183,7 +183,7 @@ Menu "View"--"Messages"
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1 | [HD9310B.8226](firmware/HD9310B.HDBD.GN3.115200.8226.ec7e2.191012T1.cyfm) |
   | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| / |
 
-**QZSS L6 include L6/D and L6/E,there is two version firmware support different data, please contact info@datagnss.com. **  
+**QZSS L6 include L6/D and L6/E,there is two version firmware support different data, please contact info@datagnss.com.**
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
 
