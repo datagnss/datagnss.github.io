@@ -12,7 +12,7 @@
 
     <ntrip alias="千寻位置">
         <host port="8002" mountpoint="RTCM32_GGB">rtk.ntrip.qxwz.com</host>
-        <user password="*">-</user>
+        <user password="*">*</user>
     </ntrip>
     <ntrip alias="Hong Kong VRS">
         <host port="2101" mountpoint="VRS">59.152.234.19</host>

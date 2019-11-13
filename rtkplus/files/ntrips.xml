@@ -17,7 +17,7 @@
 	
 	<ntrip alias="QXWZ">
         <host port="8002" mountpoint="RTCM32_GGB">rtk.ntrip.qxwz.com</host>
-        <user password="*">-</user>
+        <user password="*">*</user>
     </ntrip>
 
     <ntrip alias="Sa.Alldayrtk">
@@ -27,6 +27,6 @@
 
     <ntrip alias="MyNet">
         <host port="2101" mountpoint="VRS">202.60.57.250</host>
-        <user password="*">-</user>
+        <user password="*">*</user>
     </ntrip>
 </ntripinfo>
