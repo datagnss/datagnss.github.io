@@ -5,7 +5,7 @@
         <user password="*">gps</user>
     </ntrip>
 	
-	<ntrip alias="Civil-NET">
+	<ntrip alias="Taiwan Civil-NET">
         <host port="2101" mountpoint="PRS02">60.249.51.150</host>
         <user password="*">*</user>
     </ntrip>
