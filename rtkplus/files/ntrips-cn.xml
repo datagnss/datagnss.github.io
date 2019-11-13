@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ntripinfo>
+    <ntrip alias="DATAGNSS">
+        <host port="2101" mountpoint="RTCM32_GGB">ntrip.datagnss.com</host>
+        <user password="*">gps</user>
+    </ntrip>
+
+    <ntrip alias="Civil-NET">
+        <host port="2101" mountpoint="PRS02">60.249.51.150</host>
+        <user password="*">*</user>
+    </ntrip>
+
+    <ntrip alias="千寻位置">
+        <host port="8002" mountpoint="RTCM32_GGB">rtk.ntrip.qxwz.com</host>
+        <user password="*">-</user>
+    </ntrip>
+    <ntrip alias="Hong Kong VRS">
+        <host port="2101" mountpoint="VRS">59.152.234.19</host>
+        <user password="*">surc</user>
+    </ntrip>
+
+</ntripinfo>
