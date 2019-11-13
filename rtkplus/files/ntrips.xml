@@ -14,6 +14,11 @@
         <host port="2101" mountpoint="VRS">59.152.234.19</host>
         <user password="*">surc</user>
     </ntrip>
+	
+	<ntrip alias="QXWZ">
+        <host port="8002" mountpoint="RTCM32_GGB">rtk.ntrip.qxwz.com</host>
+        <user password="*">-</user>
+    </ntrip>
 
     <ntrip alias="Sa.Alldayrtk">
         <host port="2101" mountpoint="02-NET_MSM5">sa.alldayrtk.com.au</host>
