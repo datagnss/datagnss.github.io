@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ntripinfo>
+ <ntrip alias="user-defined">
+        <host port="2101" mountpoint="*">*</host>
+        <user password="*">*</user>
+    </ntrip>
     <ntrip alias="DATAGNSS">
         <host port="2101" mountpoint="RTCM32_GGB">ntrip.datagnss.com</host>
         <user password="*">gps</user>
