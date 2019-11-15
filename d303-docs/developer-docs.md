@@ -103,7 +103,7 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 
 RTK+ service provide the following stream:
 
-- NMEA-0183 data output,TCP server 52004
+- NMEA-0183 data output via android 
  * GGA
 
  * GSA
@@ -112,11 +112,12 @@ RTK+ service provide the following stream:
 
  * GST
 
+Please refer to Android developer guide:
 
-- transmit RTCM data to TCP server 52009
+GpsStatus.NmeaListener
 
-- output LLH format solution over TCP server 62010
-
+Public methods
+abstract void	onNmeaReceived(long timestamp, String nmea)
 
 <span id="5"></span>
 ## 5.How to access rtk module in your App
