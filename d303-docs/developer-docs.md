@@ -92,10 +92,6 @@ RTK+  adds a set of location extra information while it&#39;s running. Details o
 | satellitesAzm | double[] | Array containing azimuth angles of satellites in view expressed in rad. The number of elements in the array is indicated by the satellitesView data specified above. Satellite azimuth angles are stored in the same order as their IDs in the satellitesId array specified above. |
 | satellitesSnr | double[] | Array containing signal-to-noise ratio (SNR) values for the satellites in view. The number of elements in the array is indicated by the satellitesView data specified above. SNR values are stored in the same order as the corresponding satellite IDs in the satellitesId array specified above. |
 | satellitesUse | boolean[] | Array of flags indicating if a particular satellite has been used in a rtk position computation. The number of elements in the array is indicated by the satellitesView data specified above. The flags are stored in the same order as the corresponding satellite IDs in the satellitesId array specified above. |
-| proj\_a | double | user-defined proj4 projection a |
-| proj\_b | double | user-defined proj4 projection b |
-| proj\_c | double | user-defined proj4 projection c |
-
 
 
 <span id="4"></span>
