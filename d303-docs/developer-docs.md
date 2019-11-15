@@ -174,9 +174,13 @@ Google play download from [Mapit GIS](https://play.google.com/store/apps/details
 ## 7.Change logs
 - 2019-01-30 add projection coordinate to extra data structure, proj\_a/proj\_b/proj\_c
 
-- 2019-11-15 revert"add projection coordinate output in extra data"  
-             remove output stream support for nmea and other data output
+- 2019-11-15 
+  revert"add projection coordinate output in extra data"  
+  
+  remove output stream support for nmea and other data output
 			 
 
-2019.01 Ver 1.0.2 updated:2019-09-20
+<br>
+<br>
+2019.10 Ver 1.1.0 updated:2019-11-15
 
