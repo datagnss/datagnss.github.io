@@ -114,10 +114,10 @@ RTK+ service provide the following stream:
 
 Please refer to Android developer guide:
 
-GpsStatus.NmeaListener
-
 Public methods
 abstract void	onNmeaReceived(long timestamp, String nmea)
+
+[GpsStatus.NmeaListener](https://developer.android.com/reference/android/location/GpsStatus.NmeaListener)
 
 <span id="5"></span>
 ## 5.How to access rtk module in your App
