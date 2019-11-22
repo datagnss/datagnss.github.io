@@ -44,6 +44,12 @@ for professional industy market.
 
  ***In most cases, the evk you purchased is with 1302 module.***
  
+ [T-5-1909-001-TAU1302 TAU1303-DS.V1.0](files/T-5-1909-001-TAU1302 TAU1303-DS.V1.0.pdf)  
+ 
+<br>
+<br>
+<br>
+
 ### 2.Operate RTK with rtklib
 
 [**Quick Guide**](rtk-test.md)
@@ -69,6 +75,10 @@ for professional industy market.
 
 <br>
  
+  
+<br>
+<br>
+<br>
 
 ### 4.Antenna 
 An SMA female jack is available on the side panel of the evaluation unit for connecting an active antenna. The EVK provides the power supply for Antenna power. Use the BIAS switch to select the power source. INT_BIAS with recommended maximum output current 20 mA is powered by the module, and EXT_BIAS with recommended maximum output current 50 mA is powered by the LDO.
@@ -81,8 +91,20 @@ An SMA female jack is available on the side panel of the evaluation unit for con
 
 [![](images/antenna-1.png)](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk)
 
+
+ 
+<br>
+<br>
+<br>
+
 ### 5.Power status
 The power LED indicates the power status. When the module is powered on, the LED is on.
+
+
+ 
+<br>
+<br>
+<br>
 
 ### 6.Startup with Satrack
 
@@ -102,7 +124,10 @@ The power LED indicates the power status. When the module is powered on, the LED
 <img src="images/satrack.jpg" style="width: 450px;">
 </div>
 
-
+ 
+<br>
+<br>
+<br>
 
 ### 7.Firmware updating
 
@@ -161,6 +186,11 @@ updating finishes.
 the file is transmitting.** 
 
 
+ 
+<br>
+<br>
+<br>
+
 ### 8.Enable/Disable specific message output
 
 Menu "View"--"Messages"
@@ -189,6 +219,11 @@ Menu "View"--"Messages"
   
   **above picture is screenshot of Calculator**
   
+  
+   
+<br>
+<br>
+<br>
   
 ### 9.Download the latest firmware<sup>[1]</sup> 
 
