@@ -19,6 +19,12 @@ for professional industy market.
 </div>
 
 ### 1.Overview
+
+<div style="text-align: left;">
+<img src="images/13023.png" style="width: 620px;">
+</div>
+<br>
+<br>
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
