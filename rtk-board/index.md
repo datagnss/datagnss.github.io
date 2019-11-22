@@ -44,7 +44,11 @@ for professional industy market.
 
  ***In most cases, the evk you purchased is with 1302 module.***
  
- [T-5-1909-001-TAU1302 TAU1303-DS.V1.0](files/T-5-1909-001-TAU1302 TAU1303-DS.V1.0.pdf)  
+<br>
+ 
+ Related Document:
+ 
+ [TAU1302-1303-DS.V1.0](files/T-5-1909-001-TAU1302 TAU1303-DS.V1.0.pdf)  
  
 <br>
 <br>
