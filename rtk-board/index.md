@@ -42,6 +42,7 @@ for professional industy market.
  - TAU1302/1303 on board
  - Precision agriculture, UAV mapping, deformation monitoring, surveying and mapping
 
+ ***In most cases, the evk you purchased is with 1302 module.***
  
 ### 2.Operate RTK with rtklib
 
