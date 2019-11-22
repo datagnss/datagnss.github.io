@@ -48,7 +48,7 @@ for professional industy market.
  
  Related Document:
  
- [TAU1302-1303-DS.V1.0](files/T-5-1909-001-TAU1302 TAU1303-DS.V1.0.pdf)  
+ [TAU1302-1303-Datasheet.V1.0](files/T-5-1909-001-TAU1302 TAU1303-DS.V1.0.pdf)  
  
 <br>
 <br>
