@@ -1,8 +1,20 @@
-<span class="markdown-body-normal-header">Multi-band RTK evaluation kit
+<span class="markdown-body-normal-header">TAU1302/1303 Multi-band RTK EVK
 </span>
 <br>
 
 <br>
+TAU1302/1303 is a high performance multi-band GNSS positioning module, which is 
+based on HD9310 chipset from Allystar.
+
+TAU1302/1303 integrates efficient power management architecture, while providing 
+high precision, high sensitivity and low power GNSS solutions which make it suitable
+for professional industy market.
+
+### 1.Overview
+<div style="text-align: left;">
+<img src="images/evk-3.jpg" style="width: 700px;">
+</div>
+
 <br>
 
  - GPS/QZSS L1/L2/L5,GLONASS L1/L2
@@ -13,20 +25,8 @@
  - USB-UART interface
  - Size: 48mm x 23mm
  - Weight:~6.2g
- - Module on board support 12x16mm and 10x10mm
-
-
-### 1.Overview
-<div style="text-align: left;">
-<img src="images/evk-3.jpg" style="width: 700px;">
-</div>
-
- - output:NMEA-0183, RTCM3
- - raw data:RTCM3 format(MSM7)
- - default baud rate:115200 bps
- - max output rates up to 10Hz<sup>[1]</sup>
- 
-  *[1]Recommend output rates : 5Hz*
+ - TAU1302/1303 on board
+ - Precision agriculture, UAV mapping, deformation monitoring, surveying and mapping
 
  
 ### 2.Operate RTK with rtklib
