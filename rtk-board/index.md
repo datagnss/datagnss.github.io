@@ -10,6 +10,14 @@ TAU1302/1303 integrates efficient power management architecture, while providing
 high precision, high sensitivity and low power GNSS solutions which make it suitable
 for professional industy market.
 
+<br>
+
+<br>
+
+<div style="text-align: left;">
+<img src="images/1302-1.png" style="width: 700px;">
+</div>
+
 ### 1.Overview
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
