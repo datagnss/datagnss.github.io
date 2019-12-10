@@ -62,6 +62,8 @@ for professional industy market.
 
 **Operate on an Android device(D301)**<sup>coming soon</sup>
 
+[**How to set evk to base station mode**](evk-base-mode.md)
+
 <br>
 <br>
  
