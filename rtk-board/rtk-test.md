@@ -23,7 +23,7 @@ Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakas
 
 or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB) 
 
-*[1]This version has some special feature for low cost RTK receiver*
+*<sup>[1]</sup>This version has some special feature for low cost RTK receiver*
 
 **It is recommended to download the following optimized version for this evk.**  
 **It is zero configuration for this evk(TAU130x series).  **
