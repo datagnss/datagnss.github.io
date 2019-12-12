@@ -151,6 +151,8 @@ And also check the coordinate from RTCM1005 is the same one you input.
 1.Run RTKNavi.
 
 <br>
+
+
 2.Config Input Stream 
 
 **output raw data format:RTCM3**
@@ -181,6 +183,9 @@ config base station stream:
 
 <br>
 3.Config rtk processing options
+
+if you use zero configuration version, please skip this step.
+
 <div style="text-align: left;">
 <img src="../images/rtklib-4.png" style="width: 550px;border:1px solid rgb(200,200,200);">
 </div>
