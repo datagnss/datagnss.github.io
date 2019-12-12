@@ -26,7 +26,8 @@ or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB)
 *<sup>[1]</sup>This version has some special feature for low cost RTK receiver*
 
 **It is recommended to download the following optimized version for this evk.**  
-**It is zero configuration for this evk(TAU130x series).  **
+
+**It is zero configuration for this evk(TAU130x series).**
 
 [demo5 zero configuration version for DATAGNSS](files/rtknavi.zip)
 
