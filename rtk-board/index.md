@@ -247,4 +247,4 @@ please contact info@datagnss.com to get detail information.**
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
 
-*[2]This version is released on Oct.16.2019*
+*[2]This version is released on Dec.18.2019*
