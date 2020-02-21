@@ -27,7 +27,7 @@
 
 <br>
   
-  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](download/D30X_DS_EN.pdf)
+  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](../download/D30X_DS_EN.pdf)
 
 <br>
 <br>
