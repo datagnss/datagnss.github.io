@@ -113,7 +113,9 @@ Please download command files:
 
 You could input the mountpoint whatever you want, but the best is it is a special string for you.
 
-Password: ******** (inqury it by sending email to info@datagnss.com )
+Password: ******** (inqury it by sending email to info@datagnss.com )    
+
+
 There is another server with the same configuration.    
 server: ntrip-hk.datagnss.com    
 
