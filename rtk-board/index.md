@@ -241,8 +241,7 @@ Menu "View"--"Messages"
   | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| [HD9310C.L6 D/E1](firmware/L6.zip) |  
 
   
-**QZSS L6 include L6/D and L6/E, there is two version firmware support different data, 
-please contact info@datagnss.com to get detail information.** 
+**QZSS L6 include L6/D and L6/E, there is two version firmware support different data** 
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
 
