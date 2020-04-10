@@ -232,9 +232,9 @@ Menu "View"--"Messages"
 <br>
 <br>
   
-### 9.Download the latest firmware<sup>[1]</sup> 
+### 9.Download the latest firmware 
 
-  | Item | GNSS options | firmware<sup>[2]</sup> |
+  | Item | GNSS options<sup>[1]</sup> | firmware<sup>[2]</sup> |
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | HD9310A.8226 |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1 | [HD9310B.8367](firmware/HD9310B.HDBD.GN3.115200.8367.2546d.191218T2.cyfm)  |
