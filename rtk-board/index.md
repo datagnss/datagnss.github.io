@@ -238,7 +238,7 @@ Menu "View"--"Messages"
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | HD9310A.8226 |
   | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1 | [HD9310B.8367](firmware/HD9310B.HDBD.GN3.115200.8367.2546d.191218T2.cyfm)  |
-  | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| [HD9310C.L6 D/E1](firmware/L6/L6.zip) |  
+  | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| [HD9310C.L6 D/E1](firmware/L6/L6.zip) [Protocol](firmware/L6/L6DE_tech_intro.pdf) |  
 
   
 **QZSS L6 include L6/D and L6/E, there is two version firmware support different data** 
