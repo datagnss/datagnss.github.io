@@ -16,6 +16,14 @@
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
+USB interface is designed for power supply and uart for data communication.
+if you connnect this evk to a host-device like computer or SBC device, it will 
+work in uart mode.Now usb interface will power supply rtk module and be as a uart
+interface, but Bluetooth will not work.
+
+If you want use it as a Bluetooth rtk receiver, please prepare for a power bank
+or any power-only source to power supply this module.
+
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
 
 #### Software
