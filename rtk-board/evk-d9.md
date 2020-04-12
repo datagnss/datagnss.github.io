@@ -79,5 +79,16 @@ Steps:
    
    
 #### Releted link  
-[How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
+ [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna) 
+
+ 
+ [Where to place your receiver in field?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver) 
+
+ 
+ [AT400 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk) 
+ 
+ 
+ [D30x Handheld RTK receiver](../../d303-docs/)
+
+
 
