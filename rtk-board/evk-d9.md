@@ -31,6 +31,8 @@ or any power-only source to power supply this module.
 #### USB mode
 
 
+ ![](../images/str-d9.png)
+ stream server utility (strsvr.exe) of rtklib
 
 
 
@@ -38,9 +40,6 @@ or any power-only source to power supply this module.
 
 
 #### Bluetooth mode
-
-##### Software
-
 
 ![](../images/sw-map-0.png)
 
@@ -85,20 +84,11 @@ connected.
    
 
 
+   
+   
+   
+   
+   
+##### Releted   
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
 
-#### Software
-Download the latest rtklib from [RTKLIB-2.4.3B33](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3/bin)
-(current version : 2.4.3B33)
-
-or [demo5 version<sup>[1]</sup>](https://github.com/rtklibexplorer/RTKLIB) 
-
-*<sup>[1]</sup>This version has some special feature for low cost RTK receiver*
-
-**It is recommended to download the following optimized version for this evk.**  
-
-**It is zero configuration for this evk(TAU130x series).**
-
-[demo5 zero configuration version for DATAGNSS](files/rtknavi.zip)
-
-### Operations
