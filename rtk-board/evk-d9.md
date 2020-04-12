@@ -43,24 +43,17 @@ or any power-only source to power supply this module.
 
 ![](../images/sw-map-0.png)
 
-SW Maps is a multi-functional GIS data acquisition software from Nepal,which can 
-be used for point, line and polygon data acquisition, and can easily try Google 
-Maps/Image Maps, OSM Maps, etc. 
+SW Maps is a multi-functional GIS data acquisition software from Nepal,which can be used for point, line and polygon data acquisition, and can easily try Google Maps/Image Maps, OSM Maps, etc. 
 
 The key is that this software is still licensed for free.
 Our Bluetooth mode operation will be based on this software.
 
-There are several ways to get the software, one is to download and install it from
- the google play store, and the other is to download it from our built-in appbus, 
- only the second download will not be the latest version.
+There are several ways to get the software, one is to download and install it from the google play store, and the other is to download it from our built-in appbus, only the second download will not be the latest version.
  
 Steps:
-1. Powering your device from the USB port with your power-bank. You'll see the 
-power indicator light up.  
+1. Powering your device from the USB port with your power-bank. You'll see the power indicator light up.  
 
-2. In your android phone, find Bluetooth setting in system settings, then paired 
-this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the 
-last 4 digits of a Bluetooth MAC address 
+2. In your android phone, find Bluetooth setting in system settings, then paired this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the last 4 digits of a Bluetooth MAC address 
 ![](../images/sw-d9-1.png)
 
 3. Open SW Maps, 
@@ -74,8 +67,7 @@ last 4 digits of a Bluetooth MAC address
    ![](../images/sw-d9-5.png)
 
 
-4. re-click left side bar,you will fina a new menu "NTRIP connection" after rtk receiver 
-connected. 
+4. re-click left side bar,you will fina a new menu "NTRIP connection" after rtk receiver connected. 
 
    ![NTRIP connection](../images/sw-d9-6.png) 
  
