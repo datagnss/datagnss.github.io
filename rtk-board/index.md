@@ -11,9 +11,10 @@ high precision, high sensitivity and low power GNSS solutions which make it suit
 for professional industy market.
 
 <br>
-D9 BLUETOOTH/USB RTK RECEIVER(RTK ENGINE INSIDE),Please go to this link:
+![Tips](../../d303-docs/images/tips.png)
+D9 BLUETOOTH/USB RTK RECEIVER(RTK ENGINE INSIDE)
 
-[D9-EVK](evk-d9)
+Please go to this link: [D9-EVK](evk-d9)
 
 <br>
 
