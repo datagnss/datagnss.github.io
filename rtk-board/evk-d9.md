@@ -67,8 +67,7 @@ last 4 digits of a Bluetooth MAC address
    - click "Bluetooth GPS"
    - click "+" to add new deivce type
    - set the deivce you just created as current device 
-   - fresh device to find you just paried device (like ET10_SPPAAxxxx)
-   
+   - fresh device to find you just paried device (like ET10_SPPAAxxxx) 
 ![](../images/sw-d9-3.png)
 
 
