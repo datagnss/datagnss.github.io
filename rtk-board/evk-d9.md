@@ -8,10 +8,11 @@
 ### Requirement
 
 #### Hardware
-* RTK EVK *2
-* GNSS antenna*2
-* USB cable*2
-* GNSS antenna cable
+* RTK EVK(D9) *1
+* GNSS antenna*1
+* USB cable*1
+* GNSS antenna cable*1
+* Power bank(optional)
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
