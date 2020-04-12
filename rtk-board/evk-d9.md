@@ -32,15 +32,25 @@ or any power-only source to power supply this module.
 
 
    ![](../images/str-d9.png)
- stream server utility (strsvr.exe) of rtklib
+   
+   stream server utility (strsvr.exe) of rtklib
  
    ![D9 EVK stream flow chart](../images/d9-strsvr.png)
  
- D9 EVK Data Stream flow chart
+   D9 EVK Data Stream flow chart
 
-   ![](../images/str-1.png) ![](../images/str-2.png)
+   1. strsvr instance 1
+   
+   connect evk to computer via usb port,config serial port parameters.
+   
+   
+   ![](../images/str-1.png) 
+   
+   ![](../images/str-2.png)
  
-   ![](../images/str-3.png) ![](../images/str-4.png)
+   ![](../images/str-3.png) 
+   
+   ![](../images/str-4.png)
 
 
 #### Bluetooth mode
