@@ -78,6 +78,6 @@ Steps:
    
    
    
-##### Releted   
+#### Releted link  
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
 
