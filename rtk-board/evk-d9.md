@@ -31,7 +31,7 @@ or any power-only source to power supply this module.
 #### USB UART mode
 
 <br>
-![D9 EVK stream flow chart](../images/d9-usb.png)
+![D9 USB Mode](../images/d9-usb.png)
 
 ![D9 EVK stream flow chart](../images/d9-strsvr.png)
   
