@@ -31,14 +31,16 @@ or any power-only source to power supply this module.
 #### USB mode
 
 
- ![](../images/str-d9.png)
+   ![](../images/str-d9.png)
  stream server utility (strsvr.exe) of rtklib
  
- ![D9 stream flow chart](../images/d9-strsvr.png)
+   ![D9 EVK stream flow chart](../images/d9-strsvr.png)
  
- D9 Data Stream flow chart
+ D9 EVK Data Stream flow chart
 
-
+   ![](../images/str-1.png) ![](../images/str-2.png)
+ 
+   ![](../images/str-3.png) ![](../images/str-4.png)
 
 
 #### Bluetooth mode
