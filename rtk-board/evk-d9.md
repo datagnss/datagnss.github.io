@@ -68,11 +68,11 @@ last 4 digits of a Bluetooth MAC address
    - click "+" to add new deivce type
    - set the deivce you just created as current device 
    - fresh device to find you just paried device (like ET10_SPPAAxxxx) 
-   - "connect"
-![](../images/sw-d9-3.png) 
+   - "connect" 
+   
+   ![](../images/sw-d9-3.png) 
 
-
-![](../images/sw-d9-5.png)
+   ![](../images/sw-d9-5.png)
 
 
 4. re-click left side bar,you will fina a new menu "Ntrip client" after connected rtk
