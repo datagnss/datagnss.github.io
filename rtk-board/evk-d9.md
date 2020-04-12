@@ -33,8 +33,10 @@ or any power-only source to power supply this module.
 
  ![](../images/str-d9.png)
  stream server utility (strsvr.exe) of rtklib
-
-
+ 
+ ![D9 stream flow chart](../images/d9-strsvr.png)
+ 
+ D9 Data Stream flow chart
 
 
 
