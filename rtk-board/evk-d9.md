@@ -46,22 +46,28 @@ or any power-only source to power supply this module.
 <br>
 
  
-2.strsvr instance 1
+2.strsvr instance 1, get data from uart output to tcp server for rtk correction and 3rd part app 
    
   Connect evk to computer via usb port,config serial port parameters.
    
    
   ![](../images/str-1.png) 
    
-   ![](../images/str-2.png)
-
-3.strsvr instance 2
-
+  ![](../images/str-2.png)
+   
   ![](../images/str-3.png) 
+
+  
+3.strsvr instance 2
  
   ![](../images/str-4.png)
 
+4.The 3rd part software create tcp connection to [strsvr instance 1/tcp server]
 
+
+
+<br>
+<br>
 #### Bluetooth mode
 
 ![](../images/sw-map-0.png)
