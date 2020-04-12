@@ -21,8 +21,25 @@ if you connnect this evk to a host-device like computer or SBC device, it will
 work in uart mode.Now usb interface will power supply rtk module and be as a uart
 interface, but Bluetooth will not work.
 
+<br>
 If you want use it as a Bluetooth rtk receiver, please prepare for a power bank
 or any power-only source to power supply this module.
+
+### Quick guide
+
+#### USB mode
+
+
+
+
+
+
+
+
+#### Bluetooth mode
+
+##### software
+
 
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
 
