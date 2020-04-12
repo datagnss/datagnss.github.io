@@ -62,16 +62,12 @@ Steps:
    - fresh device to find you just paried device (like ET10_SPPAAxxxx) 
    - "connect" 
    
-   ![](../images/sw-d9-3.png) 
-
-   ![](../images/sw-d9-5.png)
+   ![](../images/sw-d9-3.png)  ![](../images/sw-d9-5.png)
 
 
 4. re-click left side bar,you will fina a new menu "NTRIP connection" after rtk receiver connected. 
 
-   ![NTRIP connection](../images/sw-d9-6.png) 
- 
-   ![Config ntrip client](../images/sw-d9-7.png) 
+   ![NTRIP connection](../images/sw-d9-6.png)  ![Config ntrip client](../images/sw-d9-7.png) 
 
    
 
