@@ -90,7 +90,8 @@ Our Bluetooth mode operation will be based on this software.
 
 There are several ways to get the software, one is to download and install it from the google play store, and the other is to download it from our built-in appbus, only the second download will not be the latest version.
  
-Steps:
+#### Steps
+
 1. Powering your device from the USB port with your power-bank. You'll see the power indicator light up.  
 
 2. In your android phone, find Bluetooth setting in system settings, then paired this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the last 4 digits of a Bluetooth MAC address 
