@@ -39,6 +39,27 @@ or any power-only source to power supply this module.
 #### Bluetooth mode
 
 ##### software
+SW Map is a multi-functional GIS data acquisition software from a Nepal provider,
+which can be used for point, line and polygon data acquisition, and can easily 
+try Google Maps/Image Maps, OSM Maps, etc. 
+
+The key is that this software is still licensed for free.
+Our bluetooth mode operation will be based on this software.
+
+There are several ways to get the software, one is to download and install it from
+ the google play store, and the other is to download it from our built-in appbus, 
+ only the second download will not be the latest version.
+ 
+Steps:
+1. Powering your device from the USB port with your power-bank. You'll see the 
+power indicator light up.  
+
+2.
+
+3.
+
+4.
+
 
 
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
