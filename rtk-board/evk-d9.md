@@ -55,12 +55,16 @@ Steps:
 power indicator light up.  
 
 2. In your android phone, find Bluetooth setting in system settings, then paired 
-this evk.
+this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the 
+last 4 digits of a Bluetooth MAC address 
+![](../images/sw-d9-1.png)
 
-3.
+3.  
+![](../images/sw-d9-3.png)
 
-4.
 
+4.  
+![](../images/sw-d9-5.png)
 
 
 [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna)
