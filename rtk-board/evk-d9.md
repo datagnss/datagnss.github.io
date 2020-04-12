@@ -38,8 +38,12 @@ or any power-only source to power supply this module.
 
 #### Bluetooth mode
 
-##### software
-SW Map is a multi-functional GIS data acquisition software from Nepal,which can 
+##### Software
+
+
+![](../images/sw-map-0.png)
+
+SW Maps is a multi-functional GIS data acquisition software from Nepal,which can 
 be used for point, line and polygon data acquisition, and can easily try Google 
 Maps/Image Maps, OSM Maps, etc. 
 
@@ -59,11 +63,16 @@ this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are
 last 4 digits of a Bluetooth MAC address 
 ![](../images/sw-d9-1.png)
 
-3.  
+3. Open SW Maps, 
+   - click "Bluetooth GPS"
+   - click "+" to add new deivce type
+   - set the deivce you just created as current device 
+   - fresh device to find you just paried device (like ET10_SPPAAxxxx)
+   
 ![](../images/sw-d9-3.png)
 
 
-4.  
+4. Open SW Map 
 ![](../images/sw-d9-5.png)
 
 
