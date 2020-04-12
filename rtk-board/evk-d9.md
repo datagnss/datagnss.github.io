@@ -38,22 +38,22 @@ Please download rtklib, we will use it to perform our evk test.
 
 As a part of rtklib, strsvr is a powerful stream server utility.
  
-   ![D9 EVK stream flow chart](../images/d9-strsvr.png)
+![D9 EVK stream flow chart](../images/d9-strsvr.png)
  
 2. strsvr instance 1
    
-   connect evk to computer via usb port,config serial port parameters.
+Connect evk to computer via usb port,config serial port parameters.
    
    
-   ![](../images/str-1.png) 
+![](../images/str-1.png) 
    
-   ![](../images/str-2.png)
+![](../images/str-2.png)
 
-3.
+3.strsvr instance 2
 
-   ![](../images/str-3.png) 
-   
-   ![](../images/str-4.png)
+![](../images/str-3.png) 
+ 
+![](../images/str-4.png)
 
 
 #### Bluetooth mode
