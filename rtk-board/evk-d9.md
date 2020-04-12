@@ -15,6 +15,11 @@
 * GNSS antenna cable*1
 * Power bank(optional)
 
+#### Software
+* rtklib (USB mode)
+* SW Maps (Bluetooth mode)
+
+
 <br>
 ![Tips](../../d303-docs/images/tips.png)
 USB interface is designed for power supply and uart for data communication.
@@ -26,9 +31,8 @@ interface, but Bluetooth will not work.
 If you want use it as a Bluetooth rtk receiver, please prepare for a power bank
 or any power-only source to power supply this module.
 
-### Quick guide
 
-#### USB UART mode
+### USB UART mode
 
 <br>
 ![D9 USB Mode](../images/d9-usb.png)
@@ -36,7 +40,7 @@ or any power-only source to power supply this module.
 ![D9 EVK stream flow chart](../images/d9-strsvr.png)
   
 <br>
-1.Prepare for software
+#### Prepare for software
 
   ![](../images/str-d9.png)
    
@@ -46,7 +50,9 @@ or any power-only source to power supply this module.
 <br>
 
  
-2.Strsvr instance 1, get data from uart output to tcp server for rtk correction and 3rd part app 
+#### Strsvr instance 1
+
+  get data from uart output to tcp server for rtk correction and 3rd part app 
    
   connect evk to computer via usb port,config serial port parameters.
    
@@ -58,13 +64,13 @@ or any power-only source to power supply this module.
   ![](../images/str-3.png) 
 
   
-3.Strsvr instance 2
+#### Strsvr instance 2
 
   get RTCM data from VRS/Base station via NTRIP client,then feed to tcp server
   
   ![](../images/str-4.png)
 
-4.The 3rd part software create tcp connection to [strsvr instance 1/tcp server]
+#### 3rd party APP
 
   get RTK solution from tcp server by NMEA-0183 protocol.
   
@@ -73,7 +79,7 @@ or any power-only source to power supply this module.
 
 <br>
 <br>
-#### Bluetooth mode
+### Bluetooth mode
 
 ![](../images/sw-map-0.png)
 
@@ -110,9 +116,9 @@ Steps:
    
    
    
-   
-   
-#### Releted link  
+<br>
+<br>
+### Releted link  
  [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna) 
 
  
