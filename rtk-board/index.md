@@ -1,4 +1,4 @@
-<span class="markdown-body-normal-header">TAU1302/1303 Multi-band RTK EVK
+<span class="markdown-body-normal-header">Multi-band RTK EVK
 </span>
 <br>
 
@@ -11,6 +11,9 @@ high precision, high sensitivity and low power GNSS solutions which make it suit
 for professional industy market.
 
 <br>
+D9 BLUETOOTH/USB RTK RECEIVER(RTK ENGINE INSIDE),Please go to this link:
+
+[D9-EVK](evk-d9)
 
 <br>
 
