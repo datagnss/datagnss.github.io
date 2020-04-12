@@ -30,7 +30,11 @@ or any power-only source to power supply this module.
 
 #### USB mode
 
-1.
+
+  ![D9 EVK stream flow chart](../images/d9-strsvr.png)
+  
+<br>
+1.Prepare for software
 
   ![](../images/str-d9.png)
    
@@ -38,7 +42,7 @@ or any power-only source to power supply this module.
 
   As a part of rtklib, strsvr is a powerful stream server utility.
  
-  ![D9 EVK stream flow chart](../images/d9-strsvr.png)
+
  
 2.strsvr instance 1
    
