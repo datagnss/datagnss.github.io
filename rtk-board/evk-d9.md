@@ -39,12 +39,12 @@ or any power-only source to power supply this module.
 #### Bluetooth mode
 
 ##### software
-SW Map is a multi-functional GIS data acquisition software from a Nepal provider,
-which can be used for point, line and polygon data acquisition, and can easily 
-try Google Maps/Image Maps, OSM Maps, etc. 
+SW Map is a multi-functional GIS data acquisition software from Nepal,which can 
+be used for point, line and polygon data acquisition, and can easily try Google 
+Maps/Image Maps, OSM Maps, etc. 
 
 The key is that this software is still licensed for free.
-Our bluetooth mode operation will be based on this software.
+Our Bluetooth mode operation will be based on this software.
 
 There are several ways to get the software, one is to download and install it from
  the google play store, and the other is to download it from our built-in appbus, 
@@ -54,7 +54,8 @@ Steps:
 1. Powering your device from the USB port with your power-bank. You'll see the 
 power indicator light up.  
 
-2.
+2. In your android phone, find Bluetooth setting in system settings, then paired 
+this evk.
 
 3.
 
