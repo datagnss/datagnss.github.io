@@ -28,7 +28,7 @@ or any power-only source to power supply this module.
 
 ### Quick guide
 
-#### USB mode
+#### USB UART mode
 
 <br>
 ![D9 EVK stream flow chart](../images/d9-usb.png)
