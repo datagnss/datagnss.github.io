@@ -40,7 +40,7 @@ or any power-only source to power supply this module.
 ![D9 EVK stream flow chart](../images/d9-strsvr.png)
   
 <br>
-####1.prepare for software
+#### 1.prepare for software
 
   ![](../images/str-d9.png)
    
@@ -50,7 +50,7 @@ or any power-only source to power supply this module.
 <br>
 
  
-####2.strsvr instance 1
+#### 2.strsvr instance 1
 
   get data from uart output to tcp server for rtk correction and 3rd part app 
    
@@ -64,13 +64,13 @@ or any power-only source to power supply this module.
   ![](../images/str-3.png) 
 
   
-####3.strsvr instance 2
+#### 3.strsvr instance 2
 
   get RTCM data from VRS/Base station via NTRIP client,then feed to tcp server
   
   ![](../images/str-4.png)
 
-####4.the 3rd party APP
+#### 4.the 3rd party APP
 
   get RTK solution from tcp server by NMEA-0183 protocol.
   
