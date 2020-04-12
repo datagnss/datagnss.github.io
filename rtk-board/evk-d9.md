@@ -54,7 +54,8 @@ Steps:
 1. Powering your device from the USB port with your power-bank. You'll see the power indicator light up.  
 
 2. In your android phone, find Bluetooth setting in system settings, then paired this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the last 4 digits of a Bluetooth MAC address 
-![](../images/sw-d9-1.png)
+
+   ![](../images/sw-d9-1.png)
 
 3. Open SW Maps, 
    - click "Bluetooth GPS"
