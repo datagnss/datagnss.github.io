@@ -30,8 +30,10 @@ or any power-only source to power supply this module.
 
 #### USB mode
 
+<br>
+![D9 EVK stream flow chart](../images/d9-usb.png)
 
-  ![D9 EVK stream flow chart](../images/d9-strsvr.png)
+![D9 EVK stream flow chart](../images/d9-strsvr.png)
   
 <br>
 1.Prepare for software
