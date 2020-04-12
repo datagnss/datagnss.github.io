@@ -119,7 +119,7 @@ There are several ways to get the software, one is to download and install it fr
    
 <br>
 <br>
-### Releted link  
+### Related link  
  [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna) 
 
  
