@@ -46,9 +46,9 @@ or any power-only source to power supply this module.
 <br>
 
  
-2.strsvr instance 1, get data from uart output to tcp server for rtk correction and 3rd part app 
+2.Strsvr instance 1, get data from uart output to tcp server for rtk correction and 3rd part app 
    
-  Connect evk to computer via usb port,config serial port parameters.
+  connect evk to computer via usb port,config serial port parameters.
    
    
   ![](../images/str-1.png) 
@@ -58,12 +58,17 @@ or any power-only source to power supply this module.
   ![](../images/str-3.png) 
 
   
-3.strsvr instance 2
- 
+3.Strsvr instance 2
+
+  get RTCM data from VRS/Base station via NTRIP client,then feed to tcp server
+  
   ![](../images/str-4.png)
 
 4.The 3rd part software create tcp connection to [strsvr instance 1/tcp server]
 
+  get RTK solution from tcp server by NMEA-0183 protocol.
+  
+  
 
 
 <br>
