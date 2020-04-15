@@ -6,6 +6,8 @@
 <br>
 ![](../images/D9-01.jpg) 
 
+(LED indicator: Power-Bluetooth-Charge-Standby)
+
 ### Requirement
 
 #### Hardware
