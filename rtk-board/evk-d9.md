@@ -81,6 +81,9 @@ or any power-only source to power supply this module.
 <br>
 ### Bluetooth mode
 
+**We recommend using SW Maps to test the bluetooth mode.**
+
+
 ![](../images/sw-map-0.png)
 
 SW Maps is a multi-functional GIS data acquisition software from Nepal,which can be used for point, line and polygon data acquisition, and can easily try Google Maps/Image Maps, OSM Maps, etc. 
