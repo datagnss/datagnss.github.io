@@ -6,7 +6,7 @@
 <br>
 ![](../images/D9-01.jpg) 
 
-(LED indicator: Power-Bluetooth-Charge-Standby)
+(LED indicator: Power-Bluetooth-Charge-Standby,left to right above)
 
 ### Requirement
 
