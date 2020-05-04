@@ -6,19 +6,15 @@
 
 ### Steps:
 
-#### connect adapter to your device, then power on adapter
+ connect adapter to your device, then power on adapter
 
 
-#### Paired Bluetooth device(adapter) with D303 Android system
+#### 1.Paired Bluetooth device(adapter) with D303 Android system
   - Android "Settings" - "Bluetooth" - Select adapter
   
 
-#### Config D303 output solution (NMEA) via Bluetooth
+#### 2.Config D303 output solution (NMEA) via Bluetooth
 
-![](images/output-bt-1.png){:style="width: 400px;"}
+![](images/output-bt-1.png){:style="width: 300px;"}  ![](images/output-bt-2.png){:style="width: 300px;"}
 
-![](images/output-bt-2.png){:style="width: 400px;"}
-
-![](images/output-bt-3.png){:style="width: 400px;"}
-
-![](images/output-bt-4.png){:style="width: 400px;"}
+![](images/output-bt-3.png){:style="width: 300px;"}  ![](images/output-bt-4.png){:style="width: 300px;"}
