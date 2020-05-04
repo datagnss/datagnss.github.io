@@ -50,7 +50,9 @@
   - [PPK solution](d303.md#53-how-to-post-process-raw-datappk)
   
   - [Free data stream service(NTRIP)](common/free-ntrip-service.md)
-
+  
+  - [How to output NMEA data to other device](common/output-nmea.md)
+  
   - [User manual](d303.md)
   
   - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](common/mapit/)
