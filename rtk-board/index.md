@@ -249,4 +249,4 @@ Menu "View"--"Messages"
 
 *[1]If you need other version firmware, please contact <info@datagnss.com>*
 
-*[2]This version is released on Dec.18.2019*
+*[2]This version is released on May.2020*
