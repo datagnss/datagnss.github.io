@@ -241,7 +241,7 @@ Menu "View"--"Messages"
   | Item | GNSS options<sup>[1]</sup> | firmware<sup>[2]</sup> |
   | ----- | :----- | :----- |
   | Option A | GPS L1/L5,GLO L1,BDS B1/B2a,GAL E1/E5A | [HD9310A.8226](firmware/HD9310A.HDBD.GN3.115200.8226.ec7e2.191014T1.cyfm)  |
-  | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1 | [HD9310B.8367](firmware/HD9310B.HDBD.GN3.115200.8367.2546d.191218T2.cyfm)  |
+  | Option B | GPS L1/L2,GLO L1/L2,BDS B1/B2I,GAL E1 | [HD9310B.8499](firmware/HD9310B.HDBD.GN3.115200.8499.dce0b.200219T1.cyfm)  |
   | Option C | GPS/QZSS L1/L2/L6,GLO L1/L2,<br>BDS B1/B3I GAL E1/E6| [HD9310C.L6 D/E1](firmware/L6/L6.zip) [Protocol](firmware/L6/L6DE_tech_intro.pdf) |  
 
   
