@@ -30,7 +30,7 @@ Please go to this link: [D9-EVK](evk-d9)
 <br>
 <br>
 <div style="text-align: left;">
-<img src="images/mini-evk-3.png" style="width: 700px;">
+<img src="images/mini-evk-3.png" style="width: 600px;">
 </div>
 <br>
 
