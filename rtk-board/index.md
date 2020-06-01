@@ -32,7 +32,13 @@ Please go to this link: [D9-EVK](evk-d9)
 <div style="text-align: left;">
 <img src="images/evk-3.jpg" style="width: 700px;">
 </div>
+<br>
 
+<br>
+new version is the following:
+<div style="text-align: left;">
+<img src="images/mini-evk-3.png" style="width: 600px;">
+</div>
 <br>
 
  - GPS/QZSS L1/L2/L5,GLONASS L1/L2
