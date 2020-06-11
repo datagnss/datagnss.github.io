@@ -13,6 +13,7 @@
 ![](images/output-bt-3.png){:style="width: 300px;"}  
 
 Please choose "file" in "type" field
+
 ![](images/output-bt-4.png){:style="width: 300px;"}
 
 saved nmea file located in RTK+ folder in root of storage.
