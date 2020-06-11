@@ -53,6 +53,8 @@
   
   - [How to output NMEA data to other device](common/output-nmea.md)
   
+  - [How to record NMEA data to file](common/record-nmea.md)
+  
   - [User manual](d303.md)
   
   - [Work with Mapit GIS ![Mapit GIS](images/youtube.png)](common/mapit/)
