@@ -148,7 +148,7 @@ The power LED indicates the power status. When the module is powered on, the LED
 
 Find out current version:
 
-"View"-"HD Messages"
+"View"-"AS Messages" ("HD Messages" in previous versions)
 
 ![](images/msg-view.png)
 
