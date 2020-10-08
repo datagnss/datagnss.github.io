@@ -52,7 +52,7 @@ above "192.168.xx.xx" is your new IP address, please remember it.
 2. if your reference station is VRS, please config NMEA relay back.
 
 #### Android app for test
-[blueGNSS](../files/blueGNSS.apk)
+[blueGNSS](https://github.com/datagnss/datagnss.github.io/releases/download/0.9/blueGNSS.apk)
 
 ![](../images/blueGNSS-1.jpeg)
 ![](../images/blueGNSS-2.jpeg)
