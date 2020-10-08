@@ -79,7 +79,7 @@ Download app from the following url:
 ![](../images/blueGNSS-3.jpeg)
 
  
-#### Output NMEA to other device
+#### Output NMEA to other devices
 6pins UART connector support output NMEA data.
 the 6pins definition is printed near connector.
 
