@@ -51,6 +51,8 @@ above "192.168.xx.xx" is your new IP address, please remember it.
 1. Please config the NTRIP client account.
 2. if your reference station is VRS, please config NMEA relay back.
 
+![](../images/Y-RTK-2-NTRIP.png)
+
 #### Android app for test
 [blueGNSS](https://github.com/datagnss/datagnss.github.io/releases/download/0.9/blueGNSS.apk)
 
