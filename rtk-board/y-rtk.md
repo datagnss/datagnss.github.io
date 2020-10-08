@@ -4,7 +4,7 @@
 
 <br>
 <br>
-![](../images/Y-RTK.png) 
+![](../images/Y-RTK-1.png) 
 
 (LED indicator: Power-Bluetooth-Charge-Standby, left to right above)
 
