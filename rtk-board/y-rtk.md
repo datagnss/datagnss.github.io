@@ -9,7 +9,7 @@
 
 ### Hardware
 * USB, only for power supply
-* 2pins connector,power supply
+* 2pins connector,power supply(5V,1A)
 * 6pins connector,UART and Power out for connected device
 * SMA Antenna connector
 * RTK module
