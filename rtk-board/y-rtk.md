@@ -57,8 +57,22 @@ Please "Submit" to save the configuration.
 
 Then the device will reboot to apply the new configuration.
 
+In the next, you only need power on the device,
+It will work properly. 
+
 #### Android app for test
+Download app from the following url:
+
 [blueGNSS](https://github.com/datagnss/datagnss.github.io/releases/download/0.9/blueGNSS.apk)
+
+1.Paired BT in your phone. (BT name:ET10_SPP......)
+
+2.open app, choose the paired BT in the preference
+
+3.start or stop connection
+
+4.tap "start" in logging to log nmea data
+
 
 ![](../images/blueGNSS-1.jpeg)
 ![](../images/blueGNSS-2.jpeg)
