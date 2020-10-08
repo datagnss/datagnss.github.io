@@ -53,6 +53,10 @@ above "192.168.xx.xx" is your new IP address, please remember it.
 
 ![](../images/Y-RTK-2-NTRIP.png)
 
+Please "Submit" to save the configuration.
+
+Then the device will reboot to apply the new configuration.
+
 #### Android app for test
 [blueGNSS](https://github.com/datagnss/datagnss.github.io/releases/download/0.9/blueGNSS.apk)
 
@@ -61,10 +65,9 @@ above "192.168.xx.xx" is your new IP address, please remember it.
 ![](../images/blueGNSS-3.jpeg)
 
  
-  
-
-
-
+#### Output NMEA to other device
+6pins UART connector support output NMEA data.
+the 6pins definition is printed near connector.
 
 
    
