@@ -6,20 +6,21 @@
 <br>
 ![](../images/Y-RTK-1.png) 
 
-(LED indicator: Power-Bluetooth-Charge-Standby, left to right above)
-
-### Requirement
 
 #### Hardware
-* RTK EVK(D9) *1
-* GNSS antenna*1
-* USB cable*1
-* GNSS antenna cable*1
-* Power bank(optional)
+* USB, only for power supply
+* 2pins connector,power supply
+* 6pins connector,UART and Power out for connected device
+* SMA Antenna connector
+* RTK module
+* ESP32 WiFi module
+* Bluetooth module(rear side)
 
-#### Software
-* rtklib (USB mode)
-* SW Maps (Bluetooth mode)
+**Both USB and 2pins support power in, only choose one**
+
+#### Connectivity
+* WiFi (2.4G b/g)
+* Bluetooth (2.1 EDR+4.0)
 
 
 <br>
