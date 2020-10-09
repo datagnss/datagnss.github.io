@@ -83,7 +83,8 @@ Download app from the following url:
 6pins UART connector support output NMEA data.
 the 6pins definition is printed near connector.
 
-
+6pins connector specification:
+Pitch 1.25mm BAR Connectors
    
    
    
