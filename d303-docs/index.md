@@ -72,6 +72,7 @@
 ### Developer guide
 
   - [Developer manual](developer-docs.md)
+  - [Online](https://docs.google.com/document/d/1AIcTQmQSaHh65YmJhTeNAmGT1eiS76RZu6wDORrwrKs/edit?usp=sharing)
 
 ### Troubleshooting
   -  
