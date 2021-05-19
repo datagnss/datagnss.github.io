@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ntripinfo>
  <ntrip alias="user-defined">
-        <host port="2101" mountpoint="*">*</host>
+        <host port="2101" mountpoint="VRS" path="/">*</host>
         <user password="*">*</user>
     </ntrip>
     <ntrip alias="DATAGNSS">
-        <host port="2101" mountpoint="RTCM32_GGB">ntrip.datagnss.com</host>
+        <host port="2101" mountpoint="RTCM32_GGB" path="/">ntrip.datagnss.com</host>
         <user password="*">gps</user>
     </ntrip>
 	
 	<ntrip alias="Taiwan Civil-NET">
-        <host port="2101" mountpoint="PRS02">60.249.51.150</host>
+        <host port="2101" mountpoint="PRS02" path="/">60.249.51.150</host>
         <user password="*">*</user>
     </ntrip>
 
     <ntrip alias="Hong Kong VRS">
-        <host port="2101" mountpoint="VRS">59.152.234.19</host>
+        <host port="2101" mountpoint="VRS32G" path="/">59.152.234.19</host>
         <user password="*">surc</user>
     </ntrip>
 	
 	<ntrip alias="QXWZ">
-        <host port="8002" mountpoint="RTCM32_GGB">rtk.ntrip.qxwz.com</host>
+        <host port="8002" mountpoint="RTCM32_GGB" path="/">rtk.ntrip.qxwz.com</host>
         <user password="*">*</user>
     </ntrip>
 
     <ntrip alias="Sa.Alldayrtk">
-        <host port="2101" mountpoint="02-NET_MSM5">sa.alldayrtk.com.au</host>
+        <host port="2101" mountpoint="02-NET_MSM5" path="/">sa.alldayrtk.com.au</host>
         <user password="*">rtk</user>
     </ntrip>
 
     <ntrip alias="MyNet">
-        <host port="2101" mountpoint="VRS">202.60.57.250</host>
+        <host port="2101" mountpoint="VRS" path="/">202.60.57.250</host>
         <user password="*">*</user>
     </ntrip>
 </ntripinfo>
