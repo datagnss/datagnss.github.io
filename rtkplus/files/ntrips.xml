@@ -15,7 +15,7 @@
     </ntrip>
 
     <ntrip alias="Hong Kong VRS">
-        <host port="2101" mountpoint="VRS32G" path="/">59.152.234.19</host>
+        <host port="2101" mountpoint="VRS32G" path="/sourcetable.txt">59.152.234.19</host>
         <user password="*">surc</user>
     </ntrip>
 	
