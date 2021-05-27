@@ -17,7 +17,7 @@
 | Constellation | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2,GAL E1<sup>[1]</sup> | Single frequency<sup>[2]</sup> |
 | RTK initial<sup>[3]</sup> | <30s | 120s |
 | RTK accuracy | 1cm+1ppm(H)<br>2cm+1ppm(V) | 2cm+1ppm(H)<br>5cm+1ppm(V) |
-| Battery | 3200mAh | - |
+| Battery | 3200mAh(replaceable) | - |
 | Interface | Microusb for power and data | - |
 | Antenna | SMA connector | - |
 | Environment | Operation:-20 &deg;C to +60&deg;C <br>Storage:-30 &deg;C to +70&deg;C| - |
