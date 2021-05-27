@@ -27,7 +27,7 @@
 
 <br>
 
-  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](../download/D30X_DS_EN_2021.pdf)
+  - [![](images/pdf.png)&nbsp;D303 datasheet](../download/D30X_DS_EN_2021.pdf)
 
 <br>
 <br>
@@ -36,4 +36,4 @@
 
 *[2] GPS L1/GLO L1OF/GAL E1 or GPS L1/BDS B1/GAL E1*
 
-*[3] Depend on SVs number and PDOP, test in the condition of GPS and BDS, the total SVs is more than 18*
+*[3] Depends on SVs number and PDOP, test in the condition of GPS and BDS, the total SVs is more than 18*
