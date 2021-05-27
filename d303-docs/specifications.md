@@ -4,30 +4,30 @@
 <br>
 
 
-  | Items | D303 | D302 |
-  | :----- | :----- | :----: |
-  | OS | Android-Based OS | - |
-  | CPU | Quad core, 1.3GHz | - |
-  | RAM+Storage | 2+16GB | - |
-  | Display | 5", 1280*720 | - |
-  | Touch Panel | Capacitive | - |
-  | Wireless | WiFi a/b/g/n,Bluetooth 4.1 | - |
-  | WWAN | 4G LTE,FDD/TDD | - |
-  | Camera | 13MP, Rear | - |
-  | Constellation | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2,GAL E1<sup>[1]</sup> | Single frequency<sup>[2]</sup> |
-  | RTK initial<sup>[3]</sup> | <30s | 120s |
-  | RTK accuracy | 1cm+1ppm(H)<br>2cm+1ppm(V) | 2cm+1ppm(H)<br>5cm+1ppm(V) |
-  | Battery | 3200mAh | - |
-  | Interface | Microusb for power and data | - |
-  | Antenna | SMA connector | - |
-  | Environment | Operation:-20 &deg;C to +60&deg;C <br>Storage:-30 &deg;C to +70&deg;C| - |
-  | Waterproof | IP65 | - |
-  | Drop Test | 1.2m to concrete floor | - |
-  | Weight | 295g | - |
+| Items | D303 | D302 |
+| :----- | :----- | :----: |
+| OS | Android-Based OS | - |
+| CPU | Quad core, 1.3GHz | - |
+| RAM+Storage | 2+16GB | - |
+| Display | 5", 1280*720 | - |
+| Touch Panel | Capacitive | - |
+| Wireless | WiFi a/b/g/n,Bluetooth 4.1 | - |
+| WWAN | 4G LTE,FDD/TDD | - |
+| Camera | 13MP, Rear | - |
+| Constellation | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2,GAL E1<sup>[1]</sup> | Single frequency<sup>[2]</sup> |
+| RTK initial<sup>[3]</sup> | <30s | 120s |
+| RTK accuracy | 1cm+1ppm(H)<br>2cm+1ppm(V) | 2cm+1ppm(H)<br>5cm+1ppm(V) |
+| Battery | 3200mAh | - |
+| Interface | Microusb for power and data | - |
+| Antenna | SMA connector | - |
+| Environment | Operation:-20 &deg;C to +60&deg;C <br>Storage:-30 &deg;C to +70&deg;C| - |
+| Waterproof | IP65 | - |
+| Drop Test | 1.2m to concrete floor | - |
+| Weight | 295g | - |
 
 <br>
-  
-  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](../download/D30X_DS_EN.pdf)
+
+  - [![](images/pdf.png)&nbsp;D302/D303 datasheet](../download/D30X_DS_EN_2021.pdf)
 
 <br>
 <br>
