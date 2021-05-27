@@ -6,7 +6,7 @@
 
 | Items | D303(ver 2021) | D302(Discontinued) |
 | :----- | :----- | :----: |
-| OS | Android 8.1-Based OS | - |
+| OS | Android 8.1 | - |
 | CPU | Quad core, 1.3GHz | - |
 | RAM+Storage | 2+16GB | - |
 | Display | 5", 1280*720 | - |
