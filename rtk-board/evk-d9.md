@@ -40,42 +40,42 @@ or any power-only source to power supply this module.
 ![D9 USB Mode](../images/d9-usb.png)
 
 ![D9 EVK stream flow chart](../images/d9-strsvr.png)
-  
+
 <br>
 #### 1.prepare for software
 
   ![](../images/str-d9.png)
-   
+
   Please download rtklib, we will use it to perform our evk test.
 
   As a part of rtklib, strsvr is a powerful stream server utility.
 <br>
 
- 
+
 #### 2.strsvr instance 1
 
   get data from uart output to tcp server for rtk correction and 3rd part app 
-   
+
   connect evk to computer via usb port,config serial port parameters.
-   
-   
+
+
   ![](../images/str-1.png) 
-   
+
   ![](../images/str-2.png)
-   
+
   ![](../images/str-3.png) 
 
-  
+
 #### 3.strsvr instance 2
 
   get RTCM data from VRS/Base station via NTRIP client,then feed to tcp server
-  
+
   ![](../images/str-4.png)
 
 #### 4.the 3rd party APP
 
   get RTK solution from tcp server by NMEA-0183 protocol.
-  
+
   
 
 
@@ -94,7 +94,7 @@ The key is that this software is still licensed for free.
 Our Bluetooth mode operation will be based on this software.
 
 There are several ways to get the software, one is to download and install it from the google play store, and the other is to download it from our built-in appbus, only the second download will not be the latest version.
- 
+
 #### Steps
 
 1. Powering your device from the USB port with your power-bank. You'll see the power indicator light up.  
@@ -118,22 +118,35 @@ There are several ways to get the software, one is to download and install it fr
 
    
 
+### Base station mode
+
+For D9 evk, it could be configured as base station.
+
+Please send the following command to evk via bluetooth or uart com port:
+
+1. close NMEA output
+   `$cfgprt,,,,4;cfgsave,`
+2. output RTCM message
+   `$cfgmsg,2,1074,1;cfgmsg,2,1084,1; cfgmsg,2,1114,1;cfgmsg,2,1124,1;cfgsave,`
+3. output RTCM 1005 message
+   `$cfgmsg,2,1005,1;cfgsave,`
+4. config base station position(lat,lon,alt)
+   `$cfgtpm,1,,lat,lon,alt;cfgsave,`
 
    
-   
-   
+
 <br>
 <br>
 ### Related link  
  [How to choose GNSS antenna for your RTK application?](../../d303-docs/common/choice-of-antenna) 
 
- 
+
  [Where to place your receiver in field?](../../d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver) 
 
- 
+
  [AT400 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk) 
- 
- 
+
+
  [D30x Handheld RTK receiver](../../d303-docs/)
 
 
