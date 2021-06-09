@@ -22,6 +22,10 @@ The syntax of the message is shown below.
   For n = 0 to N
   CS = CS ^ <Payload Byte # n>
 
+### Data Type Definition
+  
+  | UINT8 | 8bits unsigned integer |
+  
 ## Message flow
 
 ## Message list
