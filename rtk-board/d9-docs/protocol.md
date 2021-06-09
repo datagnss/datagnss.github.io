@@ -24,7 +24,8 @@ The syntax of the message is shown below.
 
 ### Data Type Definition
   
-  | UINT8 | 8bits unsigned integer |
+   UINT8 | 8bits unsigned integer 
+   UINT16 | 16bits unsigned integer
   
 ## Message flow
 
