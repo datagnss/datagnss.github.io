@@ -36,6 +36,6 @@
   - "Start Service" 
   - After solution being rtk fixed, press Home button to keep service background.
   - Run Mapit Pro or any other software.
-  - For further usage help of RTK service, please visit [User manual(for Android 5.x](d303.md),or [New manual for Android 8.1](d303-2021.md).
+  - For further usage help of RTK service, please visit [User manual(for Android 5.x)](d303.md) , or [New user manual(for Android 8.1)](d303-2021.md).
   - Any other questions please visit [Support center](../index.md) .
   - or send email to info@datagnss.com .
