@@ -143,7 +143,7 @@ The power LED indicates the power status. When the module is powered on, the LED
 ### 7.Firmware updating
 
 <br>
-[Satrack download(v1.29.144)![](../images/zip.png)](firmware/Satrack_client_1.29.144.zip)
+[Satrack download![](../images/zip.png)](firmware/Satrack_client.zip)
 <br>
 
 Find out current version:
