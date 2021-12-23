@@ -2,7 +2,7 @@
 </span>
 <br>
 
-<br>
+<!-- <br>
 TAU1302/1303 is a high performance multi-band GNSS positioning module, which is 
 based on HD9310 chipset from Allystar.
 
@@ -20,14 +20,11 @@ Please go to this link: [D9-EVK](evk-d9)
 
 <div style="text-align: left;">
 <img src="images/1302-1.png" style="width: 700px;">
-</div>
+</div> -->
+
 
 ### 1.Overview
 
-<div style="text-align: left;">
-<img src="images/13023.png" style="width: 600px;">
-</div>
-<br>
 <br>
 <div style="text-align: left;">
 <img src="images/mini-evk-3.png" style="width: 600px;">
