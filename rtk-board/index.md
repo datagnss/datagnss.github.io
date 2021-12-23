@@ -51,9 +51,9 @@
   
  | Item | specifications | Bluetooth | P/N |
  | :--- | :--- | :---: | :---: |
- | Standard RTK | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2 GAL E1 | N | ME-00-00 |
+ | Standard raw data | GPS L1/L2,BDS B1/B2,<br>GLO L1/L2 GAL E1 | N | ME-00-00 |
  | Bluetooth <br>RTK receiver | same as above<br>Bluetooth connection<br>RTK status LED | Y | ME-BT-01 |
- | with QZS L6D/E | GPS/QZS L1/L6,BDS B1/B3I,<br>GLO L1OF,GAL E1/E6 | N | ME-00-02 |
+ | with QZSS L6D/E | GPS/QZS L1/L6,BDS B1/B3I,<br>GLO L1OF,GAL E1/E6 | N | ME-00-02 |
  
 <br>
 
