@@ -2,25 +2,6 @@
 </span>
 <br>
 
-<!-- <br>
-TAU1302/1303 is a high performance multi-band GNSS positioning module, which is 
-based on HD9310 chipset from Allystar.
-
-TAU1302/1303 integrates efficient power management architecture, while providing 
-high precision, high sensitivity and low power GNSS solutions which make it suitable
-for professional industy market.
-
-<br>
-![Tips](../../d303-docs/images/tips.png)
-D9 BLUETOOTH/USB RTK RECEIVER(RTK ENGINE INSIDE)
-
-Please go to this link: [D9-EVK](evk-d9)
-
-<br>
-
-<div style="text-align: left;">
-<img src="images/1302-1.png" style="width: 700px;">
-</div> -->
 
 
 ### 1.Overview
@@ -31,7 +12,6 @@ Please go to this link: [D9-EVK](evk-d9)
 </div>
 <br>
 
-
  - GPS/QZSS L1/L2/L5,GLONASS L1/L2
  - BDS B1/B2/B3,GALILEO E1/E5A
  - Raw measurement output
@@ -40,10 +20,8 @@ Please go to this link: [D9-EVK](evk-d9)
  - USB-UART interface
  - Size: 48mm x 23mm
  - Weight:~6.2g
- - TAU1302/1303 on board
  - Precision agriculture, UAV mapping, deformation monitoring, surveying and mapping
 
- ***In most cases, the evk you purchased is with 1302 module.***
  
 <br>
  
@@ -98,8 +76,6 @@ An SMA female jack is available on the side panel of the evaluation unit for con
 <a href="https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk" target="_blank">AT400 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK</a>
 
 [![](images/antenna-1.png)](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk)
-
-
  
 <br>
 <br>
@@ -107,7 +83,6 @@ An SMA female jack is available on the side panel of the evaluation unit for con
 
 ### 5.Power status
 The power LED indicates the power status. When the module is powered on, the LED is on.
-
 
  
 <br>
