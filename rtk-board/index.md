@@ -73,9 +73,9 @@ An SMA female jack is available on the side panel of the evaluation unit for con
 
 **It is best to use our recommended antenna**
 
-<a href="https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk" target="_blank">AT400 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK</a>
+<a href="https://www.datagnss.com/collections/rtk-antenna/products/at300-survey-grade-antenna-for-rtk" target="_blank">AT300 COST-EFFECTIVE MULTI-BAND ANTENNA FOR RTK</a>
 
-[![](images/antenna-1.png)](https://www.datagnss.com/products/at400-multi-band-antenna-for-rtk)
+[![](images/antenna-1.png)](https://www.datagnss.com/collections/rtk-antenna/products/at300-survey-grade-antenna-for-rtk)
  
 <br>
 <br>
