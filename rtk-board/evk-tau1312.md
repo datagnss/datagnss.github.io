@@ -31,7 +31,33 @@
 - support rtk rover mode and base mode
 
 ### Standalone mode
+
+TAU1312 support the following working mode:
+- GN_DGNSS_NONE
+- GN_DGNSS_SBAS
+- GN_DGNSS_RTD
+- GN_DGNSS_RTK_FLTINT
+- GN_DGNSS_RTK_FIXINT
+
+#### 1. set to standalone mode
 ![set DGNSS to none](../images/tau1312-evk-cfg-dgnss.png)
+
+#### 2. set PVT output rate
+![set output rate](../images/tau1312-evk/set-output-rate.png)
+Note: set the "Update period" to
+- 1000ms for 1Hz
+- 500ms  for 2Hz
+- 200ms  for 5Hz
+- 100ms  for 10Hz
+
+<br>
+![Tips](../../d303-docs/images/tips.png)
+For TAU1312, support 1/2/5/10Hz in standalone mode.
+
+#### RTK mode [GN_DGNSS_RTK_FLTINT]
+
+![set DGNSS to rtk](../images/tau1312-evk/set-dgnss-mode-rtk.png)
+
 
 ### USB UART mode
 
