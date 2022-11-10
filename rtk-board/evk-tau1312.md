@@ -127,7 +127,7 @@ Press "Send" button to save it.
 Sometimes if the data update rate is too high, you need press button several times.
 
 
-## Test EVK-TAU1312 with 3rd party utility
+## Test EVK-TAU1312 with 3rd party utilities
 
 - [str2str](../files/strsvr.zip), a powerful utility for stream application
 - [rtkplot](../files/rtkplot.zip), a powerful plot utility
@@ -135,6 +135,9 @@ Sometimes if the data update rate is too high, you need press button several tim
 above two utilities is the part of the famous RTKLIB.
 if you want the full experience test, please download RTKLIB from [rtklib official website](https://www.rtklib.com)
 
+Step by step:
+
+(TODO) coming soon...
 
 
 <br>
