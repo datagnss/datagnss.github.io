@@ -1,38 +1,37 @@
-<span class="markdown-body-normal-header">RTK evk field test(D9-RTK-receiver)
+<span class="markdown-body-normal-header">RTK evk for TAU1312 test
 </span>
 <br>
 
 <br>
 <br>
-![](../images/D9-01.jpg) 
-
-(LED indicator: Power-Bluetooth-Charge-Standby, left to right above)
 
 ### Requirement
 
 #### Hardware
-* RTK EVK(D9) *1
+* RTK EVK(TAU1312) *1
 * GNSS antenna*1
 * USB cable*1
 * GNSS antenna cable*1
 * Power bank(optional)
 
 #### Software
-* rtklib (USB mode)
-* SW Maps (Bluetooth mode)
+* rtklib 
+* Satrack 
 
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
-USB interface is designed for power supply and uart for data communication.
-if you connnect this evk to a host-device like computer or SBC device, it will 
-work in uart mode.Now usb interface will power supply rtk module and be as a uart
-interface, but Bluetooth will not work.
+
 
 <br>
-If you want use it as a Bluetooth rtk receiver, please prepare for a power bank
-or any power-only source to power supply this module.
 
+### Specifications
+- support 1/2/5Hz for rtk output rate
+- support 1/2/4/10Hz for standalone output rate
+- support rtk rover mode and base mode
+
+### Standalone mode
+![set DGNSS to none](../images/tau1312-evk-cfg-dgnss.png)
 
 ### USB UART mode
 
