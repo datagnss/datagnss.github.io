@@ -7,7 +7,8 @@
 ## 1. Test EVK-TAU1312 with Satrack
 
 
-![evk-tau1312](../images/mini-evk-2.jpg)
+![evk-tau1312](../images/evk-view.png)
+
 
 [TAU1312-evk datasheet](../files/T-5-1910-002-TAU1302 Datasheet-V1.1.pdf)
 
