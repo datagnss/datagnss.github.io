@@ -71,8 +71,7 @@ For TAU1312, support 1/2/5/10Hz in standalone mode.
 
 ![set DGNSS to RTK](../images/tau1312-evk/set-dgnss-mode-rtk.png)
 
-#### 2. set rtk output rate
-
+#### 2. set RTK output rate [PVT,NMEA]
 
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
 
@@ -85,6 +84,43 @@ Note: set the "Update period" to
 <br>
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5Hz in RTK mode.
+
+#### 3. RTK base station
+set evk as a base staion, you need set the evk to output RTCM data:
+- Type 1005 (base station position)
+- Type 1077/1087/1097/1107/1117/1127 (raw data, MSM7)
+
+<br>
+![Tips](../../d303-docs/images/tips.png)
+To reduce the amount of data, we could set the RTCM to MSM4.
+
+##### 1.set output rate to 1Hz
+![set output rate](../images/tau1312-evk/set-output-rate.png)
+
+##### 2.set NMEA output off
+![NMEA off](../images/tau1312-evk/nmea-off.png)
+
+
+##### 3.set RTCM output on
+![RTCM on](../images/tau1312-evk/set-base-rtcm-output.png)
+
+##### 4.set fixed position for base station
+![set fixed position for base staion](../images/tau1312-evk/set-base-fixed-pos.png)
+- CFG-FIXEDECEF
+- If you have the known position for base station, please input the three value XYZ. 
+- Otherwise, press "GetNow" to fill the XYZ field
+- Then Press "Send" button
+
+After above operation, you will see the following 1005 with the fixed base position.
+
+![Check RTCM type 1005 with the fixed pos](../images/tau1312-evk/set-rtcm-1005-fixed-pos.png)
+
+### Save config
+
+![Tips](../../d303-docs/images/tips.png)
+Save config to keep the configuration available in the next power boot.
+
+![Save config](../images/tau1312-evk/save-config.png)
 
 
 
