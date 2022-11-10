@@ -1,4 +1,4 @@
-<span class="markdown-body-normal-header">RTK evk for TAU1312 test
+<span class="markdown-body-normal-header">TAU1312 evk evaluation guide
 </span>
 <br>
 
