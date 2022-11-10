@@ -64,9 +64,27 @@ Note: set the "Update period" to
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5/10Hz in standalone mode.
 
-#### RTK mode [GN_DGNSS_RTK_FIXINT]
+### RTK mode [GN_DGNSS_RTK_FIXINT]
+
+#### 1. set to RTK mode
+
 
 ![set DGNSS to RTK](../images/tau1312-evk/set-dgnss-mode-rtk.png)
+
+#### 2. set rtk output rate
+
+
+![set output rate](../images/tau1312-evk/set-output-rate.png)
+
+
+Note: set the "Update period" to
+- 1000ms for 1Hz
+- 500ms  for 2Hz
+- 200ms  for 5Hz
+
+<br>
+![Tips](../../d303-docs/images/tips.png)
+For TAU1312, support 1/2/5Hz in RTK mode.
 
 
 
