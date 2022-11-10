@@ -4,20 +4,20 @@
 
 <br>
 <br>
-## Test EVK-TAU1312 with Satrack
+## 1. Test EVK-TAU1312 with Satrack
 
-### Requirement
+### 1.1 Requirement
 
-#### Hardware
+#### 1.1.1 Hardware
 * RTK EVK(TAU1312) *1
 * GNSS antenna*1
 * USB cable*1
 * GNSS antenna cable*1
 * Power bank(optional)
 
-#### Software
+#### 1.1.2 Software
 * rtklib 
-* Satrack 
+* [Satrack V1.29.194](../files/Satrack_client_V1.29.194.rar) 
 
 
 <br>
@@ -26,12 +26,12 @@
 
 <br>
 
-### Specifications
+### 1.2 Specifications
 - support 1/2/5Hz for rtk output rate
 - support 1/2/4/10Hz for standalone output rate
 - support rtk rover mode and base mode
 
-### Test evk with Satrack
+### 1.3 Guide
 ![Satrack](../images/tau1312-evk/main.png)
 
 
@@ -45,13 +45,13 @@ TAU1312 support the following working mode:
 - GN_DGNSS_RTK_FIXINT
 
 
-### Standalone mode
+### 1.4 Standalone mode
 
-#### 1. set to standalone mode
+#### 1.4.1 set to standalone mode
 
 ![set DGNSS to none](../images/tau1312-evk-cfg-dgnss.png)
 
-#### 2. set PVT output rate
+#### 1.4.2 set PVT output rate
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
 
 
@@ -65,14 +65,14 @@ Note: set the "Update period" to
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5/10Hz in standalone mode.
 
-### RTK mode [GN_DGNSS_RTK_FIXINT]
+### 1.5 RTK mode [GN_DGNSS_RTK_FIXINT]
 
-#### 1. set to RTK mode
+#### 1.5.1 set to RTK mode
 
 
 ![set DGNSS to RTK](../images/tau1312-evk/set-dgnss-mode-rtk.png)
 
-#### 2. set RTK output rate [PVT,NMEA]
+#### 1.5.2 set RTK output rate [PVT,NMEA]
 
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
 
@@ -86,7 +86,7 @@ Note: set the "Update period" to
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5Hz in RTK mode.
 
-#### 3. RTK base station
+#### 1.5.3 RTK base station
 set evk as a base staion, you need set the evk to output RTCM data:
 - Type 1005 (base station position)
 - Type 1077/1087/1097/1107/1117/1127 (raw data, MSM7)
@@ -95,17 +95,17 @@ set evk as a base staion, you need set the evk to output RTCM data:
 ![Tips](../../d303-docs/images/tips.png)
 To reduce the amount of data, you could set the RTCM data from MSM7 to MSM4.
 
-##### 1.set output rate to 1Hz
+##### i. set output rate to 1Hz
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
 
-##### 2.set NMEA output off
+##### ii. set NMEA output off
 ![NMEA off](../images/tau1312-evk/nmea-off.png)
 
 
-##### 3.set RTCM output on
+##### iii. set RTCM output on
 ![RTCM on](../images/tau1312-evk/set-base-rtcm-output.png)
 
-##### 4.set fixed position for base station
+##### iv. set fixed position for base station
 ![set fixed position for base staion](../images/tau1312-evk/set-base-fixed-pos.png)
 - CFG-FIXEDECEF
 - If you have the known position for base station, please input the three value XYZ. 
@@ -116,7 +116,7 @@ After above operation, you will see the following 1005 with the fixed base posit
 
 ![Check RTCM type 1005 with the fixed pos](../images/tau1312-evk/set-rtcm-1005-fixed-pos.png)
 
-### Save config
+### 1.6 Save config
 
 ![Tips](../../d303-docs/images/tips.png)
 Save config to keep the configuration available in the next power boot.
@@ -127,7 +127,7 @@ Press "Send" button to save it.
 Sometimes if the data update rate is too high, you need press button several times.
 
 
-## Test EVK-TAU1312 with 3rd party utilities
+## 2. Test EVK-TAU1312 with 3rd party utilities
 
 - [str2str](../files/strsvr.zip), a powerful utility for stream application
 - [rtkplot](../files/rtkplot.zip), a powerful plot utility
