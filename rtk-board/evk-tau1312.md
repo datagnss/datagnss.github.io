@@ -92,7 +92,7 @@ set evk as a base staion, you need set the evk to output RTCM data:
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
-To reduce the amount of data, we could set the RTCM to MSM4.
+To reduce the amount of data, you could set the RTCM data from MSM7 to MSM4.
 
 ##### 1.set output rate to 1Hz
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
@@ -122,7 +122,8 @@ Save config to keep the configuration available in the next power boot.
 
 ![Save config](../images/tau1312-evk/save-config.png)
 
-
+Press "Send" button to save it.
+Sometimes if the data update rate is too high, you need press button several times.
 
 ### USB UART mode
 
@@ -162,66 +163,7 @@ Save config to keep the configuration available in the next power boot.
 
   ![](../images/str-4.png)
 
-#### 4.the 3rd party APP
 
-  get RTK solution from tcp server by NMEA-0183 protocol.
-
-  
-
-
-<br>
-<br>
-### Bluetooth mode
-
-**We recommend using SW Maps to test the bluetooth mode.**
-
-
-![](../images/sw-map-0.png)
-
-SW Maps is a multi-functional GIS data acquisition software from Nepal,which can be used for point, line and polygon data acquisition, and can easily try Google Maps/Image Maps, OSM Maps, etc. 
-
-The key is that this software is still licensed for free.
-Our Bluetooth mode operation will be based on this software.
-
-There are several ways to get the software, one is to download and install it from the google play store, and the other is to download it from our built-in appbus, only the second download will not be the latest version.
-
-#### Steps
-
-1. Powering your device from the USB port with your power-bank. You'll see the power indicator light up.  
-
-2. In your android phone, find Bluetooth setting in system settings, then paired this evk. The evk's bluetooth name is like ET10_SPPAAxxxx. The last 4 digits are the last 4 digits of a Bluetooth MAC address 
-
-   ![](../images/sw-d9-1.png)
-
-3. Open SW Maps, 
-   - click "Bluetooth GPS"
-   - set "u* RTK" as current device 
-   - fresh device to find you just paried device (like ET10_SPPAAxxxx) 
-   - "connect" 
-   
-   ![](../images/sw-d9-3.png)  ![](../images/sw-d9-5.png)
-
-
-4. re-click left side bar,you will fina a new menu "NTRIP connection" after rtk receiver connected. 
-
-   ![NTRIP connection](../images/sw-d9-6.png)  ![Config ntrip client](../images/sw-d9-7.png) 
-
-   
-
-### Base station mode
-
-For D9 evk, it could be configured as base station.
-
-Please send the following command to evk via bluetooth or uart com port:
-
-1. close NMEA output
-   `$cfgprt,,,,4;cfgsave,`
-2. output RTCM message
-   `$cfgmsg,2,1074,1;cfgmsg,2,1084,1; cfgmsg,2,1114,1;cfgmsg,2,1124,1;cfgsave,`
-3. output RTCM 1005 message
-   `$cfgmsg,2,1005,1;cfgsave,`
-4. config base station position(lat,lon,alt)
-   `$cfgtpm,1,,lat,lon,alt;cfgsave,`
 
    
 
