@@ -30,8 +30,12 @@
 - support 1/2/4/10Hz for standalone output rate
 - support rtk rover mode and base mode
 
-### Standalone mode
+### Test evk with Satrack
+![Satrack](../images/tau1312-evk/main.png)
 
+
+<br>
+![Tips](../../d303-docs/images/tips.png)
 TAU1312 support the following working mode:
 - GN_DGNSS_NONE
 - GN_DGNSS_SBAS
@@ -39,11 +43,17 @@ TAU1312 support the following working mode:
 - GN_DGNSS_RTK_FLTINT
 - GN_DGNSS_RTK_FIXINT
 
+
+### Standalone mode
+
 #### 1. set to standalone mode
+
 ![set DGNSS to none](../images/tau1312-evk-cfg-dgnss.png)
 
 #### 2. set PVT output rate
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
+
+
 Note: set the "Update period" to
 - 1000ms for 1Hz
 - 500ms  for 2Hz
@@ -54,9 +64,10 @@ Note: set the "Update period" to
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5/10Hz in standalone mode.
 
-#### RTK mode [GN_DGNSS_RTK_FLTINT]
+#### RTK mode [GN_DGNSS_RTK_FIXINT]
 
-![set DGNSS to rtk](../images/tau1312-evk/set-dgnss-mode-rtk.png)
+![set DGNSS to RTK](../images/tau1312-evk/set-dgnss-mode-rtk.png)
+
 
 
 ### USB UART mode
