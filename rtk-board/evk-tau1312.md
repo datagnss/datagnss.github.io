@@ -4,6 +4,7 @@
 
 <br>
 <br>
+## Test EVK-TAU1312 with Satrack
 
 ### Requirement
 
@@ -125,47 +126,16 @@ Save config to keep the configuration available in the next power boot.
 Press "Send" button to save it.
 Sometimes if the data update rate is too high, you need press button several times.
 
-### USB UART mode
 
-<br>
-![D9 USB Mode](../images/d9-usb.png)
+## Test EVK-TAU1312 with 3rd party utility
 
-![D9 EVK stream flow chart](../images/d9-strsvr.png)
+- [str2str](../files/strsvr.zip), a powerful utility for stream application
+- [rtkplot](../files/rtkplot.zip), a powerful plot utility
 
-<br>
-#### 1.prepare for software
-
-  ![](../images/str-d9.png)
-
-  Please download rtklib, we will use it to perform our evk test.
-
-  As a part of rtklib, strsvr is a powerful stream server utility.
-<br>
+above two utilities is the part of the famous RTKLIB.
+if you want the full experience test, please download RTKLIB from [rtklib official website](https://www.rtklib.com)
 
 
-#### 2.strsvr instance 1
-
-  get data from uart output to tcp server for rtk correction and 3rd part app 
-
-  connect evk to computer via usb port,config serial port parameters.
-
-
-  ![](../images/str-1.png) 
-
-  ![](../images/str-2.png)
-
-  ![](../images/str-3.png) 
-
-
-#### 3.strsvr instance 2
-
-  get RTCM data from VRS/Base station via NTRIP client,then feed to tcp server
-
-  ![](../images/str-4.png)
-
-
-
-   
 
 <br>
 <br>
