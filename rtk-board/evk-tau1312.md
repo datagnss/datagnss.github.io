@@ -9,6 +9,8 @@
 
 ![evk-tau1312](../images/mini-evk-2.jpg)
 
+[TAU1312-evk datasheet](../files/T-5-1910-002-TAU1302 Datasheet-V1.1.pdf)
+
 ### 1.1 Requirement
 
 #### 1.1.1 Hardware
@@ -30,6 +32,7 @@
 <br>
 
 ### 1.2 Specifications
+
 - support 1/2/5Hz for rtk output rate
 - support 1/2/4/10Hz for standalone output rate
 - support rtk rover mode and base mode
