@@ -72,7 +72,7 @@ Note: set the "Update period" to
 ![Tips](../../d303-docs/images/tips.png)
 For TAU1312, support 1/2/5/10Hz in standalone mode.
 
-### 1.5 RTK mode [GN_DGNSS_RTK_FIXINT]
+### 1.5 RTK mode
 
 #### 1.5.1 set to RTK mode
 
