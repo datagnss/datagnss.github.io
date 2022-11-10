@@ -35,7 +35,7 @@
 ### 1.2 Specifications
 
 - support 1/2/5Hz for rtk output rate
-- support 1/2/4/10Hz for standalone output rate
+- support 1/2/5/10Hz for standalone output rate
 - support rtk rover mode and base mode
 
 ### 1.3 Guide
