@@ -6,6 +6,9 @@
 <br>
 ## 1. Test EVK-TAU1312 with Satrack
 
+
+![evk-tau1312](../images/mini-evk-2.jpg)
+
 ### 1.1 Requirement
 
 #### 1.1.1 Hardware
