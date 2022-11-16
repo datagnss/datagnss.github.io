@@ -116,24 +116,7 @@ There are several ways to get the software, one is to download and install it fr
 
    ![NTRIP connection](../images/sw-d9-6.png)  ![Config ntrip client](../images/sw-d9-7.png) 
 
-   
 
-### Base station mode
-
-For D9 evk, it could be configured as base station.
-
-Please send the following command to evk via bluetooth or uart com port:
-
-1. close NMEA output
-   `$cfgprt,,,,4;cfgsave,`
-2. output RTCM message
-   `$cfgmsg,2,1074,1;cfgmsg,2,1084,1; cfgmsg,2,1114,1;cfgmsg,2,1124,1;cfgsave,`
-3. output RTCM 1005 message
-   `$cfgmsg,2,1005,1;cfgsave,`
-4. config base station position(lat,lon,alt)
-   `$cfgtpm,1,,lat,lon,alt;cfgsave,`
-
-   
 
 <br>
 <br>
