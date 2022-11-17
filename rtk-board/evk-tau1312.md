@@ -80,7 +80,7 @@ For TAU1312, support 1/2/5/10Hz in standalone mode.
 
 ![set DGNSS to RTK](../images/tau1312-evk/set-dgnss-mode-rtk.png)
 
-#### 1.5.2 set RTK output rate [PVT,NMEA]
+#### 1.5.2 set RTK data output rate [PVT,NMEA]
 
 ![set output rate](../images/tau1312-evk/set-output-rate.png)
 
