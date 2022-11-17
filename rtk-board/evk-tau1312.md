@@ -102,7 +102,7 @@ set evk as a base staion, you need set the evk to output RTCM data:
 
 <br>
 ![Tips](../../d303-docs/images/tips.png)
-To reduce the amount of data, you could set the RTCM data from MSM7 to MSM4.
+To reduce the data payload, you could set the RTCM data from MSM7 to MSM4.
 
 ##### i. set output rate to 1Hz
 
