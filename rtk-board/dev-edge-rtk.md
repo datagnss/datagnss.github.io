@@ -8,10 +8,10 @@
 
 
 
-DEV-EDGE-1302基于华硕工业级ARM平台——Tinkerboard EDGE R，具有6核心的高性能处理器，并整合了Rockchip NPU，
-可以方便的进行机器学习，AI加速。区别于普通的ARM单板系统，EDGE R具有板载eMMC加载系统，稳定、高速和可靠。
-支援Linux与Android系统。同时，EDGE R采用工业级宽电压设计，支持12-19V DC电源输入，稳定的电压和电源保护
-设计，可以让系统稳定作业并发挥完整的效能。
+DEV-EDGE-1302基于华硕工业级ARM平台——Tinkerboard EDGE R开发的RTK测试评估套件，具有6核心的高性能处理器，
+并整合了Rockchip NPU，可以方便的进行机器学习，AI加速。区别于普通的ARM单板系统，EDGE R具有板载eMMC加载
+系统，稳定、高速和可靠。支援Linux与Android系统。同时，EDGE R采用工业级宽电压设计，支持12-19V DC电源输
+入，稳定的电压和电源保护设计，可以让系统稳定作业并发挥完整的效能。
 
 
 
@@ -27,15 +27,17 @@ DEV-EDGE-1302 内置针对ARM64位平台优化的RTK算法，支持最高10Hz RT
 
 
 
-### Hardware
-* USB to UART,data and power supply
-* 2pins connector for power supply(5V,1A)
-* 6pins connector,UART and Power out for connected device
-* SMA Antenna connector
-* Build-in radio module (800-2000m,3DR compatible)
-* RTK module,support all GNSS constellation
-* ESP32-S module for WiFi,CPU,UART
-* Bluetooth module(rear side)
+### 产品清单
+* Tinkerboard Edge-R
+* 电源适配器，12V/3A
+* DM-1302-P1,mini PCIe (已装在主板上)
+* 双频段WiFi模组（已装在主板上）
+
+### 产品规格
+![](../images/tau1312-evk/edge-rtk-specs-0.png)
+
+
+![](../images/tau1312-evk/edge-rtk-specs-1.png)
 
 **Both USB and 2pins support power in, only choose one**
 
