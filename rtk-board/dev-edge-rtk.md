@@ -3,9 +3,9 @@
 <br>
 
 <br>
-![](../images/tau1312-evk/edge-r.png) 
+![](../images/tau1312-evk/dev-edge-rtk.png) 
 <br>
-![](../images/tau1312-evk/DM-1312-P-s.png) 
+
 
 
 DEV-EDGE-1302基于华硕工业级ARM平台——Tinkerboard EDGE R，具有6核心的高性能处理器，并整合了Rockchip NPU，
