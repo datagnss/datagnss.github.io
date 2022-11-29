@@ -5,7 +5,7 @@
 <br>
 ![](../images/tau1312-evk/edge-r.png) 
 <br>
-![](../images/tau1312-evk/DM-1312-P.png) 
+![](../images/tau1312-evk/DM-1312-P-s.png) 
 
 
 DEV-EDGE-1302基于华硕工业级ARM平台——Tinkerboard EDGE R，具有6核心的高性能处理器，并整合了Rockchip NPU，
@@ -14,8 +14,12 @@ DEV-EDGE-1302基于华硕工业级ARM平台——Tinkerboard EDGE R，具有6核
 设计，可以让系统稳定作业并发挥完整的效能。
 
 
+
+
 DEV-EDGE-1302 通过mini PCIe接口，内置Allystar TAU1302高精度GNSS模组，TAU1302支持1/2/5/10Hz 的原始观测量
 输出，支援RTCM3.2 MSM4和MSM7数据输出，可以非常方便高效的进行高精度 RTK 定位及定向。
+
+
 
 
 DEV-EDGE-1302 内置针对ARM64位平台优化的RTK算法，支持最高10Hz RTK解算及定向，是最佳的“开箱即用”开发套件，
