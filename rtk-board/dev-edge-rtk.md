@@ -26,6 +26,12 @@ DEV-EDGE-1302 内置针对ARM64位平台优化的RTK算法，支持最高10Hz RT
 可以快速的帮你评估 TAU1302模组和适合自主研发产品的RTK高精度算法。
 
 
+### 产品规格
+![](../images/tau1312-evk/edge-rtk-specs-0.png)
+
+
+![](../images/tau1312-evk/edge-rtk-specs-1.png)
+
 
 ### 产品清单
 * Tinkerboard Edge-R
@@ -33,11 +39,7 @@ DEV-EDGE-1302 内置针对ARM64位平台优化的RTK算法，支持最高10Hz RT
 * DM-1302-P1,mini PCIe (已装在主板上)
 * 双频段WiFi模组（已装在主板上）
 
-### 产品规格
-![](../images/tau1312-evk/edge-rtk-specs-0.png)
 
-
-![](../images/tau1312-evk/edge-rtk-specs-1.png)
 
 **Both USB and 2pins support power in, only choose one**
 
