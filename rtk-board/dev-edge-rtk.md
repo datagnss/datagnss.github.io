@@ -3,6 +3,7 @@
 <br>
 
 <br>
+![](../images/tau1312-evk/edge-r.png) 
 <br>
 ![](../images/tau1312-evk/DM-1312-P.png) 
 
