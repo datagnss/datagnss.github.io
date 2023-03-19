@@ -28,7 +28,7 @@
  Related Document:
  
  [TAU1302-1303-Datasheet.V1.0](files/T-5-1909-001-TAU1303-DS.V1.0.pdf)  
- [TAU130x-hardware-manual](files/T-5-2107-TAU1302 Datasheet-V1.5.pdf)  
+ [TAU130x-hardware-manual](files/T-5-2107-TAU1302%20Datasheet-V1.5.pdf)  
  [TAU130x GNSS Protocol Specification V2.3](files/T-5-1908-001-GNSS_Protocol_Specification-V2.3.pdf)  
  
 <br>
