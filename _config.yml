@@ -33,16 +33,16 @@ navs:
     label: HOME
 
   -
-    href: https://www.datagnss.com/products/android-rtk/
-    label: D303
+    href: https://www.datagnss.com/collections/gnss-for-drone
+    label: RTK for Autopilot
 
   -
-    href: https://www.datagnss.com/products/single-freq-android-rtk-receiver
-    label: D302
+    href: https://www.datagnss.com/collections/rtk-antenna
+    label: Antenna
 
   -
-    href: https://www.datagnss.com/products/multi-band-rtk-evk
-    label: RTK EVK
+    href: https://www.datagnss.com/collections/accessories
+    label: Accessories
 
   -
     href: https://store.datagnss.com
