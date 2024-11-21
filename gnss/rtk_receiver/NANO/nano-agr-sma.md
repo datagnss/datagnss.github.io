@@ -57,7 +57,7 @@ NANO AGR RTK Receiver supports conventional RTK **base and rover** functions. It
 
 ## Pinout
 
-![NANO AGR PINOUT](../../../images/gnss/NANO-AGR-SMA-PINOUT.png)
+![NANO AGR PINOUT](../../../images/gnss/nano-agr-sma-pinout.png)
 
 ## GNSS Antenna recommendation
 
