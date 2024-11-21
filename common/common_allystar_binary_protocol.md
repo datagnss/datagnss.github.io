@@ -1,0 +1,1 @@
+Please download the Allystar binary protocol from [here](../../assets/datasheet/T-5-2011-ALLYSTAR_GNSS_Receiver_Binary_Protocol_Specification.pdf)
