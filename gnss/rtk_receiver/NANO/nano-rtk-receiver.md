@@ -17,7 +17,9 @@ It support Bluetooth (BLE and Bluetooth Classic SPP).
 Note: only SKU: NANO-BT-00 support bluetooth.
 
 Compaible with:
+
 ![Ardupilot](../../../images/partner/Ardupilot_logo.png) ![PX4](../../../images/partner/PX4_logo.png)
+
 ![SW Maps](../../../images/partner/swmaps_logo.png) ![Mapit GIS](../../../images/partner/mapit_logo.png)
 
 ### Key Features

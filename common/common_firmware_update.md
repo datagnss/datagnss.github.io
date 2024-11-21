@@ -1,8 +1,6 @@
 ### Firmware updating
 
-<br>
-[Satrack download![](../images/zip.png)](../rtk-board/firmware/Satrack_client.zip)
-<br>
+[Satrack download![](../images/zip.png)](../assets/software/satrack_latest.zip)
 
 Find out current version:
 
@@ -15,6 +13,7 @@ Find out current version:
 ![](../rtk-board/images/ver.png)
 
 #### user mode
+
 1) Connect to the EVK through COM ports.
 
 2) Select “HD User Update” from the tool bar, and the file choosing dialog will be shown.
@@ -28,7 +27,6 @@ Find out current version:
 #### boot mode
 
 ***Boot mode is only used if the upgrade fails in user mode.***  
-
 
 1) Connect to the EVK through COM ports.
 
@@ -50,6 +48,4 @@ updating finishes.
 
 7) After firmware updating completed, press RESET button on the EVK to restart the module.
 
-
-**DO NOT interrupt the file transfer, keep program running and make sure all cables are well connected when
-the file is transmitting.** 
+**DO NOT interrupt the file transfer, keep program running and make sure all cables are well onnected when the file is transmitting.**
