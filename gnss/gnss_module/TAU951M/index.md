@@ -60,6 +60,7 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 ## Resources
 
 - [TAU951M_datasheet](../../../assets/datasheet/TAU951M-P2-Datasheet-V1.0.pdf)
+- [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
 
 ## TEST EVK
 

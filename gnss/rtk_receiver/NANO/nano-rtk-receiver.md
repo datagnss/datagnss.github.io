@@ -124,3 +124,5 @@ If you are interested in the use of NANO RTK Receiver in the surveying applicati
 ## Resources
 
 - [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol.md)
+- [CP210x Drivers](../../../assets/drivers/CP210x_Windows_Drivers.zip)
+- [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)

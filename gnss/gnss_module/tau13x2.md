@@ -287,3 +287,4 @@ Labeling and ordering information help customers get more about Allystar product
 
 - [Common RTK Commands](../../common/common_cmds_for_rtk.md)
 - [Allystar GNSS Binary Protocol](../../common/common_allystar_binary_protocol.md)
+- [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
