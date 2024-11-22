@@ -280,6 +280,6 @@ Labeling and ordering information help customers get more about Allystar product
 
 ### Resource
 
-- [Common RTK Commands](../../common/common_cmds_for_rtk)
-- [Allystar GNSS Binary Protocol](../../common/common_allystar_binary_protocol)
+- [Common RTK Commands](../../../common/common_cmds_for_rtk)
+- [Allystar GNSS Binary Protocol](../../../common/common_allystar_binary_protocol)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
