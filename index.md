@@ -1,8 +1,4 @@
----
-title: Support center
----
-<div class="container">
-    <div class="content">
+<div class="container" style="min-height: calc(100vh - 200px); padding: 20px;">
 
 # Support center
 
@@ -48,5 +44,4 @@ title: Support center
 - CH34x Windows Drivers [Windows](rtk-board/files/drivers/Windows-CH340-Driver.zip) / [Mac](rtk-board/files/drivers/CH341SER_MAC.ZIP) / [Linux](rtk-board/files/drivers/CH341SER_LINUX.ZIP)
 - Virtual Com Port [com0com Windows Drivers](rtk-board/files/com0com-3.0.0.0-i386-and-x64-signed.zip)
 
-</div>
 </div>
