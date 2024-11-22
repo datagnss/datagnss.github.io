@@ -18,7 +18,6 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 - Support raw data output(RTCM format)
 - Smart jammer detection and suppression
 
-
 | Mode | GPS/QZS | | | | | BDS | | | | | | GLONASS | | GALILEO | | | | NavIC | SBAS |
 |------|---------|---|---|---|---|-----|---|---|---|---|---|----------|---|----------|---|---|---|-------|------|
 | | L1CA | L1C | L2C | L5 | L6 | B1I | B1C | B2I | B2b | B2a | B3I | G1 | G2 | E1 | E5a | E5b | E6 | L5 | L1 |

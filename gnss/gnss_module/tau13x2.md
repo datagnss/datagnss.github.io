@@ -178,6 +178,7 @@ When the module is applied to the specific application where the main supply nee
 ### Dimensions
 
 Table 12 Dimensions
+
 | Symbol | Min.(mm) | Typ.(mm) | Max.(mm) |
 |--------|----------|-----------|----------|
 | A | 12.0 | 12.2 | 12.4 |
@@ -190,6 +191,7 @@ Table 12 Dimensions
 | K | 0.4 | 0.5 | 0.6 |
 | M | 0.8 | 0.9 | 1.0 |
 | N | 0.7 | 0.8 | 0.9 |
+
 ## 6.REFERENCE DESIGN
 
 ### Minimal design
@@ -274,7 +276,7 @@ Labeling and ordering information help customers get more about Allystar product
 
 ### Labeling
 
-[[File:Labeling.png|400px|frameless]]
+![](../../images/gnss/TAU1312/Labeling.png)
 
 ### Resource
 
