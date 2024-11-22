@@ -7,20 +7,20 @@
         <div style="flex: 1; min-width: 45%;">
             <h2 id="gnss-module">GNSS module</h2>
             <ul>
-                <li><a href="https://wiki.datagnss.com/index.php/TAU1312">TAU1302/TAU1312 RTK module</a></li>
-                <li><a href="https://wiki.datagnss.com/index.php/TAU951M">TAU951M RTK module</a></li>
-                <li>D10P RTK module</li>
-                <li><a href="https://docs.datagnss.com/gnss/rtk_receiver/HED-10L/">HED-10L Heading RTK module</a></li>
+                <li><a href="/gnss/gnss_module/tau13x2/">TAU1302/TAU1312 RTK module</a></li>
+                <li><a href="/gnss/gnss_module/TAU951M/">TAU951M RTK module</a></li>
+                <li><a href="/gnss/gnss_module/D10P_RTK/">D10P RTK module</a></li>
+                <li><a href="/gnss/rtk_receiver/HED-10L/">HED-10L Heading RTK module</a></li>
             </ul>
         </div>
 
 <div style="flex: 1; min-width: 45%;">
             <h2 id="rtk-receiver">RTK receiver</h2>
             <ul>
-                <li><a href="https://docs.datagnss.com/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
-                <li><a href="https://wiki.datagnss.com/index.php/NANO_Helix_RTK">NANO Helix RTK receiver</a></li>
-                <li><a href="https://docs.datagnss.com/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
-                <li><a href="https://docs.datagnss.com/gnss/rtk_receiver/GEM1305">GEM1305 gmouse RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk/">NANO Helix RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 gmouse RTK receiver</a></li>
             </ul>
         </div>
 
@@ -53,9 +53,9 @@
 <div style="flex: 1; min-width: 45%;">
             <h2 id="related-guide">Related guide</h2>
             <ul>
-                <li><a href="https://docs.datagnss.com/rtk-board/evk-tau1312/">TAU1312 evk evaluation guide</a></li>
-                <li><a href="https://docs.datagnss.com/d303-docs/common/choice-of-antenna/">How to choose the rtk antenna</a></li>
-                <li><a href="https://docs.datagnss.com/d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver">Where-to-place-your-rtk-receiver</a></li>
+                <li><a href="/rtk-board/evk-tau1312/">TAU1312 evk evaluation guide</a></li>
+                <li><a href="/d303-docs/common/choice-of-antenna/">How to choose the rtk antenna</a></li>
+                <li><a href="/d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver">Where-to-place-your-rtk-receiver</a></li>
             </ul>
         </div>
 
