@@ -70,5 +70,5 @@ There is a built-in LNA and SAW in the module. It is recommended to use an activ
 ## Resources
 
 - Download [Satrack latest version](../../../assets/software/satrack_latest.zip).
-- [How to update firmware](../../../common/common_firmware_update.md)
+- [How to update firmware](../../../common/common_firmware_update)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)

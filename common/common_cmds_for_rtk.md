@@ -77,6 +77,4 @@ For example:
 
 ## Reference
 
-[1] https://wiki.datagnss.com/index.php/Sample-codes
-
-[[Allystar_GNSS_Protocol]]
+- [Datagnss Sample codes](./common_sample_codes)

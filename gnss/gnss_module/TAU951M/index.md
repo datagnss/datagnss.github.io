@@ -54,7 +54,7 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 
 ## Case study
 
-- [Survey and Mapping Package Kits](../surveying-and-mapping-kits.md)
+- [Survey and Mapping Package Kits](../surveying-and-mapping-kits)
 
 ## Resources
 
@@ -63,4 +63,4 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 
 ## TEST EVK
 
-[Test EVK](../../rtk_receiver/NANO/nano-rtk-receiver.md)
+[Test EVK](../../rtk_receiver/NANO/nano-rtk-receiver)

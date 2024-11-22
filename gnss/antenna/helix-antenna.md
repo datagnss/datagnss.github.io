@@ -34,5 +34,3 @@ It can also be applied to various handheld device and high-precision positioning
 | Dimensions(mm) | Φ28×58.5 |
 | Connector | SMA-J |
 | Weight (g) | ≤17g |
-
-

@@ -103,4 +103,4 @@ GEM1305 for Ardupilot: https://ardupilot.org/copter/docs/common-datagnss-gem1305
 ## Resources
 
 - [GEM1305 2D Drawing](../../../assets/drawing_files/GEM1305-2D-Drawing.pdf)
-- [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol.md)
+- [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol)
