@@ -77,4 +77,4 @@ For example:
 
 ## Reference
 
-- [Datagnss Sample codes](./common_sample_codes)
+- [Datagnss Sample codes](../common_sample_codes)
