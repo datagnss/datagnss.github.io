@@ -54,13 +54,15 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 
 ## Case study
 
-- [Survey and Mapping Package Kits](../surveying-and-mapping-kits)
+- [Survey and Mapping Package Kits](../../rtk_receiver/surveying-and-mapping-kits)
 
 ## Resources
 
 - [TAU951M_datasheet](../../../assets/datasheet/TAU951M-P2-Datasheet-V1.0.pdf)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
+- [Common RTK Commands](../../../common/common_cmds_for_rtk)
+- [Allystar GNSS Binary Protocol](../../../common/common_allystar_binary_protocol)
 
 ## TEST EVK
 
-[Test EVK](../../rtk_receiver/NANO/nano-rtk-receiver)
+[Test EVK](../../../gnss/rtk_receiver/NANO/nano-rtk-receiver)

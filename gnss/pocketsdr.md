@@ -21,7 +21,7 @@ The frequency of the reference oscillator (TCXO) is 24.000 MHz, and the ADC samp
 
 ![PocketSDR test](../images/gnss/pocketsdr/Pocketsdr-test-01.png)
 
-- [PocketSDR with Raspberry Pi](./pocketsdr_with_raspberrypi)
+- [PocketSDR with Raspberry Pi](../gnss/pocketsdr_with_raspberrypi)
 
 ## Product
 
