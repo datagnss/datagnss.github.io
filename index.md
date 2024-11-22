@@ -1,8 +1,10 @@
+<!-- 在 header 后面添加 container div -->
 <div class="container" style="min-height: calc(100vh - 200px); padding: 20px;">
-    <h1 id="support-center">Support center</h1>
+    <h1 id="support-center" style="text-align: left; margin-bottom: 30px;">Support center</h1>
 
-<div class="support-content" style="margin: 20px 0;">
-        <div class="section">
+<div class="support-content" style="display: flex; flex-wrap: wrap; gap: 30px;">
+        <!-- GNSS module & RTK receiver -->
+        <div style="flex: 1; min-width: 45%;">
             <h2 id="gnss-module">GNSS module</h2>
             <ul>
                 <li><a href="https://wiki.datagnss.com/index.php/TAU1312">TAU1302/TAU1312 RTK module</a></li>
@@ -12,7 +14,7 @@
             </ul>
         </div>
 
-<div class="section">
+<div style="flex: 1; min-width: 45%;">
             <h2 id="rtk-receiver">RTK receiver</h2>
             <ul>
                 <li><a href="https://docs.datagnss.com/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
@@ -22,8 +24,9 @@
             </ul>
         </div>
 
-<div class="section">
-            <h2 id="rtk-for-autopilotardupilotpx4">RTK for Autopilot(Ardupilot/PX4)</h2>
+<!-- RTK for Autopilot & Antenna for RTK -->
+<div style="flex: 1; min-width: 45%;">
+            <h2 id="rtk-for-autopilotardupilotpx4">RTK for Autopilot<br>(Ardupilot/PX4)</h2>
             <ul>
                 <li><a href="/gnss/rtk_receiver/GEM1305/">GEM1305 RTK receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
@@ -31,7 +34,7 @@
             </ul>
         </div>
 
-<div class="section">
+<div style="flex: 1; min-width: 45%;">
             <h2 id="antenna-for-rtk">Antenna for RTK</h2>
             <ul>
                 <li><a href="/gnss/antenna/helix-antenna/">Helix Antenna</a></li>
@@ -39,14 +42,15 @@
             </ul>
         </div>
 
-<div class="section">
+<!-- Satrack software & Related guide -->
+<div style="flex: 1; min-width: 45%;">
             <h2 id="satrack-software">Satrack software</h2>
             <ul>
                 <li><a href="/common/common_satrack_guide/">Satrack RTK</a></li>
             </ul>
         </div>
 
-<div class="section">
+<div style="flex: 1; min-width: 45%;">
             <h2 id="related-guide">Related guide</h2>
             <ul>
                 <li><a href="https://docs.datagnss.com/rtk-board/evk-tau1312/">TAU1312 evk evaluation guide</a></li>
@@ -55,7 +59,8 @@
             </ul>
         </div>
 
-<div class="section">
+<!-- Resource and download (full width) -->
+<div style="width: 100%;">
             <h2 id="resource-and-download">Resource and download</h2>
             <ul>
                 <li>Download the latest Satrack <a href="/rtk-board/files/Satrack_client_V1.31.007.zip">v1.31.007</a></li>
