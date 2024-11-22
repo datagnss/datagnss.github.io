@@ -2,14 +2,14 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-main: 'd303-docs'
+main: 'gnss'
 homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
 date_format: "ordinal"
-title: "DATAGNSS Docs"
+title: "DATAGNSS WiKi"
 subtitle: "support center"
-description: ""
-keywords: rtk,handheld rtk,gnss receiver
+description: "DATAGNSS products wiki"
+keywords: gem1305,nano rtk,helix antenna,rtk,handheld rtk,gnss receiver
 logo: 'images/logo-wb.png'
 timezone: Asia/Hongkong
 encoding: "utf-8"
@@ -22,7 +22,7 @@ author: DATAGNSS
 organization: DATAGNSS
 organization_url: https://www.datagnss.com 
 github_username: datagnss
-
+copyright_year: 2024
 
 # ---------------- #
 #    Navigation    #
