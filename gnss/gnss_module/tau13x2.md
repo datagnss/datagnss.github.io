@@ -69,6 +69,7 @@ Table 4 Detailed pin descriptions
 ### Absolute Maximum Rating
 
 Table 5 Absolute rating
+
 | Symbol | Parameter | Min. | Max. | Unit |
 |--------|-----------|------|------|------|
 | VDD | Power input for the main power domain | -0.5 | 3.63 | **V** |
@@ -82,6 +83,7 @@ Table 5 Absolute rating
 #### PRRSTX and PRTRG
 
 Table 6 PRRSTX and PRTRG
+
 | Symbol | Parameter | Condition | Min. | Typ. | Max. | Unit |
 |--------|-----------|-----------|------|------|------|------|
 | I IZ | Input leakage current | -- | -- | -- | +/-1 | uA |
@@ -89,15 +91,6 @@ Table 6 PRRSTX and PRTRG
 | V IL | Input low voltage | -- | 0 | -- | AVDD_BAK*0.3 | V |
 | C i | Input capacitance | -- | -- | -- | 10 | pF |
 | R PU | Pull-up resistance | -- | 18 | -- | 84 | kOhm |
-
-#### USB I/O
-
-Table 7 USB signal
-
-#### Others
-
-Table 8 Others
-
 
 
 ### DC Characteristics
