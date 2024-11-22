@@ -2,16 +2,10 @@
 layout: default
 ---
 <div class="container">
-    <div class="columns">
-        <div class="column three-fourths">
-            <h1 class="page-title" style="margin: 30px 0; font-size: 2.5em;">{{ page.title }}</h1>
-            <article class="article-content markdown-body">
-                {{ content }}
-            </article>
-        </div>
-        <div class="column one-fourth">
-            {% include sidebar-search.html %}
-            {% include sidebar-qrcode.html %}
-        </div>
+    <div class="content">
+        <h1 class="page-title" style="margin: 30px 0; font-size: 2.5em;">{{ page.title }}</h1>
+        <article class="article-content markdown-body">
+            {{ content }}
+        </article>
     </div>
 </div>

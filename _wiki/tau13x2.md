@@ -1,11 +1,10 @@
 ---
 layout: wiki
+title: TAU1312 RTK Module
 categories: [gnss,gnss_module,rtk]
 description: TAU1312 RTK Module
 keywords: TAU1312,RTK,TAU1302
 ---
-
-# TAU1312 RTK Module
 
 ## 1.Overview
 
