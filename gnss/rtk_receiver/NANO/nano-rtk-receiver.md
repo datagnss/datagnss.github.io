@@ -119,10 +119,10 @@ For example,NANO is connected to the autopilot's SERIAL4 port, it should work wi
 
 If you are interested in the use of NANO RTK Receiver in the surveying application, you can refer to the following page.
 
-[NANO RTK Surveying and Mapping Kit](../surveying-and-mapping-kits)
+[NANO RTK Surveying and Mapping Kit](../../surveying-and-mapping-kits)
 
 ## Resources
 
-- [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol)
+- [Allystar GNSS binary protocol](../../../../common/common_allystar_binary_protocol)
 - [CP210x Drivers](../../../assets/drivers/CP210x_Windows_Drivers.zip)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
