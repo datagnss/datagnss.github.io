@@ -1,0 +1,113 @@
+<div id="wiki-directory-module" style="position: sticky; top: 20px;">
+    <!-- 折叠按钮 -->
+    <div class="directory-toggle" onclick="toggleDirectory()" style="cursor: pointer; user-select: none;">
+      <span class="toggle-icon">▼</span>
+      <span class="toggle-text">目录</span>
+    </div>
+  
+    <!-- 目录内容 -->
+    <section class="wiki-directory">
+      <dl></dl>
+    </section>
+  </div>
+  
+  <script src="{{ site.url }}/assets/js/jquery.toc.js"></script>
+  
+  <style>
+  #wiki-directory-module {
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      transition: transform 0.3s ease;
+  }
+  
+  /* 折叠按钮样式 */
+  .directory-toggle {
+      padding: 10px 15px;
+      border-bottom: 1px solid #e8e8e8;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }
+  
+  .toggle-icon {
+      transition: transform 0.3s ease;
+  }
+  
+  /* 目录内容样式 */
+  .wiki-directory {
+      padding: 15px;
+      max-height: calc(100vh - 150px);
+      overflow-y: auto;
+      transition: all 0.3s ease;
+  }
+  
+  .wiki-directory dl {
+      margin: 0;
+  }
+  
+  .wiki-directory a {
+      display: block;
+      padding: 3px 0;
+      color: #666;
+      text-decoration: none;
+  }
+  
+  .wiki-directory a:hover {
+      color: #0366d6;
+  }
+  
+  /* 折叠状态 */
+  #wiki-directory-module.collapsed {
+      transform: translateX(-calc(100% - 30px));
+  }
+  
+  #wiki-directory-module.collapsed .toggle-icon {
+      transform: rotate(-90deg);
+  }
+  
+  #wiki-directory-module.collapsed .wiki-directory {
+      display: none;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+      #wiki-directory-module {
+          position: static;
+          margin-bottom: 20px;
+          transform: none !important;
+      }
+      
+      .wiki-directory {
+          max-height: none;
+      }
+  }
+  </style>
+  
+  <script>
+  function toggleDirectory() {
+      const module = document.getElementById('wiki-directory-module');
+      module.classList.toggle('collapsed');
+  }
+  
+  // 页面加载时默认展开
+  document.addEventListener('DOMContentLoaded', function() {
+      const module = document.getElementById('wiki-directory-module');
+      // 如果是移动设备，默认折叠
+      if (window.innerWidth <= 768) {
+          module.classList.add('collapsed');
+      }
+  });
+  
+  // 添加双击收起功能
+  document.addEventListener('DOMContentLoaded', function() {
+      const module = document.getElementById('wiki-directory-module');
+      module.addEventListener('dblclick', function(e) {
+          // 确保不是点击链接
+          if (!e.target.closest('a')) {
+              toggleDirectory();
+          }
+      });
+  });
+  </script>
