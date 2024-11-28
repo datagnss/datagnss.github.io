@@ -92,7 +92,7 @@ UART0 can be used for firmware upgrade, while UART1 cannot.
 
 ## Applications
 
-GEM1305 for Ardupilot: https://ardupilot.org/copter/docs/common-datagnss-gem1305-rtk.html
+[GEM1305 for Ardupilot](https://ardupilot.org/copter/docs/common-datagnss-gem1305-rtk.html)
 
 ## Package list
 
