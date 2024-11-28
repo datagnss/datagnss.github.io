@@ -2,6 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
+domains:
+  - docs.datagnss.com
+  - wiki.datagnss.com
+  - support.datagnss.com
 main: 'gnss'
 homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
