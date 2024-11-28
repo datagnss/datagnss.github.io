@@ -5,9 +5,6 @@ baseurl:
 main: 'gnss'
 homeurl: https://www.datagnss.com
 url: https://docs.datagnss.com
-alternate_urls:  # 别名域名
-  - https://wiki.datagnss.com
-  - https://support.datagnss.com
 date_format: "ordinal"
 title: "DATAGNSS WiKi"
 subtitle: "support center"
