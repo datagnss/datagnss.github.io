@@ -18,7 +18,7 @@
             <h2 id="rtk-receiver">RTK receiver</h2>
             <ul>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk/">NANO Helix RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO Helix RTK receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 gmouse RTK receiver</a></li>
             </ul>
