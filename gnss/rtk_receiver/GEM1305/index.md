@@ -7,7 +7,9 @@ It supports BDS-3 signals, along with global civil navigation systems, including
 
 ![GEM1305](../../../images/gnss/GEM1305/GEM1305-Pixhawk.png)
 
-If you are working in the field of UAV, you can refer to this link: https://ardupilot.org/copter/docs/common-datagnss-gem1305-rtk.html
+If you are working in the field of UAV, you can refer to the following links: 
+[Ardupilot guide](https://ardupilot.org/copter/docs/common-datagnss-gem1305-rtk.html)
+[PX4 guide](https://docs.px4.io/main/en/gps_compass/rtk_gps_gem1305.html) 
 
 ### Features
 
