@@ -19,7 +19,7 @@ If you are working in the field of UAV, you can refer to the following links:
 - State-of-the-art low power consumption design
 - Supports multi-band multi-system high precision raw data output, easy for 3rd party integration
 - The best cost-effective high precision GNSS positioning solution integrated with antenna
-- Compact size 55*55*15mm with high performance
+- Compact size 55x55x15mm with high performance
 
 ### Specifications
 
