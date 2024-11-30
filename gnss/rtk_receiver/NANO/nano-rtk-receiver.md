@@ -91,7 +91,6 @@ NANO-DG-xx, NANO-HRTK-00
 | Connection | Remark | 
 | --- | --- |
 | USB C | Input: RTCM, Binary, Command <br> Output: Binary, RTCM, NMEA |
-Output: Binary, RTCM, NMEA
 | Bluetooth | - |
 | 6P UART | Input: RTCM, Binary, Command <br> Output: Binary, RTCM, NMEA |
 
