@@ -97,3 +97,9 @@ On iPad / iPhone, we need to use the BLE mode to connect, as shown in the figure
 ![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-01.png)
 
 ![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-02.png)
+
+## Field Work Gallery
+
+![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/nano-surveying-kits-1.png)
+
+![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)
