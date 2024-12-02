@@ -1,3 +1,10 @@
+---
+title: "HED-10L"
+date: 2024-12-02
+---
+
+# HED-10L Heading RTK module
+
 ## Overview
 
 ## NANO Dual-Antenna RTK Receiver

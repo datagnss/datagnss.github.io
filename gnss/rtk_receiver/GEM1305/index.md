@@ -1,3 +1,8 @@
+---
+title: "GEM1305"
+date: 2024-12-02
+---
+
 # GEM1305 RTK module with built-in antenna
 
 ## Overview

@@ -2,13 +2,14 @@
 title: "Surveying and Mapping Kits"
 date: 2024-12-02
 ---
+# Surveying and Mapping Kits
 
 ## Overview
 
 The NANO RTK Receiver can be conveniently used for surveying and mapping applications. It supports RTK positioning, providing real-time centimeter-level accuracy.
 It is compatible with common free surveying and mapping software like SW Maps and Mapit GIS.
 
-The NANO RTK Receiver surveying kit offers an out-of-the-box solution for mapping applications.
+The NANO RTK Receiver surveying kits offers an out-of-the-box solution for surveying and mapping applications.
 
 ![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/handheld_surveying_sets.png)
 
@@ -22,7 +23,6 @@ The NANO RTK Receiver surveying kit offers an out-of-the-box solution for mappin
 - Support PPK post-processing
 - Support iPhone / iPad, Android
 - Compatible with SW Maps, Mapit GIS, etc.
-- NANO RTK Receiver can be powered directly by Android devices or iPad, no additional power-bank needed
   
 We provide an OTG cable, which can be used to connect NANO RTK Receiver to Android devices.
 On iPhone / iPad, the OTG cable can support power from iPad / iPhone, no additional power-bank needed.
