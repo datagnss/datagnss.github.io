@@ -66,9 +66,13 @@ Then Press "Connect" to establish the connection.
 
 ## Use NANO RTK Receiver with iPhone / iPad
 
+### for iPhone
+
 If you use an iPhone, you can use the installation method shown in the figure 1 directly.
 
 ![iPhone](../../images/rtk/surveying-and-mapping/handheld_surveying_sets-300x.png)
+
+### for iPad
 
 If you use an iPad, you can use the installation method shown in the figure 2 directly.
 
@@ -79,6 +83,8 @@ First, attach the 3M adhesive tape provided with the kit to the back side of the
 Then, connect NANO RTK Receiver to the iPad via the OTG cable.
 
 ![NANO attach to iPad](../../images/rtk/surveying-and-mapping/nano-with-ipad-300x.png)
+
+### Connection
 
 On iPad / iPhone, you can only use the Bluetooth connection method to connect.
 
@@ -91,4 +97,3 @@ On iPad / iPhone, we need to use the BLE mode to connect, as shown in the figure
 ![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-01.png)
 
 ![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-02.png)
-
