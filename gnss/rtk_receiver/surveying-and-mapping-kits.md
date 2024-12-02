@@ -31,7 +31,7 @@ On iPhone / iPad, the OTG cable can support power from iPad / iPhone, no additio
 
 ![OTG Cable](../../images/rtk/surveying-and-mapping/TYPE-C-OTG-CABLE-500x.png)
 
-## Use NANO RTK Receiver with Android devices
+## With Android devices
 
 On Android devices, NANO RTK Receiver can be used as a USB device, supporting USB serial mode.
 We strongly recommend using USB Serial mode on Android devices to ensure stable and reliable data collection.
@@ -44,7 +44,7 @@ If you purchase the surveying kit, you will receive the following components:
 
 Using SW Maps as an example, the steps to use NANO RTK Receiver for measurement and mapping are as follows:
 
-1. Select "USB Serial GNSS"
+1. Select "**USB Serial GNSS**"
 
 ![SW Maps](../../images/rtk/surveying-and-mapping/sw-maps-0-01.png)
 
@@ -52,19 +52,19 @@ Using SW Maps as an example, the steps to use NANO RTK Receiver for measurement 
 
 ![GNSS Receiver Settings](../../images/rtk/surveying-and-mapping/sw-maps-0-02.png)
 
-If your SW Maps doesn't have the "NANO RTK" option, you can select "ublox RTK" instead, as they are compatible.
+If your SW Maps doesn't have the "**NANO RTK**" option, you can select "**ublox RTK**" instead, as they are compatible.
 
-3. Config NTRIP connection
+3. Config **NTRIP connection**
 
-If you select the instrument type as RTK, the left toolbar will display an "NTRIP Connection" option, used to input NTRIP information.
+If you select the instrument type as RTK, the left toolbar will display an "**NTRIP Connection**" option, used to input NTRIP information.
 
 ![NTRIP Connection](../../images/rtk/surveying-and-mapping/sw-maps-0-03.png)
 
 ![NTRIP Connection Settings](../../images/rtk/surveying-and-mapping/sw-maps-0-04.png)
 
-Then Press "Connect" to establish the connection.
+Then Press "**Connect**" to establish the connection.
 
-## Use NANO RTK Receiver with iPhone / iPad
+## With iPhone / iPad
 
 ### for iPhone
 
