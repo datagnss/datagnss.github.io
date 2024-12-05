@@ -59,6 +59,18 @@
             </ul>
         </div>
 
+<div style="width: 100%;">
+            <h2 id="resource-and-download">FAQ</h2>
+            <ul>
+                <li><a href="/common/common_setup_base_rover">Setup Base and Rover for RTK</a></li>
+                <li><a href="/common/common_allystar_binary_protocol">Allystar GNSS Binary Protocol</a></li>
+                <li><a href="/common/common_cmds_for_rtk">Common RTK Commands</a></li>
+                <li><a href="/common/common_config_output_rate">How to config output rate</a></li>
+                <li><a href="/common/common_config_uart_baud_rate">How to change uart baud rate</a></li>
+                <li><a href="/common/common_enable_msg_output">How to enable/disable specific message output</a></li>
+            </ul>
+        </div>
+
 <!-- Resource and download (full width) -->
 <div style="width: 100%;">
             <h2 id="resource-and-download">Resource and download</h2>
