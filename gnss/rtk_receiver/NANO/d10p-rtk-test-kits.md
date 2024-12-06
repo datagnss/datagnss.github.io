@@ -9,9 +9,10 @@ date: 2023-10-03
 
 ## Overview
 
-The D10P test kits include the following:
+The D10P test kits include two parts, one is the base station and the other is the rover. In most cases, our tests will be based on telemetry radio testing, which can easily transmit RTCM data.
 
-Base station: 
+### Base station
+
 - NANO RTK Receiver (base mode) 
 - 3DR X6 telemetry radio
 - 4P connector for radio
@@ -20,7 +21,8 @@ Base station:
 
 ![D10P RTK Test Kits base station](../../../images/rtk/total-test-kits/total-test-kits-base-00.jpg)
 
-Rover:
+### Rover
+
 - NANO HRTK Receiver (rover mode)
 - 3DR X6 telemetry radio
 - 4P connector for radio and receiver
@@ -48,7 +50,9 @@ After connecting, plug in the Power bank and it will be ready to use.
 
 ![D10P RTK Test Kits base station](../../../images/rtk/total-test-kits/total-test-kits-base-01.jpg)
 
-Note: The test kits you received may not include a bracket, and the antenna model may also be different.
+Note: 
+- The test kits you received may not include a bracket, and the antenna model may also be different.
+- The D10P RTK module support base and rover mode options. For some test, we set some module only work in base mode or rover mode.
 
 ### Rover
 
