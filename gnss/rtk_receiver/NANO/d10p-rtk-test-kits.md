@@ -65,9 +65,13 @@ If your rover is NANO Helix RTK receiver, like the following picture:
 1. connect the radio to the receiver via the 4P connector
 2. connect the NANO Helix RTK receiver to your device via the 6P connector
 
-Note: The NANO Helix RTK receiver need be powered by your device via the 6P connector. The level of the power supply is 4.75-5.25V. It is recommended to use a power bank or other USB power supply.
+Note: The NANO Helix RTK receiver need be powered by your device via the 6P connector. The level of the power supply is 4.75-5.25V. 
 
-if you need prepare for the 6P cable for your device, you can refer to the following picture:
+It is recommended to use a power bank or other USB power supply.
+
+#### PINOUT
+
+if you need prepare for the 6P cable for your device, you can refer to the following pinout picture:
 
 ![D10P RTK Test Kits HRTK PINOUT](../../../images/helix_rtk/HELIX-RTK-PINOUT.png)
 
