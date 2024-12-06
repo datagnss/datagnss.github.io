@@ -63,7 +63,7 @@
                 <li><a href="/common/common_config_output_rate">How to config output rate</a></li>
                 <li><a href="/common/common_config_uart_baud_rate">How to change uart baud rate</a></li>
                 <li><a href="/common/common_enable_msg_output">How to enable/disable specific message output</a></li>
-                <li><a href="/common/common_convert_raw_data_to_rinex.md">Convert raw data to rinex</a></li>
+                <li><a href="/common/common_convert_raw_data_to_rinex">Convert raw data to rinex</a></li>
             </ul>
         </div>
 
