@@ -1,6 +1,6 @@
 ## How to convert raw data to rinex format file?
 
-Download the dat2rnx[^1] utility: [dat2rnx.zip](../../assert/software/dat2rnx.zip)
+Download the dat2rnx[^1] utility: [dat2rnx.zip](../../assets/software/dat2rnx.zip)
 
 execute "dat2rnx.exe".
 <div style="text-align: left;"><img src="../../images/common/image064.png" width="250"> <img src="../../images/common/image066.png" width="250"></div>
@@ -16,6 +16,6 @@ If you want to config the conversion parameters, please press Options...
 
 Reference
 
-- Download the dat2rnx utility: [dat2rnx.zip](../../assert/software/dat2rnx.zip)
+- Download the dat2rnx utility: [dat2rnx.zip](../../assets/software/dat2rnx.zip)
 
 [^1]: dat2rnx is the rtkconvert of rtklib, just change the name, optimized some codes for our format.
