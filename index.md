@@ -51,12 +51,7 @@
         </div>
 
 <div style="flex: 1; min-width: 45%;">
-            <h2 id="related-guide">Related guide</h2>
-            <ul>
-                <li><a href="/rtk-board/evk-tau1312/">TAU1312 evk evaluation guide</a></li>
-                <li><a href="/d303-docs/common/choice-of-antenna/">How to choose the rtk antenna</a></li>
-                <li><a href="/d303-docs/common/about-rtk/#where-to-place-your-rtk-receiver">Where-to-place-your-rtk-receiver</a></li>
-            </ul>
+            <h2 id="related-guide"></h2>
         </div>
 
 <div style="width: 100%;">
