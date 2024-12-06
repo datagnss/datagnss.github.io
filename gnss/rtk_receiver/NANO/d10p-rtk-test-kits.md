@@ -18,7 +18,7 @@ Base station:
 - Power type C cable
 - Antenna
 
-![D10P RTK Test Kits base station](../../images/rtk/total-test-kits/total-test-kits-base-00.jpg)
+![D10P RTK Test Kits base station](../../../images/rtk/total-test-kits/total-test-kits-base-00.jpg)
 
 Rover:
 - NANO HRTK Receiver (rover mode)
@@ -27,7 +27,7 @@ Rover:
 - Helix antenna
 - 6P connector for output NMEA
 
-![D10P RTK Test Kits rover](../../images/rtk/total-test-kits/total-test-kits-rover-00.jpg)
+![D10P RTK Test Kits rover](../../../images/rtk/total-test-kits/total-test-kits-rover-00.jpg)
 
 ## How to use
 
@@ -46,7 +46,7 @@ In default, the uart baud rate is 115200bps.(some special firmware may be differ
 Connect all base station components as shown in the figure.
 After connecting, plug in the Power bank and it will be ready to use.
 
-![D10P RTK Test Kits base station](../../images/rtk/total-test-kits/total-test-kits-base-01.jpg)
+![D10P RTK Test Kits base station](../../../images/rtk/total-test-kits/total-test-kits-base-01.jpg)
 
 Note: The test kits you received may not include a bracket, and the antenna model may also be different.
 
@@ -56,7 +56,7 @@ For rover, you can use the installation method shown in the figure 2 directly.
 
 If your rover is NANO Helix RTK receiver, like the following picture:
 
-![D10P RTK Test Kits rover](../../images/helix_rtk/HELIX-RTK_600x.png)
+![D10P RTK Test Kits rover](../../../images/helix_rtk/HELIX-RTK_600x.png)
 
 1. connect the radio to the receiver via the 4P connector
 2. connect the NANO Helix RTK receiver to your device via the 6P connector
@@ -65,6 +65,6 @@ Note: The NANO Helix RTK receiver need be powered by your device via the 6P conn
 
 if you need prepare for the 6P cable for your device, you can refer to the following picture:
 
-![D10P RTK Test Kits HRTK PINOUT](../../images/helix_rtk/HELIX-RTK-PINOUT.png)
+![D10P RTK Test Kits HRTK PINOUT](../../../images/helix_rtk/HELIX-RTK-PINOUT.png)
 
 Note: please notice the Rx and Tx with your device. 4P for radio and 6P for NMEA data output for your device.
