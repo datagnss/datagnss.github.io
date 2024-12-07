@@ -17,9 +17,10 @@ The D10P test kits include two parts, one is the base station and the other is t
 - 3DR X6 telemetry radio
 - 4P connector for radio
 - Power type C cable
-- Antenna
+- GNSS Antenna and cable
 
 ![D10P RTK Test Kits base station](../../../images/rtk/total-test-kits/total-test-kits-base-00.jpg)
+![D10P RTK BASE ANTENNA](../../../images/rtk/total-test-kits/total-test-kits-base-ant.jpg)
 
 ### Rover
 
