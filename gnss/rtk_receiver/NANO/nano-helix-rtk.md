@@ -58,6 +58,10 @@ Standard JST-GH 1.25 6P / 4P connector.
 - 6P connector: 5V Rx Tx SCL SDA GND
 - 4P connector: 5V Tx Rx GND
 
+2D dimessions
+
+![NANO Helix RTK 2D dimensions](../../../images/helix_rtk/nano-hrtk-2d.png)
+
 ## Application
 
 ### Ardupilot setup
@@ -85,3 +89,4 @@ For example,NANO is connected to the autopilot's SERIAL4 port, it should work wi
 
 - [Allystar GNSS binary protocol](../../../../common/common_allystar_binary_protocol)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
+- [NANO HELIX RTK 2D Drawing](../../../assets/drawing_files/NANO-HELIX-RTK-2D.pdf)

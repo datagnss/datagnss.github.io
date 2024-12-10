@@ -76,4 +76,4 @@ if you need prepare for the 6P cable for your device, you can refer to the follo
 
 ![D10P RTK Test Kits HRTK PINOUT](../../../images/helix_rtk/HELIX-RTK-PINOUT.png)
 
-Note: please notice the Rx and Tx with your device. 4P for radio and 6P for NMEA data output for your device.
+Note: please notice the Rx and Tx with your device. 4P for telemetry radio and 6P for NMEA data output for your external device.
