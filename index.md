@@ -52,7 +52,10 @@
         </div>
 
 <div style="flex: 1; min-width: 45%;">
-            <h2 id="related-guide"></h2>
+            <h2 id="related-guide">Application</h2>
+            <ul>
+                <li><a href="gnss/rtk_receiver/surveying-and-mapping-kits/">Surveying and Mapping Kits</a></li>
+            </ul>
         </div>
 
 <div style="width: 100%;">
