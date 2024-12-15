@@ -33,7 +33,7 @@ Setup the NANO RTK Receiver as a base station, and it is recommended to use Satr
 
 In base station mode, the RTCM data output rate must be set to 1Hz.
 
-![satrack-outputrate-1hz](/images/common/Satrack-outputrate-1hz.png)
+![satrack-outputrate-1hz](/images/common/satrack-outputrate-1hz.png)
    
 5. Config the base station fixed coordinates
 
