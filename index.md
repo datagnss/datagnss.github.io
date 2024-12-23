@@ -20,7 +20,8 @@
                 <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO Helix RTK receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 gmouse RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK receiver</a></li>
             </ul>
         </div>
 
@@ -51,7 +52,10 @@
         </div>
 
 <div style="flex: 1; min-width: 45%;">
-            <h2 id="related-guide"></h2>
+            <h2 id="related-guide">Application</h2>
+            <ul>
+                <li><a href="gnss/rtk_receiver/surveying-and-mapping-kits/">Surveying and Mapping Kits</a></li>
+            </ul>
         </div>
 
 <div style="width: 100%;">

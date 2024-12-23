@@ -21,19 +21,19 @@ Setup the NANO RTK Receiver as a base station, and it is recommended to use Satr
 [Download Satrack latest version](../assets/software/satrack_latest.zip)
 
 1. Open Satrack, then choose the com port, baud rate then connect the receiver.
-![satrack-connect-device](../images/common/satrack-connect-device.png)
+![satrack-connect-device](/images/common/Satrack-connect-device.png)
 
 1. Menu "Tools" - "Set RTCM rate", Enable RTCMv3 output
-![satrack-rtcm-output](../images/common/satrack-rtcm-output.png)
+![satrack-rtcm-output](/images/common/Satrack-rtcm-output.png)
 
 1. Menu "Tools" - "Set NMEA rate", Disable NMEA data output
-![satrack-disable-nmea](../images/common/satrack-disable-nmea.png)
+![satrack-disable-nmea](/images/common/Satrack-disable-nmea.png)
 
 1. Menu "View" - "AS Messages view", Config output rate to 1Hz
 
 In base station mode, the RTCM data output rate must be set to 1Hz.
 
-![satrack-outputrate-1hz](../images/common/satrack-outputrate-1hz.png)
+![satrack-outputrate-1hz](/images/common/satrack-outputrate-1hz.png)
    
 5. Config the base station fixed coordinates
 
@@ -43,20 +43,20 @@ There are two methods to set the coordinates of the base station:
 
 Press "Get now", and modify the coordinates to the known values, then "send" to apply the fixed coordinates.
 
-![satrack-cfg-fixedecef](../images/common/satrack-cfg-fixedecef.png)
+![satrack-cfg-fixedecef](/images/common/Satrack-cfg-fixedecef.png)
  
 
 5.2 According to the CFG-SURVEY method, config miniDuration and AccLimit, then automatically calculate the average before proceeding with the setup.
 
-![satrack-cfg-survey](../images/common/satrack-cfg-survey.png)
+![satrack-cfg-survey](/images/common/Satrack-cfg-survey.png)
 
 After completing the above operation, you can save the current configuration with CFG-SAVE.
 
-![satrack-cfg-save](../images/common/satrack-cfg-save.png)
+![satrack-cfg-save](/images/common/Satrack-cfg-save.png)
 
 Then go to Menu "View" - "Rover Monitor view", you will see RTCM data monitor.
 
-![satrack-view-rover-monitor-view](../images/common/satrack-view-rover-monitor-view.png)
+![satrack-view-rover-monitor-view](/images/common/Satrack-view-rover-monitor-view.png)
 
 
 ### 1.2 Send cmds to config base station
@@ -65,23 +65,23 @@ Then go to Menu "View" - "Rover Monitor view", you will see RTCM data monitor.
 
 Unzip the Strsvr.zip
 
-![strsvr-unzip-00](../images/common/strsvr-unzip-00.png)
+![strsvr-unzip-00](/images/common/Strsvr-unzip-00.png)
 
 Open strsvr.exe, choose serial for Input stream
 
-![strsvr-main-00](../images/common/strsvr-main-00.png)
+![strsvr-main-00](/images/common/Strsvr-main-00.png)
 
 Config serial and baud rate, output TCP stream port number, here is 9988
 
-![strsvr-main-01](../images/common/strsvr-main-01.png)
+![strsvr-main-01](/images/common/Strsvr-main-01.png)
 
 Load commands for configuration
 
-![strsvr-main-02](../images/common/strsvr-main-02.png)
+![strsvr-main-02](/images/common/Strsvr-main-02.png)
 
 Then start.
 
-![strsvr-main-03](../images/common/strsvr-main-03.png)
+![strsvr-main-03](/images/common/Strsvr-main-03.png)
 
 
 ### 1.2 Others setup (Ardupilot/Mission planner) 
@@ -93,7 +93,7 @@ such as Mission Planner.
 
 In the menu "Setup" - "Optional Hardware" - "RTK/GPS Inject", select the receiver's com port and baud rate.
 
-![mp-connect-base](../images/common/Mp-connect-base.png)
+![mp-connect-base](/images/common/Mp-connect-base.png)
 
 then finish other configuration in Mission Planner.
 
