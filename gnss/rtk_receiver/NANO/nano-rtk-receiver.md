@@ -77,9 +77,13 @@ Compaible with:
 The board is connected to the autopilot via UART interface.
 
 ![NANO RTK Receiver Connector](../../../images/gnss/Nano-rcv-02-connector-00.png)
+
 ![NANO RTK Receiver Pin Map](../../../images/gnss/Nano-rcv-02-case-connector.png)
 
+![NANO RTK Receiver Pin Map](../../../images/gnss/NANO-connector-with-case.png)
+
 By default, NANO series supports three types of external connections: Bluetooth, UART, and USB connection.
+
 For SKU: NANO-BT-00 Receiver, support the following connection:
 
 | Connection | Remark | 
