@@ -3,8 +3,6 @@ title: "Pocket SDR GNSS Receiver"
 date: 2024-12-02
 ---
 
-# Pocket SDR GNSS Receiver
-
 ## Overview
 
 Pocket SDR FE 4CH is an open-source GNSS SDR RF frontend device for Pocket SDR.
@@ -28,20 +26,39 @@ The frequency of the reference oscillator (TCXO) is 24.000 MHz, and the ADC samp
 
 - [PocketSDR with Raspberry Pi](../gnss/pocketsdr_with_raspberrypi)
 
+## How to test it
+
 ## Product
 
 ![PocketSDR](../images/gnss/pocketsdr/Pocketsdr-main-02.png)
 
+## PocketSDR with case
+
+We also provide the V3.0 Rev.B PocketSDR with case.
+
+![PocketSDR with case](../images/gnss/pocketsdr/PocketSDR-with-case-600x.png)
+
+The PocketSDR has also been upgraded to Rev.B version:
+
+The major changes:
+
+- change jumper wire to button
+- change the dimensions for casing
+
+![PocketSDR Rev.B](../images/gnss/pocketsdr/pocketsdr-board-v30-rev-b.png)
+![PocketSDR Rev.B](../images/gnss/pocketsdr/pocketsdr-board-v30-rev-b-01.png)
+
 ## Package list
 
-- PocketSDR *1
-- jumper wire *1
+- PocketSDR with case *1 (for Rev.B)
+- jumper wire cap*1 (for Rev.A)
 - USB Type-C cable *1
-- Heatsink *1
+- Heatsink *1 (installed on board)
 
 ## Drives and Utilities
 
 - [CyUSB3-Driver](../assets/driver/CyUSB3-Driver.zip)
 
 ## Resources
+
 - [Github PocketSDR Project](https://github.com/tomojitakasu/PocketSDR)
