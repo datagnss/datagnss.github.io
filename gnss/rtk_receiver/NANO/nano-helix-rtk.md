@@ -12,6 +12,8 @@ It supports BDS-3 signals, along with global civil navigation systems, including
 NANO Helix RTK receiver support **compass**.
 NANO Helix RTK receiver is designed for UAV, RTK, and other applications.
 
+![NANO Helix RTK receiver](../../../images/helix_rtk/NANO-HRTK-case-400x.png)
+
 ![NANO Helix RTK receiver](../../../images/helix_rtk/HELIX-RTK_600x.png)
 
 ## Features
