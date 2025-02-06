@@ -158,7 +158,10 @@ For details, please refer to other products at [www.datagnss.com](https://www.da
 ![QZS-6C-00 L6 RAWX payloads](../images/qzs-6c/qzs6c_l6_rawx_payloads.png)
 
 [1] [IS-QZSS-L6-001](https://qzss.go.jp/en/technical/download/pdf/ps-is-qzss/is-qzss-l6-001.pdf)
+
 [2] [MALIB PPP Project](https://github.com/JAXA-SNU/MALIB) support QZS-6C receiver
+
+[3] Refer to [dgs.c](https://github.com/datagnss/MALIB/blob/main/src/rcv/dgs.c) to parse the L6 message from the QZS-6C receiver
 
 ## 6.MECHANICAL SPECIFICATION
 
