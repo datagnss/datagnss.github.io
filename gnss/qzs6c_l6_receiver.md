@@ -178,3 +178,11 @@ from RF_IN pin to the antenna connector should be 50Ω.
 
 ![QZS-6C-00 Minimal design](../images/qzs-6c/qzs6c_l6_minimal_design.png)
 
+## 8. Order information
+
+|Item P/N|default configuration|
+|---|---|
+|**QZS-6C-00**|12*16mm, L1 and L6, QZSS correction service, 115200bps, **default L6E firmware**|
+
+[QZS-6C-00](https://www.datagnss.com/products/qzss-l6-receiver)
+
