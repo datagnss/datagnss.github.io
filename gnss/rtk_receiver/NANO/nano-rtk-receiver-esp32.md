@@ -38,12 +38,12 @@ Type-C USB port is used for power supply and data transmission.
 
 Type-C serial port connect to the D10P RTK module or ESP32 chipset port for debug output, switched by the DIP switch on the board.
 
-#### 3.1.1Debug Mode
+#### 3.1.1 Debug Mode (ESP32)
 
 If you want to debug esp32 chipset, you could config the DIP switcher like the picture below:
 
 1 and 2 ON, 3 and 4 OFF
-Now, the Type-C port is connected to the ESP32 chipset debug port.
+Now, the Type-C port is connected to the ESP32 chipset debug port (uart0).
 
 ![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher.png)
 
@@ -56,9 +56,16 @@ Now, the Type-C port is connected to the D10P RTK module directly.
 
 ![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher-2.png)
 
+#### 3.1.3 Recommend configuration
+
+For normal use, we recommend setting the DIP switches according to section 3.1.2: keep switches 1 and 2 in the OFF position, and switches 3 and 4 in the ON position.
+
+
 ### 3.2 Work with Android device
 
 Follow the 3.1.2 steps, and then connect your Android device to the Type-C port by OTG USB cable.
+
+For Android devices, we recommend connecting NANO RTK Receiver via Type C cable, which is better and stable than Bluetooth connection.
 
 OTG USB cable refer to this link in datagnss store: [USB OTG cable](https://www.datagnss.com/collections/accessories/products/usb-otg-cable)
 
