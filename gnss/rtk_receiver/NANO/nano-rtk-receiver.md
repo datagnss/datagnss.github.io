@@ -15,11 +15,12 @@ It support RTK base and rover options.
 
 You could choose Helix antenna and Survey antenna for your applications.
 
-If your NANO RTK Receiver is V3.2 Rev.A or later, please jump to the following page:
+> **Note:** If your NANO RTK Receiver is V3.2 Rev.A or later, please jump to the following page:
 
 ![ESP32 Version](../../../images/gnss/nano/nano-esp32-ver.jpg)
 
-[NANO RTK Receiver V3.2 Rev.A guide](./nano-rtk-receiver-esp32)
+[NANO RTK Receiver V3.2 Rev.A guide](../nano-rtk-receiver-esp32)
+
 
 It has two interface: USB serial port and 6P connenctor.
 It support Bluetooth (BLE and Bluetooth Classic SPP).
