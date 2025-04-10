@@ -1,6 +1,6 @@
 ---
 title: "HED-10L"
-date: 2024-12-02
+date: 2025-04
 ---
 
 # HED-10L Heading RTK module
@@ -10,8 +10,6 @@ date: 2024-12-02
 ## NANO Dual-Antenna RTK Receiver
 
 ![NANO-HED10L-evk](../../../images/gnss/HED-10L/NANO-HED10L-00.png)
-
-![NANO-HED10L-logo](../../../images/gnss/HED-10L/NANO-HED10L-logo-label-01.png)
 
 ### PINOUT
 
@@ -24,16 +22,6 @@ date: 2024-12-02
 - Tx
 - VCC
 
->**Note:** On the V1.0 version of the board, if you need to use a 6P connector, please note: The Rx position is printed as NC, and it is usually connected by flying wire to the module's Rx. 
->This issue will be corrected in subsequent versions of the board after 1.0.
->At this time, Type C can only be used for data output.
-
-NOTE: If using Type C as the main input/output port, please switch DIP 4-switch to the OFF position.<br>
-If using 6P connector as the main input/output port, then switch DIP 4-switch to the ON position.
-
-However, in general, it will be pre-set at the factory and usually does not need to be handled.
-
-![NANO-HED10L-00-switch](../../../images/gnss/HED-10L/NANO-HED10L-00-switch.png)
 
 ### Protocol 
 
