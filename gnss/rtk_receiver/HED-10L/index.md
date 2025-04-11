@@ -22,6 +22,9 @@ date: 2025-04
 - Tx
 - VCC
 
+### DIP Switcher
+
+the pin 3 and 4 connected to the M module for USB type C, output positioning data and heading data. so if you want to output data via usb, please keep 3 and 4 to ON position.
 
 ### Protocol 
 
