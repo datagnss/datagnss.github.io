@@ -36,6 +36,8 @@ Type-C USB port is used for power supply and data transmission.
 
 Type-C serial port connect to the D10P RTK module or ESP32 chipset port for debug output, switched by the DIP switch on the board.
 
+By default, Type C is directly connected to the module's UART0, allowing direct operation of the RTK module through the Type C connection.
+
 #### 3.1.1 Debug Mode (ESP32)
 
 If you want to debug esp32 chipset, you could config the DIP switcher like the picture below:
@@ -80,13 +82,78 @@ The details operation steps refer to the below link:
 ![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)
 
 
+### 3.4 Connect NANO RTK Receiver via WiFi
 
+**Note:** NANO RTK Receiver support WiFi AP and Sta mode.
 
+When powered on, the NANO RTK Receiver will automatically operate in AP mode, creating a hotspot with the SSID `NANO_RTK_XXXX` and the password `datagnss`.
 
+You can connect to this hotspot using your smartphone or laptop. Then, open a browser and enter the URL `192.168.4.1` to access the web page of the NANO RTK Receiver.
 
+![Connect NANO's AP](../../../images/gnss/nano/connect_ap_01.png)
 
+After opening, the webpage appears as shown below:
 
+![NANO RTK Receiver web configuration](../../../images/gnss/nano/nano_rtk_rcv_web_01.png)
 
+#### 3.4.1 WiFi Sta settings
+
+Tap `Scan` Button, to scan and get the WiFi SSID list:
+
+![WiFi List](../../../images/gnss/nano/connect_wifi_01.png)
+
+Then select the SSID, input the password, then press `connect` or `save and reboot`.
+#### 3.4.2 GNSS settings
+
+For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover`, and `Unconfigured`.
+
+![](../../../images/gnss/nano/gnss_settings_mode_01.png)
+
+- **Base**
+
+In Base mode, the module will automatically be set to Base mode upon startup. At this time, you can also configure how the Base coordinate is obtained.
+
+![](../../../images/gnss/nano/gnss_settings_01.png)
+
+The Base Coordinate supports three modes:
+
+![](../../../images/gnss/nano/gnss_settings_02_base_coordinate.png)
+
+- **Rover**
+
+In Rover mode, the module will automatically be set to Rover mode upon startup.
+
+- **Unconfigured**
+
+In Unconfigured mode, the module will not perform any operations upon startup.
+
+This mode is suitable for scenarios where users need to control the module themselves. 
+
+In this case, users can connect the Type-C port to a computer, use Satrack to configure the module, and save the configuration. Upon the next startup, the module's configuration will remain unchanged.
+
+#### 3.4.3 External UART port settings
+
+The external UART port has two main settings:
+
+- **Baud rate settings**: This is primarily used to address baud rate compatibility with external devices, such as external radios or other equipment.
+
+- **Swap Rx and Tx**: This option is mainly for advanced users to handle scenarios where the Rx and Tx pin order of the cable differs.
+
+#### 3.4.4 RTCM Correction Source
+
+This option configures the source of RTCM correction data. It supports the following three sources:
+
+![](../../../images/gnss/nano/rtcm_corr_source_01.png)
+
+#### 3.4.5 NTRIP settings
+
+The NANO RTK Receiver supports both NTRIP Server and NTRIP Client modes.
+
+Both can work simultaneously.
+
+#### 3.4.6 System Information
+
+![](../../../images/gnss/nano/sys_info_01.png)
 
 
 
