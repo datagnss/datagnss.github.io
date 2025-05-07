@@ -135,9 +135,16 @@ In this case, users can connect the Type-C port to a computer, use Satrack to co
 
 The external UART port has two main settings:
 
+![](../../../images/gnss/nano/external_port_settings-00.png)
+
 - **Baud rate settings**: This is primarily used to address baud rate compatibility with external devices, such as external radios or other equipment.
 
 - **Swap Rx and Tx**: This option is mainly for advanced users to handle scenarios where the Rx and Tx pin order of the cable differs.
+
+For example, we need to output data to a radio through the External 6P UART port:
+
+![](../../../images/gnss/Telemetry_radio_main_00.png)
+
 
 #### 3.4.4 RTCM Correction Source
 
