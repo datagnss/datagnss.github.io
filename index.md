@@ -17,11 +17,11 @@
 <div style="flex: 1; min-width: 45%;">
             <h2 id="rtk-receiver">RTK receiver</h2>
             <ul>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO Helix RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver-esp32/">NANO RTK Receiver Pro</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO HRTK Receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 RTK receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 RTK Receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK Receiver</a></li>
             </ul>
         </div>
 
@@ -29,8 +29,8 @@
 <div style="flex: 1; min-width: 45%;">
             <h2 id="rtk-for-autopilotardupilotpx4">RTK for Autopilot<br>(Ardupilot/PX4)</h2>
             <ul>
-                <li><a href="/gnss/rtk_receiver/GEM1305/">GEM1305 RTK receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver/">NANO RTK receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/GEM1305/">GEM1305 RTK Receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver-esp32/">NANO RTK Receiver Pro</a></li>
                 <li><a href="/gnss/antenna/helix-antenna/">Helix Antenna</a></li>
             </ul>
         </div>
@@ -47,7 +47,7 @@
 <div style="flex: 1; min-width: 45%;">
             <h2 id="satrack-software">Satrack software</h2>
             <ul>
-                <li><a href="/common/common_satrack_guide/">Satrack RTK</a></li>
+                <li><a href="/common/common_satrack_guide/">Satrack Utility Software</a></li>
             </ul>
         </div>
 
