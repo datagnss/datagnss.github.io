@@ -23,10 +23,6 @@ Base on the powerful performance of ESP32S3, the new generation NANO RTK Receive
 
 For example, you can set it to connect to a Wi-Fi hotspot directly, and then view and set its various parameters through a web page.
 
-![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-receiver-esp32-main.png)
-
-> **Note:** Due to the shortage of the case, the current order may not ship with the case, only with the heat shrink protection sleeve. If you have any questions, please contact us.
-
 ## 2. Features
 - WiFi AP mode for easy setup
 - Web page for configuration and status monitoring
