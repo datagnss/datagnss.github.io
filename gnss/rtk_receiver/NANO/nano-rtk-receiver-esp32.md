@@ -5,6 +5,8 @@ date: 2025-01-10
 
 ## 1. Overview
 
+![NANO RTK Receiver](../../../images/gnss/NANO-RTK-with-case-ant-bg-760x.png)
+
 We redesigned the new generation NANO RTK Receiver.
 
 The new version is based on the same D10P RTK module with ESP32-S3 chipset and has more powerful performance.
