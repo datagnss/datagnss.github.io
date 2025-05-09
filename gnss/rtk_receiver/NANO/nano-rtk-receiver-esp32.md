@@ -50,6 +50,14 @@ For the NANO RTK Receiver, the PIN definitions of the cable are as follows:
 - **Blue**: SCL
 - **Green**: SDA
 
+![NANO RTK Receiver Connector](../../../images/gnss/nano/nano-rtk-rcv-connector-00.png)
+
+From Left to right:
+
+`5V` `RxD` `TxD` `SCL` `SDA` `GND` 
+
+Connector model NO. : JST,GH1.25,6P
+
 ### 3.1 Type-C USB port
 
 Type-C USB port is used for power supply and data transmission.
