@@ -24,6 +24,7 @@ Base on the powerful performance of ESP32S3, the new generation NANO RTK Receive
 For example, you can set it to connect to a Wi-Fi hotspot directly, and then view and set its various parameters through a web page.
 
 ## 2. Features
+
 - WiFi AP mode for easy setup
 - Web page for configuration and status monitoring
 - Support working with iPad and iPhone devices
@@ -191,10 +192,29 @@ Both can work simultaneously.
 ![](../../../images/gnss/nano/sys_info_01.png)
 
 
+### 4. Flash firmware[Advanced]
+
+The NANO RTK Receiver is based on the ESP32-S3 platform, offering powerful data processing capabilities and supporting various connectivity options such as WiFi and Bluetooth.
+
+By flashing different firmware onto the NANO RTK Receiver, additional functionalities can be achieved.
+
+This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
+
+Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
+
+When opening the software, the system will prompt you to select a platform. Here, you need to choose ESP32-S3.
+
+![](../../../images/gnss/nano/flash_download_tool-00.png)
+
+Then open the software and proceed with the configuration.
+
+![](../../../images/gnss/nano/flash_download_tool_01.png)
 
 
+#### 4.1 firmware
 
-
+- Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
+- Test [1.0.4 RC1]
 
 
 
