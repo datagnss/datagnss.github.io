@@ -13,7 +13,7 @@ The new version is based on the same D10P RTK module with ESP32-S3 chipset and h
 
 Even you can develop your own application with this receiver.
 
-It supports Bluetooth (BLE and Bluetooth Classic SPP).
+It supports Bluetooth (BLE serial).
 
 It support working with iPad and iPhone devices.
 
@@ -29,6 +29,26 @@ For example, you can set it to connect to a Wi-Fi hotspot directly, and then vie
 - Support working with iPad and iPhone devices
 
 ## 3. Quick Start
+
+The NANO RTK Receiver Kits include the following items:
+
+- NANO RTK Receiver
+- Type-C cable, 1m
+- OTG adapter
+- 6P GH 1.25 cable, 20/30cm
+
+The OTG adapter is used to directly connect the NANO RTK Receiver to Android phones. It can also be used to power the NANO RTK Receiver when connected to an iPhone or iPad.
+
+The 6P cable is used to connect the NANO RTK Receiver to other devices, such as Ardupilot or PX4.
+
+For the NANO RTK Receiver, the PIN definitions of the cable are as follows:
+
+- **Red**: 5V
+- **Black**: GND
+- **White**: RxD
+- **Yellow**: TxD
+- **Blue**: SCL
+- **Green**: SDA
 
 ### 3.1 Type-C USB port
 
