@@ -211,6 +211,12 @@ Then open the software and proceed with the configuration.
 ![](../../../images/gnss/nano/flash_download_tool_01.png)
 
 
+When the green "SYNC" text appears on the UI, press the Boot button on the board to enter Download mode and proceed with the firmware flashing.
+
+Once the flashing is complete, the "FINISH" text will be displayed. At this point, click "STOP" and then exit the program.
+
+Then, press RESET button on the board to reboot NANO RTK Receiver.
+
 #### 4.1 firmware
 
 - Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
