@@ -72,7 +72,7 @@ NANO RTK Receiver board features four keys: F2, F1, Boot, and Reset.
 
 > **Note:** To use these keys, you must open the cover.
 
-### 3.1 Type-C USB port
+### 3.3 Type-C USB port
 
 Type-C USB port is used for power supply and data transmission.
 
@@ -80,7 +80,7 @@ Type-C serial port connect to the D10P RTK module or ESP32 chipset port for debu
 
 By default, Type C is directly connected to the module's UART0, allowing direct operation of the RTK module through the Type C connection.
 
-#### 3.1.1 Debug Mode (ESP32)
+#### 3.3.1 Debug Mode (ESP32)
 
 If you want to debug esp32 chipset, you could config the DIP switcher like the picture below:
 
@@ -89,7 +89,7 @@ Now, the Type-C port is connected to the ESP32 chipset debug port (uart0).
 
 ![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher.png)
 
-#### 3.1.2 D10P RTK Mode
+#### 3.3.2 D10P RTK Mode
 
 But if you want to connect to the D10P RTK module directly from the Type-C port, you could config the DIP switcher like the picture below:
 
@@ -98,12 +98,12 @@ Now, the Type-C port is connected to the D10P RTK module directly.
 
 ![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher-2.png)
 
-#### 3.1.3 Recommend configuration
+#### 3.3.3 Recommend configuration
 
 For normal use, we recommend setting the DIP switches according to section 3.1.2: keep switches 1 and 2 in the OFF position, and switches 3 and 4 in the ON position.
 
 
-### 3.2 Work with Android device
+### 3.4 Work with Android device
 
 Follow the 3.1.2 steps, and then connect your Android device to the Type-C port by OTG USB cable.
 
@@ -111,7 +111,7 @@ For Android devices, we recommend connecting NANO RTK Receiver via Type C cable,
 
 OTG USB cable refer to this link in datagnss store: [USB OTG cable](https://www.datagnss.com/collections/accessories/products/usb-otg-cable)
 
-### 3.3 Work with iPad and iPhone devices
+### 3.5 Work with iPad and iPhone devices
 
 > **Note:** Whatever you set the DIP switch to D10P RTK mode or ESP32 chipset debug mode, you could connect your iPad or iPhone devices to the NANO RTK Receiver via Bluetooth LE .The only thing you need to do is powered supply the NANO RTK Receiver with a USB Type-C cable from your iPad or iPhone or Power Bank.
 
@@ -124,7 +124,7 @@ The details operation steps refer to the below link:
 ![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)
 
 
-### 3.4 Connect NANO RTK Receiver via WiFi
+### 3.6 Connect NANO RTK Receiver via WiFi
 
 **Note:** NANO RTK Receiver support WiFi AP and Sta mode.
 
@@ -138,14 +138,14 @@ After opening, the webpage appears as shown below:
 
 ![NANO RTK Receiver web configuration](../../../images/gnss/nano/nano_rtk_rcv_web_01.png)
 
-#### 3.4.1 WiFi Sta settings
+#### 3.6.1 WiFi Sta settings
 
 Tap `Scan` Button, to scan and get the WiFi SSID list:
 
 ![WiFi List](../../../images/gnss/nano/connect_wifi_01.png)
 
 Then select the SSID, input the password, then press `connect` or `save and reboot`.
-#### 3.4.2 GNSS settings
+#### 3.6.2 GNSS settings
 
 For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover`, and `Unconfigured`.
 
@@ -173,7 +173,7 @@ This mode is suitable for scenarios where users need to control the module thems
 
 In this case, users can connect the Type-C port to a computer, use Satrack to configure the module, and save the configuration. Upon the next startup, the module's configuration will remain unchanged.
 
-#### 3.4.3 External UART port settings
+#### 3.6.3 External UART port settings
 
 The external UART port has two main settings:
 
@@ -188,19 +188,19 @@ For example, we need to output data to a radio through the External 6P UART port
 ![](../../../images/gnss/Telemetry_radio_main_00.png)
 
 
-#### 3.4.4 RTCM Correction Source
+#### 3.6.4 RTCM Correction Source
 
 This option configures the source of RTCM correction data. It supports the following three sources:
 
 ![](../../../images/gnss/nano/rtcm_corr_source_01.png)
 
-#### 3.4.5 NTRIP settings
+#### 3.6.5 NTRIP settings
 
 The NANO RTK Receiver supports both NTRIP Server and NTRIP Client modes.
 
 Both can work simultaneously.
 
-#### 3.4.6 System Information
+#### 3.6.6 System Information
 
 ![](../../../images/gnss/nano/sys_info_01.png)
 
