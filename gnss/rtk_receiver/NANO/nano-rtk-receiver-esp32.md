@@ -217,11 +217,11 @@ Once the flashing is complete, the "FINISH" text will be displayed. At this poin
 
 Then, press RESET button on the board to reboot NANO RTK Receiver.
 
-#### 4.1 firmware
+#### 4.1 Firmware
 
 - Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
-- Test [1.0.4 RC1]
-
+- Test [1.0.5 RC2](../../../nano-s3-rtk/nano.rtk.s3.15.debug.1.0.5.rc2-debug.161.bin.zip) 
+- [Changelog](../../../nano-s3-rtk/changelogs.md)
 
 
 
