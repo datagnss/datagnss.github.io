@@ -42,6 +42,8 @@ The OTG adapter is used to directly connect the NANO RTK Receiver to Android pho
 
 The 6P cable is used to connect the NANO RTK Receiver to other devices, such as Ardupilot or PX4.
 
+![NANO RTK board](../../../images/gnss/nano/nano-rtk-s3-board-00.png)
+
 ### 3.1 PINOUT
 
 For the NANO RTK Receiver, the PIN definitions of the cable are as follows:
@@ -235,7 +237,4 @@ Then, press RESET button on the board to reboot NANO RTK Receiver.
 - Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
 - Test [1.0.5 RC2](../../../nano-s3-rtk/nano.rtk.s3.15.debug.1.0.5.rc2-debug.161.bin.zip) 
 - [Changelog](../../../nano-s3-rtk/changelogs.md)
-
-
-
 
