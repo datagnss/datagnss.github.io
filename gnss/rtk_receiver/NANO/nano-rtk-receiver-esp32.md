@@ -1,5 +1,5 @@
 ---
-title: "NANO RTK Receiver with ESP32"
+title: "NANO RTK Receiver Pro"
 date: 2025-01-10
 ---
 
@@ -72,7 +72,8 @@ NANO RTK Receiver board features four keys: F2, F1, Boot, and Reset.
 
 ![NANO RTK Receiver Keys](../../../images/gnss/nano/nano-rtk-s3-key-00.png)
 
-> **Note:** To use these keys, you must open the cover.
+> **Note:** 
+To use these keys, you must open the cover.
 
 ### 3.3 Type-C USB port
 
@@ -115,7 +116,8 @@ OTG USB cable refer to this link in datagnss store: [USB OTG cable](https://www.
 
 ### 3.5 Work with iPad and iPhone devices
 
-> **Note:** Whatever you set the DIP switch to D10P RTK mode or ESP32 chipset debug mode, you could connect your iPad or iPhone devices to the NANO RTK Receiver via Bluetooth LE .The only thing you need to do is powered supply the NANO RTK Receiver with a USB Type-C cable from your iPad or iPhone or Power Bank.
+> **Note:** 
+Whatever you set the DIP switch to D10P RTK mode or ESP32 chipset debug mode, you could connect your iPad or iPhone devices to the NANO RTK Receiver via Bluetooth LE .The only thing you need to do is powered supply the NANO RTK Receiver with a USB Type-C cable from your iPad or iPhone or Power Bank.
 
 The details operation steps refer to the below link:
 
@@ -128,7 +130,8 @@ The details operation steps refer to the below link:
 
 ### 3.6 Connect NANO RTK Receiver via WiFi
 
-**Note:** NANO RTK Receiver support WiFi AP and Sta mode.
+>**Note:** 
+NANO RTK Receiver support WiFi AP and Sta mode.
 
 When powered on, the NANO RTK Receiver will automatically operate in AP mode, creating a hotspot with the SSID `NANO_RTK_XXXX` and the password `datagnss`.
 
@@ -217,6 +220,9 @@ This section demonstrates how to flash firmware using the official ESP32 Flash D
 
 Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
 
+> **Note:** 
+Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
+
 When opening the software, the system will prompt you to select a platform. Here, you need to choose ESP32-S3.
 
 ![](../../../images/gnss/nano/flash_download_tool-00.png)
@@ -231,6 +237,9 @@ When the green "SYNC" text appears on the UI, press the Boot button on the board
 Once the flashing is complete, the "FINISH" text will be displayed. At this point, click "STOP" and then exit the program.
 
 Then, press RESET button on the board to reboot NANO RTK Receiver.
+
+>**Note:** 
+After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
 
 #### 4.1 Firmware
 
