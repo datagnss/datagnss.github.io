@@ -1,5 +1,8 @@
 ## Changelogs
 
+### 1.0.5 RC3
+- Support send gga options for ntrip client
+
 ### 1.0.5 RC2 Test
 - Added NTRIP client version 1 and corresponding server functionality.
 - Enabled automatic hiding of the NTRIP section.

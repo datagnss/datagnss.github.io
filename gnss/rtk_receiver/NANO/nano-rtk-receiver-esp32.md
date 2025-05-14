@@ -244,6 +244,6 @@ After the upgrade is complete, it is recommended to set DIP Switch positions 1 a
 #### 4.1 Firmware
 
 - Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
-- Test [1.0.5 RC2](../../../nano-s3-rtk/nano.rtk.s3.15.debug.1.0.5.rc2-debug.zip) 
+- Test [1.0.5 RC3](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.5.rc3.171.zip) 
 - [Changelog](../../../nano-s3-rtk/changelogs.md)
 
