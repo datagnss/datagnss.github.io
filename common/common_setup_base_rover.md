@@ -61,9 +61,9 @@ Then go to Menu "View" - "Rover Monitor view", you will see RTCM data monitor.
 
 ### 1.2 Send cmds to config base station
 
-*[https://wiki.datagnss.com/images/e/ea/Strsvr.zip Download setup utilities]
+[Download strsvr](../assets/software/setup-for-NANO.zip)
 
-Unzip the Strsvr.zip
+Unzip the download file
 
 ![strsvr-unzip-00](/images/common/Strsvr-unzip-00.png)
 
