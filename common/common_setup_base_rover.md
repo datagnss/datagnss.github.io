@@ -65,7 +65,7 @@ Then go to Menu "View" - "Rover Monitor view", you will see RTCM data monitor.
 
 Unzip the download file
 
-![strsvr-unzip-00](/images/common/Strsvr-unzip-00.png)
+
 
 Open strsvr.exe, choose serial for Input stream
 
