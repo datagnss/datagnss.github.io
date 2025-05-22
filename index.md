@@ -38,7 +38,8 @@
 <div style="flex: 1; min-width: 45%;">
             <h2 id="antenna-for-rtk">Antenna for RTK</h2>
             <ul>
-                <li><a href="/gnss/antenna/helix-antenna/">Helix Antenna</a></li>
+                <li><a href="/gnss/antenna/helix-antenna/">Helix RTK Antenna</a></li>
+                <li><a href="/gnss/antenna/at400-antenna/">AT400 RTK Antenna</a></li>
                 <li><a href="d303-docs/common/choice-of-antenna/">Choice of antenna</a></li>
             </ul>
         </div>

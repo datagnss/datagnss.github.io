@@ -22,7 +22,7 @@ It can also be applied to various handheld device and high-precision positioning
 | Polarization | Right-hand circular |
 | Gain(dBi) | 90°≥2.0 |
 | Axial Ratio (dB) | 90°≤3.0 |
-| LNA Gain(dB) | 36±2 |
+| LNA Gain(dB) | 30±2 |
 | V.S.W.R | ≤2.0 |
 | Noise Figure (dB) | ≤2.0 |
 | DC Voltage (V) | 3.3～12 |
