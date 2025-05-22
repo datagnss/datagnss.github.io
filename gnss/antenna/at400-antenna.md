@@ -12,7 +12,7 @@ AT400 is a professional antenna specifically designed for high-precision RTK app
 
 | Parameter | Specification |
 | :---: | :---: |
-| Operating Frequency Range (MHz) | GPS/QZSS L1/L2/L5, BDS B1/B2/B3, <br>GLONASS L1/L2, GALILEO E1/E2/E5a/E5b |
+| Frequency | GPS/QZSS L1/L2/L5, BDS B1/B2/B3, <br>GLONASS L1/L2, GALILEO E1/E2/E5a/E5b |
 | Polarization | Right-hand circular   |
 | V.S.W.R. | ≤1.5  |
 | Axial Ratio (dB) | ≤3.0  |
