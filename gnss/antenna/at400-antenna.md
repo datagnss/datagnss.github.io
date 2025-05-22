@@ -36,7 +36,7 @@ The antenna is widely used in various fields, including continuous operation ref
 | ----- | ----- |
 | Dimensions(mm) | D 150mm *H 58.4mm |
 | Connector | TNC-K |
-| Weight (g) | ≤ 400g |
+| Weight (g) | 400g |
 | Waterproof rating | IP67 |
 
 ![][image1]
