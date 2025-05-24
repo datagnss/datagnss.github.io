@@ -74,3 +74,7 @@ If the installation distance between the two devices is approximately 1 meter, n
 Note that data output is from the UART0 port of the HED-10M-K.
 
 If you are using Windows, you can test with the Satrack software. In Satrack, open the "Baseline Information" window to view the data.
+
+The complete test connection is shown in the figure below:
+
+![](../../images/HED-10K/HED-10K-test-00.png)
