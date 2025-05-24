@@ -15,6 +15,12 @@ The HED-10K Kit includes the following:
 - 6P *1
 - Helix Antenna *2
 
+By default, the communication baud rate for both UART interfaces of the product you receive is set to 230400 bps.  
+
+UART0 is used for data output (NMEA, heading data), while UART1 is used for internal RTK Heading data transmission, which generally does not require user intervention.
+
+The HED-10M-K serves as the primary receiver for data output, whereas the HED-10S-K is used as an auxiliary device. In most cases, you only need to connect to its UART1 interface with the 4P cable.
+
 Normally, we also include a 4P USB serial cable and a 6P-GH Dupont test board.
 
 The following image shows how to connect the USB serial cable to the Dupont test board.
