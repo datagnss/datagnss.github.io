@@ -41,7 +41,6 @@ Upon closer inspection, you will notice that the Tx and Rx pins on the two ends 
 
 ![](../../images/HED-10K/HED-10K-4P-UART1-00.png)
 
-![](../../images/HED-10K/HED-10K-two-sets-00.png)
 
 ### Installation
 
