@@ -57,6 +57,10 @@ You can connect it to your device using the 6P connector. Alternatively, you can
 
 Refer to the image above for the connection method between the USB serial cable and the 6P Dupont test board.
 
+### Protocol
+
+Please refer to [Heading Protocol](../rtk_receiver/HED-10L)
+
 ### Testing
 
 If the installation distance between the two devices is approximately 1 meter, no configuration is required. Simply power them on to use.
