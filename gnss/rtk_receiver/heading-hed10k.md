@@ -65,7 +65,7 @@ Refer to the image above for the connection method between the USB serial cable 
 
 ### Protocol
 
-Please refer to [Heading Protocol](../rtk_receiver/HED-10L)
+Please refer to [Heading Protocol](https://docs.datagnss.com/gnss/rtk_receiver/HED-10L/#protocol)
 
 ### Testing
 
