@@ -58,6 +58,9 @@ Heading and positioning data are output from the UART0 port of the HED-10M-K. Th
 
 ![](../../images/HED-10K/HED-10K-UART1-PINOUT-00.png)
 
+From Left to right (above picture): 
+(Black)GND, (Green)SDA, (Blue)SCL, (Yellow)Tx, (White)Rx, (Red)5V
+
 You can connect it to your device using the 6P connector. Alternatively, you can use the included USB serial cable for testing output.
 
 Refer to the image above for the connection method between the USB serial cable and the 6P Dupont test board.
