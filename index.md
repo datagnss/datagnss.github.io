@@ -19,6 +19,7 @@
             <ul>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver-esp32/">NANO RTK Receiver Pro</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO HRTK Receiver</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO-H10P">NANO H10P RTK Receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/NANO/nano-agr-sma">NANO-AGR-SMA Receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 RTK Receiver</a></li>
                 <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK Receiver</a></li>
