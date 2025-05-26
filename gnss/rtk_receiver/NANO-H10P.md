@@ -51,6 +51,8 @@ This receiver is equipped with a **compass** and is designed for UAV, RTK, and o
 
 8P JST connector, UART0 and UART1, compass I2C interface.
 
+![H10P PINOUT](../../images/H10P/H10P-pinout-00.png)
+
 From left to right:
 
 - 5V
@@ -63,3 +65,11 @@ From left to right:
 - GND
 
 Typically, only RxD0 and TxD0 of UART0 are required for use.
+
+![H10P cables 8P-6P](../../images/H10P/H10P-cable-8P-6P-GH-125-00.png)
+
+### Package List
+
+- H10P RTK Receiver
+- GH-8P-6P-125-04
+- 3M adhesive tape
