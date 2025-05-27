@@ -28,7 +28,7 @@ The HED-10K Kit includes the following:
 - 6P-125-GH-04 *1
 - Helix Antenna *2
 
-By default, the communication baud rate for both UART interfaces of the product you receive is set to 230400 bps.  
+By default, the communication baud rate for both UART interfaces of the product you receive is set to 230400 bps.
 
 UART0 is used for data output (NMEA, heading data), while UART1 is used for internal RTK Heading data transmission, which generally does not require user intervention.
 
