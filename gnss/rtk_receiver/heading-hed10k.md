@@ -3,6 +3,19 @@ title: "NANO Heading RTK Receiver Kit HED-10K"
 date: 2025-5-24
 ---
 
+## Overview
+
+The HED-10K Kit is a highly convenient and practical dual-antenna heading solution.  
+It is almost ready to use out of the box.  
+
+Simply install the two receivers in place, power them on, and start using them—no configuration required.  
+
+![](../../images/HED-10K/NANO-HED-10K-00.png)  
+
+The HED-10M-K handles RTK functionality and outputs NMEA positioning and heading data, while the HED-10S-K is used for heading computation.
+
+![](../../images/HED-10K/blockgram.png)
+
 ## Quick guide
 
 ### Preparation
