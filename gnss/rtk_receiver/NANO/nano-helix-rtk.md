@@ -7,7 +7,7 @@ title: NANO Helix RTK receiver
 ## Overview
 
 NANO Helix RTK receiver is a high performance dual-band RTK receiver with compass, which is based on CYNOSURE series chipset.
-It supports BDS-3 signals, along with global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
+It supports global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
 
 NANO Helix RTK receiver support **compass**.
 NANO Helix RTK receiver is designed for UAV, RTK, and other applications.
