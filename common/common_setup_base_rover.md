@@ -10,7 +10,7 @@ MSM4 or MSM7 are commonly used, with MSM4 being the most efficient and MSM7 cont
 Our receiver supports both '''MSM4 and MSM7 formats for Rover'''.
 For Base stations, the output is in '''MSM7 format'''.
 
-## Config Receiver by config file [Recommend]
+## 0. Config Receiver by config file [Recommend]
 
 Satrack supports sending command files to the module for a series of configurations. Below, we will introduce this method:
 
@@ -23,6 +23,8 @@ Before proceeding, you need to download the configuration command file.
 | Base mode        | 1Hz,RTCM MSM7 data, RTCM 1005 Message | [Config Base mode](../assets/config/config_base.cmd)        |
 | Rover mode       | 5Hz, GGA/GSA/RMC/VTG/ZDA/GST 5Hz, GSV 1Hz | [Config Rover mode](../assets/config/config_rover.cmd)      |
 | Raw data mode    | 1Hz, RTCM MSM7 data, RTCM EPHEM data | [Config output raw data mode](../assets/config/config_raw.cmd) |
+
+
 
 1. Open Satrack, then choose the menu Tools - Send Command.
 ![satrack-tools-send_cmd](/images/common/send-cmd-file.png)
