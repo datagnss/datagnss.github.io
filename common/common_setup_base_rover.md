@@ -1,4 +1,4 @@
-# Base station setup
+# Config base and rover mode
 
 For base staion, it need output raw measurement data and fixed coordiantes.
 
