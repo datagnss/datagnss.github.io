@@ -26,7 +26,6 @@ Before proceeding, you need to download the configuration command file.
 | Raw data mode    | 5Hz, RTCM MSM7 data, RTCM EPHEM data | [Config output raw data mode,5Hz](../assets/config/config_raw_5hz.cmd) |
 
 
-
 1. Open Satrack, then choose the menu Tools - Send Command.
 ![satrack-tools-send_cmd](/images/common/send-cmd-file.png)
 
