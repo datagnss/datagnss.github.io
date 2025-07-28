@@ -7,8 +7,30 @@ The RTCM format includes MSMx types, where x ranges from 1 to 7, representing di
 
 MSM4 or MSM7 are commonly used, with MSM4 being the most efficient and MSM7 containing the highest amount of data for better RTK performance.
 
-Our receiver supports both '''MSM4 and MSM7 formats for Rover'''. 
+Our receiver supports both '''MSM4 and MSM7 formats for Rover'''.
 For Base stations, the output is in '''MSM7 format'''.
+
+## Config Receiver by config file [Recommend]
+
+Satrack supports sending command files to the module for a series of configurations. Below, we will introduce this method:
+
+Connect the [NANO RTK Receiver](../gnss/rtk_receiver/NANO/nano-rtk-receiver.md) to your Laptop via USB.
+
+[Config Base mode](../assets/config/config_base.cmd)
+
+[Config rover mode](../assets/config/config_rover.cmd)
+
+[Config output raw data mode](../assets/config/config_raw.cmd)
+
+1. Open Satrack, then choose the menu Tools - Send Command.
+![satrack-tools-send_cmd](/images/common/send-cmd-file.png)
+
+2. Click Button Open, then choose the config file you downloaded.
+![satrack-tools-send_cmd_send](/images/common/send-cmd-file-2.png)
+
+Then, click send button.
+
+This is currently the simplest setup method and is recommended for use.
  
 ## 1. Setup RTCM messages output
 
