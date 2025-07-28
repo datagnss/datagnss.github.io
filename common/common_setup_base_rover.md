@@ -12,6 +12,8 @@ For Base stations, the output is in '''MSM7 format'''.
 
 ## 0. Config Receiver by config file [Recommend]
 
+[Download Satrack latest version](../assets/software/satrack_latest.zip)
+
 Satrack supports sending command files to the module for a series of configurations. Below, we will introduce this method:
 
 Connect the [NANO RTK Receiver](../gnss/rtk_receiver/NANO/nano-rtk-receiver.md) to your Laptop via USB.
