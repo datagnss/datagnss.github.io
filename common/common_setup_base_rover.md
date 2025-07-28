@@ -16,11 +16,13 @@ Satrack supports sending command files to the module for a series of configurati
 
 Connect the [NANO RTK Receiver](../gnss/rtk_receiver/NANO/nano-rtk-receiver.md) to your Laptop via USB.
 
-[Config Base mode](../assets/config/config_base.cmd)
+Before proceeding, you need to download the configuration command file.
 
-[Config rover mode](../assets/config/config_rover.cmd)
-
-[Config output raw data mode](../assets/config/config_raw.cmd)
+| Mode     | Description | Configuration File Link                                      |
+|-------------------------|-------------|-------------------------------------------------------------|
+| Base mode        | 1Hz,RTCM MSM7 data, RTCM 1005 Message | [Config Base mode](../assets/config/config_base.cmd)        |
+| Rover mode       | 5Hz, GGA/GSA/RMC/VTG/ZDA/GST 5Hz, GSV 1Hz | [Config Rover mode](../assets/config/config_rover.cmd)      |
+| Raw data mode    | 1Hz, RTCM MSM7 data, RTCM EPHEM data | [Config output raw data mode](../assets/config/config_raw.cmd) |
 
 1. Open Satrack, then choose the menu Tools - Send Command.
 ![satrack-tools-send_cmd](/images/common/send-cmd-file.png)
