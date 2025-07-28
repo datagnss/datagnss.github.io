@@ -44,6 +44,8 @@ The 6P cable is used to connect the NANO RTK Receiver to other devices, such as 
 
 ![NANO RTK board](../../../images/gnss/nano/nano-rtk-s3-board-00.png)
 
+> **Note:** Please note, on the case, the buttons from top to bottom are Boot, F1, and F2.
+
 ### 3.1 PINOUT
 
 For the NANO RTK Receiver, the PIN definitions of the cable are as follows:
@@ -74,6 +76,8 @@ NANO RTK Receiver board features four keys: F2, F1, Boot, and Reset.
 
 > **Note:** 
 To use these keys, you must open the cover.
+In the new version, you can directly use the Boot, F1, and F2 buttons.
+
 
 ### 3.3 Type-C USB port
 
@@ -213,6 +217,8 @@ Both can work simultaneously.
 ### 4. Flash firmware[Advanced]
 
 The NANO RTK Receiver is based on the ESP32-S3 platform, offering powerful data processing capabilities and supporting various connectivity options such as WiFi and Bluetooth.
+
+> **Note:** Starting from firmware version 1.0.6.300, upgrading firmware directly from the web page is supported.
 
 By flashing different firmware onto the NANO RTK Receiver, additional functionalities can be achieved.
 
