@@ -67,7 +67,6 @@ GPS_POS1_Z = -0.14
 
 ## Resources
 
-- [HED-10L-datasheet](../../../assets/datasheet/HED-10L-DATASHEET-00.pdf)
 - [AN2024-HED10L-001](../../../assets/datasheet/AN-HED10L-240927.pdf)
 - [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol)
 - [Satrack_User_Manual](../../../assets/datasheet/Satrack_User_Manual.pdf)
