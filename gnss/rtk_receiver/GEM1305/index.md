@@ -78,25 +78,14 @@ If you are working in the field of UAV, you can refer to the following links:
 
 ![GEM1305 Main](../../../images/gnss/GEM1305/GEM1305-4540-A0-MAIN-03.png)
 
-![GEM1305_PINOUT](../../../images/gnss/GEM1305/GEM1305-main-a1.png)
+UART0(J7) can be used for firmware upgrade, while UART1(J2) cannot.
 
-CON_0(J6): 1.25mm pitch 6P connector Pinout:
+V2.0.1 Dimensions
 
-- GND
-- NC
-- Rx0 of GNSS module
-- Tx0 of GNSS module
-- 5V, input,max current:200mA
+![GEM1305_v2.0.1](../../../images/gnss/GEM1305/GEM1305-4540-A1-V2.0.1.png)
 
-CON_1(J5): Pin header connector 2.54mm
+![GEM1305_v2.0.1](../../../images/gnss/GEM1305/GEM1305-4540-A1-V2.0.1-2.png)
 
-- GND
-- NC
-- Tx1 of GNSS module
-- Rx1 of GNSS module
-- 5V
-
-UART0 can be used for firmware upgrade, while UART1 cannot.
 
 ## Applications
 
