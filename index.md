@@ -53,6 +53,9 @@
             <ul>
                 <li><a href="/common/common_satrack_guide/">Satrack Utility Software</a></li>
             </ul>
+            <ul>
+                <li><a href="/common/common_how_to_get_version">How to get fw and hw version</a></li>
+            </ul>
         </div>
 
 <div style="flex: 1; min-width: 45%;">
