@@ -24,7 +24,7 @@ If you are working in the field of UAV, you can refer to the following links:
 - State-of-the-art low power consumption design
 - Supports multi-band multi-system high precision raw data output, easy for 3rd party integration
 - The best cost-effective high precision GNSS positioning solution integrated with antenna
-- Compact size 55x55x15mm with high performance
+- Compact size with high performance
 
 ### Specifications
 
@@ -32,12 +32,12 @@ If you are working in the field of UAV, you can refer to the following links:
 
 | Item | Specs |
 | --- | --- |
-| Frequency Range(MHz) | GPS/QZSS L1,L5, BDS B1,B2, GLONASS L1, GALILEO E1/E5a |
+| Frequency Range(MHz) | GPS/QZSS L1/L2/L5, BDS B1/B2I/B2a, GLONASS L1, GALILEO E1/E5a/E5b |
 | Polarization | Right-hand circular |
 | Gain(dBi) | 90° L1≥5.5 L2≥5 L5≥2.5 |
 | Phase center error(mm) | ≤±2.0 |
 | Axial Ratio (dB) | 90°≤3.0 |
-| LNA Gain(dB) | 38±2 |
+| LNA Gain(dB) | 30±2 |
 | V.S.W.R | ≤2.0 |
 | Noise Figure (dB) | ≤1.8 |
 | DC Voltage (V) | 5.0～5.5 |
@@ -78,25 +78,14 @@ If you are working in the field of UAV, you can refer to the following links:
 
 ![GEM1305 Main](../../../images/gnss/GEM1305/GEM1305-4540-A0-MAIN-03.png)
 
-![GEM1305_PINOUT](../../../images/gnss/GEM1305/GEM1305-main-a1.png)
+UART0(J7) can be used for firmware upgrade, while UART1(J2) cannot.
 
-CON_0(J6): 1.25mm pitch 6P connector Pinout:
+V2.0.1 Dimensions
 
-- GND
-- NC
-- Rx0 of GNSS module
-- Tx0 of GNSS module
-- 5V, input,max current:200mA
+![GEM1305_v2.0.1](../../../images/gnss/GEM1305/GEM1305-4540-A1-V2.0.1.png)
 
-CON_1(J5): Pin header connector 2.54mm
+![GEM1305_v2.0.1](../../../images/gnss/GEM1305/GEM1305-4540-A1-V2.0.1-2.png)
 
-- GND
-- NC
-- Tx1 of GNSS module
-- Rx1 of GNSS module
-- 5V
-
-UART0 can be used for firmware upgrade, while UART1 cannot.
 
 ## Applications
 

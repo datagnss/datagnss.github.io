@@ -1,4 +1,4 @@
-# Base station setup
+# Config base and rover mode
 
 For base staion, it need output raw measurement data and fixed coordiantes.
 
@@ -7,8 +7,36 @@ The RTCM format includes MSMx types, where x ranges from 1 to 7, representing di
 
 MSM4 or MSM7 are commonly used, with MSM4 being the most efficient and MSM7 containing the highest amount of data for better RTK performance.
 
-Our receiver supports both '''MSM4 and MSM7 formats for Rover'''. 
+Our receiver supports both '''MSM4 and MSM7 formats for Rover'''.
 For Base stations, the output is in '''MSM7 format'''.
+
+## 0. Config Receiver by config file [Recommend]
+
+[Download Satrack latest version](../assets/software/satrack_latest.zip)
+
+Satrack supports sending command files to the module for a series of configurations. Below, we will introduce this method:
+
+Connect the [NANO RTK Receiver](../gnss/rtk_receiver/NANO/nano-rtk-receiver.md) to your Laptop via USB.
+
+Before proceeding, you need to download the configuration command file.
+
+| Mode     | Description | Configuration File Link                                      |
+|-------------------------|-------------|-------------------------------------------------------------|
+| Base mode        | 1Hz,RTCM MSM7 data, RTCM 1005 Message | [Config Base mode](../assets/config/config_base.cmd)        |
+| Rover mode       | 5Hz, GGA/GSA/RMC/VTG/ZDA/GST 5Hz, GSV 1Hz | [Config Rover mode,5Hz](../assets/config/config_rover_5hz.cmd)      |
+| Raw data mode    | 1Hz, RTCM MSM7 data, RTCM EPHEM data | [Config output raw data mode](../assets/config/config_raw.cmd) |
+| Raw data mode    | 5Hz, RTCM MSM7 data, RTCM EPHEM data | [Config output raw data mode,5Hz](../assets/config/config_raw_5hz.cmd) |
+
+
+1. Open Satrack, then choose the menu Tools - Send Command.
+![satrack-tools-send_cmd](/images/common/send-cmd-file.png)
+
+2. Click Button Open, then choose the config file you downloaded.
+![satrack-tools-send_cmd_send](/images/common/send-cmd-file-2.png)
+
+Then, click send button.
+
+This is currently the simplest setup method and is recommended for use.
  
 ## 1. Setup RTCM messages output
 
@@ -61,11 +89,11 @@ Then go to Menu "View" - "Rover Monitor view", you will see RTCM data monitor.
 
 ### 1.2 Send cmds to config base station
 
-*[https://wiki.datagnss.com/images/e/ea/Strsvr.zip Download setup utilities]
+[Download strsvr](../assets/software/setup-for-NANO.zip)
 
-Unzip the Strsvr.zip
+Unzip the download file
 
-![strsvr-unzip-00](/images/common/Strsvr-unzip-00.png)
+
 
 Open strsvr.exe, choose serial for Input stream
 
