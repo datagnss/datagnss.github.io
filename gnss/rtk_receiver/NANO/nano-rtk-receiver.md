@@ -46,7 +46,7 @@ Compaible with:
 
 #### Frequencies
 
-- GPS/QZSS: L1 C/A, L5C
+- GPS/QZSS: L1 C/A, L5
 - GLONASS: L1OF
 - BEIDOU: B1I, B2a
 - GALILEO: E1, E5a
