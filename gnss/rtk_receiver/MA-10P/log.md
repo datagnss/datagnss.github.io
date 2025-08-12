@@ -1,4 +1,4 @@
-# Log data for MA-10P
+# Log data for MA-10P[only for test]
 
 ## Instructions
 
@@ -14,6 +14,7 @@ Here, select the Aux Port (USB-Serial A, as listed in Device Manager).
 
 6. Return to the main UI and click the "normal log" icon.
 ![normal log](../../../images/ppp/satrack-normal-log.png)
+
 The data will be logged in the "logs" folder in the Satrack installation directory.
 When you finish logging, press the log icon again to stop logging.
 
