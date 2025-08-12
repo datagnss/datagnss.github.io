@@ -45,31 +45,36 @@ The MA-10P PPP Receiver consists of the MA-10P module and the QZS-6C module. The
 ## PINOUT
 
 MA-10P support USB UART and 6P connector UART output.
-Download [USB Driver](../../../assets/driver/CH343SER.zip)
+
+[MA-10P USB Driver](../../../assets/driver/CH343SER.zip)
 
 6P connector UART only support output, not input.
 
 
 # How to use it
 
-Please download Satrack software to test the function of MA-10P.
+Please download Satrack software to test the functions of MA-10P.
+
 Download Satrack from [here](../../../assets/software/satrack_latest.zip)
 
 ## Instructions
 
 1. Connect your MA-10P to PC/LAPTOP via USB cable. Download [USB Driver](../../../assets/driver/CH343SER.zip)
-2. Check your ports for MA-10P receiver, for example the following picture:
+
+2. Check your ports for MA-10P receiver in device manager, for example the following picture:
 ![ma-10p-ports](../../../images/ppp/ma-10p-ports-identify.png)
 
-If usb driver installed, there is 4 ports in device managerf,USB A,B,C and D.
+If usb driver installed, there is 4 serial ports in device managerf, USB Serial A,B,C and D.
 
-- USB A : **Aux port**, QZS-6C, for QZSS correction service, baud rate 115200bps
-- USB B : **Main port**, D-10P, PPP receiver, baud rate 230400bps
-- USB C and D : not available
+- USB Serial A : **Aux port**, QZS-6C, for QZSS correction service, baud rate 115200bps
+- USB Serial B : **Main port**, D-10P, PPP receiver, baud rate 230400bps
+- USB Serial C : not connected
+- USB Serial D : not connected
 
-USB B is the port you need to use. Check which COM port corresponds to USB B; in the picture above, it is COM4.
+
+USB Serial B is the main port you need to use. Check which COM port corresponds to USB Serial B; in the picture above, it is COM4.
 
 This means you can open COM4 in Satrack and set the baud rate to 230400bps.
 
 After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status. If PPP-AR is successful, it will display the **RTK Fixed** status.
-> As of August 2025, the current firmware version does not support PPP-AR.
+> As of August 2025, the current firmware version does not support PPP-AR yet.
