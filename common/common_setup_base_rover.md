@@ -7,10 +7,10 @@ The RTCM format includes MSMx types, where x ranges from 1 to 7, representing di
 
 MSM4 or MSM7 are commonly used, with MSM4 being the most efficient and MSM7 containing the highest amount of data for better RTK performance.
 
-Our receiver supports both '''MSM4 and MSM7 formats for Rover'''.
+Our receiver supports (almost) all RTCM data.
 For Base stations, the output is in '''MSM7 format'''.
 
-## 0. Config Receiver by config file [Recommend]
+## Config Receiver by config file [Recommend]
 
 [Download Satrack latest version](../assets/software/satrack_latest.zip)
 
@@ -37,7 +37,10 @@ Before proceeding, you need to download the configuration command file.
 Then, click send button.
 
 This is currently the simplest setup method and is recommended for use.
- 
+
+<details>
+<summary>More Detailed Manual Settings...</summary>
+
 ## 1. Setup RTCM messages output
 
 ### 1.1 Use Satrack software
@@ -111,6 +114,10 @@ Then start.
 
 ![strsvr-main-03](/images/common/Strsvr-main-03.png)
 
+</details>
+
+<details>
+<summary>Other Settings...</summary>
 
 ### 1.2 Others setup (Ardupilot/Mission planner) 
 
@@ -138,3 +145,4 @@ In Rover mode, the output rate must be set to 5Hz.
 Note: NANO RTK Receiver and GEM1305 do not support safety switch, so BRD_SAFETY_DEFLT needs to be set to 0 or a separate safety switch should be connected to the flight controller.
 
 After completing the above settings, you can write parameters to the flight controller.
+</details>
