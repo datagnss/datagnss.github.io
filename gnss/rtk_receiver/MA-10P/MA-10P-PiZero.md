@@ -1,5 +1,4 @@
 ---
----
 title: "MA-10P MADOCA GNSS Receiver for Raspberry Pi Zero"
 date: 2025-08
 ---
