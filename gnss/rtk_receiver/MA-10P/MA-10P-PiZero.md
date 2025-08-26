@@ -3,7 +3,9 @@ title: "MA-10P MADOCA GNSS Receiver for Raspberry Pi Zero"
 date: 2025-08
 ---
 
-# Overview
+# MA-10P MADOCA GNSS Receiver for Pi Zero
+
+## Overview
 
 The MA-10P Series is a product line from DATAGNSS that supports QZSS PPP services, enabling centimeter-level positioning using MADOCA/CLAS PPP technology.
 
@@ -15,9 +17,11 @@ The MA-10P-PiZero connects directly to the Pi Zero mainboard's USB interface via
 
 The Pi Zero system is pre-configured with overlay technology, allowing for power interruptions at any time without affecting system stability.
 
+>*The MA-10P-PiZero is designed to evaluate use with the MALIB project.*
+
 ![MA-10P-PiZero](../../../images/ppp/MA-10P-PiZero.png)
 
-# Features
+## Features
 
 - Seamless integration with Pi Zero
 - Supports custom system functions
@@ -25,9 +29,9 @@ The Pi Zero system is pre-configured with overlay technology, allowing for power
 - Ready to use upon power-up, no additional setup required
 - Supports WiFi connectivity
 
-# Specifications
+## Specifications
 
-## GNSS
+### GNSS
 
 | Parameter | Specifications |
 | --- | --- |
@@ -50,13 +54,28 @@ The Pi Zero system is pre-configured with overlay technology, allowing for power
 | Dimensions(mm) | 65 x 30 |
 | Weight (g) | 30 |
 
-## PINOUT
+### PINOUT
 
 The MA-10P series supports USB power supply and 6-pin connector UART output.
 
 The 6-pin connector UART is preset for PPP Position NMEA output.
 
-# Resource
+## Quick guide
+
+1. Power up
+
+使用附送的 USB Power adapter 给MA-10P-PiZero的type C接口供电，注意，不要通过Pi Zero上的 MicoUSB 口给系统供电，也不要再使用 Pi Zero的 OTG 接口。
+
+建议不要直接使用 PC 电脑的接口给系统供电。
+
+你可以使用Power bank给系统供电。
+
+2. 接上天线
+
+3. 启动后大概10-15s，UART接口开始输出 NMEA 定位数据.
+
+
+## Resource
 - [MALIB Project](https://github.com/JAXA-SNU/MALIB)
 - [MALIB for PiZero Project](https://github.com/datagnss/MALIB-PIZERO)
 
