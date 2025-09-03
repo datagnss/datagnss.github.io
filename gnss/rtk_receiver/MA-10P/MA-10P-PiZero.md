@@ -64,15 +64,15 @@ The 6-pin connector UART is preset for PPP Position NMEA output.
 
 1. Power up
 
-使用附送的 USB Power adapter 给MA-10P-PiZero的type C接口供电，注意，不要通过Pi Zero上的 MicoUSB 口给系统供电，也不要再使用 Pi Zero的 OTG 接口。
+Use the supplied USB power adapter to power the Type C port of the MA-10P-PiZero. **Do not** power the system through the MicroUSB port on the Pi Zero, and **do not** use the Pi Zero's OTG port for power.
 
-建议不要直接使用 PC 电脑的接口给系统供电。
+It is recommended **not** to power the system directly from a PC's USB port.
 
-你可以使用Power bank给系统供电。
+You can use a power bank to power the system.
 
-2. 接上天线
+2. Connect to antenna
 
-3. 启动后大概10-15s，UART接口开始输出 NMEA 定位数据.
+3. After startup, it takes about 10-15 seconds for the UART interface to start outputting NMEA positioning data.
 
 
 ## Resource
