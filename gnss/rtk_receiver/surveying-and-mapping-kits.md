@@ -39,8 +39,11 @@ We strongly recommend using USB Serial mode on Android devices to ensure stable 
 If you purchase the surveying kit, you will receive the following components:
 
 - NANO RTK Receiver
-- OTG Cable
-- Handheld Tripod
+- Helix antenna for RTK
+- Type C Cable
+- OTG adapter
+- 20cm Handheld rod
+- Accesseries
 
 Using SW Maps as an example, the steps to use NANO RTK Receiver for measurement and mapping are as follows:
 
