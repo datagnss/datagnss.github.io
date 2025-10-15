@@ -145,7 +145,9 @@ You can connect to this hotspot using your smartphone or laptop. Then, open a br
 
 After opening, the webpage appears as shown below:
 
-![NANO RTK Receiver web configuration](../../../images/gnss/nano/nano_rtk_rcv_web_01.png)
+![](../../../images/gnss/nano/main_00.png)
+
+![NANO RTK Receiver web configuration](../../../images/gnss/nano/settings_01.png)
 
 #### 3.6.1 WiFi Sta settings
 
@@ -173,6 +175,11 @@ The Base Coordinate supports three modes:
 - **Rover**
 
 In Rover mode, the module will automatically be set to Rover mode upon startup.
+
+- **Raw**
+
+In Raw mode, the module will automatically be set to Raw mode output MSM7 RTCM3 data and EPHE data.
+
 
 - **Unconfigured**
 
@@ -214,13 +221,37 @@ Both can work simultaneously.
 ![](../../../images/gnss/nano/sys_info_01.png)
 
 
-### 4. Flash firmware[Advanced]
+### 4. Update firmware
+
+#### 4.1 update firmware from web [Recommended]
 
 The NANO RTK Receiver is based on the ESP32-S3 platform, offering powerful data processing capabilities and supporting various connectivity options such as WiFi and Bluetooth.
 
 > **Note:** Starting from firmware version 1.0.6.300, upgrading firmware directly from the web page is supported.
 
 By flashing different firmware onto the NANO RTK Receiver, additional functionalities can be achieved.
+
+
+![](../../../images/gnss/nano/firmware_update_01.png)
+
+Choose firmware (*.dgfm, *.dgfw)
+
+![](../../../images/gnss/nano/firmware_update_03.png)
+
+Then press "Upload & Update"
+
+![](../../../images/gnss/nano/firmware_update_02.png)
+
+When the progress bar reaches 100%, the upgrade is complete.
+
+> **Note:** 
+After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the main interface.
+
+![](../../../images/gnss/nano/firmware_update_04.png)
+
+
+
+#### 4.2 update firmware using Flash Download Tool
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
 
@@ -249,7 +280,6 @@ After the upgrade is complete, it is recommended to set DIP Switch positions 1 a
 
 #### 4.1 Firmware
 
-- Stable [1.0.1 Release](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.1.release.zip)
-- Test [1.0.5 RC3](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.5.rc3.zip) 
-- [Changelog](../../../nano-s3-rtk/changelogs.md)
+- Latest Firmware:[1.0.7 dev.505](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
+
  
