@@ -86,6 +86,10 @@ V2.0.1 Dimensions
 
 ![GEM1305_v2.0.1](../../../images/gnss/GEM1305/GEM1305-4540-A1-V2.0.1-2.png)
 
+>Changelogs:
+>- v2.0.2, 4P connector changed to 5P(JST-1.25-5P), add PPS signal output
+>- 5P pinout: GND/PPS/Rx/Tx/5V
+
 
 ## Applications
 
