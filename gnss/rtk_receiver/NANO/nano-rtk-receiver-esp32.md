@@ -46,6 +46,11 @@ The 6P cable is used to connect the NANO RTK Receiver to other devices, such as 
 
 > **Note:** Please note, on the case, the buttons from top to bottom are Boot, F1, and F2.
 
+> **Default configuration**
+>- USB UART Baud rate: 230400bps
+>- 6P UART Baud rate: 230400bps
+>- Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC)
+
 ### 3.1 PINOUT
 
 For the NANO RTK Receiver, the PIN definitions of the cable are as follows:

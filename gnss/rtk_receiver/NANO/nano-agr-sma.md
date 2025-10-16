@@ -12,6 +12,10 @@ NANO AGR RTK Receiver supports conventional RTK **base and rover** functions. It
 
 ![NANO AGR SMA](../../../images/gnss/NANO-AGR-SMA-00.png)
 
+> **Default configuration**
+>- UART Baud rate: 230400bps
+>- Output protocol: Rover mode, NMEA 5Hz(GGA,GSA,GSV,ZDA,GST,RMC)
+
 ## Features
 
 - Output rate 5Hz default, max up to 10Hz

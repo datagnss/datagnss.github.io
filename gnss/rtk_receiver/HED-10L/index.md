@@ -15,12 +15,31 @@ date: 2025-04
 
 6P 1.25mm connector (from left to right):
 
-- GND
-- NC
-- PPS
+- 5V
 - Rx
 - Tx
-- VCC
+- PPS
+- PPS
+- GND
+
+> **Default configuration**
+>- USB UART Baud rate: 230400bps
+>- 6P UART Baud rate: 230400bps
+>- Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC,PALYSBLS)
+>- Default baseline length: 0.96m
+
+### Quick guide
+
+The HED-10L is designed for simplicity. For first-time use, simply install and secure the antennas, then power on the device.
+
+Both 2 antennas should be placed in an open-sky environment, with a distance of approximately 0.95–1.05 meters between them.
+
+After securing the antennas, connect the main board's Type-C port to your computer's USB port. Open the Device Manager on Windows to check the corresponding USB COM port number. Then, launch the Satrack software, select the correct port, set the baud rate to 230400 bps, and connect.
+
+Open the "View - Baseline Information View" window in the menu to begin testing.
+
+>Related link:
+>- Download [Satrack latest version](../../../assets/software/satrack_latest.zip).
 
 ### DIP Switcher
 
