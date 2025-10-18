@@ -69,29 +69,36 @@ Connector model : JST, GH1.25, 6P
 Type C connector is used to connect to Host devices, such as Phone, iPad, or PC.
 
 USB driver is required to be installed when connecting to PC.
+
 [CH34x USB Serial Port Driver](../../../rtk-board/files/drivers/Windows-CH340-Driver.zip)
 
 >**Note**
 >- USB UART Baud rate: 230400bps
+>- If you want to change this baud rate, please refer to this link: [change baud rate](../../../common/common_config_uart_baud_rate.md)
 
 ### 3.2 Connect your NANO RTK Receiver
 
-NANO RTK Receiver can be connected via USB or Bluetooth, or via WiFi connection.
+NANO RTK Receiver can be connected via:
+- USB
+- Bluetooth (BLE)
+- WiFi connection
 
 #### 3.2.1 **Bluetooth (BLE) connection**
 
-NANO RTK Receiver supports Bluetooth (BLE) connection. Now we recommend using the SW Maps software to connect to the NANO RTK Receiver.
+NANO RTK Receiver supports Bluetooth (BLE) connection. 
+>**Note:** we recommend using the SW Maps software to connect to the NANO RTK Receiver.
 
 SW Maps is a free professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
 
-You can download it from the Google Play Store or App Store.
+You can download it from the **Google Play Store** or **App Store**.
+
 It supports Android and iOS devices.
 
 Please refer to the below to find details on how to use SW Maps to connect to the NANO RTK Receiver.
 
-For Android device, SW Maps support Bluetooth (BLE) and USB serial connection.
+For Android device, SW Maps support **Bluetooth (BLE)** and **USB serial** connection.
 
-For iOS device, SW Maps only support Bluetooth (BLE) connection.
+For iOS device, SW Maps only support **Bluetooth (BLE)** connection.
 
 The default BLE broadcast name is "NANO_RTK_xxxx", where "xxxx" is the last 4 digits of the MAC address.
 
@@ -105,7 +112,9 @@ In WiFi AP mode, you could connect the NANO RTK Receiver's WiFi from your phone 
 
 WiFi sta mode is used to let the NANO RTK Receiver toconnect to a WiFi hotspot or office WiFi SSID. Then NANO RTK Receiver will get the IP address from the WiFi router or your hotspot.
 
-#### 3.2.Config/view its status.
+![](../../../images/gnss/nano/nano_wifi_ap_00.png)
+
+![](../../../images/gnss/nano/nano_sta_mode_00.png)
 
 NANO RTK Receiver support above two modes by default.
 
@@ -149,7 +158,7 @@ NANO RTK Receiver supports USB UART connection on Android phone or Android table
 
 ### 3.3 Config NANO RTK Receiver
 
-#### 3.2.1 Satrack
+#### 3.3.1 Satrack
 
 Satrack is a user-friendly software that supports NANO RTK Receiver. It could be used to configure and monitor the NANO RTK Receiver. You could use it configure the Baud rate, change the output rate, and more.
 
@@ -162,7 +171,7 @@ You could refer to the below link to fine details on how to use Satrack software
 
 [Satrack operation manual](https://docs.datagnss.com/gnss/rtk_receiver/satrack/)
 
-#### 3.2.2 Config NANO RTK Receiver via Web page
+#### 3.3.2 Config NANO RTK Receiver via Web page
 
 In both WiFi AP mode or WiFi Sta mode, you could login to the NANO RTK Receiver's web page to configure the NANO RTK Receiver.
 
