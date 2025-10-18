@@ -51,16 +51,8 @@ The 6P cable is used to connect the NANO RTK Receiver to other devices, such as 
 >- 6P UART Baud rate: 230400bps
 >- Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC)
 
-### 3.1 PINOUT
+### 3.1 Configuration and PINOUT
 
-For the NANO RTK Receiver, the PIN definitions of the cable are as follows:
-
-- **Red**: 5V
-- **Black**: GND
-- **White**: RxD
-- **Yellow**: TxD
-- **Blue**: SCL
-- **Green**: SDA
 
 ![NANO RTK Receiver Connector](../../../images/gnss/nano/nano-rtk-rcv-connector-00.png)
 
@@ -68,79 +60,56 @@ From Left to right:
 
 `5V` `RxD` `TxD` `SCL` `SDA` `GND` 
 
-Connector model NO. : JST,GH1.25,6P
+Connector model : JST, GH1.25, 6P
 
-### 3.2 Key
+>**Note**
+>- 6P connector is used to connect to other devices, such as radio devices, or Ardupilot.
+>- 6P UART Baud rate: 230400bps
 
-NANO RTK Receiver board features four keys: F2, F1, Boot, and Reset.  
-- F1 and F2 are currently reserved.  
-- Boot is used to enter flashing mode.  
-- Reset is used to reboot the device.
+Type C connector is used to connect to Host devices, such as Phone, iPad, or PC.
 
-![NANO RTK Receiver Keys](../../../images/gnss/nano/nano-rtk-s3-key-00.png)
+USB driver is required to be installed when connecting to PC.
+[CH34x USB Serial Port Driver](../../../rtk-board/files/drivers/Windows-CH340-Driver.zip)
 
-> **Note:** 
-To use these keys, you must open the cover.
-In the new version, you can directly use the Boot, F1, and F2 buttons.
+>**Note**
+>- USB UART Baud rate: 230400bps
 
+### 3.2 Connect your NANO RTK Receiver
 
-### 3.3 Type-C USB port
+NANO RTK Receiver can be connected via USB or Bluetooth, or via WiFi connection.
 
-Type-C USB port is used for power supply and data transmission.
+#### 3.2.1 **Bluetooth (BLE) connection**
 
-Type-C serial port connect to the D10P RTK module or ESP32 chipset port for debug output, switched by the DIP switch on the board.
+NANO RTK Receiver supports Bluetooth (BLE) connection. Now we recommend using the SW Maps software to connect to the NANO RTK Receiver.
 
-By default, Type C is directly connected to the module's UART0, allowing direct operation of the RTK module through the Type C connection.
+SW Maps is a free professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
 
-#### 3.3.1 Debug Mode (ESP32)
+You can download it from the Google Play Store or App Store.
+It supports Android and iOS devices.
 
-If you want to debug esp32 chipset, you could config the DIP switcher like the picture below:
+Please refer to the below to find details on how to use SW Maps to connect to the NANO RTK Receiver.
 
-1 and 2 ON, 3 and 4 OFF
-Now, the Type-C port is connected to the ESP32 chipset debug port (uart0).
+For Android device, SW Maps support Bluetooth (BLE) and USB serial connection.
 
-![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher.png)
+For iOS device, SW Maps only support Bluetooth (BLE) connection.
 
-#### 3.3.2 D10P RTK Mode
+The default BLE broadcast name is "NANO_RTK_xxxx", where "xxxx" is the last 4 digits of the MAC address.
 
-But if you want to connect to the D10P RTK module directly from the Type-C port, you could config the DIP switcher like the picture below:
+![](../../../images/gnss/nano/sw_ble_conn_00.png)
 
-1 and 2 OFF, 3 and 4 ON
-Now, the Type-C port is connected to the D10P RTK module directly.
+#### 3.2.2 **WiFi connection**
 
-![NANO RTK Receiver with ESP32](../../../images/gnss/nano/nano-rtk-dip-switcher-2.png)
+NANO RTK Receiver supports WiFi connection. It support WiFi AP mode and WiFi sta mode.
 
-#### 3.3.3 Recommend configuration
+In WiFi AP mode, you could connect the NANO RTK Receiver's WiFi from your phone or PC, which is act as a device like router. 
 
-For normal use, we recommend setting the DIP switches according to section 3.1.2: keep switches 1 and 2 in the OFF position, and switches 3 and 4 in the ON position.
+WiFi sta mode is used to let the NANO RTK Receiver toconnect to a WiFi hotspot or office WiFi SSID. Then NANO RTK Receiver will get the IP address from the WiFi router or your hotspot.
 
+#### 3.2.Config/view its status.
 
-### 3.4 Work with Android device
+NANO RTK Receiver support above two modes by default.
 
-Follow the 3.1.2 steps, and then connect your Android device to the Type-C port by OTG USB cable.
-
-For Android devices, we recommend connecting NANO RTK Receiver via Type C cable, which is better and stable than Bluetooth connection.
-
-OTG USB cable refer to this link in datagnss store: [USB OTG cable](https://www.datagnss.com/collections/accessories/products/usb-otg-cable)
-
-### 3.5 Work with iPad and iPhone devices
-
-> **Note:** 
-Whatever you set the DIP switch to D10P RTK mode or ESP32 chipset debug mode, you could connect your iPad or iPhone devices to the NANO RTK Receiver via Bluetooth LE .The only thing you need to do is powered supply the NANO RTK Receiver with a USB Type-C cable from your iPad or iPhone or Power Bank.
-
-The details operation steps refer to the below link:
-
-[NANO RTK Receiver Surveying and Mapping Kits](https://docs.datagnss.com/gnss/rtk_receiver/surveying-and-mapping-kits/)
-
-![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits.png)
-
-![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)
-
-
-### 3.6 Connect NANO RTK Receiver via WiFi
-
->**Note:** 
-NANO RTK Receiver support WiFi AP and Sta mode.
+In default configuration, the NANO RTK Receiver will start a WiFi AP with SSID: "NANO_RTK_xxxx" and password: "datagnss".
 
 When powered on, the NANO RTK Receiver will automatically operate in AP mode, creating a hotspot with the SSID `NANO_RTK_XXXX` and the password `datagnss`.
 
@@ -152,23 +121,68 @@ After opening, the webpage appears as shown below:
 
 ![](../../../images/gnss/nano/main_00.png)
 
-![NANO RTK Receiver web configuration](../../../images/gnss/nano/settings_01.png)
+>**Note** 
+> you cannot use a phone to both connect to the NANO's AP and act as the Wi‑Fi hotspot at the same time. You will need two devices: one to connect to the NANO and another to serve as the Wi‑Fi hotspot.
 
-#### 3.6.1 WiFi Sta settings
+![WiFi connection](../../../images/gnss/nano/wifi_conn_00.png)
 
-Tap `Scan` Button, to scan and get the WiFi SSID list:
+Tap `Settings` - `Scan` Button, to scan and get the available  WiFi SSID list:
 
 ![WiFi List](../../../images/gnss/nano/connect_wifi_01.png)
 
 Then select the SSID, input the password, then press `connect` or `save and reboot`.
-#### 3.6.2 GNSS settings
 
-For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover`, and `Unconfigured`.
+![](../../../images/gnss/nano/wifi_conn_02.png)
 
-![](../../../images/gnss/nano/gnss_settings_mode_01.png)
+When wifi sta connected, the NANO RTK Receiver will start to get the IP address from the router. The IP address will be displayed on the web page.
 
-- **Base**
+You could see the IP address(10.10.168.120) on the above screenshot.
 
+Now you can open web browser, input the IP address (http://10.10.168.120) to view the NANO RTK Receiver's status with a PC or phone in the same LAN network.
+
+#### 3.2.3 **USB connection**
+
+NANO RTK Receiver supports USB UART connection on Android phone or Android tablet, or PC.
+
+![](../../../images/gnss/nano/usb_conn_00.png)
+
+
+### 3.3 Config NANO RTK Receiver
+
+#### 3.2.1 Satrack
+
+Satrack is a user-friendly software that supports NANO RTK Receiver. It could be used to configure and monitor the NANO RTK Receiver. You could use it configure the Baud rate, change the output rate, and more.
+
+1. Connect NANO RTK Receiver to PC via Type-C cable.
+2. Open the device manager, find the COM port
+3. Open Satrack software, choose the COM port and set the baud rate to 230400bps. then press connect button.
+4. If the connection is successful, the software will display the NMEA sentences information.
+
+You could refer to the below link to fine details on how to use Satrack software.
+
+[Satrack operation manual](https://docs.datagnss.com/gnss/rtk_receiver/satrack/)
+
+#### 3.2.2 Config NANO RTK Receiver via Web page
+
+In both WiFi AP mode or WiFi Sta mode, you could login to the NANO RTK Receiver's web page to configure the NANO RTK Receiver.
+
+Login to the NANO RTK Receiver's web page.
+
+- **Homepage**
+
+![](../../../images/gnss/nano/main_00.png)
+
+- **GNSS**
+
+For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover`, `RAW` and `Unconfigured`.
+
+In default, the mode is `Rover`.
+
+
+![](../../../images/gnss/nano/web_gnss_01.png)
+
+
+>**Base**
 In Base mode, the module will automatically be set to Base mode upon startup. At this time, you can also configure how the Base coordinate is obtained.
 
 ![](../../../images/gnss/nano/gnss_settings_01.png)
@@ -177,58 +191,105 @@ The Base Coordinate supports three modes:
 
 ![](../../../images/gnss/nano/gnss_settings_02_base_coordinate.png)
 
-- **Rover**
-
+>**Rover**
 In Rover mode, the module will automatically be set to Rover mode upon startup.
 
-- **Raw**
-
+>**Raw**
 In Raw mode, the module will automatically be set to Raw mode output MSM7 RTCM3 data and EPHE data.
 
-
-- **Unconfigured**
-
+>**Unconfigured**
 In Unconfigured mode, the module will not perform any operations upon startup.
-
 This mode is suitable for scenarios where users need to control the module themselves. 
-
 In this case, users can connect the Type-C port to a computer, use Satrack to configure the module, and save the configuration. Upon the next startup, the module's configuration will remain unchanged.
 
-#### 3.6.3 External UART port settings
+- **Settings**
 
-The external UART port has two main settings:
+![](../../../images/gnss/nano/web_settings_01.png)
 
-![](../../../images/gnss/nano/external_port_settings-00.png)
+In settings, you can configure the following parameters:
 
-- **Baud rate settings**: This is primarily used to address baud rate compatibility with external devices, such as external radios or other equipment.
+>**WiFi Settings**
+Configure the WiFi SSID and password.
 
-- **Swap Rx and Tx**: This option is mainly for advanced users to handle scenarios where the Rx and Tx pin order of the cable differs.
-
-For example, we need to output data to a radio through the External 6P UART port:
-
-![](../../../images/gnss/Telemetry_radio_main_00.png)
-
-
-#### 3.6.4 RTCM Correction Source
-
-This option configures the source of RTCM correction data. It supports the following three sources:
+>**RTCM Correction Source**
+Configure the RTCM correction source.
 
 ![](../../../images/gnss/nano/rtcm_corr_source_01.png)
 
-#### 3.6.5 NTRIP settings
+>**External Port**
+>Configure the external port.
+>- Swap Rx and Tx
+>- Baud rate, in default, it is 230400bps.
 
-The NANO RTK Receiver supports both NTRIP Server and NTRIP Client modes.
-
-Both can work simultaneously.
-
-#### 3.6.6 System Information
+- **System**
 
 ![](../../../images/gnss/nano/sys_info_01.png)
 
+### 3.4 Feed RTCM correction data to NANO RTK Receiver
 
-### 4. Update firmware
+NANO RTK Receiver support to get RTCM data from the following source: 
+- Bluetooth
+- USB UART
+- WiFi
+- 6P Connector.
 
-#### 4.1 update firmware from web [Recommended]
+#### 3.4.1 Feed RTCM data via Bluetooth
+
+If you connect the NANO RTK Receiver via Bluetooth(BLE), you could feed RTCM data to the NANO RTK Receiver via software like SW Maps.
+
+![](../../../images/gnss/nano/sw_ntrip_conn_02.png)
+
+![](../../../images/gnss/nano/sw_ntrip_conn_00.png)
+
+Then after the RTCM data is received, the NANO RTK Receiver will start to do **RTK positioning**.
+
+#### 3.4.2 Feed RTCM data via USB UART
+
+If you connect the NANO RTK Receiver via USB UART in SW Maps, you could feed RTCM data to the NANO RTK Receiver via software like above section **3.4.1 Feed RTCM data via Bluetooth**.
+
+
+#### 3.4.3 Feed RTCM data via WiFi connection
+
+If you have configured the NANO RTK Receiver to connect to a WiFi hotspot, you could let NANO RTK Receiver to get RTCM data to from NTRIP caster by NANO RTK Receiver itself.
+
+The NANO RTK Receiver will start to get RTCM data from NTRIP caster automatically when it is connected to a WiFi hotspot.
+
+Follow the **3.2.2 WiFi connection** to connect the NANO RTK Receiver to a WiFi hotspot or MiFi.
+
+Then open web browser, input the IP address (like our example  http://10.10.168.120)
+
+Then navigate to the `GNSS` page, and set the `NTRIP client` to be enabled. then input the ntrip client parameters.
+
+Then Apply it.
+
+The NANO RTK Receiver will start to get RTCM data from NTRIP caster automatically.
+
+Now you could navigate to main page, and you will see the ntrip client connection status is `Connected` and Rx data rate.
+
+![](../../../images/gnss/nano/web_status_01.png)
+
+### 3.5 Work with Android device
+
+Follow the 3.1.2 steps, and then connect your Android device to the Type-C port by OTG USB cable.
+
+For Android devices, we recommend connecting NANO RTK Receiver via Type C cable, which is better and stable than Bluetooth connection.
+
+OTG USB cable refer to this link in datagnss store: [USB OTG cable](https://www.datagnss.com/collections/accessories/products/usb-otg-cable)
+
+### 3.6 Work with iPad and iPhone devices
+
+The details operation steps refer to the below link:
+
+[NANO RTK Receiver Surveying and Mapping Kits](https://docs.datagnss.com/gnss/rtk_receiver/surveying-and-mapping-kits/)
+
+![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits.png)
+
+![NANO RTK Receiver Surveying and Mapping Kits](../../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)
+
+
+## 4. Update firmware
+
+### 4.1 update firmware from web [Recommended]
 
 The NANO RTK Receiver is based on the ESP32-S3 platform, offering powerful data processing capabilities and supporting various connectivity options such as WiFi and Bluetooth.
 
@@ -254,9 +315,10 @@ After upgrading to 100%, there is a small chance that the following message may 
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
+<details>
+<summary>More detailed guide about flash firmware manually...</summary>
 
-
-#### 4.2 update firmware using Flash Download Tool
+### 4.2 update firmware using Flash Download Tool
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
 
@@ -283,7 +345,24 @@ Then, press RESET button on the board to reboot NANO RTK Receiver.
 >**Note:** 
 After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
 
-#### 4.1 Firmware
+</details>
+
+## 5. FAQS
+
+- **Q: How to change baud rate?**
+  **A: Please refer to this link: [change baud rate](../../../common/common_config_uart_baud_rate.md)**
+
+- **Q: How to connect my office's WiFi?**
+  **A: Please refer to the section `3.2.2 WiFi connection`.**
+
+- **Q: How to connect the external radio link device, such as 3DR radio?**
+  **A: Please refer to the section `___`.**
+
+## 6. Resource
+
+### 6.1 Related links
+
+### 6.2 Firmware
 
 - Latest Firmware:[1.0.7 dev.505](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
 
