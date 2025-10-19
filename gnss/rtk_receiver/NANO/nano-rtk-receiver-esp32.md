@@ -31,6 +31,8 @@ For example, you can set it to connect to a Wi-Fi hotspot directly, and then vie
 
 ## 3. Quick Start
 
+> Note: Many screenshots and descriptions below are based on firmware from version 1.0.6.dev.300. If your version differs, please refer to the actual behavior of your device's firmware.
+
 The NANO RTK Receiver Kits include the following items:
 
 - NANO RTK Receiver
@@ -52,7 +54,6 @@ The 6P cable is used to connect the NANO RTK Receiver to other devices, such as 
 >- Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC)
 
 ### 3.1 Configuration and PINOUT
-
 
 ![NANO RTK Receiver Connector](../../../images/gnss/nano/nano-rtk-rcv-connector-00.png)
 
@@ -169,7 +170,7 @@ Satrack is a user-friendly software that supports NANO RTK Receiver. It could be
 
 You could refer to the below link to fine details on how to use Satrack software.
 
-[Satrack operation manual](https://docs.datagnss.com/gnss/rtk_receiver/satrack/)
+[Satrack operation manual](https://docs.datagnss.com/common/common_satrack_guide/)
 
 #### 3.3.2 Config NANO RTK Receiver via Web page
 
