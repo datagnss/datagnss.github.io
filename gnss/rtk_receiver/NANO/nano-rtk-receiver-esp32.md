@@ -321,7 +321,7 @@ Then press "Upload & Update"
 When the progress bar reaches 100%, the upgrade is complete.
 
 > **Note:** 
-After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the homgpage.
+After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the homepage.
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
