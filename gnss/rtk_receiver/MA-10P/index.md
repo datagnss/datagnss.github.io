@@ -50,6 +50,9 @@ MA-10P support USB UART and 6P connector UART output.
 
 6P connector UART only support output, not input.
 
+### Blockgram
+
+![MA-10P function blockgram](../../../images/ma-10p/MA-10P_blockgram.png)
 
 # How to use it
 
