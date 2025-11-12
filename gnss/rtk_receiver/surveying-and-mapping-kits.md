@@ -31,6 +31,44 @@ On iPhone / iPad, the OTG cable can support power from iPad / iPhone, no additio
 
 ![OTG Cable](../../images/rtk/surveying-and-mapping/TYPE-C-OTG-CABLE-500x.png)
 
+## Quick guide
+
+### Packing List
+
+- NANO RTK Receiver pro
+- RTK Helix antenna
+- Type C cable
+- OTG type cable
+- 6P cable (0.3m)
+- 3M magic tape
+
+![Kits_list](../../images/rtk/surveying-and-mapping/surveying_kits_list.png)
+
+- Handheld accesseries
+
+![handheld_accesseries](../../images/rtk/surveying-and-mapping/accessories_2.png)
+
+### Installation
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_01.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_02.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_03.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_04.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_05.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_06.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_07.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_09.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_09_00.png)
+
+
 ## With Android devices
 
 On Android devices, NANO RTK Receiver can be used as a USB device, supporting USB serial mode.
