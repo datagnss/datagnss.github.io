@@ -325,17 +325,14 @@ After upgrading to 100%, there is a small chance that the following message may 
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
-<details>
-<summary>More detailed guide about flash firmware manually...</summary>
-
-
->**Note:** 
->In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
 
 
 ### 4.2 update firmware using Flash Download Tool
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
+
+>**Note:** 
+>In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
 
 Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
 
@@ -365,7 +362,6 @@ Then, press RESET button on the board to reboot NANO RTK Receiver.
 >**Note:** 
 >After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
 
-</details>
 
 ## 5. FAQS
 
