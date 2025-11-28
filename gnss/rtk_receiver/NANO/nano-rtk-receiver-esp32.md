@@ -328,6 +328,9 @@ After upgrading to 100%, there is a small chance that the following message may 
 <details>
 <summary>More detailed guide about flash firmware manually...</summary>
 
+>**Note:** 
+In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
+
 ### 4.2 update firmware using Flash Download Tool
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
