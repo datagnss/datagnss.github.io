@@ -341,8 +341,9 @@ Full version (bin files): [nano.rtk.s3.15.1.0.7.dev.488.zip](../../../nano-s3-rt
 > Note: 
 > This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.
 
+
 > **Note:** 
-Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
+> Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
 
 When opening the software, the system will prompt you to select a platform. Here, you need to choose **ESP32-S3**.
 
@@ -380,6 +381,6 @@ Then, press RESET button on the board to reboot NANO RTK Receiver.
 
 ### 6.2 Firmware
 
-- Latest Firmware:[1.0.7 dev.505](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
+- Latest Firmware:[1.0.7 dev.505,for web upgrade firmware](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
 
  
