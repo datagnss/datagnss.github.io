@@ -334,6 +334,11 @@ This section demonstrates how to flash firmware using the official ESP32 Flash D
 
 Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
 
+Full version (bin files): [nano.rtk.s3.15.1.0.7.dev.488.zip](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.488.zip)
+
+> Note: 
+This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.
+
 > **Note:** 
 Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
 
