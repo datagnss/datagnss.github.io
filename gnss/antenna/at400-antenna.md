@@ -57,7 +57,7 @@ It supports L1/L2/L5/L6 bands [new updated].
 
 | PN            | Description               |
 | ------------- | ------------------------- |
-| AT400-00      | AT400, Tri-bands L1/L2/L5/L6 |
+| AT400-00      | AT400, L1/L2/L5/L6 |
 | RF-TNC-SMA-03 | 3m, RF cables, TNC-SMA    |
 | RF-TNC-SMA-05 | 5m, RF cables, TNC-SMA    |
 
