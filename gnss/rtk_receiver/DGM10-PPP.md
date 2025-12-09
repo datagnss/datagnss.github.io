@@ -1,23 +1,24 @@
 ---
-title: "DGM10-A01 RTK Receiver"
-date: 2024-12-02
+title: "DGM10-PPP PPP/RTK Receiver"
+date: 2025-11
 ---
-
-# DGM10-A01 RTK Receiver
+# DGM10-PPP RTK Receiver
 
 ## Overview
 
-DGM10-A01 is a high performance dual-band RTK receiver with build-in antenna, which is based on CYNOSURE series chipset.
-It supports BDS-3 signals, along with global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
+The DGM10-PPP RTK Receiver is a high-precision PPP/RTK receiver with build-in antenna based on the D10P module, supporting Japan's QZSS PPP service.
+
+It supports navigation systems including GPS/QZSS, GALILEO, BDS and GLONASS, and receives signals on L1/L5 bands and L6 band for QZSS PPP corrections service.
+
+With a built-in PPP positioning engine, it enables PPP positioning based on the MADOCA/CLAS service. When conditions permit, PPP-AR positioning is also achievable.
 
 ![DGM10-A01](../../images/DGM10-A01-MAIN-800x.png)
 
 ### Features
 
-- Supports GPS, BDS, GLONASS, Galileo, QZSS, and SBAS
-- Integrated Real Time Kinematics (RTK)
+- Supports GPS, BDS, GLONASS, Galileo, QZSS
+- Integrated PPP(MADOCA/CLAS)
 - State-of-the-art low power consumption design
-- Supports multi-band multi-system high precision raw data output, easy for 3rd party integration
 - The best cost-effective high precision GNSS positioning solution integrated with antenna
 - Compact size 65x65x25mm with high performance
 - One cable for power and data
@@ -26,44 +27,44 @@ It supports BDS-3 signals, along with global civil navigation systems, including
 
 #### Antenna
 
-| Item | Specs |
-| --- | --- |
-| Frequency Range(MHz) | GPS/QZSS L1,L5, BDS B1,B2, GLONASS L1, GALILEO E1/E5a |
-| Polarization | Right-hand circular |
-| Gain(dBi) | 90° L1≥5.5 L2≥5 L5≥2.5 |
-| Phase center error(mm) | ≤±2.0 |
-| Axial Ratio (dB) | 90°≤3.0 |
-| LNA Gain(dB) | 38±2 |
-| V.S.W.R | ≤2.0 |
-| Noise Figure (dB) | ≤1.8 |
-| DC Voltage (V) | 5.0～5.5 |
-| Current (mA) | ≤80mA |
-| Impedance(Ω) | 50 |
+| Item                   | Specs                                                          |
+| ---------------------- | -------------------------------------------------------------- |
+| Frequency Range(MHz)   | GPS/QZSS L1/L5, QZSS L6, BDS B1/B2, GLONASS L1, GALILEO E1/E5a |
+| Polarization           | Right-hand circular                                            |
+| Gain(dBi)              | 90° L1≥5.5 L2≥5 L5≥2.5                                     |
+| Phase center error(mm) | ≤±2.0                                                        |
+| Axial Ratio (dB)       | 90°≤3.0                                                      |
+| LNA Gain(dB)           | 38±2                                                          |
+| V.S.W.R                | ≤2.0                                                          |
+| Noise Figure (dB)      | ≤1.8                                                          |
+| DC Voltage (V)         | 5.0～5.5                                                       |
+| Current (mA)           | ≤80mA                                                         |
+| Impedance(Ω)          | 50                                                             |
 
 #### GNSS
 
-| Parameter | Specifications |
-| --- | --- |
-| Constellations | BDS, GPS, QZSS, GLONASS, Galileo, NavIC, SBAS |
-| Channel | 128 hardware channels |
-| Update rates | 5Hz default, max up to 10Hz |
-| Position accuracy | GNSS 1.0m CEP<br>SBAS ＜1.0m CEP |
-| RTK | 1.0 cm + 1 ppm (H)<br>2.0 cm + 1 ppm (V) |
-| Velocity & Time accuracy | GNSS 0.05 m/s CEP<br>1PPS 20ns RMS |
-| TTFF | Hot start 1s<br>Cold start 27s |
-| RTK | Convergence time <10s |
-| Reliability | ＞99.9% |
-| Sensitivity | Cold start -148 dBm<br>Hot start -155 dBm<br>Reacquisition -158 dBm<br>Tracking & navigation -165 dBm |
-| Protocol | NMEA-0183<br>RTCM 2.X, RTCM 3.X |
-| Baudrate | 230400 bps, by default |
-| Operating condition | Main supply 4.75-5.25V|
-| Power consumption | Tracking GNSS 30 mA @ 3.3V<br>Single system 18 mA @ 3.3V<br>Standby Data backup 16 uA<br>RTC 1.4 uA |
-| Serial | UART, 4-pins, 1.25mm pitch|
-| Cable | 2m default, other length upon request |
-| Operating limit | Velocity 515 m/s<br>Altitude 18,000m |
-| Environmental conditions | Operating temp. -40°C to +85°C<br>Storage temp. -40°C to +90°C<br>Humidity 95% RH |
-| Dimensions(mm) | 65 x 65 x 25 |
-| Weight (g) | 120 |
+| Parameter                | Specifications                                                                                                       |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Constellations           | BDS, GPS, QZSS, GLONASS, Galileo, NavIC, SBAS                                                                        |
+| Channel                  | 128 hardware channels                                                                                                |
+| Update rates             | 1Hz default, max up to 5Hz (PPP)                                                                                     |
+| Position accuracy        | GNSS 1.0m CEP `<br>`SBAS ＜1.0m CEP                                                                                |
+| PPP                      | 0.1~0.6 m (600-900s converage time)                                                                                  |
+| Velocity & Time accuracy | GNSS 0.05 m/s CEP `<br>`1PPS 20ns RMS                                                                              |
+| TTFF                     | Hot start 1s `<br>`Cold start 27s                                                                                  |
+| Converage time           | PPP <900s                                                                                                            |
+| Reliability              | ＞99.9%                                                                                                              |
+| Sensitivity              | Cold start -148 dBm `<br>`Hot start -155 dBm `<br>`Reacquisition -158 dBm `<br>`Tracking & navigation -165 dBm |
+| Protocol                 | NMEA-0183 `<br>`RTCM 3.X                                                                                           |
+| Baudrate                 | 230400 bps, by default                                                                                               |
+| Operating condition      | Main supply 4.75-5.25V                                                                                               |
+| Power consumption        | Tracking GNSS 30 mA @ 3.3V `<br>`Single system 18 mA @ 3.3V `<br>`Standby Data backup 16 uA `<br>`RTC 1.4 uA   |
+| Serial                   | UART, 6pins, JST-GH-1.25                                                                                            |
+| Cable                    | 2m default, other length upon request                                                                                |
+| Operating limit          | Velocity 515 m/s `<br>`Altitude 18,000m                                                                            |
+| Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH                      |
+| Dimensions(mm)           | 65 x 65 x 25                                                                                                         |
+| Weight (g)               | 120                                                                                                                  |
 
 [1] tested with a good external LNA
 [2] Supported upon request with special firmware
@@ -80,13 +81,14 @@ It supports BDS-3 signals, along with global civil navigation systems, including
 ## Applications
 
 - [DGM10-A01 with Ardupilot](https://ardupilot.org/copter/docs/common-datagnss-gem1305-rtk.html)
-
 - [DGM10-A01 with PX4](https://docs.px4.io/main/en/gps_compass/rtk_gps_gem1305.html)
 
 ## Package list
 
-- DGM10-A01 receiver
+- DGM10-PPP receiver
+- Type C cable,1m
 
 ## Resources
+
 - [Satrack_User_Manual](../../assets/datasheet/Satrack_User_Manual.pdf)
 - [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol)
