@@ -17,6 +17,8 @@ The MA-10P can be widely used in various positioning projects within the coverag
 
 The MA-10P PPP Receiver consists of the MA-10P module and the QZS-6C module. The MA-10P module performs PPP positioning, while the QZS-6C module handles the reception and processing of QZSS MADOCA Correction.
 
+Order link: [MA-10P](https://www.datagnss.com/collections/evk/products/qzss-l6-receiver?variant=40723055509539)
+
 # Specifications
 
 ## GNSS

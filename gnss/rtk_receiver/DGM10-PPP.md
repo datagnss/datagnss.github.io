@@ -91,6 +91,8 @@ With a built-in PPP positioning engine, it enables PPP positioning based on the 
 
 ## Order Info
 
+Order link: [DGM10-PPP](https://www.datagnss.com/collections/evk/products/qzss-l6-receiver?variant=41500430172195)
+
 | Item Desc.| P/N |Remark|
 |-|-|-|
 | MADOCA PPP| DGM10-PPP-00 | MADOCA/PPP, L1+L5/L6|
