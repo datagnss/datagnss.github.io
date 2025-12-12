@@ -2,7 +2,6 @@
 title: "Config RTK receiver using goNANO"
 date: 2025-8
 ---
-
 # Config RTK Receiver using goNANO
 
 ## Overview
@@ -15,13 +14,20 @@ Download goNANO from [HERE](../assets/software/goNANO.zip)
 
 1. Open "Terminal" or "cmd" in Windows.
 
-2. unzip the downloaded goNANO.zip, then cd this folder in terminal.
-
-3. Find the serial port number in Devices manager of Windows.
-
-4. Run goNANO.exe, with parameters: -d serial_port_number -b 230400, like:
+3. unzip the downloaded goNANO.zip, then cd this folder in terminal.
 
 ``` shell
+PS D:\goNANO>ls
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/5/12     15:08                conf
+-a----        2025/5/12     14:47        3359232 goNANO.exe
+```
+
+4. Find the serial port number in Devices manager of Windows.
+5. Run goNANO.exe, with parameters: -d serial_port_number -b 230400, like:
+
+```shell
 PS D:\goNANO> .\goNANO.exe -d com32 -b 230400
 Please select working mode
 1. Base station mode
@@ -33,7 +39,7 @@ Please enter your choice (1-3): 1
 
 5. Then choose 1, run it.
 
-``` shell
+```shell
 PS D:\goNANO> .\goNANO.exe -d com32 -b 230400
 Please select working mode
 1. Base station mode
@@ -78,6 +84,6 @@ received 0x0501 ALS packet
 ALS ACK matched: sent 23 commands, received 23 ACKs
 command/ack cycle completed, configured successfully.
 exiting app.
-``` 
+```
 
 6. After the settings are completed, the mode will be saved to the receiver. The next time it is turned on, it will automatically enter the set mode.
