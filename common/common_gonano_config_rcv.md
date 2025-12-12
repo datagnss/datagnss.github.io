@@ -12,12 +12,12 @@ Download goNANO from [HERE](../assets/software/goNANO.zip)
 
 ## Quick guide
 
-1. Open "Terminal" or "cmd" in Windows.
+1.Open "Terminal" or "cmd" in Windows.
 
 
-2. unzip the downloaded goNANO.zip, then cd this folder in terminal.
+2.unzip the downloaded goNANO.zip, then cd this folder in terminal.
 
-``` shell
+```shell
 PS D:\goNANO>ls
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
@@ -25,10 +25,10 @@ d-----        2025/5/12     15:08                conf
 -a----        2025/5/12     14:47        3359232 goNANO.exe
 ```
 
-3. Find the serial port number in Devices manager of Windows.
+3.Find the serial port number in Devices manager of Windows.
 
 
-4. Run goNANO.exe, with parameters: -d serial_port_number -b 230400, like:
+4.Run goNANO.exe, with parameters: -d serial_port_number -b 230400, like:
 
 ```shell
 PS D:\goNANO> .\goNANO.exe -d com32 -b 230400
@@ -40,7 +40,7 @@ Please enter your choice (1-3): 1
 
 ```
 
-5. Then choose 1, run it.
+5.Then choose 1, run it.
 
 ```shell
 PS D:\goNANO> .\goNANO.exe -d com32 -b 230400
@@ -89,4 +89,4 @@ command/ack cycle completed, configured successfully.
 exiting app.
 ```
 
-6. After the settings are completed, the mode will be saved to the receiver. The next time it is turned on, it will automatically enter the set mode.
+6.After the settings are completed, the mode will be saved to the receiver. The next time it is turned on, it will automatically enter the set mode.
