@@ -14,6 +14,7 @@ Download goNANO from [HERE](../assets/software/goNANO.zip)
 
 1. Open "Terminal" or "cmd" in Windows.
 
+
 2. unzip the downloaded goNANO.zip, then cd this folder in terminal.
 
 ``` shell
@@ -25,6 +26,8 @@ d-----        2025/5/12     15:08                conf
 ```
 
 3. Find the serial port number in Devices manager of Windows.
+
+
 4. Run goNANO.exe, with parameters: -d serial_port_number -b 230400, like:
 
 ```shell
