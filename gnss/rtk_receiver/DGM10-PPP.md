@@ -89,6 +89,10 @@ With a built-in PPP positioning engine, it enables PPP positioning based on the 
 
 - DGM10-PPP receiver
 
+## Test report
+
+Please download this [test report](https://docs.datagnss.com/gnss/rtk_receiver/MA-10P/MA10P-TEST-REPORT-2512.pdf)
+
 ## Order Info
 
 Order link: [DGM10-PPP](https://www.datagnss.com/collections/evk/products/qzss-l6-receiver?variant=41500430172195)
