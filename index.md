@@ -5,7 +5,7 @@
 <div class="support-content" style="display: flex; flex-wrap: wrap; gap: 30px;">
 
 <!-- GNSS module & RTK receiver -->
-<!-->
+<!--
 <div style="flex: 1; min-width: 45%;">
     <h2 id="gnss-module">GNSS module</h2>
     <ul>
