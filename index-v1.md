@@ -3,17 +3,14 @@
     <h1 id="support-center" style="text-align: left; margin-bottom: 30px;">Support center</h1>
 
 <div class="support-content" style="display: flex; flex-wrap: wrap; gap: 30px;">
-
-<!-- GNSS module & RTK receiver -->
-<!-->
-<div style="flex: 1; min-width: 45%;">
-    <h2 id="gnss-module">GNSS module</h2>
-    <ul>
-        <li><a href="/gnss/gnss_module/D10P_RTK/">D10P RTK module</a></li>
-        <li><a href="/gnss/rtk_receiver/HED-10L/">HED-10L Heading RTK module</a></li>
-    </ul>
-</div>
--->
+    <!-- GNSS module & RTK receiver -->
+    <div style="flex: 1; min-width: 45%;">
+        <h2 id="gnss-module">GNSS module</h2>
+        <ul>
+            <li><a href="/gnss/gnss_module/D10P_RTK/">D10P RTK module</a></li>
+            <li><a href="/gnss/rtk_receiver/HED-10L/">HED-10L Heading RTK module</a></li>
+        </ul>
+    </div>
 
 <div style="flex: 1; min-width: 45%;">
     <h2 id="rtk-receiver">RTK receiver</h2>
@@ -25,8 +22,7 @@
         <li><a href="/gnss/rtk_receiver/GEM1305">GEM1305 RTK Receiver</a></li>
         <li><a href="/gnss/rtk_receiver/MA-10P/">NANO MA-10P PPP Receiver</a></li>
         <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK Receiver</a></li>
-        <li><a href="/gnss/rtk_receiver/HED-10L/">NANO HED-10L Heading RTK Receiver</a></li>
-        <li><a href="/gnss/rtk_receiver/heading-hed10k">NANO HED-10K Heading RTK Receiver</a></li>
+        <li><a href="/gnss/rtk_receiver/heading-hed10k">NANO HED-10K RTK Heading Receiver</a></li>
     </ul>
 </div>
 
@@ -42,6 +38,15 @@
             </ul>
         </div>
 
+<div style="flex: 1; min-width: 45%;">
+    <h2 id="antenna-for-rtk">Antenna for RTK</h2>
+    <ul>
+        <li><a href="/gnss/antenna/helix-antenna/">Helix RTK Antenna</a></li>
+        <li><a href="/gnss/antenna/at400-antenna/">AT400 RTK Antenna</a></li>
+        <li><a href="d303-docs/common/choice-of-antenna/">Choice of antenna</a></li>
+    </ul>
+</div>
+
 <!-- Satrack software & Related guide -->
 <div style="flex: 1; min-width: 45%;">
     <h2 id="satrack-software">Satrack software</h2>
@@ -53,15 +58,6 @@
     </ul>
     <ul>
         <li><a href="/common/common_how_to_verify_base_station">How to verify your base station</a></li>
-    </ul>
-</div>
-
-<div style="flex: 1; min-width: 45%;">
-    <h2 id="antenna-for-rtk">Antenna for RTK</h2>
-    <ul>
-        <li><a href="/gnss/antenna/helix-antenna/">Helix RTK Antenna</a></li>
-        <li><a href="/gnss/antenna/at400-antenna/">AT400 RTK Antenna</a></li>
-        <li><a href="d303-docs/common/choice-of-antenna/">Choice of antenna</a></li>
     </ul>
 </div>
 
