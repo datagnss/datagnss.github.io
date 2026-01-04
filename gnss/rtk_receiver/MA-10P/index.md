@@ -17,6 +17,8 @@ The MA-10P can be widely used in various positioning projects within the coverag
 
 The MA-10P PPP Receiver consists of the MA-10P module and the QZS-6C module. The MA-10P module performs PPP positioning, while the QZS-6C module handles the reception and processing of QZSS MADOCA Correction.
 
+Order link: [MA-10P](https://www.datagnss.com/collections/evk/products/qzss-l6-receiver?variant=40723055509539)
+
 # Specifications
 
 ## GNSS
@@ -50,6 +52,9 @@ MA-10P support USB UART and 6P connector UART output.
 
 6P connector UART only support output, not input.
 
+### Blockgram
+
+![MA-10P function blockgram](../../../images/ma-10p/MA-10P_blockgram.png)
 
 # How to use it
 
@@ -77,4 +82,8 @@ USB Serial B is the main port you need to use. Check which COM port corresponds 
 This means you can open COM4 in Satrack and set the baud rate to 230400bps.
 
 After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status. If PPP-AR is successful, it will display the **RTK Fixed** status.
-> As of August 2025, the current firmware version does not support PPP-AR yet.
+> The MADOCA firmware version does not support PPP-AR yet.
+
+# Test report
+
+Please download this [test report](./MA10P-TEST-REPORT-2512.pdf)

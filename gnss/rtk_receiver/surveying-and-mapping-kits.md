@@ -6,6 +6,9 @@ date: 2024-12-02
 
 ## Overview
 
+[Order link](https://www.datagnss.com/collections/evk/products/multi-band-rtk-receiver-package?variant=40933450809379)
+
+
 The NANO RTK Receiver can be conveniently used for surveying and mapping applications. It supports RTK positioning, providing real-time centimeter-level accuracy.
 It is compatible with common free surveying and mapping software like SW Maps and Mapit GIS.
 
@@ -31,19 +34,48 @@ On iPhone / iPad, the OTG cable can support power from iPad / iPhone, no additio
 
 ![OTG Cable](../../images/rtk/surveying-and-mapping/TYPE-C-OTG-CABLE-500x.png)
 
+## Quick guide
+
+### Packing List
+
+- NANO RTK Receiver pro
+- RTK Helix antenna
+- Type C cable
+- OTG type cable
+- 6P cable (0.3m)
+- 3M magic tape
+
+![Kits_list](../../images/rtk/surveying-and-mapping/surveying_kits_list.png)
+
+- Handheld accesseries
+
+![handheld_accesseries](../../images/rtk/surveying-and-mapping/accessories_2.png)
+
+### Installation
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_01.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_02.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_03.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_04.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_05.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_06.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_07.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_09.png)
+
+![Installation](../../images/rtk/surveying-and-mapping/installation_09_00.png)
+
+
 ## With Android devices
 
 On Android devices, NANO RTK Receiver can be used as a USB device, supporting USB serial mode.
 We strongly recommend using USB Serial mode on Android devices to ensure stable and reliable data collection.
-
-If you purchase the surveying kit, you will receive the following components:
-
-- NANO RTK Receiver
-- Helix antenna for RTK
-- Type C Cable
-- OTG adapter
-- 20cm Handheld rod
-- Accesseries
 
 Using SW Maps as an example, the steps to use NANO RTK Receiver for measurement and mapping are as follows:
 

@@ -321,23 +321,31 @@ Then press "Upload & Update"
 When the progress bar reaches 100%, the upgrade is complete.
 
 > **Note:** 
-After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the main interface.
+After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the homepage.
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
-<details>
-<summary>More detailed guide about flash firmware manually...</summary>
+
 
 ### 4.2 update firmware using Flash Download Tool
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
 
+>**Note:** 
+>In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
+
 Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
 
-> **Note:** 
-Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
+Full version (bin files): [nano.rtk.s3.15.1.0.7.dev.488.zip](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.488.zip)
 
-When opening the software, the system will prompt you to select a platform. Here, you need to choose ESP32-S3.
+> Note: 
+> This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.
+
+
+> **Note:** 
+> Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
+
+When opening the software, the system will prompt you to select a platform. Here, you need to choose **ESP32-S3**.
 
 ![](../../../images/gnss/nano/flash_download_tool-00.png)
 
@@ -353,9 +361,8 @@ Once the flashing is complete, the "FINISH" text will be displayed. At this poin
 Then, press RESET button on the board to reboot NANO RTK Receiver.
 
 >**Note:** 
-After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
+>After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
 
-</details>
 
 ## 5. FAQS
 
@@ -374,6 +381,6 @@ After the upgrade is complete, it is recommended to set DIP Switch positions 1 a
 
 ### 6.2 Firmware
 
-- Latest Firmware:[1.0.7 dev.505](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
+- Latest Firmware:[1.0.7 dev.505,for web upgrade firmware](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.505.zip) 
 
  
