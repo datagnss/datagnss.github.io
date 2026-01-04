@@ -7,7 +7,7 @@ date: 2024-12-02
 
 ## Overview
 
-NANO AGR RTK Receiver is a multi-constellation, multi-frequency RTK receiver. It is based on Allystar's new generation dual-core GNSS SoC and supports up to **10Hz data output**.
+NANO AGR RTK Receiver is a multi-constellation, multi-frequency RTK receiver. It supports up to **10Hz data output**.
 NANO AGR RTK Receiver supports conventional RTK **base and rover** functions. It supports a maximum of **128 hardware channels** and can receive almost all visible satellites.
 
 ![NANO AGR SMA](../../../images/gnss/NANO-AGR-SMA-00.png)

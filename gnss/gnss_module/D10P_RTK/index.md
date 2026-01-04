@@ -13,10 +13,8 @@ It can be widely used in mower, Intelligent transportation, surveying and mappin
 ## Features
 
 - Concurrent reception of multi-band multi-system satellite signals
-- Support PPP-B2b/PPP/PPP-RTK (upon request)
 - Internal PVT, RTD, and RTK Engine
 - Update rate up to 10 Hz
-- Support A-GNSS
 - Support raw data output(RTCM format)
 
 

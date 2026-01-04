@@ -7,8 +7,6 @@
         <div style="flex: 1; min-width: 45%;">
             <h2 id="gnss-module">GNSS module</h2>
             <ul>
-                <li><a href="/gnss/gnss_module/tau13x2/">TAU1302/TAU1312 RTK module</a></li>
-                <li><a href="/gnss/gnss_module/TAU951M/">TAU951M RTK module</a></li>
                 <li><a href="/gnss/gnss_module/D10P_RTK/">D10P RTK module</a></li>
                 <li><a href="/gnss/rtk_receiver/HED-10L/">HED-10L Heading RTK module</a></li>
             </ul>

@@ -7,7 +7,7 @@ date: 2025-5-25
 
 ### Overview
 
-The NANO H10P RTK Receiver is a high-performance dual-band RTK receiver with an integrated compass, based on the CYNOSURE series chipset. It supports global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
+The NANO H10P RTK Receiver is a high-performance dual-band RTK receiver with an integrated compass, based on the new-generation chipset. It supports global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
 
 This receiver is equipped with a **compass** and is designed for UAV, RTK, and other applications. It supports both base and rover modes.
 
