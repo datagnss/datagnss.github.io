@@ -72,7 +72,7 @@
     </ul>
 </div>
 
-<div style="width: 100%;">
+<div style="width: 45%;">
     <h2 id="resource-and-download">FAQ</h2>
     <ul>
         <li><a href="/common/common_setup_base_rover">Setup Base and Rover for RTK</a></li>
