@@ -2,7 +2,6 @@
 title: "MA-10P MADOCA GNSS Receiver"
 date: 2025-07
 ---
-
 # Overview
 
 The MA-10P GNSS Receiver is a high-precision PPP receiver based on the D10P module, supporting Japan's QZSS PPP service.
@@ -23,26 +22,26 @@ Order link: [MA-10P](https://www.datagnss.com/collections/evk/products/qzss-l6-r
 
 ## GNSS
 
-| Parameter | Specifications |
-| --- | --- |
-| Constellations | GPS, QZSS, GLONASS, Galileo |
-| Channel | 128 hardware channels |
-| Update rates | 1Hz default |
-| Position accuracy | GNSS 1.5m CEP |
-| PPP | ~30.0 cm (PPP)<br> 5.0 cm ( PPP-AR ) |
-| Velocity & Time accuracy | GNSS 0.05 m/s CEP<br>1PPS 20ns RMS |
-| TTFF | Hot start 1s<br>Cold start 27s |
-| Reliability | ＞99.9% |
-| Sensitivity | Cold start -148 dBm<br>Hot start -155 dBm<br>Reacquisition -158 dBm<br>Tracking & navigation -165 dBm |
-| Protocol | NMEA-0183 |
-| Baudrate | 230400 bps, by default |
-| Operating condition | Main supply 4.75-5.25V|
-| Power consumption | Tracking GNSS 30 mA @ 3.3V<br>Single system 18 mA @ 3.3V<br>Standby Data backup 16 uA<br>RTC 1.4 uA |
-| Serial | UART, 6 pins, 1.25mm pitch|
-| USB | CP210x serial port |
-| Environmental conditions | Operating temp. -40°C to +85°C<br>Storage temp. -40°C to +90°C<br>Humidity 95% RH |
-| Dimensions(mm) | 65 x 30 |
-| Weight (g) | 30 |
+| Parameter                | Specifications                                                                                                    |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| Constellations           | GPS, QZSS, GLONASS, Galileo                                                                                       |
+| Channel                  | 128 hardware channels                                                                                             |
+| Update rates             | 1Hz default                                                                                                       |
+| Position accuracy        | GNSS 1.5m CEP                                                                                                     |
+| PPP                      | ~30.0 cm (PPP)`<br>` 5.0 cm ( PPP-AR )                                                                          |
+| Velocity & Time accuracy | GNSS 0.05 m/s CEP`<br>`1PPS 20ns RMS                                                                            |
+| TTFF                     | Hot start 1s`<br>`Cold start 27s                                                                                |
+| Reliability              | ＞99.9%                                                                                                           |
+| Sensitivity              | Cold start -148 dBm`<br>`Hot start -155 dBm`<br>`Reacquisition -158 dBm`<br>`Tracking & navigation -165 dBm |
+| Protocol                 | NMEA-0183                                                                                                         |
+| Baudrate                 | 230400 bps, by default                                                                                            |
+| Operating condition      | Main supply 4.75-5.25V                                                                                            |
+| Power consumption        | Tracking GNSS 30 mA @ 3.3V`<br>`Single system 18 mA @ 3.3V`<br>`Standby Data backup 16 uA`<br>`RTC 1.4 uA   |
+| Serial                   | UART, 6 pins, 1.25mm pitch                                                                                        |
+| USB                      | CP210x serial port                                                                                                |
+| Environmental conditions | Operating temp. -40°C to +85°C`<br>`Storage temp. -40°C to +90°C`<br>`Humidity 95% RH                     |
+| Dimensions(mm)           | 65 x 30                                                                                                           |
+| Weight (g)               | 30                                                                                                                |
 
 ## PINOUT
 
@@ -50,7 +49,7 @@ MA-10P support USB UART and 6P connector UART output.
 
 [MA-10P USB Driver](../../../assets/driver/CH343SER.zip)
 
-6P connector UART only support output, not input.
+6P connector [JST-GH-1.25mm, 6P] UART only support output, not input.
 
 ### Blockgram
 
@@ -65,9 +64,8 @@ Download Satrack from [here](../../../assets/software/satrack_latest.zip)
 ## Instructions
 
 1. Connect your MA-10P to PC/LAPTOP via USB cable. Download [USB Driver](../../../assets/driver/CH343SER.zip)
-
 2. Check your ports for MA-10P receiver in device manager, for example the following picture:
-![ma-10p-ports](../../../images/ppp/ma-10p-ports-identify.png)
+   ![ma-10p-ports](../../../images/ppp/ma-10p-ports-identify.png)
 
 If usb driver installed, there is 4 serial ports in device managerf, USB Serial A,B,C and D.
 
@@ -76,12 +74,12 @@ If usb driver installed, there is 4 serial ports in device managerf, USB Serial 
 - USB Serial C : not connected
 - USB Serial D : not connected
 
-
 USB Serial B is the main port you need to use. Check which COM port corresponds to USB Serial B; in the picture above, it is COM4.
 
 This means you can open COM4 in Satrack and set the baud rate to 230400bps.
 
 After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status. If PPP-AR is successful, it will display the **RTK Fixed** status.
+
 > The MADOCA firmware version does not support PPP-AR yet.
 
 # Test report
