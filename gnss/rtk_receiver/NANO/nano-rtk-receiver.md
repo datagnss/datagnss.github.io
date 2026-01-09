@@ -8,7 +8,8 @@ date: 2024-12-02
 
 ![NANO RTK Receiver](../../../images/gnss/NANO-RTK-with-case-ant-bg-760x.png)
 
-NANO RTK Receiver is the latest high-precision RTK receiver based on Allystar's latest generation GNSS SoC.
+NANO RTK Receiver is the latest high-precision RTK receiver.
+
 It can simultaneously support tracking all visible navigation satellites, including GPS, QZSS, BDS, GALILEO, GLONASS, and IRNSS.
 
 It support RTK base and rover options.

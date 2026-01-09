@@ -22,14 +22,14 @@ author: DATAGNSS
 organization: DATAGNSS
 organization_url: https://www.datagnss.com 
 github_username: datagnss
-copyright_year: 2024
+copyright_year: 2026
 
 # ---------------- #
 #    Navigation    #
 # ---------------- #
 navs:
   -
-    href: https://www.datagnss.com/
+    href: https://docs.datagnss.com/
     label: HOME
 
   -
