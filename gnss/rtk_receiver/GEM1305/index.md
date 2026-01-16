@@ -7,7 +7,7 @@ date: 2024-12-02
 
 ## Overview
 
-GEM1305 is a high performance dual-band RTK module with build-in antenna, which is based on CYNOSURE series chipset.
+GEM1305 is a high performance dual-band RTK module with build-in antenna.
 It supports BDS-3 signals, along with global civil navigation systems, including GPS, BDS, GLONASS, Galileo, QZSS, and SBAS.
 
 ![GEM1305](../../../images/gnss/GEM1305/GEM1305-Pixhawk.png)
@@ -105,4 +105,4 @@ V2.0.1 Dimensions
 ## Resources
 
 - [GEM1305 2D Drawing](../../../assets/drawing_files/GEM1305-2D-Drawing.pdf)
-- [Allystar GNSS binary protocol](../../../common/common_allystar_binary_protocol)
+

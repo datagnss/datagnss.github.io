@@ -4,7 +4,6 @@
 
 ### 1.1 Introduction
 
-![QZS-6C-00](../images/qzs-6c/qzs6c_l6_receiver.png)
 
 The QZS-6C receiver supports QZSS L6 signals, the Centimeter Level Augmentation Service (CLAS), and the experimental MADOCA service, output L6 correction service message data. 
 The CLAS offers high-accuracy augmentation for GNSS receivers and is freely available across mainland Japan. When paired with other PPP-enabled receivers, it forms a complete, standalone high-precision system, delivering free access to high-accuracy correction services and achieving centimeter-level GNSS accuracy.
