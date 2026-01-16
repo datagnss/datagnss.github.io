@@ -1,6 +1,6 @@
 <!-- 在 header 后面添加 container div -->
 <div class="container" style="min-height: calc(100vh - 200px); padding: 20px;">
-    <h1 id="support-center" style="text-align: left; margin-bottom: 30px;">Support center</h1>
+<h1 id="support-center" style="text-align: left; margin-bottom: 30px;">Support center</h1>
 
 <div class="support-content" style="display: flex; flex-wrap: wrap; gap: 30px;">
 
@@ -32,15 +32,15 @@
 
 <!-- RTK for Autopilot & Antenna for RTK -->
 <div style="flex: 1; min-width: 45%;">
-            <h2 id="rtk-for-autopilotardupilotpx4">RTK for Autopilot<br>(Ardupilot/PX4)</h2>
-            <ul>
-                <li><a href="/gnss/rtk_receiver/GEM1305/">GEM1305 RTK Receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver-esp32/">NANO RTK Receiver Pro</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO HRTK Receiver</a></li>
-                <li><a href="/gnss/rtk_receiver/NANO-H10P">NANO H10P RTK Receiver</a></li>
-                <li><a href="/gnss/antenna/helix-antenna/">Helix Antenna</a></li>
-            </ul>
-        </div>
+    <h2 id="rtk-for-autopilotardupilotpx4">RTK for Autopilot<br>(Ardupilot/PX4)</h2>
+    <ul>
+        <li><a href="/gnss/rtk_receiver/GEM1305/">GEM1305 RTK Receiver</a></li>
+        <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-receiver-esp32/">NANO RTK Receiver Pro</a></li>
+        <li><a href="/gnss/rtk_receiver/NANO/nano-helix-rtk">NANO HRTK Receiver</a></li>
+        <li><a href="/gnss/rtk_receiver/NANO-H10P">NANO H10P RTK Receiver</a></li>
+        <li><a href="/gnss/antenna/helix-antenna/">Helix Antenna</a></li>
+    </ul>
+</div>
 
 <!-- Satrack software & Related guide -->
 <div style="flex: 1; min-width: 45%;">
