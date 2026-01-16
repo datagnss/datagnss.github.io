@@ -26,7 +26,6 @@
         <li><a href="/gnss/rtk_receiver/MA-10P/">NANO MA-10P PPP Receiver</a></li>
         <li><a href="/gnss/rtk_receiver/DGM10-A01">DGM10-A01 RTK Receiver</a></li>
         <li><a href="/gnss/rtk_receiver/HED-10L/">NANO HED-10L Heading RTK Receiver</a></li>
-        <li><a href="/gnss/rtk_receiver/heading-hed10k">NANO HED-10K Heading RTK Receiver</a></li>
     </ul>
 </div>
 
