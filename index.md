@@ -93,6 +93,7 @@
         <li><a href="/rtk-board/files/CP210x_Universal_Windows_Driver.zip">CP210x Windows Drivers</a></li>
         <li>CH34x Windows Drivers <a href="/rtk-board/files/drivers/Windows-CH340-Driver.zip">Windows</a> / <a href="/rtk-board/files/drivers/CH341SER_MAC.ZIP">Mac</a> / <a href="/rtk-board/files/drivers/CH341SER_LINUX.ZIP">Linux</a></li>
         <li>Virtual Com Port <a href="/rtk-board/files/com0com-3.0.0.0-i386-and-x64-signed.zip">com0com Windows Drivers</a></li>
+        <li>SSCOM utilities <a href="/assets/software/sscom.zip">sscom.zip</a></li>
     </ul>
 </div>
     </div>
