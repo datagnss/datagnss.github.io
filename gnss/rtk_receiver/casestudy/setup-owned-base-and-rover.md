@@ -18,6 +18,7 @@ If not, or if you want to use your own, that's also fine. You can establish your
 ![NANO RTK Receiver base station](../../../images/rtk/total-test-kits/total-test-kits-base-01.jpg)
 
 ![](../../../images/rtk/total-test-kits/960px-Real_time_kinematic.svg.png)
+
 By <a href="//commons.wikimedia.org/wiki/User:Kavelgrisen" title="User:Kavelgrisen">TS Eriksson</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=98134945">Link</a>
 
 
