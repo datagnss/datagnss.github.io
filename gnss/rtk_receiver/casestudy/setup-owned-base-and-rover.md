@@ -30,124 +30,85 @@ However, our data would have to be transmitted from our home to a server that ma
 
 The biggest advantage of this approach is that once the base stations are set up, we can perform fieldwork even dozens of kilometers away from them. Generally, the effective coverage of RTK base stations can reach several dozen kilometers, although it’s best to be within 15 kilometers.
 
-However, if you are only working within a range of 1-2 kilometers near your home, then the need for data transmission back and forth may not be as essential. In that case, we could use radio to transfer the data directly.
+However, if you are only working within a range of 1-2 kilometers near your home, then the need for data transmission back and forth may not be as essential. In that case, we could use telemetry radio to transfer the data directly.
 
-## Features
+## Hardware
 
-- Support RTK positioning
-- Support GPS, GLONASS, BDS, Galileo, QZSS, SBAS
-- Support Telemetry Radio (optional)
-- Support PPK post-processing
-- Support iPhone / iPad, Android
-- Compatible with SW Maps, Mapit GIS, etc.
+For this setup you'll need:
 
-We provide an OTG cable, which can be used to connect NANO RTK Receiver to Android devices.
-On iPhone / iPad, the OTG cable can support power from iPad / iPhone, no additional power-bank needed.
+- 2 × NANO RTK Receivers  
+- 2 × RTK antennas  
+- 2 × Telemetry radios (paired)  
+- cables
 
-**Please note that this OTG cable has two Type C interfaces on both ends, but it is not a normal USB Type C cable. It supports device connection on Android devices. Or it can be powered the NANO RTK Receiver from iPhone / iPad.**
+If you bought a set kits, simply connect by port type — if the connectors fit, it usually works without issues.
 
-![OTG Cable](../../images/rtk/surveying-and-mapping/TYPE-C-OTG-CABLE-500x.png)
+Check the label on your Telemetry radios for the communication baud rate — this is important because the baud rate must match the NANO device’s corresponding port for communication to work.
 
-## Quick guide
+The picture below shows a pair of Telemetry radios with two antennas: one long antenna (~40 cm) with about 15 dB gain (typically used for transmitting at the base station), and one short antenna (~12cm) with about 5 dB gain (used on the receiving end).
 
-### Packing List
+![](../../../images/gnss/nano/nano+radio-main-00.jpg)
+(Telemetry radio with 5dB gain radio antenna)
 
-- NANO RTK Receiver pro
-- RTK Helix antenna
-- Type C cable
-- OTG type cable
-- 6P cable (0.3m)
-- 3M magic tape
+![](../../../images/gnss/nano/nano+radio-15db-radio-ant.png)
+(15dB gain radio antenna)
 
-![Kits_list](../../images/rtk/surveying-and-mapping/surveying_kits_list.png)
 
-- Handheld accesseries
+## Quick use
 
-![handheld_accesseries](../../images/rtk/surveying-and-mapping/accessories_2.png)
+### Base station configuration
 
-### Installation
+- Configure one NANO RTK as the **Base** via its web interface (select **Base Mode**).  
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_01.png)
+![](../../../images/gnss/nano/nano-web-base-mode.png)
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_02.png)
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_03.png)
+- In **Settings**, find **External 6P Port** and set its baud rate to match your radio’s baud rate (for example, **57600**) then **Apply**.  
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_04.png)
+![](../../../images/gnss/nano/nano-web-external-port-baud.png)
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_05.png)
+- Unless you made your own cable and know what you’re doing, **ignore the “Swap Rx/Tx” option**.  
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_06.png)
+- Connect the NANO RTK’s 6P port (next to the USB port) to the Radio’s port (also next to the radio’s USB port) using the supplied cable.  
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_07.png)
+![](../../../images/gnss/nano/nano+radio-main-02.jpg)
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_09.png)
+![](../../../images/gnss/nano/nano+radio-main-04.jpg)
 
-![Installation](../../images/rtk/surveying-and-mapping/installation_09_00.png)
 
-## With Android devices
+- Mount the NANO RTK and the RTK antenna. For base stations we recommend an **AT400** antenna.  
 
-On Android devices, NANO RTK Receiver can be used as a USB device, supporting USB serial mode.
-We strongly recommend using USB Serial mode on Android devices to ensure stable and reliable data collection.
+- If the base is mounted outdoors (roof, etc.), fix the antenna outside and route the antenna cable indoors. The radio antenna can also be mounted outside and cabled indoors.  
+- Power the NANO via USB (power bank or AC adapter). For long-term operation we recommend using a power bank connected to mains power as a UPS-like arrangement.  
+- Once everything is set, the Telemetry radio’s transmit LED should blink, indicating it’s actively transmitting data.
 
-Using SW Maps as an example, the steps to use NANO RTK Receiver for measurement and mapping are as follows:
+### Rover configuration
 
-1. Select "**USB Serial GNSS**"
+- Configure the rover NANO via the web interface to **Rover mode** (this is the factory default, so just check it).  
 
-![SW Maps](../../images/rtk/surveying-and-mapping/sw-maps-0-01.png)
+![](../../../images/gnss/nano/nano-web-rover-mode.png)
 
-2. GNSS Receiver Settings
+- Set **RTK Correction source** to **External 6P Port** and **Apply**.  
 
-![GNSS Receiver Settings](../../images/rtk/surveying-and-mapping/sw-maps-0-02.png)
+![](../../../images/gnss/nano/nano-web-rtk-corr-source.png)
 
-If your SW Maps doesn't have the "**NANO RTK**" option, you can select "**ublox RTK**" instead, as they are compatible.
+- In **External 6P Port**, set the baud rate to the radio’s labeled baud rate (e.g., **57600**) and **Apply**.  
 
-3. Config **NTRIP connection**
+![](../../../images/gnss/nano/nano-web-external-port-baud.png)
 
-If you select the instrument type as RTK, the left toolbar will display an "**NTRIP Connection**" option, used to input NTRIP information.
+- From the home page you can check the positioning status — if configured correctly, the rover typically reaches **RTK Fixed** within ~30 seconds.
 
-![NTRIP Connection](../../images/rtk/surveying-and-mapping/sw-maps-0-03.png)
+### Configuration checkpoints ⚠️
 
-![NTRIP Connection Settings](../../images/rtk/surveying-and-mapping/sw-maps-0-04.png)
+1. **Baud rate** — This is critical. Both ends of each interface must use the same baud rate for correct data transfer. Ensure the baud rate between NANO ↔ External Port ↔ Telemetry Radio is identical.
 
-Then Press "**Connect**" to establish the connection.
+```
+For base: NANO RTK (Base mode) -- External Port (57600) -- (57600) Telemetry Radio
+For rover: Telemetry Radio (57600) -- (57600) External Port -- NANO RTK (Rover mode)
+```
 
-## With iPhone / iPad
+2. For a NANO RTK Rover using a Telemetry radio to receive base data, make sure **RTK Correction Source** is set to **External Port** so the NANO knows to read corrections from that port.
 
-### for iPhone
+3. To increase telemetry range, mount the radio antenna as high as reasonably possible.
 
-If you use an iPhone, you can use the installation method shown in the figure 1 directly.
 
-![iPhone](../../images/rtk/surveying-and-mapping/handheld_surveying_sets-300x.png)
-
-### for iPad
-
-If you use an iPad, you can use the installation method shown in the figure 2 directly.
-
-First, attach the 3M adhesive tape provided with the kit to the back side of the iPad. Note the usage habits, usually sticking to the upper right position of the back side of the iPad, and pay attention not to block the camera.
-
-![NANO attach to iPad](../../images/rtk/surveying-and-mapping/nano-attched-on-the-back-side.png)
-
-Then, connect NANO RTK Receiver to the iPad via the OTG cable.
-
-![NANO attach to iPad](../../images/rtk/surveying-and-mapping/nano-with-ipad-300x.png)
-
-### Connection
-
-On iPad / iPhone, you can only use the Bluetooth connection method to connect.
-
-In SW Maps, select "Bluetooth GNSS" to connect.
-
-![SW Maps](../../images/rtk/surveying-and-mapping/sw-maps-0-01.png)
-
-On iPad / iPhone, we need to use the BLE mode to connect, as shown in the figure below:
-
-![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-01.png)
-
-![NANO connect via Bluetooth](../../images/rtk/surveying-and-mapping/sw-maps-ipad-02.png)
-
-## Field Work Gallery
-
-![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/nano-surveying-kits-1.png)
-
-![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/nano-surveying-kits-ipad.png)

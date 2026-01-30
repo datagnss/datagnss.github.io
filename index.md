@@ -68,13 +68,14 @@
     <h2 id="related-guide">Application</h2>
     <ul>
         <li><a href="gnss/rtk_receiver/surveying-and-mapping-kits/">Surveying and Mapping Kits</a></li>
+        <li><a href="gnss/rtk_receiver/casestudy/setup-owned-base-and-rover">Setup owned base station</a></li>
     </ul>
 </div>
 
 <div style="width: 45%;">
     <h2 id="resource-and-download">FAQ</h2>
     <ul>
-        <li><a href="/common/common_setup_base_rover">Setup Base and Rover for RTK</a></li>
+        <li><a href="/common/common_setup_base_rover">Config Base and Rover for RTK</a></li>
         <!--
         <li><a href="/common/common_allystar_binary_protocol">Allystar GNSS Binary Protocol</a></li> 
         -->
