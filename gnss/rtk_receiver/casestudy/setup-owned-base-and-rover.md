@@ -96,17 +96,17 @@ The picture below shows a pair of Telemetry radios with two antennas: one long a
 
 - From the home page you can check the positioning status — if configured correctly, the rover typically reaches **RTK Fixed** within ~30 seconds.
 
-### Configuration checkpoints ⚠️
+### Configuration checkpoints
 
-1. **Baud rate** — This is critical. Both ends of each interface must use the same baud rate for correct data transfer. Ensure the baud rate between NANO ↔ External Port ↔ Telemetry Radio is identical.
+**Baud rate** — This is critical. Both ends of each interface must use the same baud rate for correct data transfer. Ensure the baud rate between NANO ↔ External Port ↔ Telemetry Radio is identical.
 
 ```
 For base: NANO RTK (Base mode) -- External Port (57600) -- (57600) Telemetry Radio
 For rover: Telemetry Radio (57600) -- (57600) External Port -- NANO RTK (Rover mode)
 ```
 
-2. For a NANO RTK Rover using a Telemetry radio to receive base data, make sure **RTK Correction Source** is set to **External Port** so the NANO knows to read corrections from that port.
+For a NANO RTK Rover using a Telemetry radio to receive base data, make sure **RTK Correction Source** is set to **External Port** so the NANO knows to read corrections from that port.
 
-3. To increase telemetry range, mount the radio antenna as high as reasonably possible.
+To increase telemetry range, mount the radio antenna as high as reasonably possible.
 
 
