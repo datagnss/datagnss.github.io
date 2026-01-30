@@ -6,10 +6,8 @@ date: 2026-01
 
 ## Overview
 
-[Order link](https://www.datagnss.com/collections/evk/products/multi-band-rtk-receiver-package?variant=40933450809379)
-
 The NANO RTK Receiver can be conveniently used for surveying and mapping applications. It supports RTK positioning, providing real-time centimeter-level accuracy.
-It is compatible with common free surveying and mapping software like SW Maps and Mapit GIS.
+It is compatible with common surveying and mapping software like SW Maps and Mapit GIS.
 
 However, to achieve high-precision RTK positioning, base station data services are required. If there are service providers in your area, that's great; you just need to pay to activate an account. They will provide you with a set of server information and an access account, allowing you to obtain their data in real-time and thus perform RTK positioning.
 
@@ -76,7 +74,7 @@ The picture below shows a pair of Telemetry radios with two antennas: one long a
 ![](../../../images/gnss/nano/nano+radio-main-04.jpg)
 
 
-- Mount the NANO RTK and the RTK antenna. For base stations we recommend an **AT400** antenna.  
+- Mount the NANO RTK and the RTK antenna. For base stations we recommend the **[AT400](https://www.datagnss.com/collections/rtk-antenna/products/at400-multi-band-antenna-for-rtk)** antenna.  
 
 - If the base is mounted outdoors (roof, etc.), fix the antenna outside and route the antenna cable indoors. The radio antenna can also be mounted outside and cabled indoors.  
 - Power the NANO via USB (power bank or AC adapter). For long-term operation we recommend using a power bank connected to mains power as a UPS-like arrangement.  
