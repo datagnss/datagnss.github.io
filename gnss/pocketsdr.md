@@ -62,4 +62,4 @@ The major changes:
 ## Resources
 
 - [Github PocketSDR Project](https://github.com/tomojitakasu/PocketSDR)
-- [PocketSDR 8CH-8ANT 2D Drawing](../assets/drawing_files/PocketSDR_FE_8CH-08_V1.0_20250812_2D.pdf)
+- [PocketSDR 8CH-8ANT 2D Drawing](../assets/drawing_files/PocketSDR_FE_8CH-08_V1.0REVA_20260206_2D.pdf.pdf)
