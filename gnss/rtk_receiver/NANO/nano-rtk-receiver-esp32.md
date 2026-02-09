@@ -184,7 +184,7 @@ Login to the NANO RTK Receiver's web page.
 
 - **GNSS**
 
-For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover`, `RAW` and `Unconfigured`.
+For the GNSS section, there are three modes available in the dropdown menu: `Base`, `Rover` and `Unconfigured`.
 
 In default, the mode is `Rover`.
 
@@ -203,9 +203,6 @@ The Base Coordinate supports three modes:
 
 >**Rover**
 In Rover mode, the module will automatically be set to Rover mode upon startup.
-
->**Raw**
-In Raw mode, the module will automatically be set to Raw mode output MSM7 RTCM3 data and EPHE data.
 
 >**Unconfigured**
 In Unconfigured mode, the module will not perform any operations upon startup.
