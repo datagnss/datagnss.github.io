@@ -180,7 +180,7 @@ Login to the NANO RTK Receiver's web page.
 
 - **Homepage**
 
-![](../../../images/gnss/nano/main_00.png)
+![](../../../images/gnss/nano/nano_web_main_00.png)
 
 - **GNSS**
 
