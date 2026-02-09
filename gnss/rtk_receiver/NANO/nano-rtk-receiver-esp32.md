@@ -129,7 +129,7 @@ You can connect to this hotspot using your smartphone or laptop. Then, open a br
 
 After opening, the webpage appears as shown below:
 
-![](../../../images/gnss/nano/main_00.png)
+![](../../../images/gnss/nano/nano_web_main_00.png)
 
 >**Note** 
 > you cannot use a phone to both connect to the NANO's AP and act as the Wi‑Fi hotspot at the same time. You will need two devices: one to connect to the NANO and another to serve as the Wi‑Fi hotspot.
@@ -189,7 +189,7 @@ For the GNSS section, there are three modes available in the dropdown menu: `Bas
 In default, the mode is `Rover`.
 
 
-![](../../../images/gnss/nano/web_gnss_01.png)
+![](../../../images/gnss/nano/nano-web-gnss.png)
 
 
 >**Base**
@@ -214,7 +214,7 @@ In this case, users can connect the Type-C port to a computer, use Satrack to co
 
 - **Settings**
 
-![](../../../images/gnss/nano/web_settings_01.png)
+![](../../../images/gnss/nano/nano-web-settings.png)
 
 In settings, you can configure the following parameters:
 
