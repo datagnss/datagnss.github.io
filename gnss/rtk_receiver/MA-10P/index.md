@@ -14,7 +14,7 @@ The MA-10P/DGM10-PPP receiver can independently receive L6 service data, decode 
 
 MA-10P/DGM10-PPP receiver is also seamlessly compatible with the Raspberry Pi Zero, allowing you to run your own PPP algorithms and develop additional applications on the Pi Zero.
 
-![MA-10P PPP GNSS Receiver](../images/ppp/MA-10P-main-00.png)
+![MA-10P PPP GNSS Receiver](../../../images/ppp/MA-10P-main-00.png)
 
 This document applies to both the MA-10P and DGM10-PPP product series. Products in both series support either MADOCA or CLAS services.
 
@@ -71,6 +71,8 @@ Download Satrack from [here](../../../assets/software/satrack_latest.zip)
 
 ## Instructions
 
+### MA-10P
+
 For MA-10P, please refer to the following instructions:
 
 1. Connect your MA-10P to PC/LAPTOP via USB cable. Download [USB Driver](../../../assets/driver/CH343SER.zip)
@@ -90,13 +92,22 @@ This means you can open COM4 in Satrack and set the baud rate to 230400bps.
 
 After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status. 
 
+### DGM10-PPP
+
 For DGM10-PPP, connect the type c to your PC or laptop, there is only one USB uart port, baud rate is 230400bps.
 
 Then it will output NMEA data.
 
-For MADOCA services, typically within 1-3 minutes, a fast RTK Float solution is achieved (indicated by a GPS quality of 5 in the NMEA GGA statement). The initialization time, which depends on the environment, generally ranges from 10 to 30 minutes. Once initialized, accuracy can reach approximately 0.1-0.6 meters.
+### MADOCA/CLAS
 
-For CLAS services, typically within 1-3 minutes, a fast transition to RTK Float mode is observed (indicated by a GPS quality of 5 in the NMEA GGA statement). Depending on the environment, this is followed by the RTK convergence phase, which generally takes 2-3 minutes for initialization. Once initialized, accuracy can reach approximately 0.06-0.12 meters.
+For MADOCA services, typically within 1-3 minutes, a fast RTK Float solution is achieved (indicated by a GPS quality of 5 in the NMEA GGA statement). 
+
+The initialization time, which depends on the environment, generally ranges from 10 to 30 minutes. Once initialized, accuracy can reach approximately 0.1-0.6 meters.
+
+
+For CLAS services, typically within 1-3 minutes, a fast transition to RTK Float mode is observed (indicated by a GPS quality of 5 in the NMEA GGA statement). 
+
+Depending on the environment, this is followed by the RTK convergence phase, which generally takes 2-3 minutes for initialization. Once initialized, accuracy can reach approximately 0.06-0.12 meters.
 
 
 # Test report
