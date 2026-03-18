@@ -32,7 +32,7 @@ For example, you can set it to connect to a Wi-Fi hotspot directly, and then vie
 ## 3. Quick Start
 
 <!-- How to Quickly Use NANO RTK Device for RTK Survey -->
-[How to Quickly Use NANO RTK Device for RTK](../casestudy/setup-owned-base-and-rover)
+[How to Quickly Use NANO RTK Device for RTK](../../casestudy/setup-owned-base-and-rover)
 
 
 > Note: Many screenshots and descriptions below are based on firmware from version 1.0.6.dev.300. If your version differs, please refer to the actual behavior of your device's firmware.
