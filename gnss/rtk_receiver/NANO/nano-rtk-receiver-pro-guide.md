@@ -79,6 +79,6 @@ Common link options include:
 - Radio links such as LoRa
 - Network transport
 
-For radio link, see [Setup your owned base station](../casestudy/setup-owned-base-and-rover).
+For radio link, see [Setup your owned base station](../../casestudy/setup-owned-base-and-rover).
 
 When transporting data over a network, the most common protocol is NTRIP. Streaming base station corrections in this case requires an NTRIP Server setup and the associated connection credentials.
