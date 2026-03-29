@@ -16,7 +16,7 @@ The NANO RTK Receiver surveying kits offers an out-of-the-box solution for surve
 
 ![NANO RTK Receiver Surveying Kit](../../images/rtk/surveying-and-mapping/handheld_surveying_sets.png)
 
-![work with iPad](../../images/rtk/surveying-and-mapping/nano-with-ipad-600x.png)
+![work with iPad](../../images/rtk/surveying-and-mapping/NANO-RTK-RECEIVER-PRO-SURVEY-KITS-MAIN-00.jpeg)
 
 ## Features
 
