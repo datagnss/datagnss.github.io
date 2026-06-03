@@ -11,7 +11,9 @@
     --shadow: 0 24px 60px rgba(22, 33, 45, 0.12);
 
     position: relative;
-    max-width: 1240px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1020px;
     margin: 0 auto;
     padding: 44px 20px 72px;
     color: var(--text);
@@ -139,9 +141,9 @@
 .support-list {
     list-style: none;
     padding: 0;
-    margin: 14px 0 0;
+    margin: 12px 0 0;
     display: grid;
-    gap: 10px;
+    gap: 8px;
 }
 
 .support-list li {
@@ -158,7 +160,7 @@
 
 .support-list a {
     display: block;
-    padding: 14px 16px;
+    padding: 11px 16px;
     color: var(--text);
     text-decoration: none;
     transition: color 160ms ease, transform 160ms ease;
