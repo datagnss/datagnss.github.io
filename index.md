@@ -287,9 +287,9 @@
             <ul class="support-list">
                 <li><a href="/rtk-board/files/Satrack_client_V1.31.007.zip">Download the latest Satrack v1.31.007</a></li>
                 <li><a href="/rtk-board/files/CP210x_Universal_Windows_Driver.zip">CP210x Windows Drivers</a></li>
-                <li><a href="/rtk-board/files/drivers/Windows-CH340-Driver.zip">CH34x Windows Drivers (Windows)</a></li>
-                <li><a href="/rtk-board/files/drivers/CH341SER_MAC.ZIP">CH34x Windows Drivers (Mac)</a></li>
-                <li><a href="/rtk-board/files/drivers/CH341SER_LINUX.ZIP">CH34x Windows Drivers (Linux)</a></li>
+                <li><a href="/rtk-board/files/drivers/Windows-CH340-Driver.zip">CH34x Drivers (Windows)</a></li>
+                <li><a href="/rtk-board/files/drivers/CH341SER_MAC.ZIP">CH34x Drivers (Mac)</a></li>
+                <li><a href="/rtk-board/files/drivers/CH341SER_LINUX.ZIP">CH34x Drivers (Linux)</a></li>
                 <li><a href="/rtk-board/files/com0com-3.0.0.0-i386-and-x64-signed.zip">Virtual Com Port (com0com Windows Drivers)</a></li>
                 <li><a href="/assets/software/sscom.zip">SSCOM utilities (sscom.zip)</a></li>
             </ul>
