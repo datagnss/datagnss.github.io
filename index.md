@@ -128,31 +128,37 @@
 }
 
 .support-card h2 {
-    margin: 0 0 14px;
+    margin: 0;
+    padding-bottom: 12px;
     font-size: 1.28rem;
     line-height: 1.25;
     letter-spacing: -0.02em;
+    border-bottom: 1px solid rgba(22, 33, 45, 0.10);
 }
 
 .support-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 14px 0 0;
     display: grid;
-    gap: 0;
+    gap: 10px;
 }
 
 .support-list li {
-    border-top: 1px solid rgba(22, 33, 45, 0.08);
+    border: 1px solid rgba(22, 33, 45, 0.08);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.70);
+    overflow: hidden;
 }
 
-.support-list li:first-child {
-    border-top: 0;
+.support-list li:hover {
+    border-color: rgba(15, 91, 134, 0.18);
+    background: rgba(255, 255, 255, 0.92);
 }
 
 .support-list a {
     display: block;
-    padding: 13px 0;
+    padding: 14px 16px;
     color: var(--text);
     text-decoration: none;
     transition: color 160ms ease, transform 160ms ease;
@@ -160,7 +166,7 @@
 
 .support-list a:hover {
     color: var(--accent);
-    transform: translateX(3px);
+    transform: translateX(2px);
 }
 
 .support-list a::after {
