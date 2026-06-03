@@ -97,38 +97,7 @@
 }
 
 .support-hero p {
-    position: relative;
-    max-width: 780px;
-    margin: 16px 0 0;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--muted);
-}
-
-.support-meta {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 22px;
-}
-
-.support-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 14px;
-    border: 1px solid rgba(22, 33, 45, 0.10);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.72);
-    color: var(--text);
-    font-size: 0.93rem;
-    box-shadow: 0 10px 22px rgba(22, 33, 45, 0.06);
-}
-
-.support-pill strong {
-    color: var(--accent);
-    font-weight: 700;
+    display: none;
 }
 
 .support-grid {
@@ -201,27 +170,6 @@
     font-size: 0.9em;
 }
 
-.support-inline {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px 16px;
-}
-
-.support-inline a {
-    padding-right: 16px;
-}
-
-.support-inline a::after {
-    float: none;
-    margin-left: 8px;
-}
-
-.support-note {
-    margin-top: 14px;
-    color: var(--muted);
-    font-size: 0.95rem;
-}
-
 @media (max-width: 960px) {
     .support-card {
         grid-column: span 12;
@@ -259,16 +207,6 @@
     <section class="support-hero">
         <div class="support-kicker">DATAGNSS Support Center</div>
         <h1>Support center</h1>
-        <p>
-            这里把产品文档、快速入门、固件/驱动下载和常见 FAQ 放在同一入口。
-            首页采用更清晰的卡片式分区，方便用户快速找到对应产品线和操作指引。
-        </p>
-        <div class="support-meta">
-            <span class="support-pill"><strong>GNSS</strong> receivers</span>
-            <span class="support-pill"><strong>RTK</strong> modules</span>
-            <span class="support-pill"><strong>Docs</strong> and downloads</span>
-            <span class="support-pill"><strong>FAQ</strong> and setup guides</span>
-        </div>
     </section>
 
     <section class="support-grid">
@@ -338,18 +276,15 @@
 
         <div class="support-card support-card--wide">
             <h2 id="resource-and-download">Resource and download</h2>
-            <div class="support-inline">
-                <a href="/rtk-board/files/Satrack_client_V1.31.007.zip">Download the latest Satrack v1.31.007</a>
-                <a href="/rtk-board/files/CP210x_Universal_Windows_Driver.zip">CP210x Windows Drivers</a>
-                <a href="/rtk-board/files/drivers/Windows-CH340-Driver.zip">CH34x Windows</a>
-                <a href="/rtk-board/files/drivers/CH341SER_MAC.ZIP">Mac</a>
-                <a href="/rtk-board/files/drivers/CH341SER_LINUX.ZIP">Linux</a>
-                <a href="/rtk-board/files/com0com-3.0.0.0-i386-and-x64-signed.zip">Virtual Com Port</a>
-                <a href="/assets/software/sscom.zip">SSCOM utilities</a>
-            </div>
-            <div class="support-note">
-                下载区保留常用驱动和工具，避免用户在不同产品页之间来回找附件。
-            </div>
+            <ul class="support-list">
+                <li><a href="/rtk-board/files/Satrack_client_V1.31.007.zip">Download the latest Satrack v1.31.007</a></li>
+                <li><a href="/rtk-board/files/CP210x_Universal_Windows_Driver.zip">CP210x Windows Drivers</a></li>
+                <li><a href="/rtk-board/files/drivers/Windows-CH340-Driver.zip">CH34x Windows Drivers (Windows)</a></li>
+                <li><a href="/rtk-board/files/drivers/CH341SER_MAC.ZIP">CH34x Windows Drivers (Mac)</a></li>
+                <li><a href="/rtk-board/files/drivers/CH341SER_LINUX.ZIP">CH34x Windows Drivers (Linux)</a></li>
+                <li><a href="/rtk-board/files/com0com-3.0.0.0-i386-and-x64-signed.zip">Virtual Com Port (com0com Windows Drivers)</a></li>
+                <li><a href="/assets/software/sscom.zip">SSCOM utilities (sscom.zip)</a></li>
+            </ul>
         </div>
     </section>
 </main>
