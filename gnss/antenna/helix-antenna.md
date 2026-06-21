@@ -2,14 +2,14 @@
 
 ![Helix Antenna](../../images/gnss/antenna/Helix.png)
 
-The ATH-3601 is a full-frequency quadrifilar helix antenna that covers GPS L1/L2/L5, BDS B1/B2/B3, GLONASS L1/L2, GALILEO E1/E2/E5a/E5b.
+The ATH-3601 is a full-frequency quadrifilar helix antenna that covers GPS L1/L2/L5, BDS B1/B2/B3, GLONASS L1/L2, GALILEO E1/E5a/E5b.
 It has the characteristics of small size and light weight and is widely used in navigation dispatching, tracking monitoring, measurement and control fields.
 Based on the low requirement for antenna attitude of the quadrifilar helix antenna, it is especially suitable for many applications such as drones, aerial photography, traffic monitoring, remote telemetry, etc.
 It can also be applied to various handheld device and high-precision positioning modules.
 
 ## Feature
 
-- Support GPS L1/L2/L5, BDS B1/B2/B3, GLONASS L1/L2, GALILEO E1/E2/E5a/E5b
+- Support GPS L1/L2/L5, BDS B1/B2/B3, GLONASS L1/L2, GALILEO E1/E5a/E5b
 - Stable phase center and high gain
 - Equipped with a high out-of-band suppression LNA, which can effectively resist external electromagnetic interference
 - Small size and lightweight
@@ -18,7 +18,7 @@ It can also be applied to various handheld device and high-precision positioning
 
 | Item | Specs |
 |------|--------|
-| Frequency Range(MHz) | GPS/QZSS L1/L2/L5, BDS B1/B2/B3, <br>GLONASS L1/L2, GALILEO E1/E2/E5a/E5b |
+| Frequency Range(MHz) | GPS/QZSS L1/L2/L5, BDS B1/B2/B3, <br>GLONASS L1/L2, GALILEO E1/E5a/E5b |
 | Polarization | Right-hand circular |
 | Gain(dBi) | 90°≥2.0 |
 | Axial Ratio (dB) | 90°≤3.0 |
