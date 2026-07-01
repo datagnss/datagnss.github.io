@@ -382,6 +382,6 @@ Then, press RESET button on the board to reboot NANO RTK Receiver.
 
 ### 6.2 Firmware
 
-- Latest Firmware:[1.0.7.rc.794,for web upgrade firmware](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.rc.794.zip) 
+- Latest Firmware:- 
 
  
