@@ -44,12 +44,10 @@ How to identify V3.2 and V3.5, please refer to [this guide](../find-v32-and-v35/
 [How to Quickly Use NANO RTK Device for RTK](../nano-rtk-receiver-pro-guide/)
 
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>Many screenshots and descriptions below are based on firmware from version 1.0.6.dev.300. If your version differs, please refer to the actual behavior of your device's firmware.</p>
-  </div>
-</div>
+{% capture note_firmware_version %}
+Many screenshots and descriptions below are based on firmware from version 1.0.6.dev.300. If your version differs, please refer to the actual behavior of your device's firmware.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_firmware_version %}
 
 The NANO RTK Receiver Kits include the following items:
 
@@ -60,16 +58,12 @@ The NANO RTK Receiver Kits include the following items:
 The 6P cable is used to connect the NANO RTK Receiver to other devices, such as Ardupilot or PX4.
 
 
-<div class="blocknote">
-  <div class="blocknote__title">Default configuration</div>
-  <div class="blocknote__body">
-    <ul>
-      <li>USB UART Baud rate: 230400bps</li>
-      <li>6P UART Baud rate: 230400bps</li>
-      <li>Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC)</li>
-    </ul>
-  </div>
-</div>
+{% capture default_configuration_note %}
+- USB UART Baud rate: 230400bps
+- 6P UART Baud rate: 230400bps
+- Output protocol: Rover mode, NMEA 1Hz(GGA,GSA,GSV,ZDA,GST,RMC)
+{% endcapture %}
+{% include blocknote.html title="Default configuration" content=default_configuration_note %}
 
 ### 3.1 Configuration and PINOUT
 
@@ -81,15 +75,11 @@ From Left to right:
 
 Connector model : JST, GH1.25, 6P
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <ul>
-      <li>6P connector is used to connect to other devices, such as radio devices, or Ardupilot.</li>
-      <li>6P UART Baud rate: 230400bps</li>
-    </ul>
-  </div>
-</div>
+{% capture note_6p_connector %}
+- 6P connector is used to connect to other devices, such as radio devices, or Ardupilot.
+- 6P UART Baud rate: 230400bps
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_6p_connector %}
 
 Type C connector is used to connect to Host devices, such as Phone, iPad, or PC.
 
@@ -97,15 +87,11 @@ USB driver is required to be installed when connecting to PC.
 
 [CH34x USB Serial Port Driver](../../../rtk-board/files/drivers/Windows-CH340-Driver.zip)
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <ul>
-      <li>USB UART Baud rate: 230400bps</li>
-      <li>If you want to change this baud rate, please refer to this link: [change baud rate](../../../common/common_config_uart_baud_rate.md)</li>
-    </ul>
-  </div>
-</div>
+{% capture note_usb_uart %}
+- USB UART Baud rate: 230400bps
+- If you want to change this baud rate, please refer to this link: [change baud rate](../../../common/common_config_uart_baud_rate.md)
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_usb_uart %}
 
 ### 3.2 Connect your NANO RTK Receiver
 
@@ -117,12 +103,10 @@ NANO RTK Receiver can be connected via:
 #### 3.2.1 **Bluetooth (BLE) connection**
 
 NANO RTK Receiver supports Bluetooth (BLE) connection. 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>we recommend using the SW Maps software to connect to the NANO RTK Receiver.</p>
-  </div>
-</div>
+{% capture note_sw_maps %}
+we recommend using the SW Maps software to connect to the NANO RTK Receiver.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_sw_maps %}
 
 SW Maps is a free professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
 
@@ -166,12 +150,10 @@ After opening, the webpage appears as shown below:
 
 ![](../../../images/gnss/nano/nano_web_main_00.png)
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>you cannot use a phone to both connect to the NANO's AP and act as the Wi‑Fi hotspot at the same time. You will need two devices: one to connect to the NANO and another to serve as the Wi‑Fi hotspot.</p>
-  </div>
-</div>
+{% capture note_ap_hotspot %}
+you cannot use a phone to both connect to the NANO's AP and act as the Wi‑Fi hotspot at the same time. You will need two devices: one to connect to the NANO and another to serve as the Wi‑Fi hotspot.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_ap_hotspot %}
 
 ![WiFi connection](../../../images/gnss/nano/wifi_conn_00.png)
 
@@ -339,12 +321,10 @@ The details operation steps refer to the below link:
 
 The NANO RTK Receiver is based on the ESP32-S3 platform, offering powerful data processing capabilities and supporting various connectivity options such as WiFi and Bluetooth.
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>Starting from firmware version 1.0.6.300, upgrading firmware directly from the web page is supported.</p>
-  </div>
-</div>
+{% capture note_web_upgrade %}
+Starting from firmware version 1.0.6.300, upgrading firmware directly from the web page is supported.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_web_upgrade %}
 
 By flashing different firmware onto the NANO RTK Receiver, additional functionalities can be achieved.
 
@@ -361,12 +341,10 @@ Then press "Upload & Update"
 
 When the progress bar reaches 100%, the upgrade is complete.
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the homepage.</p>
-  </div>
-</div>
+{% capture note_upload_http_error %}
+After upgrading to 100%, there is a small chance that the following message may appear: "Failed to upload firmware: HTTP error! status: 0." In this case, you can ignore the message and press "Home" to return to the homepage.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_upload_http_error %}
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
@@ -376,31 +354,25 @@ When the progress bar reaches 100%, the upgrade is complete.
 
 This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.</p>
-  </div>
-</div>
+{% capture note_flash_mode %}
+In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_flash_mode %}
 
 Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
 
 Full version (bin files): [nano.rtk.s3.15.1.0.7.dev.488.zip](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.488.zip)
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.</p>
-  </div>
-</div>
+{% capture note_combined_bin %}
+This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_combined_bin %}
 
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.</p>
-  </div>
-</div>
+{% capture note_before_upgrade %}
+Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_before_upgrade %}
 
 When opening the software, the system will prompt you to select a platform. Here, you need to choose **ESP32-S3**.
 
@@ -417,12 +389,10 @@ Once the flashing is complete, the "FINISH" text will be displayed. At this poin
 
 Then, press RESET button on the board to reboot NANO RTK Receiver.
 
-<div class="blocknote">
-  <div class="blocknote__title">Note</div>
-  <div class="blocknote__body">
-    <p>After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.</p>
-  </div>
-</div>
+{% capture note_after_upgrade %}
+After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
+{% endcapture %}
+{% include blocknote.html title="Note" content=note_after_upgrade %}
 
 
 ## 5. FAQS
