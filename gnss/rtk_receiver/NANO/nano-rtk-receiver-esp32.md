@@ -29,6 +29,15 @@ For example, you can set it to connect to a Wi-Fi hotspot directly, and then vie
 - Web page for configuration and status monitoring
 - Support working with iPad and iPhone devices
 
+### 2.1 Hardware Description
+
+| Hardware Version | Web Page Version | Latest Version |
+| --- | --- | --- |
+| V3.2 | NANO RTK Receiver Pro | nano.rtk.s3.15.1.0.7.rc.794 |
+| V3.5 | NANO RTK Receiver v3.5 | 1.0.7.rc.1434, 2026 May 6 16:32:51 |
+
+How to identify V3.2 and V3.5, please refer to [this guide](../find-v32-and-v35/).
+
 ## 3. Quick Start
 
 <!-- How to Quickly Use NANO RTK Device for RTK Survey -->
@@ -41,16 +50,10 @@ The NANO RTK Receiver Kits include the following items:
 
 - NANO RTK Receiver
 - Type-C cable, 1m
-- OTG adapter
 - 6P GH 1.25 cable, 20/30cm
-
-The OTG adapter is used to directly connect the NANO RTK Receiver to Android phones. It can also be used to power the NANO RTK Receiver when connected to an iPhone or iPad.
 
 The 6P cable is used to connect the NANO RTK Receiver to other devices, such as Ardupilot or PX4.
 
-![NANO RTK board](../../../images/gnss/nano/nano-rtk-s3-board-00.png)
-
-> **Note:** Please note, on the case, the buttons from top to bottom are Boot, F1, and F2.
 
 > **Default configuration**
 >- USB UART Baud rate: 230400bps
