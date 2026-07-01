@@ -418,17 +418,18 @@
 
 .blocknote {
     margin: 1.25rem 0 1.5rem;
-    border: 1px solid #d8d8d8;
+    border: 1px solid #cfcfcf;
     border-radius: 12px;
     overflow: hidden;
     background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .04);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .04);
 }
 
 .blocknote__title {
     padding: 10px 14px;
-    background: #111;
-    color: #fff;
+    background: #ededed;
+    color: #222;
+    border-bottom: 1px solid #d6d6d6;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: .02em;
