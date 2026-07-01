@@ -416,6 +416,44 @@
     margin-bottom: 0
 }
 
+.blocknote {
+    margin: 1.25rem 0 1.5rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .04);
+}
+
+.blocknote__title {
+    padding: 10px 14px;
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.blocknote__body {
+    padding: 14px 16px 16px;
+    color: #333;
+}
+
+.blocknote__body > :first-child {
+    margin-top: 0;
+}
+
+.blocknote__body > :last-child {
+    margin-bottom: 0;
+}
+
+.blocknote__body ul,
+.blocknote__body ol {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
 .markdown-body table {
     display: block;
     width: 100%;
