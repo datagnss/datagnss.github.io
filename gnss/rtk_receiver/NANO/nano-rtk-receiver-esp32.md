@@ -180,21 +180,6 @@ NANO RTK Receiver supports USB UART connection on Android phone or Android table
 
 ### 3.3 Config NANO RTK Receiver
 
-#### 3.3.1 Satrack
-
-Satrack is a user-friendly software that supports NANO RTK Receiver. It could be used to configure and monitor the NANO RTK Receiver. You could use it configure the Baud rate, change the output rate, and more.
-
-1. Connect NANO RTK Receiver to PC via Type-C cable.
-2. Open the device manager, find the COM port
-3. Open Satrack software, choose the COM port and set the baud rate to 230400bps. then press connect button.
-4. If the connection is successful, the software will display the NMEA sentences information.
-
-You could refer to the below link to fine details on how to use Satrack software.
-
-[Satrack operation manual](https://docs.datagnss.com/common/common_satrack_guide/)
-
-#### 3.3.2 Config NANO RTK Receiver via Web page
-
 In both WiFi AP mode or WiFi Sta mode, you could login to the NANO RTK Receiver's web page to configure the NANO RTK Receiver.
 
 Login to the NANO RTK Receiver's web page.
@@ -258,8 +243,11 @@ Configure the RTCM correction source.
 NANO RTK Receiver support to get RTCM data from the following source: 
 - Bluetooth
 - USB UART
-- WiFi
+- NTRIP Client
+- TCP Client*
 - 6P Connector.
+
+>from ver 1492, support tcp client to get rtcm data.
 
 #### 3.4.1 Feed RTCM data via Bluetooth
 
