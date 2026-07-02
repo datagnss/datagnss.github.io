@@ -337,52 +337,6 @@ After upgrading to 100%, there is a small chance that the following message may 
 ![](../../../images/gnss/nano/firmware_update_04.png)
 
 
-
-### 4.2 update firmware using Flash Download Tool
-
-This section demonstrates how to flash firmware using the official ESP32 Flash Download Tool.
-
-{% capture note_flash_mode %}
-In this mode, you need to open the casing, then set DIP Switch (on board) positions 1 and 2 to ON, and positions 3 and 4 to OFF.
-{% endcapture %}
-{% include blocknote.html title="Note" content=note_flash_mode %}
-
-Download the Flash Download Tool from here: [Flash Download Tool 3.9.4](../../../nano-s3-rtk/flash_download_tool_3.9.4.zip)
-
-Full version (bin files): [nano.rtk.s3.15.1.0.7.dev.488.zip](../../../nano-s3-rtk/nano.rtk.s3.15.1.0.7.dev.488.zip)
-
-{% capture note_combined_bin %}
-This full version include the combined bin file, please set the address to 0x00 if you flash it with flash download tool.
-{% endcapture %}
-{% include blocknote.html title="Note" content=note_combined_bin %}
-
-
-{% capture note_before_upgrade %}
-Before upgrading, please confirm that DIP switch positions 1 and 2 are set to ON, and positions 3 and 4 are set to OFF.
-{% endcapture %}
-{% include blocknote.html title="Note" content=note_before_upgrade %}
-
-When opening the software, the system will prompt you to select a platform. Here, you need to choose **ESP32-S3**.
-
-![](../../../images/gnss/nano/flash_download_tool-00.png)
-
-Then open the software and proceed with the configuration.
-
-![](../../../images/gnss/nano/flash_download_tool_01.png)
-
-
-When the green "SYNC" text appears on the UI, press the Boot button on the board to enter Download mode and proceed with the firmware flashing.
-
-Once the flashing is complete, the "FINISH" text will be displayed. At this point, click "STOP" and then exit the program.
-
-Then, press RESET button on the board to reboot NANO RTK Receiver.
-
-{% capture note_after_upgrade %}
-After the upgrade is complete, it is recommended to set DIP Switch positions 1 and 2 to OFF, and positions 3 and 4 to ON.
-{% endcapture %}
-{% include blocknote.html title="Note" content=note_after_upgrade %}
-
-
 ## 5. FAQS
 
 - **Q: How to change baud rate?**
