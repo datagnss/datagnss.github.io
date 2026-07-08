@@ -104,21 +104,25 @@ NANO RTK Receiver can be connected via:
 
 NANO RTK Receiver supports Bluetooth (BLE) connection. 
 {% capture note_sw_maps %}
-we recommend using the SW Maps software to connect to the NANO RTK Receiver.
+we recommend using the following software to connect to the NANO RTK Receiver.
+
+![SW Maps](https://play-lh.googleusercontent.com/f5L5FWlag_gc1NY2Is6Y5f6vHxxmFg9WEHrkNqgE__9SwRVjaYPkpVPg3JuRhfNegvSr6WnLHR-gCYH0bFEoqg=w120-h240-rw)
+
+![QField for QGIS](https://play-lh.googleusercontent.com/oriovocvMGjBIocrx-fcUHm50tZ1KyAi3uc4XMQt-mVgSOVCrI8R_Xcm8kcJXlW6WIAHudEiWcfSgfRUuIKJtQ=w120-h240-rw)
+
 {% endcapture %}
 {% include blocknote.html title="Note" content=note_sw_maps %}
 
-SW Maps is a free professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
 
-You can download it from the **Google Play Store** or **App Store**.
+SW Maps / QField for QGIS are the professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
 
-It supports Android and iOS devices.
+You can download them from the **Google Play Store** or **App Store**.
 
-Please refer to the below to find details on how to use SW Maps to connect to the NANO RTK Receiver.
+They support Android and iOS devices.
 
-For Android device, SW Maps support **Bluetooth (BLE)** and **USB serial** connection.
+Please refer to the below to find details on how to use SW Maps / QField to connect to the NANO RTK Receiver.
 
-For iOS device, SW Maps only support **Bluetooth (BLE)** connection.
+They all support **Bluetooth (BLE)** connection.
 
 The default BLE broadcast name is "NANO_RTK_xxxx", where "xxxx" is the last 4 digits of the MAC address.
 
