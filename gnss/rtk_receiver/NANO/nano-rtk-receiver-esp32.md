@@ -106,9 +106,8 @@ NANO RTK Receiver supports Bluetooth (BLE) connection.
 {% capture note_sw_maps %}
 we recommend using the following software to connect to the NANO RTK Receiver.
 
-![SW Maps](https://play-lh.googleusercontent.com/f5L5FWlag_gc1NY2Is6Y5f6vHxxmFg9WEHrkNqgE__9SwRVjaYPkpVPg3JuRhfNegvSr6WnLHR-gCYH0bFEoqg=w120-h240-rw)
-
-![QField for QGIS](https://play-lh.googleusercontent.com/oriovocvMGjBIocrx-fcUHm50tZ1KyAi3uc4XMQt-mVgSOVCrI8R_Xcm8kcJXlW6WIAHudEiWcfSgfRUuIKJtQ=w120-h240-rw)
+![SW Maps](https://play-lh.googleusercontent.com/f5L5FWlag_gc1NY2Is6Y5f6vHxxmFg9WEHrkNqgE__9SwRVjaYPkpVPg3JuRhfNegvSr6WnLHR-gCYH0bFEoqg=w60-h120-rw)
+![QField for QGIS](https://play-lh.googleusercontent.com/oriovocvMGjBIocrx-fcUHm50tZ1KyAi3uc4XMQt-mVgSOVCrI8R_Xcm8kcJXlW6WIAHudEiWcfSgfRUuIKJtQ=w60-h120-rw)
 
 {% endcapture %}
 {% include blocknote.html title="Note" content=note_sw_maps %}
