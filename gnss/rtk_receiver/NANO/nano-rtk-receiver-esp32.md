@@ -124,6 +124,8 @@ Please refer to the below to find details on how to use SW Maps / QField to conn
 
 They all support **Bluetooth (BLE)** connection.
 
+QField supports read NMEA data by TCP connection.
+
 The default BLE broadcast name is "NANO_RTK_xxxx", where "xxxx" is the last 4 digits of the MAC address.
 
 ![](../../../images/gnss/nano/sw_ble_conn_00.png)
