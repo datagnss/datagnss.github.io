@@ -22,24 +22,24 @@ This document applies to both the MA-10P and DGM10-PPP product series. Products 
 
 ## GNSS
 
-| Parameter | Specifications |
-| --- | --- |
-| Constellations | GPS, QZSS, BDS, Galileo |
-| Channel | 128 hardware channels |
-| Update rates | 1Hz default |
-| Position accuracy | GNSS 1.5m CEP |
-| PPP | ~30.0 cm (PPP)<br> 5.0 cm ( PPP-AR ) |
-| Velocity & Time accuracy | GNSS 0.05 m/s CEP<br>1PPS 20ns RMS |
-| TTFF | Hot start 1s<br>Cold start 27s |
-| Reliability | ＞99.9% |
-| Sensitivity | Cold start -148 dBm<br>Hot start -155 dBm<br>Reacquisition -158 dBm<br>Tracking & navigation -165 dBm |
-| Protocol | NMEA-0183 |
-| Baudrate | 230400 bps, by default |
-| Operating condition | Main supply 4.75-5.25V|
-| Power consumption | Tracking GNSS 30 mA @ 3.3V<br>Single system 18 mA @ 3.3V<br>Standby Data backup 16 uA<br>RTC 1.4 uA |
-| Serial | UART, 6 pins, 1.25mm pitch|
-| USB | CP210x serial port (MA-10P series)|
-| Environmental conditions | Operating temp. -40°C to +85°C<br>Storage temp. -40°C to +90°C<br>Humidity 95% RH |
+| Parameter                | Specifications                                                                                                       |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Constellations           | GPS, QZSS, BDS, Galileo                                                                                              |
+| Channel                  | 128 hardware channels                                                                                                |
+| Update rates             | 1Hz                                                                                                                  |
+| Position accuracy        | GNSS 1.5m CEP                                                                                                        |
+| PPP                      | ~30.0 cm (PPP)`<br>` 5.0 cm ( PPP-AR )                                                                             |
+| Velocity & Time accuracy | GNSS 0.05 m/s CEP `<br>`1PPS 20ns RMS                                                                              |
+| TTFF                     | Hot start 1s `<br>`Cold start 27s                                                                                  |
+| Reliability              | ＞99.9%                                                                                                              |
+| Sensitivity              | Cold start -148 dBm `<br>`Hot start -155 dBm `<br>`Reacquisition -158 dBm `<br>`Tracking & navigation -165 dBm |
+| Protocol                 | NMEA-0183                                                                                                            |
+| Baudrate                 | 230400 bps, by default                                                                                               |
+| Operating condition      | Main supply 4.75-5.25V                                                                                               |
+| Power consumption        | Tracking GNSS 30 mA @ 3.3V `<br>`Single system 18 mA @ 3.3V `<br>`Standby Data backup 16 uA `<br>`RTC 1.4 uA   |
+| Serial                   | UART, 6 pins, 1.25mm pitch                                                                                           |
+| USB                      | CP210x serial port (MA-10P series)                                                                                   |
+| Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH                      |
 
 ## PINOUT
 
@@ -57,7 +57,6 @@ You can directly connect to a computer or mobile device using the included 6P-UA
 The default baud rate is 230400 bps.
 
 Whether it's the MA-10P or the DGM10-PPP series, both output data in the NMEA format.
-
 
 ### Blockgram
 
@@ -90,7 +89,7 @@ USB Serial B is the main port you need to use. Check which COM port corresponds 
 
 This means you can open COM4 in Satrack and set the baud rate to 230400bps.
 
-After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status. 
+After the MA-10P receiver obtains PPP correction data, it starts PPP processing and displays the **RTK Float** status.
 
 ### DGM10-PPP
 
@@ -100,15 +99,15 @@ Then it will output NMEA data.
 
 ### MADOCA/CLAS
 
-For MADOCA services, typically within 1-3 minutes, a fast RTK Float solution is achieved (indicated by a GPS quality of 5 in the NMEA GGA statement). 
+For MADOCA services, typically within 1-3 minutes, a fast RTK Float solution is achieved (indicated by a GPS quality of 5 in the NMEA GGA statement).
 
 The initialization time, which depends on the environment, generally ranges from 10 to 30 minutes. Once initialized, accuracy can reach approximately 0.1-0.6 meters.
 
-
-For CLAS services, typically within 1-3 minutes, a fast transition to RTK Float mode is observed (indicated by a GPS quality of 5 in the NMEA GGA statement). 
+For CLAS services, typically within 1-3 minutes, a fast transition to RTK Float mode is observed (indicated by a GPS quality of 5 in the NMEA GGA statement).
 
 Depending on the environment, this is followed by the RTK convergence phase, which generally takes 2-3 minutes for initialization. Once initialized, accuracy can reach approximately 0.06-0.12 meters.
 
+It supports 1Hz only for solutuion output now.
 
 # Test report
 
