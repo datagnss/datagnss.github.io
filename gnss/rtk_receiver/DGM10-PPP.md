@@ -14,9 +14,9 @@ With a built-in PPP positioning engine, it enables PPP positioning based on the 
 
 ![DGM10-PPP](../../images/DGM10/DGM10-PPP-main-00.png)
 
-![DGM10-PPP-1](../../images/DGM10/DGM10-PPP-main-01.png) 
+![DGM10-PPP-1](../../images/DGM10/DGM10-PPP-main-01.png)
 
-![DGM10-PPP-2](../../images/DGM10/DGM10-PPP-main-02.png) 
+![DGM10-PPP-2](../../images/DGM10/DGM10-PPP-main-02.png)
 
 ### Features
 
@@ -48,26 +48,26 @@ With a built-in PPP positioning engine, it enables PPP positioning based on the 
 #### GNSS
 
 | Parameter                | Specifications                                                                                                       |
-| - | - |
-| Constellations           | BDS, GPS, QZSS, GLONASS, Galileo, NavIC, SBAS |
-| Channel                  | 128 hardware channels  |
-| Update rates             | 1Hz default, max up to 5Hz (PPP)  |
-| Position accuracy        | GNSS 1.0m CEP `<br>`SBAS ＜1.0m CEP |
-| PPP                      | 0.1~0.6 m (MADOCA, 600-900s converage time)<br><0.06m (CLAS, 60-120s converage time)|
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Constellations           | BDS, GPS, QZSS, GLONASS, Galileo, NavIC, SBAS                                                                        |
+| Channel                  | 128 hardware channels                                                                                                |
+| Update rates             | 1Hz  (only support 1Hz in CLAS PPP-RTK)                                                                             |
+| Position accuracy        | GNSS 1.0m CEP `<br>`SBAS ＜1.0m CEP                                                                                |
+| PPP                      | 0.1~0.6 m (MADOCA, 600-900s converage time)`<br>`<0.06m (CLAS, 60-120s converage time)                             |
 | TTFF                     | Hot start 1s `<br>`Cold start 27s                                                                                  |
-| Converage time           | MADOCA/PPP<900s CLAS/PPP<120s |
-| Reliability              | ＞99.9% |
+| Converage time           | MADOCA/PPP<900s CLAS/PPP<120s                                                                                        |
+| Reliability              | ＞99.9%                                                                                                              |
 | Sensitivity              | Cold start -148 dBm `<br>`Hot start -155 dBm `<br>`Reacquisition -158 dBm `<br>`Tracking & navigation -165 dBm |
-| Protocol                 | NMEA-0183 `<br>`RTCM 3.X |
-| Baudrate                 | 230400 bps, by default |
-| Operating condition      | Main supply 4.75-5.25V  |
+| Protocol                 | NMEA-0183 `<br>`RTCM 3.X                                                                                           |
+| Baudrate                 | 230400 bps, by default                                                                                               |
+| Operating condition      | Main supply 4.75-5.25V                                                                                               |
 | Power consumption        | Tracking GNSS 30 mA @ 3.3V `<br>`Single system 18 mA @ 3.3V `<br>`Standby Data backup 16 uA `<br>`RTC 1.4 uA   |
-| Serial                   | UART, 6pins, JST-GH-1.25 |
-| Cable                    | 2m default, other length upon request |
-| Operating limit          | Velocity 515 m/s `<br>`Altitude 18,000m |
+| Serial                   | UART, 6pins, JST-GH-1.25                                                                                            |
+| Cable                    | 2m default, other length upon request                                                                                |
+| Operating limit          | Velocity 515 m/s `<br>`Altitude 18,000m                                                                            |
 | Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH                      |
-| Dimensions(mm)           | 65 x 65 x 25 |
-| Weight (g)               | 120 |
+| Dimensions(mm)           | 65 x 65 x 25                                                                                                         |
+| Weight (g)               | 120                                                                                                                  |
 
 [1] tested with a good external LNA
 [2] Supported upon request with special firmware
@@ -97,8 +97,7 @@ Please download this [test report](https://docs.datagnss.com/gnss/rtk_receiver/M
 
 Order link: [DGM10-PPP](https://www.datagnss.com/collections/evk/products/qzss-l6-receiver?variant=41500430172195)
 
-| Item Desc.| P/N |Remark|
-|-|-|-|
-| MADOCA PPP| DGM10-PPP-00 | MADOCA/PPP, L1+L5/L6|
-| CLAS PPP | DGM10-PPP-01 | CLAS/PPP, L1+L5/L6|
-
+| Item Desc. | P/N          | Remark               |
+| ---------- | ------------ | -------------------- |
+| MADOCA PPP | DGM10-PPP-00 | MADOCA/PPP, L1+L5/L6 |
+| CLAS PPP   | DGM10-PPP-01 | CLAS/PPP, L1+L5/L6   |
