@@ -6,7 +6,7 @@
 
 2. tap to "CFG-PWRCTL2 "
 
-![output-rate-1hz](../images/common/output-rate-1hz.png)
+![output-rate-1hz](../images/common/Output-rate-1hz.png)
 
 ![5hz-output-rate](../images/common/5hz-output-rate.png)
 

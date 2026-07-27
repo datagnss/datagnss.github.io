@@ -43,11 +43,18 @@ This document applies to both the MA-10P and DGM10-PPP product series. Products 
 
 ## PINOUT
 
-MA-10P support USB UART and 6P connector UART output.
+### MA-10P
+
+MA-10P support USB UART (230400 bps) and 6P connector UART output (115200 bps).
 
 [MA-10P USB Driver](../../../assets/driver/CH343SER.zip)
 
 6P connector [JST-GH-1.25mm, 6P] UART only support output, not input.
+
+> **6P UART (J13) output**
+Baudrate 115200 bps in default.
+
+### DGM10-PPP
 
 DGM10-PPP support 6P connector output (JST-GH-1.25mm).
 Each pin is defined and labeled on the cable's marking. Specifically, M1_TX and M1_RX are the ports used by the MADOCA/CLAS module.
