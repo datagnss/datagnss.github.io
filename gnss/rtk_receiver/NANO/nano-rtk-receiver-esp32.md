@@ -38,6 +38,20 @@ For example, you can set it to connect to a Wi-Fi hotspot directly, and then vie
 
 How to identify V3.2 and V3.5, please refer to [this guide](../find-v32-and-v35/).
 
+### 2.2 Supported software
+
+#### SW Maps
+
+[SW Maps](https://aviyaantech.com/swmaps/) is a free GIS and mobile mapping app for collecting, presenting and sharing geographic information. tiles, KML files, shapefiles and more!
+
+#### QField
+
+[QField](https://qfield.org/) is the leading professional fieldwork app used in enterprise settings for efficient geospatial data collection and management. As a Digital Public Good, QField not only excels in professional applications but also contributes significantly to advancing at least six of the United Nations Sustainable Development Goals (SDGs) , promoting a more sustainable and equitable future.
+
+#### ROLAVICAM
+
+[ROLAVICam](https://www.rolavisurveyor.com/en/software.html) enables mobile capture for photogrammetry, videogrammetry, and field evidence documentation, helping teams record project conditions directly on site.
+
 ## 3. Quick Start
 
 <!-- How to Quickly Use NANO RTK Device for RTK Survey -->
@@ -103,29 +117,8 @@ NANO RTK Receiver can be connected via:
 #### 3.2.1 **Bluetooth (BLE) connection**
 
 NANO RTK Receiver supports Bluetooth (BLE) connection. 
-{% capture note_sw_maps %}
-We recommend using the following software to connect to the NANO RTK Receiver.
 
-![SW Maps](https://play-lh.googleusercontent.com/f5L5FWlag_gc1NY2Is6Y5f6vHxxmFg9WEHrkNqgE__9SwRVjaYPkpVPg3JuRhfNegvSr6WnLHR-gCYH0bFEoqg=w60-h120-rw)
-![QField for QGIS](https://play-lh.googleusercontent.com/oriovocvMGjBIocrx-fcUHm50tZ1KyAi3uc4XMQt-mVgSOVCrI8R_Xcm8kcJXlW6WIAHudEiWcfSgfRUuIKJtQ=w60-h120-rw)
-
-{% endcapture %}
-{% include blocknote.html title="Note" content=note_sw_maps %}
-
-
-SW Maps / QField for QGIS are the professional GIS data collection software that supports Bluetooth (BLE) connection. It supports RTK devices, such as the NANO RTK Receiver.
-
-You can download them from the **Google Play Store** or **App Store**.
-
-They support Android and iOS devices.
-
-Please refer to the below to find details on how to use SW Maps / QField to connect to the NANO RTK Receiver.
-
-They all support **Bluetooth (BLE)** connection.
-
-![QField BLE connection](../../../images/gnss/qfield/qfield_00_main.png)
-
-QField supports read NMEA data by TCP connection.
+SW Maps / QField / ROLAVICam are the professional GIS data collection software that supports Bluetooth (BLE) connection. It supports NANO RTK Receiver.
 
 The default BLE broadcast name is "NANO_RTK_xxxx", where "xxxx" is the last 4 digits of the MAC address.
 
