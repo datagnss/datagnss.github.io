@@ -4,42 +4,53 @@ date: 2025-07
 ---
 # Overview
 
-The MA-10P PPP GNSS Receiver is designed to support QZSS MADOCA/CLAS PPP positioning services.
+The MA-10P Series PPP GNSS Receiver is designed to support QZSS MADOCA and CLAS PPP services.
 
-MA-10P/DGM10-PPP fully supports QZSS MADOCA/CLAS PPP positioning, enabling both PPP and PPP-AR modes.
+MA-10P series 的硬件现在已经升级到 v2 版本.
 
-For more details on QZSS MADOCA PPP services, please refer to [Multi-GNSS Advanced Orbit and Clock Augmentation - Precise Point Positioning (MADOCA-PPP)](https://qzss.go.jp/en/overview/services/sv13_madoca.html).
+![MA10P-CLAS](../../../images/ppp/M10P-CLAS-MAIN-400x.png)
 
-The MA-10P/DGM10-PPP receiver can independently receive L6 service data, decode it, and achieve PPP and PPP-AR/RTK positioning.
+如果你使用的是 v1 版本，请参考这里 [MA-10P v1](../MA-10P-V1/)
 
-MA-10P/DGM10-PPP receiver is also seamlessly compatible with the Raspberry Pi Zero, allowing you to run your own PPP algorithms and develop additional applications on the Pi Zero.
+![MA-10P PPP GNSS Receiver](../../../images/ppp/MA-10P-main-00-v1.png)
 
-![MA-10P PPP GNSS Receiver](../../../images/ppp/MA-10P-main-00.png)
+如果你使用的是 DGM10-PPP series 请参考这里 [DGM10-PPP](../DGM10-PPP)
 
-This document applies to both the MA-10P and DGM10-PPP product series. Products in both series support either MADOCA or CLAS services.
+MA-10P series v2 有以下2款:
+
+| Item Desc.   | P/N              | Remark                 |
+| ------------ | ---------------- | ---------------------- |
+| MADOCA PPP   | MA10P-02-PPP-00  | MADOCA/PPP, L1+L5,L6   |
+| CLAS PPP-RTK | MA10P-02-CLAS-00 | CLAS/PPP-RTK, L1+L5,L6 |
+
+MA-10P v2 support USB serial and TTL UART output.
+
+![](../../../images/ppp/MA10P-CLAS-interfaces-400x.png)
+
+建议使用 [AT400 L1/L2/L5/L6](https://www.datagnss.com/collections/rtk-antenna/products/at400-multi-band-antenna-for-rtk) 作为MA-10P v2的接收天线。
 
 # Specifications
 
 ## GNSS
 
-| Parameter                | Specifications                                                                                                       |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| Constellations           | GPS, QZSS, BDS, Galileo                                                                                              |
-| Channel                  | 128 hardware channels                                                                                                |
-| Update rates             | 1Hz                                                                                                                  |
-| Position accuracy        | GNSS 1.5m CEP                                                                                                        |
-| PPP                      | ~30.0 cm (PPP)`<br>` 5.0 cm ( PPP-AR )                                                                             |
-| Velocity & Time accuracy | GNSS 0.05 m/s CEP `<br>`1PPS 20ns RMS                                                                              |
-| TTFF                     | Hot start 1s `<br>`Cold start 27s                                                                                  |
-| Reliability              | ＞99.9%                                                                                                              |
-| Sensitivity              | Cold start -148 dBm `<br>`Hot start -155 dBm `<br>`Reacquisition -158 dBm `<br>`Tracking & navigation -165 dBm |
-| Protocol                 | NMEA-0183                                                                                                            |
-| Baudrate                 | 230400 bps, by default                                                                                               |
-| Operating condition      | Main supply 4.75-5.25V                                                                                               |
-| Power consumption        | Tracking GNSS 30 mA @ 3.3V `<br>`Single system 18 mA @ 3.3V `<br>`Standby Data backup 16 uA `<br>`RTC 1.4 uA   |
-| Serial                   | UART, 6 pins, 1.25mm pitch                                                                                           |
-| USB                      | CP210x serial port (MA-10P series)                                                                                   |
-| Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH                      |
+| Parameter                | Specifications                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| Constellations           | GPS, QZSS, BDS, Galileo                                                                                            |
+| Channel                  | 128 hardware channels                                                                                              |
+| Update rates             | 1Hz                                                                                                                |
+| Position accuracy        | GNSS 1.5m CEP                                                                                                      |
+| CLAS/PPP-RTK**           | ~0.065m (H) ~0.095m (V)                                                                                            |
+| Converage(CLAS)          | 40s (RTK Float), 60-120s (RTK Fixed)                                                                               |
+| Reliability              | ＞99.9%                                                                                                            |
+| Protocol                 | NMEA-0183                                                                                                          |
+| Baudrate                 | 230400 bps (USB Serial) by default, 115200 bps (6P UART) by default                                                |
+| Operating condition      | Main supply 4.75-5.25V                                                                                             |
+| Power consumption        | Tracking GNSS 30 mA @ 3.3V `<br>`Single system 18 mA @ 3.3V `<br>`Standby Data backup 16 uA `<br>`RTC 1.4 uA |
+| Serial                   | UART, 6 pins, 1.25mm pitch                                                                                         |
+| USB                      | USB serial                                                                                                         |
+| Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH                    |
+
+**tested in open sky environment, use AT400 antenna
 
 ## PINOUT
 
@@ -52,7 +63,7 @@ MA-10P support USB UART (230400 bps) and 6P connector UART output (115200 bps).
 6P connector [JST-GH-1.25mm, 6P] UART only support output, not input.
 
 > **6P UART (J13) output**
-Baudrate 115200 bps in default.
+> Baudrate 115200 bps in default.
 
 ### DGM10-PPP
 
