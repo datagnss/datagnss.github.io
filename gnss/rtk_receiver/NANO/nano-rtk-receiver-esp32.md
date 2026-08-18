@@ -7,34 +7,36 @@ date: 2025-01-10
 
 ![NANO RTK Receiver](../../../images/gnss/NANO-RTK-with-case-ant-bg-760x.png)
 
-We redesigned the new generation NANO RTK Receiver.
+The new-generation NANO RTK Receiver is redesigned around the D10P RTK module and the ESP32-S3 chipset.
 
-The new version is based on the same D10P RTK module with ESP32-S3 chipset and has more powerful performance.
+It delivers stronger performance and gives you more room to develop your own applications.
 
-Even you can develop your own application with this receiver.
+It supports Bluetooth BLE serial, USB serial, and 6P connector serial access.
 
-It supports Bluetooth (BLE serial).
+It also works with iPad and iPhone devices.
 
-It support working with iPad and iPhone devices.
+Thanks to the ESP32-S3 platform, the new generation NANO RTK Receiver can support more advanced features.
 
-It supports USB serial port, 6P connector serial port.
+For example, it can connect directly to a Wi-Fi hotspot so you can view and configure device parameters from a web page.
 
-Base on the powerful performance of ESP32S3, the new generation NANO RTK Receiver can support more features.
-
-For example, you can set it to connect to a Wi-Fi hotspot directly, and then view and set its various parameters through a web page.
+It also supports online firmware updates through the web interface.
 
 ## 2. Features
 
-- WiFi AP mode for easy setup
-- Web page for configuration and status monitoring
-- Support working with iPad and iPhone devices
+- ESP32-S3 based platform with stronger performance and more room for custom development
+- Bluetooth BLE serial, USB serial, and 6P connector serial access
+- Wi-Fi hotspot connection for browser-based configuration and status monitoring
+- Online firmware update support through the web interface
+- Compatible with iPad and iPhone devices
+- Easy setup with Wi-Fi AP mode
+- Designed for rover and field applications with flexible integration options
 
 ### 2.1 Hardware Description
 
 | Hardware Version | Web Page Version | Latest Version |
 | --- | --- | --- |
 | V3.2 | NANO RTK Receiver Pro | nano.rtk.s3.15.1.0.7.rc.794 |
-| V3.5 | NANO RTK Receiver v3.5 | 1.0.7.rc.1434, 2026 May 6 16:32:51 |
+| V3.5 | NANO RTK Receiver v3.5 | [Online firmware flasher](https://nano.gnsslab.net/flasher/) |
 
 How to identify V3.2 and V3.5, please refer to [this guide](../find-v32-and-v35/).
 
