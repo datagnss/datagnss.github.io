@@ -94,7 +94,13 @@ Open the `Projects` page and click the properties button on the right side of th
 
 ![](../../../images/gnss/ppk/ppk_solution.jpg)
 
-Copy the base station RTCM3 file to this Android device. Then, on the screen shown above, select `Import Base RTCM3 Data`. After that, the `Process PPK` button below will become active. Tap it to start processing. The progress will be shown below.
+a. Copy the base station RTCM3 file to this Android device. 
 
-Once processing is finished, tap `Update Features`. All features in the project that correspond to the processed PPK rover file will then have their coordinates updated.
+b. on the screen shown above, select `Import Base RTCM3 Data`. 
+
+c. the `Process PPK` button below will become active. Tap it to start processing. The progress will be shown below.
+
+Once processing is finished, tap `Update Features`. 
+
+All features in the project that correspond to the processed PPK rover file will then have their coordinates updated.
 
