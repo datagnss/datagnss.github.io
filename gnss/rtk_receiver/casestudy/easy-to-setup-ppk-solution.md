@@ -7,6 +7,8 @@ date: 2026-08-19
 
 ## Overview
 
+PPK stands for Post-Processing Kinematic. In this workflow, base station data is recorded first and then used later for post-processing on the rover side.
+
 This case study shows a simple PPK workflow built around the NANO RTK Receiver and the RTKBridge Android app.
 
 ## Required Hardware and Software
@@ -15,9 +17,13 @@ This case study shows a simple PPK workflow built around the NANO RTK Receiver a
 - RTKBridge Android app
 - Android phone
 
-For V3.5, make sure the firmware is updated to at least `1.0.8.1493`. If it is not, use the online update tool, [Online flasher](https://nano.gnsslab.net/flasher/), or download the firmware and update it from the NANO RTK web page: [1.0.8.1493](../../../nano-s3-rtk/nano.rtk.15.v3_5.1.0.8.1493.84cb65.zip).
+For V3.5, make sure the firmware is updated to at least `1.0.8.1493`. 
 
-PPK stands for Post-Processing Kinematic. In this workflow, base station data is recorded first and then used later for post-processing on the rover side.
+If it is not, use the online update tool, [Online flasher](https://nano.gnsslab.net/flasher/), 
+
+or download the firmware and update it from the NANO RTK web page: [1.0.8.1493](../../../nano-s3-rtk/nano.rtk.15.v3_5.1.0.8.1493.84cb65.zip).
+
+
 
 ## Base Station
 
