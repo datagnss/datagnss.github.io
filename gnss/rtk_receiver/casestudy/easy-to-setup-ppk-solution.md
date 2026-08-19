@@ -55,7 +55,7 @@ After everything is confirmed, you can start recording before each field survey.
 
 ### Install Android app
 
-Download and install the RTKBridge Android app. It is not yet available on Google Play, so you need to install the APK directly.
+Download and install the RTKBridge Android app. It is not yet available on Google Play, so you need to install the APK directly [click to download RTKBridge](../../../assets/software/rtkbridge/rtkbridge.apk).
 
 After installation, grant the required permissions to RTKBridge.
 
