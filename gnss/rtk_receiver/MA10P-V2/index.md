@@ -47,8 +47,8 @@ It is compatible with a wide range of popular GIS and field data collection appl
 | Reliability              | ＞99.9%                                                                                         |
 | Protocol                 | NMEA-0183                                                                                       |
 | Baudrate                 | 230400 bps, by default                                                                          |
-| Operating condition      | Main supply 4.75-5.25V    |
-| Serial                   | UART, 6 pins, 1.25mm pitch   |
+| Operating condition      | Main supply 4.75-5.25V                                                                          |
+| Serial                   | UART, 6 pins, 1.25mm pitch                                                                      |
 | Interface                | BLE serial,USB,UART                                                                             |
 | Environmental conditions | Operating temp. -40°C to +85°C `<br>`Storage temp. -40°C to +90°C `<br>`Humidity 95% RH |
 
@@ -59,6 +59,35 @@ MA10P-V2 must use a GNSS antenna that supports L1, L2, L5, and L6. The L6 band i
 The bundled AT400 antenna supports reception across all bands and all signals.
 
 If you use another antenna, please check the antenna specifications carefully.
+
+## Quick start
+
+This page is for the MA10P-V2 product only. For the MA-10P series, please refer to [here](../MA-10P-V1/).
+
+The MA10P-V2 front panel is shown below:
+
+- The F1/F2 buttons currently have no function. They may be supported in a future firmware update.
+- The BT LED indicates the Bluetooth connection. MA10P-V2 supports BLE, and you can connect with apps such as SW Maps, QField, or RolaviCam. SW Maps and QField also support iOS.
+- The Mode LED indicates the operating mode. For MA10P-V2, only the green mode is used.
+- The Stat LED indicates the current positioning status. Red means single-point positioning, flashing green means RTK Float, and solid green means RTK Fixed.
+
+![](../../../images/ma-10p/v2/ma10p-v2-main-lines.png)
+
+### WiFi connection
+
+Search for the `NANO_RTK_xxxx` WiFi hotspot and connect using the password `datagnss`. 
+
+After connecting, open `192.168.4.1` to configure the web page.
+
+MA10P-V2 supports CLAS/MADOCA positioning using corrections provided by the built-in QZS6C service. Supported positioning modes may vary by model.
+
+### Data output
+
+By default, NMEA sentences are output over USB and BLE. The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` （check the com-port in device manager）.
+
+By default, NMEA can also be output through the 6P UART for use with other TTL devices. If you do not need this function, you can ignore it.
+
+L6 correction data can also be output through the 6P UART. In that case, configure `Forward GNSS2 Data to External Port` on the `http://192.168.4.1/advanced.html` page.
 
 ## Notes
 
