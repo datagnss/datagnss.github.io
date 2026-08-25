@@ -73,6 +73,11 @@ The MA10P-V2 front panel is shown below:
 
 ![](../../../images/ma-10p/v2/ma10p-v2-main-lines.png)
 
+Limitations:
+
+- The current firmware does not support outputting raw measurement data (RTCM3).
+- When external QZSS/correction data are input, only DGS-format data streams are supported. Raw L6D Frame data are not currently supported.
+
 ### WiFi connection
 
 Search for the `NANO_RTK_xxxx` WiFi hotspot and connect using the password `datagnss`. 
@@ -81,9 +86,23 @@ After connecting, open `192.168.4.1` to configure the web page.
 
 MA10P-V2 supports CLAS/MADOCA positioning using corrections provided by the built-in QZS6C service. Supported positioning modes may vary by model.
 
+### QZSS / L6 correction
+
+By default, L6 correction data comes from `Internal`, as shown below:
+
+![](../../../images/ma-10p/v2/web-rtk-correction-source.png)
+
+You can also select other data sources, such as `TCP Client`, `NTRIP Client`, or `Bluetooth`.
+
+When `Bluetooth` is selected, you can use Android or iOS devices to inject correction data through an app.
+
+DATAGNSS provides free DGS-format L6D/L6E NTRIP data stream services for customers in Japan. To use this service, apply for an NTRIP client account at https://caster.gnsslab.net.
+
 ### Data output
 
 By default, NMEA sentences are output over USB and BLE. The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` （check the com-port in device manager）.
+
+![USB Serial port](../../../images/ma-10p/v2/usb-serial-com-port.png)
 
 By default, NMEA can also be output through the 6P UART for use with other TTL devices. If you do not need this function, you can ignore it.
 
