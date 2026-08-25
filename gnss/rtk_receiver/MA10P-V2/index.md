@@ -98,6 +98,20 @@ When `Bluetooth` is selected, you can use Android or iOS devices to inject corre
 
 DATAGNSS provides free DGS-format L6D/L6E NTRIP data stream services for customers in Japan. To use this service, apply for an NTRIP client account at https://caster.gnsslab.net.
 
+通过该服务， 我们提供 L6D/L6E 的所有在轨卫星的观测数据，包括:
+
+  195 QZS04 (L6D P1  46)
+  196 QZS1R (L6D P2  46)
+  199 QZS03 (L6D P1  45)
+  200 QZS06 (L6D P3  39)
+  204 QZS02 (L6E     37)
+  205 QZS06 (L6E     46)
+  206 QZS1R (L6E     46)
+  209 QZS03 (L6E     45)
+  210 QZS06 (L6E     39)
+
+以上数据由 [PocketSDR 4CH](https://www.datagnss.jp/products/pocketsdr-gnss-receiver) 产生.
+
 ### Data output
 
 By default, NMEA sentences are output over USB and BLE. The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` （check the com-port in device manager）.
