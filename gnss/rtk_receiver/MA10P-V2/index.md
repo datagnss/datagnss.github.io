@@ -149,9 +149,8 @@ You can also download [goRTKBase](../../../software/gortkbase/latest/goRTKBase-w
 
 ![](../../../images/ma-10p/v2/gortkbase-main-01.png)
 
-Note: Some goRTKBase features may not be supported by the MA-10P-V2.
 
-goRTKBase is currently still in the testing phase. If you have any questions or suggestions, please email info@datagnss.com.
+>Some goRTKBase features may not be supported by the MA-10P-V2.goRTKBase is currently still in the testing phase. If you have any questions or suggestions, please email info@datagnss.com.
 
 ## Notes
 
