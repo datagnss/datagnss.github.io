@@ -50,7 +50,7 @@ It is compatible with a wide range of popular GIS and field data collection appl
 | Constellations           | GPS, QZSS, BDS, Galileo                                                                         |
 | Channel                  | 128 hardware channels                                                                           |
 | Update rates             | 1Hz                                                                                             |
-| Position accuracy        | GNSS 1.5m `<br>` PPP 0.1-0.6m, coverage time 5-15 minutes                                     |
+| Position accuracy        | GNSS 1.5m <br> PPP 0.1-0.6m, coverage time 5-15 minutes                                     |
 | Reliability              | >99.9%                                                                                         |
 | Protocol                 | NMEA-0183                                                                                       |
 | Baudrate                 | 230400 bps, by default                                                                          |
