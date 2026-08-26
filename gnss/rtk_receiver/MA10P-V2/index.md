@@ -103,7 +103,7 @@ You can also select other data sources, such as `TCP Client`, `NTRIP Client`, or
 
 When `Bluetooth` is selected, you can use Android or iOS devices to inject correction data through an app.
 
->DATAGNSS provides free DGS-format L6D/L6E NTRIP data stream services for customers in Japan. To use this service, apply for an NTRIP client account at [https://caster.gnsslab.net](https://caster.gnsslab.net).
+> DATAGNSS provides free DGS-format L6D/L6E NTRIP data stream services for customers in Japan. To use this service, apply for an NTRIP client account at [https://caster.gnsslab.net](https://caster.gnsslab.net).
 
 Through this service, we provide observation data for all in-orbit satellites on L6D/L6E, including:
 
@@ -138,6 +138,12 @@ The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` (
 By default, NMEA can also be output through the 6P UART for use with other TTL devices. If you do not need this function, you can ignore it.
 
 L6 correction data can also be output through the 6P UART. In that case, configure `Forward GNSS2 Data to External Port` on the `http://192.168.4.1/advanced.html` page.
+
+You can also download [goRTKBase](../../../software/gortkbase/latest/goRTKBase-windows-amd64.zip) for testing and evaluation.
+
+![](../../../images/ma-10p/v2/gortkbase-main-01.png)
+
+Note: Some goRTKBase features may not be supported by the MA-10P-V2.
 
 ## Notes
 
