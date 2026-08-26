@@ -41,7 +41,7 @@ It is compatible with a wide range of popular GIS and field data collection appl
 | P/N               | Specifications                                                                                  |
 | ------------------------ | ----------------------------------------------------------------------------------------------- |
 | MA10P-V2-PPP           | GPS/QZSS/BDS/Galileo, QZSS/MADOCA PPP service  |
-| MA10P-V2-CLAS           | GPS/QZSS/Galileo, QZSS/CLAS service|
+| MA10P-V2-CLAS           | GPS/QZSS/Galileo, QZSS/CLAS service, only available in Japan|
 
 ## Specifications
 
