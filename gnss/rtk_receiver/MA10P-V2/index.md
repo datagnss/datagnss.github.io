@@ -139,7 +139,11 @@ The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` (
 
 By default, NMEA can also be output through the 6P UART for use with other TTL devices. If you do not need this function, you can ignore it.
 
+
+
 L6 correction data can also be output through the 6P UART. In that case, configure `Forward GNSS2 Data to External Port` on the advanced.html, if AP mode, please log in  `http://192.168.4.1/advanced.html` page.
+
+
 
 If you know the MA10P-V2 IP address, like 10.10.168.197, you could navigate to this page `http://10.10.168.197/advanced.html` 
 
