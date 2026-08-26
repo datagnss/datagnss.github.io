@@ -35,7 +35,9 @@ Set the NANO RTK Receiver to Base mode and enable the TCP Server service on port
 
 If the base station is located somewhere with Wi-Fi access, you can use the following method to record the base station raw data.
 
-Download `strsvr` from RTKLIB, then open it and select `TCP client` as the input. Set the server address to the NANO RTK Receiver IP address and the port to `9009`.
+Download `strsvr` from RTKLIB , then open it and select `TCP client` as the input. Set the server address to the NANO RTK Receiver IP address and the port to `9009`.
+
+[download strsvr](../../../assets/software/strsvr.zip)
 
 ![](../../../images/gnss/ppk/strsvr-2.png)
 
