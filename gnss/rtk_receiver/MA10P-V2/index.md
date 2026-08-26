@@ -84,6 +84,8 @@ Limitations:
 
 - The current firmware does not support outputting raw measurement data (RTCM3).
 - When external QZSS/correction data are input, only DGS-format data streams are supported. Raw L6D Frame data are not currently supported.
+- MADOCA version(MA10P-V2-PPP) only support PPP/RTK float mode w/o PPP-AR.
+- CLAS version(MA10P-V2-CLAS) support CLAS/PPP-RTK.
 
 ### WiFi connection
 
