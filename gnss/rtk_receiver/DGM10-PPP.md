@@ -85,9 +85,13 @@ With a built-in PPP positioning engine, it enables PPP positioning based on the 
 
 - Magnet installation
 
+For better satellite signal reception, we recommend placing the DGM10-PPP on a larger metal surface.
+The diameter should generally be at least 100 mm.
+
 ## Package list
 
 - DGM10-PPP receiver
+- USB serial adapter
 
 ## Test report
 
@@ -100,4 +104,4 @@ Order link: [DGM10-PPP](https://www.datagnss.com/collections/evk/products/qzss-l
 | Item Desc. | P/N          | Remark               |
 | ---------- | ------------ | -------------------- |
 | MADOCA PPP | DGM10-PPP-00 | MADOCA/PPP, L1+L5/L6 |
-| CLAS PPP   | DGM10-PPP-01 | CLAS/PPP, L1+L5/L6   |
+| CLAS PPP   | DGM10-PPP-CLAS-00| CLAS/PPP, L1+L5/L6   |
