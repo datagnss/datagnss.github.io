@@ -36,6 +36,8 @@ It is compatible with a wide range of popular GIS and field data collection appl
 - Supports USB serial and TTL UART output
 - Designed for real-time positioning applications
 
+>The built-in QZS6C now supports receiving all satellites providing L6D services, with 24-hour coverage of Pattern 1 and Pattern 2 data.
+
 ## Order info
 
 | P/N               | Specifications                                                                                  |
@@ -93,6 +95,8 @@ Search for the `NANO_RTK_xxxx` WiFi hotspot and connect using the password `data
 
 After connecting, open `192.168.4.1` to configure the web page.
 
+>You can configure up to four WiFi networks. After setup, the receiver will automatically connect to your local WiFi station at startup. To check its IP address, connect to the AP and open `192.168.4.1`.
+
 MA10P-V2 supports CLAS/MADOCA positioning using corrections provided by the built-in QZS6C service. Supported positioning modes may vary by model.
 
 ### QZSS / L6 correction
@@ -141,10 +145,9 @@ The USB baud rate is 230400 bps. Be sure to select the port labeled `SERIAL-A` (
 
 By default, NMEA can also be output through the 6P UART for use with other TTL devices. If you do not need this function, you can ignore it.
 
-
-
 L6 correction data can also be output through the 6P UART. In that case, configure `Forward GNSS2 Data to External Port` on the advanced.html, if AP mode, please log in  `http://192.168.4.1/advanced.html` page.
 
+>The `advanced.html` page contains many advanced configuration options. In most cases, you do not need to change them.
 
 
 If you know the MA10P-V2 IP address, like 10.10.168.197, you could navigate to this page `http://10.10.168.197/advanced.html` 
@@ -162,4 +165,3 @@ You can also download [goRTKBase](../../../software/gortkbase/latest/goRTKBase-w
 
 - Use the receiver in an open-sky environment for best PPP performance.
 - Accuracy and convergence time depend on antenna quality, sky visibility, and service conditions.
-
