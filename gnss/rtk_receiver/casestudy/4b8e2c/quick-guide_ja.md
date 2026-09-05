@@ -67,7 +67,7 @@ PCまたは携帯電話からこのAPに接続し、ブラウザーを開いてh
 
 その後、WiFiのSSIDとパスワードを設定することで、NANOをローカルネットワークに接続できる。
 
-![](./images/nano-web-wifi-settings-00)
+![](./images/nano-web-wifi-settings-00.png)
 
 ローカルWiFiへ接続後、IPアドレスが表示されるので、記録しておく。
 
@@ -75,7 +75,7 @@ PCまたは携帯電話からこのAPに接続し、ブラウザーを開いてh
 
 複数の観測点のデータを記録する場合、以下の構成を採用することを推奨する。
 
-![](./images/block-gram)
+![](./images/block-gram.png)
 
 各受信機に組み込みのNTRIPサーバー設定を行い、ネットワークへ接続する。
 
