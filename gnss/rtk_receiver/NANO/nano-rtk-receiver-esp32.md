@@ -21,6 +21,8 @@ For example, it can connect directly to a Wi-Fi hotspot so you can view and conf
 
 It also supports online firmware updates through the web interface.
 
+![](../../../images/gnss/nano/nano-web-main-00.png)
+
 ## 2. Features
 
 - ESP32-S3 based platform with stronger performance and more room for custom development
