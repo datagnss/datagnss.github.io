@@ -105,4 +105,4 @@ V2.0.1 Dimensions
 ## Resources
 
 - [GEM1305 2D Drawing](../../../assets/drawing_files/GEM1305-2D-Drawing.pdf)
-
+- [NANO Toolbox](../../../common/common_nano_toolbox)
