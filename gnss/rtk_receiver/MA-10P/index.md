@@ -6,17 +6,17 @@ date: 2025-07
 
 The MA-10P Series PPP GNSS Receiver is designed to support QZSS MADOCA and CLAS PPP services.
 
-MA-10P series 的硬件现在已经升级到 v2 版本.
+The MA-10P series hardware has now been upgraded to v2.
 
 ![MA10P-CLAS](../../../images/ppp/M10P-CLAS-MAIN-400x.png)
 
-如果你使用的是 v1 版本，请参考这里 [MA-10P v1](../MA-10P-V1/)
+If you are using the v1 version, please refer to [MA-10P v1](../MA-10P-V1/).
 
 ![MA-10P PPP GNSS Receiver](../../../images/ppp/MA-10P-main-00-v1.png)
 
-如果你使用的是 DGM10-PPP series 请参考这里 [DGM10-PPP](../DGM10-PPP)
+If you are using the DGM10-PPP series, please refer to [DGM10-PPP](../DGM10-PPP).
 
-MA-10P series v2 有以下2款:
+The MA-10P series v2 is available in the following two models:
 
 | Item Desc.   | P/N              | Remark                 |
 | ------------ | ---------------- | ---------------------- |
@@ -27,7 +27,7 @@ MA-10P v2 support USB serial and TTL UART output.
 
 ![](../../../images/ppp/MA10P-CLAS-interfaces-400x.png)
 
-建议使用 [AT400 L1/L2/L5/L6](https://www.datagnss.com/collections/rtk-antenna/products/at400-multi-band-antenna-for-rtk) 作为MA-10P v2的接收天线。
+We recommend using the [AT400 L1/L2/L5/L6](https://www.datagnss.com/collections/rtk-antenna/products/at400-multi-band-antenna-for-rtk) antenna with the MA-10P v2.
 
 # Specifications
 
