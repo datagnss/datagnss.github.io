@@ -64,6 +64,8 @@ How to identify V3.2 and V3.5, please refer to [this guide](../find-v32-and-v35/
 
 [BoundaryFinder](https://boundaryfinder.co.uk/buy-a-gnss-receiver) is a web-based tool for viewing and navigating property boundaries in England and Wales. It can display live position from the NANO RTK Receiver over USB in desktop Chrome or Edge.
 
+Most software that can read standard NMEA 0183 sentences over USB serial or Bluetooth Low Energy (BLE) can work with the NANO RTK Receiver. The receiver outputs GGA, GSA, GSV, GST, and RMC sentences by default. If you have trouble using the receiver with your software, contact the software provider or [contact DATAGNSS](https://www.datagnss.com/pages/contact-us).
+
 If you develop software that already works with the NANO RTK Receiver or supports GNSS receivers via USB serial or Bluetooth Low Energy (BLE), please [contact us](https://www.datagnss.com/pages/contact-us).
 
 ## 3. Quick Start
