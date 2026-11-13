@@ -288,6 +288,12 @@ Now you could navigate to main page, and you will see the ntrip client connectio
 
 ![](../../../images/gnss/nano/web_status_01.png)
 
+#### 3.4.4 Base Station Data Stream Requirements
+
+In Rover mode, the NANO RTK Receiver requires an RTCM 3.x correction stream from a base station. The stream must include the base station position (RTCM 1005 or 1006) and continuous GNSS observation messages. MSM4, MSM5, and MSM7 are all supported. The stream only needs one of these MSM formats for each constellation it provides.
+
+To check compatibility, ask your correction service provider to confirm that its RTCM 3.x stream includes MSM4, MSM5, or MSM7 observations and an RTCM 1005 or 1006 message containing the base station position.
+
 ### 3.5 Work with Android device
 
 Follow the 3.1.2 steps, and then connect your Android device to the Type-C port by OTG USB cable.
@@ -339,25 +345,3 @@ After upgrading to 100%, there is a small chance that the following message may 
 {% include blocknote.html title="Note" content=note_upload_http_error %}
 
 ![](../../../images/gnss/nano/firmware_update_04.png)
-
-
-## 5. FAQS
-
-- **Q: How to change baud rate?**
-  **A: Please refer to this link: [change baud rate](../../../common/common_config_uart_baud_rate.md)**
-
-- **Q: How to connect my office's WiFi?**
-  **A: Please refer to the section `3.2.2 WiFi connection`.**
-
-- **Q: How to connect the external radio link device, such as 3DR radio?**
-  **A: Please refer to the section `___`.**
-
-## 6. Resource
-
-### 6.1 Related links
-
-### 6.2 Firmware
-
-- Latest Firmware:- 
-
- 
