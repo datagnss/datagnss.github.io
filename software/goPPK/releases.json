@@ -1,17 +1,1 @@
-[
-  {
-    "tag_name": "v0.0.3",
-    "draft": false,
-    "prerelease": false,
-    "assets": [
-      {
-        "name": "goPlot-v0.0.3-windows-amd64.zip",
-        "browser_download_url": "https://docs.datagnss.com/software/goPPK/goPlot-v0.0.3-windows-amd64.zip"
-      },
-      {
-        "name": "goPlot-windows-amd64.update.json",
-        "browser_download_url": "https://docs.datagnss.com/software/goPPK/goPlot-windows-amd64.update.json"
-      }
-    ]
-  }
-]
+[]
