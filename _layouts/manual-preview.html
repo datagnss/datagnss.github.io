@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{ page.title | escape }} — Review draft</title>
+  <link rel="stylesheet" href="{{ '/assets/vendor/primer-markdown/dist/user-content.min.css' | relative_url }}">
+  <style>
+    body { margin: 0; color: #24292e; background: #fff; }
+    main { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .review-label { margin: 0 0 24px; padding: 12px 16px; border-left: 4px solid #9a6700; background: #fff8c5; font: 16px/1.5 system-ui, sans-serif; }
+    .markdown-body { overflow-wrap: anywhere; }
+    .markdown-body img { max-width: 100%; height: auto; }
+    .markdown-body table { display: block; max-width: 100%; overflow-x: auto; }
+    @media (max-width: 600px) { main { padding: 16px; } }
+    @media print { main { max-width: none; padding: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="review-label">Temporary review draft · NANO RTK Receiver Pro</p>
+    <article class="markdown-body">{{ content }}</article>
+  </main>
+</body>
+</html>

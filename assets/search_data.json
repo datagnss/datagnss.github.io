@@ -3,7 +3,7 @@
 {% capture json %}
 [
   {% for pg in site.pages %}
-  {% if pg.title != nil %}
+  {% if pg.title != nil and pg.search != false %}
     {
       "title"    : "{{ pg.title | escape }}",
       "url"      : "{{ site.url }}{{ pg.url }}"
