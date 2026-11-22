@@ -1,7 +1,7 @@
 {
     "releaseDate":  "2026-11-22",
     "description":  "Signed RTKbridge update",
-    "versionCode":  903,
-    "versionName":  "0.7.0.PPK.0903",
-    "downloadUrl":  "https://github.com/datagnss/app-releases/releases/download/rtkbridge-full-0903/rtkbridge.apk"
+    "versionCode":  905,
+    "versionName":  "0.7.0.PPK.0905",
+    "downloadUrl":  "https://github.com/datagnss/app-releases/releases/download/rtkbridge-full-0905/rtkbridge.apk"
 }
