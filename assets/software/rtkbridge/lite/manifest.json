@@ -1,7 +1,7 @@
 {
-  "versionCode": 900,
-  "versionName": "0.7.0.Lite.0900",
-  "apkUrl": "https://docs.datagnss.com/assets/software/rtkbridge/lite/900-4c4d68c7ee016a83/rtkbridge-lite.apk",
+  "versionCode": 902,
+  "versionName": "0.7.0.Lite.0902",
+  "apkUrl": "https://github.com/datagnss/app-releases/releases/download/rtkbridge-lite-0902/rtkbridge-lite.apk",
   "sizeBytes": 26472960,
-  "sha256": "4c4d68c7ee016a83ac322555d33f9e3bb584b6080a2d556f2b7617e2d6b0c108"
+  "sha256": "569109ea64ddb9ab8f70b4050bd6afc8e139c3e061498ffe526336596315a403"
 }
