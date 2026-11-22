@@ -1,7 +1,7 @@
 {
-  "versionCode": 899,
-  "versionName": "0.7.0.PPK.0899",
-  "apkUrl": "https://docs.datagnss.com/assets/software/rtkbridge/full/899-b23689c86f9d2f33/rtkbridge.apk",
+  "versionCode": 901,
+  "versionName": "0.7.0.PPK.0901",
+  "apkUrl": "https://github.com/datagnss/app-releases/releases/download/rtkbridge-full-0901/rtkbridge.apk",
   "sizeBytes": 63180877,
-  "sha256": "b23689c86f9d2f33e971669644e4cb0aaa5964d3b999ad698cb2f52a186da32a"
+  "sha256": "80ad4a6a6fa4c9c8ef767663d115604da40ce456e52c133d3fba75b2c7a6ddf6"
 }
