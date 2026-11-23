@@ -5,8 +5,6 @@ permalink: /gnss/rtk_receiver/NANO/nano-flasher-for-v32/
 
 # Update NANO RTK Receiver V3.2 over USB
 
-> **Editorial draft. Do not publish or use for flashing.** The firmware archive is in the documentation checkout. Verify the public ZIP download and complete a same-board USB upgrade before releasing this guide. The Windows button labels below match the source for NANO RTK Flasher v0.0.8. The application workflow follows the Flasher User Guide. The firmware package and board revision have not been verified together in a USB upgrade.
-
 ## Do you need to update?
 
 If your NANO works as expected, you do not need to update it just because a newer version exists.
