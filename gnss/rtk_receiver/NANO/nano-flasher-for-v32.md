@@ -36,6 +36,10 @@ Use this USB procedure only for a **NANO RTK Receiver V3.2 running 1.0.5 firmwar
 4. In **02 Firmware**, select **Local file**, then click **Browse…**. In **Select a Combined Firmware Image**, choose the extracted `nano.rtk.15.v3_2.1.0.8.1496.fffbdd.bin`. Selecting the file does not write to the receiver.
 5. Confirm the selected filename, then click **Flash firmware**. Do not click **Erase Flash**. Leave the USB cable and power connected while the tool writes, verifies and resets the receiver. If any stage fails, record the exact error and obtain the approved recovery instructions rather than erasing or retrying blindly.
 
+![NANO RTK Flasher with Find, Connect, Local file, Browse, and Flash firmware highlighted]({{ '/gnss/rtk_receiver/NANO/image/ui-local-annotated-en.png' | relative_url }})
+
+*Flasher controls shown in v0.0.6. The port and running firmware version are examples; use the values shown for your receiver.*
+
 ## If Find cannot confirm the receiver
 
 If you already used **BOOT** to place the receiver in download mode, **Auto Detect** may not be able to read the running firmware version. Clear **Auto Detect**, click **Find** to refresh the port list, select your receiver's known port under **Serial port**, set **Reset strategy** to **No reset (manual boot)**, and click **Connect**. Use **No reset (manual boot)** only if the receiver is already in download mode. If you cannot identify the correct port, stop and contact DATAGNSS.
