@@ -13,7 +13,7 @@ Use this USB procedure only for a **NANO RTK Receiver V3.2 running 1.0.5 firmwar
 
 ## Before you start
 
-- [Download NANO RTK Flasher v0.0.8 for Windows x64](https://github.com/datagnss/app-releases/releases/download/goesp32-v0.0.8/nano-rtk-flasher-v0.0.8-windows-amd64.zip) and extract the ZIP. Have a USB-C **data** cable ready. This is a Windows procedure. The separate Mac ARM64 package is an experimental build without Developer ID signing or notarization. The flasher download does not include receiver firmware.
+- [Download NANO RTK Flasher v0.0.8 for Windows x64](https://github.com/datagnss/app-releases/releases/download/goesp32-v0.0.8/nano-rtk-flasher-v0.0.8-windows-amd64.zip) and extract the ZIP. Have a USB-C **data** cable ready. The flasher download does not include receiver firmware.
 - Record your current firmware version and any settings you will need to re-enter. A combined USB image can overwrite stored settings even without using **Erase Flash**.
 - Download the [NANO V3.2 USB firmware ZIP]({{ '/nano-s3-rtk/nano.rtk.15.v3_2.1.0.8.1496.fffbdd.zip' | relative_url }}) in your browser and extract it. The archive contains `nano.rtk.15.v3_2.1.0.8.1496.fffbdd.bin`. Use this extracted file, not the ZIP itself, the `ff5ccc` web-update `.dgfw` package, a V3.5 image, or an application-only `.bin`.
 
