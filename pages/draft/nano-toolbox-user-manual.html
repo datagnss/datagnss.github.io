@@ -1,0 +1,125 @@
+---
+layout: null
+title: NANO toolbox User Manual
+permalink: /_draft/nano-toolbox/
+sitemap: false
+search: false
+---
+{% capture manual_markdown %}
+# NANO toolbox User Manual
+
+**DATAGNSS · Windows 64-bit (x64) · Version 1.1.0**
+
+Use NANO toolbox to monitor a GNSS receiver, configure its outputs, feed RTCM3 corrections to it, and record data. The **Connection** and **Position** panels remain visible as you switch pages in the sidebar.
+
+## 1. Install and connect
+
+1. On Windows 10 or 11 (x64), download the ZIP and extract `NANO-toolbox.exe` to a folder where you can write files. Run the executable. [Download NANO toolbox v1.1.0](https://github.com/datagnss/app-releases/releases/download/nano-toolbox-v1.1.0/NANO-toolbox-v1.1.0-windows-amd64.zip)
+2. Power the receiver and connect it to the PC. For serial connections, install the USB-to-serial adapter's Windows driver if required.
+3. Under **Connection**, select the receiver's COM port in **Device**. Set **Baud rate** to the receiver's current serial speed. The initial toolbox setting is **230400**. Available rates are 9600, 38400, 115200, 230400, 460800, and 921600 baud.
+4. Click **Connect**. Check the connection status and the **Position** panel. For NANO, the panel reads NMEA GGA and shows UTC, fix status, satellite count, coordinates, and ellipsoidal height when available. A receiver can be connected while it is still acquiring a fix.
+5. Click **Disconnect** when you finish. This also closes active correction input and finalizes any recording.
+
+### MA10P-PRO USB connection
+
+Plug in the receiver, select **MA10P-PRO (USB)** from **Device**, and click **Connect**. The baud control is disabled for this connection. Wait for Windows to initialize the USB network adapter. Windows 11 uses the receiver's default NCM mode. On Windows 10, configure the receiver for RNDIS and install the appropriate driver.
+
+The USB connection supports NMEA monitoring, receiver-stream recording, and live Plot. Use a supported serial connection for device configuration and RTCM injection. If the USB entry is visible and no data arrives, close other applications using the receiver's USB NMEA stream and check the network status shown in the toolbox.
+
+## 2. Configure receiver outputs
+
+### Messages
+
+1. Connect a supported NANO receiver over serial and open **Messages**.
+2. In **NMEA output** and **RTCM output**, select the messages you want. The toolbox checks messages it sees on the live stream. You can select others manually.
+3. Select **Save config to flash** if you want the receiver to retain the settings after a power cycle. Click **Set** to apply the selections to the receiver's output ports.
+4. Review the status. If a batch fails, some settings may already have taken effect. Check the actual output on the intended port before relying on the new settings.
+
+### Output rate and serial settings
+
+In **Config**, use **Poll** in the **Output rate** section to read the current rate. Select **1 Hz**, **5 Hz**, or **10 Hz** and click **Set** in that section to apply it.
+
+To change the device baud rate, select **UART0** or **UART1** under **Device baud rate** and click **Poll** to read its setting. Select the new rate. If the selected UART is the one physically connected to the PC, tick **This is the connected UART (auto reconnect)** and click **Set**. The toolbox reopens the COM port at the new rate and polls the UART to verify the change. If it cannot reconnect, check the selected UART and connect manually at the receiver's active rate. When setting a different UART, leave the checkbox clear so the PC connection keeps its current speed.
+
+Use **Save to flash** when you want the receiver to retain its settings. **Hot start** and **Reset** send restart commands to supported receivers. Allow the receiver to resume output and reacquire a fix as needed.
+
+## 3. Receive RTCM3 corrections
+
+Connect the receiver over serial first. Open **Corrections** and choose the protocol for your source.
+
+| Protocol | Required settings |
+| --- | --- |
+| `tcpcli` | Enter the IP address or hostname and TCP port of the correction source. |
+| `ntripcli` | Enter the NTRIP v1 caster host, port, and mountpoint. Enter the username and password if required by the caster. The initial NTRIP port is 2101. |
+
+Click **Connect** on the **Corrections** page. This controls the correction source independently of the receiver connection. The toolbox queues complete RTCM3 frames that pass CRC validation. Check the source status and frame counters, then check **Position** for the solution reported by the receiver. A rising frame counter confirms frames are being queued for delivery. Use the receiver's reported fix status to check whether it has reached RTK Float or RTK Fixed.
+
+If a VRS or other mountpoint requires rover position, enable **Send GGA to caster (every 5 seconds)**. This requires a fresh, valid GGA sentence from the receiver. After a receiver disconnect or a baud change, reconnect the correction source from **Corrections**.
+
+The application remembers TCP and NTRIP settings separately. The NTRIP password is masked on screen and stored as plain text in `NANO-toolbox.json` beside the executable. Keep that file private when sharing diagnostics or recordings.
+
+## 4. Record and plot data
+
+### Record the receiver and base streams
+
+1. Before connecting, open **Log** and enable **Log to file**.
+2. Enable **Log base stream to file** if you also want to retain the incoming RTCM3 corrections.
+3. Connect the receiver. If you need a base recording, also connect the correction source.
+4. Click **Disconnect** to finish the recording before copying the files.
+
+Each recording has a folder under `logs/` beside the executable. `log_*.dat` holds the original receiver bytes. `base_*.dat` holds the recorded correction frames. Keep each `.dat.tag` timing file with its matching `.dat` file when moving or archiving recordings.
+
+### Open a live plot
+
+Place `rtkplot.exe` and its required files beside `NANO-toolbox.exe`. Connect the receiver and click **Plot** in the **Position** panel. RTKPLOT opens in a separate window and receives the live receiver stream over a local TCP connection. [RTKLIB Windows binaries](https://github.com/tomojitakasu/RTKLIB_bin/tree/rtklib_2.4.3)
+
+## 5. Update NANO toolbox
+
+1. Finish any active configuration tasks and disconnect the receiver to close the recording.
+2. Open **About** and click **Check for Updates**. You can also open **About** from the update notice when it appears.
+3. If a version is offered, select it and confirm. The application downloads and verifies the update, replaces the executable, and restarts. Your local configuration, recordings, and external tools remain in the application folder.
+4. Open **About** again to check the new version.
+
+To update an older installation manually, exit the application and replace `NANO-toolbox.exe` in its existing folder with the executable from the downloaded ZIP. Keep the configuration and data files in that folder. [NANO toolbox v1.1.0 release](https://github.com/datagnss/app-releases/releases/tag/nano-toolbox-v1.1.0)
+
+## 6. Troubleshooting
+
+| Symptom | What to check |
+| --- | --- |
+| COM port is missing | Check the cable, device power, and USB-to-serial driver. Confirm that Windows Device Manager lists the port. |
+| COM port will not open | Close other tools that may be using that port. Select the port again and click **Connect**. |
+| Connected, but no live position | Check the baud rate and enable GGA output on the connected NANO port. If data arrives with no fix, check antenna placement and allow time for satellite acquisition. |
+| Corrections stay at zero frames | Check protocol, network reachability, port, and NTRIP credentials or mountpoint. For a GGA-dependent mountpoint, check that the receiver is supplying valid GGA and that GGA forwarding is enabled. |
+| Corrections arrive, but the receiver stays in Single or Float | Check that the receiver accepts corrections on the connected port. Check the base stream, satellite visibility and the time allowed for ambiguity resolution. |
+| Log options are unavailable | Disconnect the receiver before changing recording options. Enable **Log to file** to select the recording options beneath it. |
+| Plot will not open | Check that `rtkplot.exe` and its dependencies are beside the toolbox executable, then reconnect and try **Plot** again. |
+| Application update is unavailable | Finish active tasks, disconnect the receiver, and retry from **About**. If you use an older build without the updater, use the manual ZIP procedure above. |
+
+For support, include the version shown in **About**, the receiver model, the connection type, and the status or error message. [DATAGNSS](https://www.datagnss.com)
+{% endcapture %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{ page.title | escape }} — Review draft</title>
+  <link rel="stylesheet" href="{{ '/assets/vendor/primer-markdown/dist/user-content.min.css' | relative_url }}">
+  <style>
+    body { margin: 0; color: #24292e; background: #fff; }
+    main { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .review-label { margin: 0 0 24px; padding: 12px 16px; border-left: 4px solid #9a6700; background: #fff8c5; font: 16px/1.5 system-ui, sans-serif; }
+    .markdown-body { overflow-wrap: anywhere; }
+    .markdown-body img { max-width: 100%; height: auto; }
+    .markdown-body table { display: block; max-width: 100%; overflow-x: auto; }
+    @media (max-width: 600px) { main { padding: 16px; } }
+    @media print { main { max-width: none; padding: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="review-label">Temporary review draft · NANO toolbox v1.1.0</p>
+    <article class="markdown-body">{{ manual_markdown | markdownify }}</article>
+  </main>
+</body>
+</html>
