@@ -10,7 +10,10 @@ search: false
 
 **Version 1.1.0 · Windows 10 or 11 (64-bit)**
 
-**Device configuration note.** We do not recommend using NANO toolbox to configure NANO RTK Receiver or MA-10P series devices.
+<aside class="configuration-notice" aria-label="Important receiver configuration notice">
+  <p><strong>Important</strong></p>
+  <p>We strongly recommend that you do not use NANO toolbox to configure the <strong>NANO RTK Receiver</strong> or any <strong>MA-10P series</strong> receiver.</p>
+</aside>
 
 Use NANO toolbox to see your receiver’s position, apply RTK corrections, and record data.
 
@@ -74,6 +77,9 @@ If you contact [DATAGNSS](https://www.datagnss.com), include the toolbox version
     main { max-width: 960px; margin: 0 auto; padding: 24px; }
     .review-label { margin: 0 0 24px; padding: 12px 16px; border-left: 4px solid #9a6700; background: #fff8c5; font: 16px/1.5 system-ui, sans-serif; }
     .markdown-body { overflow-wrap: anywhere; }
+    .configuration-notice { margin: 0 0 24px; padding: 12px 16px; border: 1px solid #d4a72c; border-left: 4px solid #9a6700; background: #fff8c5; }
+    .markdown-body .configuration-notice p { margin: 0; }
+    .markdown-body .configuration-notice p + p { margin-top: 4px; }
     .markdown-body img { max-width: 100%; height: auto; }
     .markdown-body table { display: block; max-width: 100%; overflow-x: auto; }
     @media (max-width: 600px) { main { padding: 16px; } }
