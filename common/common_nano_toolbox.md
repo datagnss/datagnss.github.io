@@ -1,5 +1,7 @@
 # NANO Toolbox
 
+For the current Windows app, see the [NANO toolbox v1.1.0 User Manual](/common/nano-toolbox-user-manual/).
+
 ## Overview
 
 [NANO Toolbox](../assets/software/NANO-toolbox.zip) is a simple software tool for configuring NANO GNSS receivers.

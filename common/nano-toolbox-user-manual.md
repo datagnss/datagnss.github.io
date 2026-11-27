@@ -33,17 +33,34 @@ Use NANO toolbox to see your receiver’s position, apply RTK corrections, and r
 
 With the receiver connected over serial, open **Corrections**.
 
-- For **NTRIP**, choose `ntripcli`. Enter the server address, port, mountpoint, and any login details from your provider.
-- If your provider gives you a **TCP** address instead, choose `tcpcli` and enter the address and port.
+- For **NTRIP**, choose **NTRIP**. Enter the server address, port, mountpoint, and any login details from your provider.
+- If your provider gives you a **TCP** address instead, choose **TCP** and enter the address and port.
 
 Click **Connect** on the **Corrections** page. If your provider asks for your rover position, turn on **Send GGA to caster (every 5 seconds)**. A rising frame count means corrections are coming in. Check **Position** for **RTK Fixed**.
+
+![NANO toolbox Corrections page with NTRIP selected and a blank connection form]({{ '/images/gnss/nano-toolbox/corrections.png' | relative_url }})
 
 ## 3. Change receiver settings
 
 You can skip this section if your receiver is already working as you need.
 
-- Open **Messages** to choose which messages the receiver sends. Click **Set** to apply them. Select **Save config to flash** if you want to keep the settings after restart.
-- Open **Config** to change how often the receiver sends its position. Under **Output rate**, click **Poll** to read the current setting, then choose **1 Hz**, **5 Hz**, or **10 Hz** and click **Set**. Use **Save to flash** to keep the change.
+### Choose NMEA and RTCM output messages
+
+Open **Messages** and select the outputs you need. Select **Save config to flash** if you want to keep the settings after a restart, then click **Set**.
+
+![NANO toolbox Messages page with NMEA and RTCM output options]({{ '/images/gnss/nano-toolbox/messages.png' | relative_url }})
+
+### Change output rate or serial baud rate
+
+In **Config**, use **Poll** under **Output rate** to read the current setting. Choose **1 Hz**, **5 Hz**, or **10 Hz**, then click **Set**.
+
+To change the receiver’s serial speed, choose the receiver port under **Device baud rate** and click **Poll**. Select the new baud rate. If that port is connected to the computer, select **This is the connected UART (auto reconnect)** before clicking **Set**. Use **Save to flash** to keep your changes after a restart.
+
+![NANO toolbox Config page showing output-rate and device baud-rate controls]({{ '/images/gnss/nano-toolbox/config.png' | relative_url }})
+
+### Restart the receiver
+
+Use **Hot start** or **Reset** under **Receiver actions** when you need to restart a supported receiver. Wait for position data to return before continuing.
 
 ## 4. Record data or open a plot
 
