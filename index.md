@@ -245,11 +245,10 @@
         </div>
 
         <div class="support-card">
-            <h2 id="satrack-software">Satrack software</h2>
+            <h2 id="satrack-software">Software</h2>
             <ul class="support-list">
-                <li><a href="/common/common_satrack_guide/">Satrack Utility Software</a></li>
-                <li><a href="/common/common_how_to_get_version">How to get fw and hw version</a></li>
-                <li><a href="/common/common_how_to_verify_base_station">How to verify your base station</a></li>
+                <li><a href="/common/nano-toolbox-user-manual/">NANO Toolbox User Manual</a></li>
+                <li><a href="/gnss/rtk_receiver/NANO/nano-rtk-flasher-user-guide/">NANO RTK Flasher User Guide</a></li>
             </ul>
         </div>
 
